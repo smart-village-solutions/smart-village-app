@@ -1,8 +1,6 @@
-{ // englische, deutsche und polnische versionen trennen !!
+{ // englische, deutsche und polnische versionen trennen !! Idee: Event einer Eventserie möglich.
 	"event": {
-		"tmb_unique_time_event_id": "99457225", // Gilt für die eventdatenbank der tmb: Wenn ein Event mehrere Termine hat, haben mehrere XML-Datensätze die gleiche "EVENT_ID" aber unterschiedliche "TERMIN_ID".Welcher Schlüssel genutzt werden soll, hängt von der verarbeitenden Software ab
-		"tmb_unique_event_id": "457224",
-		"tmb_uniqe_time_id": "457225",
+		"id":"",
 		"parent_id": "", // z.B. ein festival mit einem Zeitraum und child events wie konzerten
 		"dates": { // Es kann mehrere Daten für ein Event geben, für wiederkehrende events ist auch ein boolscher parameter denkbar
 			"date_1": {
@@ -26,31 +24,26 @@
 			"end": "01.09",
 			"every_year": true
 		},
-		"tmb_category_id": "424",
-		"tmb_category_id_new": "100287",
-		"tmb_category2_id": "",
-		"tmb_category2_id_new": "",
-		"tmb_category3_id": "",
-		"tmb_category3_id_new": "",
-		"tmb_category4_id": "",
-		"tmb_category4_id_new": "",
-		"event_url_1": "http://www.hoher-flaeming-naturpark.de",
-		"event_url_2": "http://www.naturwacht.de",
-		"ticket_url": "",
-		"event_highlight": false,
-		"holiday_highlight": false,
-		"monthly_highlight": false,
-		"regional_highlight": false,
-		"local_highlight": false,
-		"tmb_user_id": "100315",
+		"url":{
+			"event_url_1": "http://www.hoher-flaeming-naturpark.de",
+			"event_url_2": "http://www.naturwacht.de",
+			"ticket_url": ""
+		},
+		"highlight":{
+			"event": false,
+			"holiday": false,
+			"monthly": false,
+			"regional": false,
+			"local": false
+		},
 		"address": {
 			"name": "Treffpunkt: Naturparkzentrum Hoher Fläming",
 			"street": "Brennereiweg 45 OT Raben",
 			"zip": "14823",
 			"city": "Raben",
 			"coordinates": { 
-				"lat": "52.041297912598",
-				"lng": "12.578530311584"
+				"lat": 52.041297912598,
+				"lng": 12.578530311584
 			}
 		},
         "location": { 
@@ -64,13 +57,47 @@
                 "lng": 12.577602953518
             }
         },
-		"contact": {
+		"contact": { 
 			"company/name": "Naturparkzentrum Hoher Fläming",
 			"phone": "+4903384860004",
 			"fax": "",
 			"email": "info@flaeming.net",
 			"url": "http://www.flaeming.net"
 		},
+		"organizer":{ // Event Veranstalter, kann mit contact und adress identisch sein, muss es aber nicht
+			"name": "Natur Event Agentur Brandenburg",
+			"address": {
+				"street": "Musterstr. 123",
+				"zip": "14567",
+				"city": "Potsdam",
+				"coordinates": { 
+				"lat": 52.345678,
+				"lng": 12.345678
+			},
+			"contact": {
+				"phone": "+4903384860004",
+				"fax": "",
+				"email": "test@test.net",
+				"url": "http://www.flaeming.net"
+			}
+		}, 
+		"data_provider": { // ergibt sich aus dem authentifzierten uploader der die Daten hochgeladen hat
+			"name": "tmb",
+			"address": {
+				"street": "Musterstr. 123",
+				"zip": "14567",
+				"city": "Potsdam",
+				"coordinates": { 
+				"lat": 52.345678,
+				"lng": 12.345678
+			},
+			"contact": {
+				"phone": "+4903384860004",
+				"fax": "",
+				"email": "test@test.net",
+				"url": "http://www.flaeming.net"
+			}
+		}, 
 		"images": {
 			"imagelink": "http://eingabe.events-in-brandenburg.de/images/itempics/4/2/2/item_457224_pic_1_medium.jpg",
 			"imagelink_big": "http://eingabe.events-in-brandenburg.de/images/itempics/4/2/2/item_457224_pic_1_contentwidth.jpg",

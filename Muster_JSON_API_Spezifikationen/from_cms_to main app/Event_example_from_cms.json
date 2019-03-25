@@ -1,10 +1,8 @@
 { //englische, deutsche und polnische versionen trennen !!
 	"event": {
-		"tmb_unique_time_event_id": "99457225", //Wenn ein Event mehrere Termine hat, haben mehrere XML-Datensätze die gleiche "EVENT_ID" aber unterschiedliche "TERMIN_ID".Welcher Schlüssel genutzt werden soll, hängt von der verarbeitenden Software ab
-		"tmb_unique_event_id": "457224",
-		"tmb_uniqe_time_id": "457225",
-		"parent_id": "",// z.B. ein festival mit einem zeitrum und child events wie konzerten
-		"dates": { //Es kann mehrere daten für ein Event geben, für wiederkehrende events ist auch ein boolscher parameter denkbar
+		"id_from_cms": 123,
+		"parent_event_id_from_cms": "",// z.B. ein festival mit einem Zeitraum und child events wie Konzerten.
+		"dates": { // Es kann mehrere daten für ein Event geben, für wiederkehrende events ist auch ein boolscher parameter denkbar.
 			"date_1": {
 				"date_start": "2019-02-16",
 				"time_start": "13:00:00",
@@ -18,7 +16,7 @@
 				"time_start": "13:00:00",
 				"date_end": "2019-03-16",
 				"time_end": "18:00:00",
-				"time_description": "",
+				"time_description": null,
 				"use_only_time_description": "0"
 			}
 		},
@@ -102,7 +100,7 @@
 				"url": "http://www.flaeming.net"
 			}
 		}, 
-		"images": {
+		"images": { // kopiert von main_app_server to mobile JSON. Frage in welchem format bilder bereitgestellt werden. sicher als links
 			"imagelink": "http://eingabe.events-in-brandenburg.de/images/itempics/4/2/2/item_457224_pic_1_medium.jpg",
 			"imagelink_big": "http://eingabe.events-in-brandenburg.de/images/itempics/4/2/2/item_457224_pic_1_contentwidth.jpg",
 			"imagelink_xl": {
@@ -119,13 +117,13 @@
 			"imagelink_3_XL": ""
 		},
 		"german_version:": {
+			"title": "Wildspuren",
+			"description": "Mit der Naturwacht und dem Förster begeben wir uns ins Revier, um den Waldtieren auf die Spur zu kommen.\nWelche Tierarten gibt es im Naturpark und welche davon stehen unter Schutz? Wie sind die Lebensbedingungen? Wovon ernährt sich das Wild? Wie passt sich das Wild an seine Umgebung an und wie gehen wir damit um?\nIm Anschluss an die Pirsch durch Wald und Feld können Sie sich bei einem kleinen Picknick am Feuer wärmen, stärken und sich vielleicht noch etwas über das Erlebte austauschen.\nBitte denken Sie an warme Kleidung.",
+			"price_information": "2,50 Euro (erm. für Kinder bis 14: 1,50 Euro)",
 			"category_name_de": "Lust auf NaTour",
 			"category_name2_de": "",
 			"category_name3_de": "",
 			"category_name4_de": "",
-			"title": "Wildspuren",
-			"description": "Mit der Naturwacht und dem Förster begeben wir uns ins Revier, um den Waldtieren auf die Spur zu kommen.\nWelche Tierarten gibt es im Naturpark und welche davon stehen unter Schutz? Wie sind die Lebensbedingungen? Wovon ernährt sich das Wild? Wie passt sich das Wild an seine Umgebung an und wie gehen wir damit um?\nIm Anschluss an die Pirsch durch Wald und Feld können Sie sich bei einem kleinen Picknick am Feuer wärmen, stärken und sich vielleicht noch etwas über das Erlebte austauschen.\nBitte denken Sie an warme Kleidung.",
-			"price_information": "2,50 Euro (erm. für Kinder bis 14: 1,50 Euro)",
 			"event_url_1_description": "Naturpark Hoher Fläming",
 			"event_url_2_description": "Naturwacht Brandenburg",
 			"image_alt_text": "Damhirsch",
