@@ -1,0 +1,143 @@
+{ // POIs = Branchenbuch oder = Sehenswerte Orte ?
+    "style/design": {
+        "main_theme_color":"green",
+        "font_size": {
+            "standard": "1rem",
+            "h1": "6rem",
+            "h2": "5rem",
+            "h3": "4rem",
+            "h4": "3rem",
+            "h5": "2rem",
+            "h6": "1.5rem"
+        },
+        "font": "Museo Sans",
+        "brand_icon":"",
+        "color_gradient": "",
+    },
+    "form_screens": [
+        {
+            "headline": "Maerker",
+            "subheadline": "",
+            "summary": "",
+            "content": "ösdn vöms dvsad vm",
+            "input_fields": [
+                {
+                    "label": "Ihr Name",
+                    "type": "text",
+                    "tooltip": ""
+                },
+                {
+                    "label": "Ihre E-Mail-Adresse",
+                    "type": "email",
+                    "tooltip": "Hier können SIe ihre E-Mail-Adresse eingeben"
+                },
+                {
+                    "label": "Ihr Anliegen",
+                    "type": "text area",
+                    "tooltip": "Hier können Sie uns ihr Anliegen mitteilen."
+                }
+            ], 
+            "thank_you_message": "Dankeschön."
+        },
+        {
+            "headline": "Feedback",
+            "subheadline": "",
+            "summary": "",
+            "content": "älknedfglönsdlnvgöldsnbvlök",
+            "input_fields": [
+                {
+                    "label": "Ihr Name",
+                    "type": "text",
+                    "tooltip": ""
+                },
+                {
+                    "label": "Ihre E-Mail-Adresse",
+                    "type": "email",
+                    "tooltip": "Hier können SIe ihre E-Mail-Adresse eingeben"
+                },
+                {
+                    "label": "Ihr Anliegen",
+                    "type": "text area",
+                    "tooltip": "Hier können Sie uns ihr Anliegen mitteilen."
+                }
+            ], 
+            "thank_you_message": "Dankeschön.",
+        },
+        {
+            "headline": "Abfallkalender", // ? Abfallkalender infos kommen von einer extra API oder aus unserer Datenbank ?
+            "subheadline": "Welche Tonne muss wann rausgestellt werden",
+            "summary": "",
+            "content": "Integer ipsum dolor sit amet consectetur adipiscing",
+            "input_fields": [
+                {
+                    "label": "Ihre Adresse",
+                    "type": "text",
+                    "placeholder": "Straße, Hausnummer und Ort"
+                }
+            ]
+        }
+    ],
+    "home": {
+        "headline": "Stadt Bad Belzig",
+        "welcome_text": "",
+        "background-image": "",
+        "splash_1": {
+            "headline": "Stadt Bad Belzig", 
+            "teaser":"",
+            "text": "",
+            "background_image":""
+        },
+        "splash_2": {
+            "headline": "Praesent commodo", 
+            "teaser":"",
+            "text": "Praesent commodo Praesent commodo Praesent commodo Praesent commodo Praesent commodo, Praesent commodo.",
+            "background_image":""
+        },
+        "splash_3": {
+            "headline": "Lorem ipsum dolor sit amet consectetur adipiscing", 
+            "teaser":"",
+            "text": "",
+            "background_image":"image_link"
+        },
+        "splash_4": {
+            "headline": "Lorem ipsum dolor sit amet consectetur adipiscing", 
+            "teaser":"",
+            "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit class lacus dis mus, suspendisse euismod augue luctus nulla feugiat dapibus etiam placerat nibh a, himenaeos commodo at porta magnis facilisi tempus quam pharetra sapien. Consectetur euismod ultrices nullam sed cum, pellentesque gravida arcu vel inceptos sagittis, nam nostra molestie mauris. Nisi diam consectetur vivamus fermentum iaculis massa praesent ipsum, dolor tempor senectus mattis congue hac dictumst, habitant litora lectus morbi in sociis mollis.",
+            "background_image":""
+        }
+    },
+    "impressum": {
+        "name": "Stad Bad Belzig",
+        "adress": {
+            "street": "mnusterstraße 1",
+            "zip": 12345,
+            "city": "Bad Belzig"
+        },
+        "contact": {
+            "phone": 39434324,
+            "fax": 3405439859,
+            "e-mail": "test@test.de",
+            "url": "www.test.de"
+        },
+        "responsible_editor": "max mustermann",
+        "text": "älydknvlkadns"
+    },
+    "data_protection_agreement": "text",
+    "faq": [
+        {
+            "question_1": "Why?",
+            "answer_1": "Because !"
+        },
+        {
+            "question_2": "Why?",
+            "answer_2": "Because!"
+        },
+        {
+            "question_3": "Why?",
+            "answer_3": "Because!"
+        }
+    ],
+    "project-background": "",
+    "mitmachen": "",
+    "Nutzungsbestimmungen:": "text"
+}
