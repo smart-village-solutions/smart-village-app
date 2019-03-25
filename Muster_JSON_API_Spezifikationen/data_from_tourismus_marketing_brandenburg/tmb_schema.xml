@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:x='https://backoffice.reiseland-brandenburg.de/rpcServer/Api/xml' elementFormDefault='qualified' targetNamespace='https://backoffice.reiseland-brandenburg.de/rpcServer/Api/xml'>
+    <xs:element name='result'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs='unbounded' ref='x:attribute'/>
+                <xs:element maxOccurs='unbounded' ref='x:classification'/>
+                <xs:element maxOccurs='unbounded' ref='x:department'/>
+                <xs:element maxOccurs='unbounded' ref='x:district'/>
+                <xs:element maxOccurs='unbounded' ref='x:file'/>
+                <xs:element maxOccurs='unbounded' ref='x:location'/>
+                <xs:element maxOccurs='unbounded' ref='x:poi'/>
+                <xs:element maxOccurs='unbounded' ref='x:region'/>
+                <xs:element maxOccurs='unbounded' ref='x:tour'/>
+                <xs:element ref='x:state'/>
+            </xs:sequence>
+            <xs:attribute name='fileUrl' use='required' type='xs:anyURI'/>
+            <xs:attribute name='identity' use='required' type='xs:NCName'/>
+            <xs:attribute name='query' use='required'/>
+            <xs:attribute name='queryHash' use='required'/>
+            <xs:attribute name='snapshotCreateDate' use='required'/>
+            <xs:attribute name='snapshotCreateTimestamp' use='required' type='xs:integer'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='poi'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref='x:addresses'/>
+                <xs:element minOccurs='0' ref='x:connections'/>
+                <xs:element ref='x:categories'/>
+                <xs:element minOccurs='0' ref='x:certificates'/>
+                <xs:element minOccurs='0' ref='x:description'/>
+                <xs:element ref='x:location'/>
+                <xs:element minOccurs='0' ref='x:thumbnail'/>
+                <xs:element minOccurs='0' ref='x:gallery'/>
+                <xs:element minOccurs='0' ref='x:bookingcode'/>
+                <xs:element ref='x:hasDatasheet'/>
+                <xs:element minOccurs='0' ref='x:canonical'/>
+                <xs:element minOccurs='0' ref='x:price'/>
+                <xs:element minOccurs='0' ref='x:openinghours'/>
+                <xs:element minOccurs='0' ref='x:otherprice'/>
+                <xs:choice minOccurs='0'>
+                    <xs:element ref='x:otheropeninghours'/>
+                    <xs:element ref='x:tours'/>
+                    <xs:sequence>
+                        <xs:element ref='x:vendorAddress'/>
+                        <xs:element ref='x:vendorContact'/>
+                    </xs:sequence>
+                </xs:choice>
+                <xs:element minOccurs='0' ref='x:tags'/>
+                <xs:element minOccurs='0' ref='x:tourFamily'/>
+            </xs:sequence>
+            <xs:attribute name='id' use='required' type='xs:integer'/>
+            <xs:attribute name='language' use='required' type='xs:NCName'/>
+            <xs:attribute name='name' use='required'/>
+            <xs:attribute name='revision' use='required' type='xs:integer'/>
+            <xs:attribute name='tstamp' use='required' type='xs:integer'/>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='addresses'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref='x:address'/>
+            </xs:sequence>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='address'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs='0' ref='x:addition'/>
+                <xs:element ref='x:location'/>
+                <xs:element minOccurs='0' ref='x:zip'/>
+                <xs:element minOccurs='0' ref='x:street'/>
+                <xs:element ref='x:coordinates'/>
+            </xs:sequence>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='connections'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs='unbounded' ref='x:connection'/>
+            </xs:sequence>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='categories'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs='unbounded' ref='x:classification'/>
+            </xs:sequence>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='certificates'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs='unbounded' ref='x:classification'/>
+            </xs:sequence>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='thumbnail'>
+        <xs:complexType>
+            <xs:attribute name='id' use='required' type='xs:integer'/>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='gallery'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs='unbounded' ref='x:file'/>
+            </xs:sequence>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='bookingcode'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref='x:bookingcodelang'/>
+            </xs:sequence>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='bookingcodelang'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref='x:hotelcode'/>
+                <xs:element minOccurs='0' ref='x:productcode'/>
+                <xs:element minOccurs='0' ref='x:tomasid'/>
+            </xs:sequence>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='hotelcode'>
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base='xs:NMTOKEN'>
+                    <xs:attribute name='type' use='required' type='xs:NCName'/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='productcode'>
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base='xs:NCName'>
+                    <xs:attribute name='type' use='required' type='xs:NCName'/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='tomasid'>
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base='xs:NCName'>
+                    <xs:attribute name='type' use='required' type='xs:NCName'/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='hasDatasheet'>
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base='xs:NCName'>
+                    <xs:attribute name='type' use='required' type='xs:NCName'/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='canonical'>
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base='xs:anyURI'>
+                    <xs:attribute name='type' use='required' type='xs:NCName'/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='openinghours'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs='unbounded' ref='x:openingtimedate'/>
+            </xs:sequence>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='openingtimedate'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:sequence minOccurs='0'>
+                    <xs:element ref='x:datefrom'/>
+                    <xs:element ref='x:dateto'/>
+                </xs:sequence>
+                <xs:element ref='x:weekday'/>
+                <xs:element ref='x:timefrom'/>
+                <xs:element ref='x:timeto'/>
+                <xs:element minOccurs='0' ref='x:open'/>
+            </xs:sequence>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='datefrom'>
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base='xs:NMTOKEN'>
+                    <xs:attribute name='type' use='required' type='xs:NCName'/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='dateto'>
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base='xs:NMTOKEN'>
+                    <xs:attribute name='type' use='required' type='xs:NCName'/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='weekday'>
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base='xs:NCName'>
+                    <xs:attribute name='type' use='required' type='xs:NCName'/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='timefrom'>
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base='xs:NMTOKEN'>
+                    <xs:attribute name='type' use='required' type='xs:NCName'/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='timeto'>
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base='xs:NMTOKEN'>
+                    <xs:attribute name='type' use='required' type='xs:NCName'/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='open'>
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base='xs:NCName'>
+                    <xs:attribute name='type' use='required' type='xs:NCName'/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='otherprice'>
+        <xs:complexType mixed='true'>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='otheropeninghours'>
+        <xs:complexType mixed='true'>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='tours'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref='x:tour'/>
+            </xs:sequence>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='vendorAddress'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref='x:addition'/>
+                <xs:element ref='x:location'/>
+                <xs:element ref='x:zip'/>
+                <xs:element ref='x:street'/>
+            </xs:sequence>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='vendorContact'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs='unbounded' ref='x:connection'/>
+            </xs:sequence>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='tags'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs='unbounded' ref='x:attribute'/>
+            </xs:sequence>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='tourFamily'>
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base='xs:NCName'>
+                    <xs:attribute name='type' use='required' type='xs:NCName'/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='attribute'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs='0' ref='x:value'/>
+                <xs:sequence minOccurs='0'>
+                    <xs:element ref='x:allowedController'/>
+                    <xs:element ref='x:category'/>
+                </xs:sequence>
+                <xs:element minOccurs='0' ref='x:classification'/>
+            </xs:sequence>
+            <xs:attribute name='id' use='required' type='xs:integer'/>
+            <xs:attribute name='language' type='xs:NCName'/>
+            <xs:attribute name='name'/>
+            <xs:attribute name='revision' type='xs:integer'/>
+            <xs:attribute name='tstamp' type='xs:integer'/>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='value'>
+        <xs:complexType mixed='true'>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='classification'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs='0' ref='x:options'/>
+                <xs:element minOccurs='0' ref='x:alt'/>
+                <xs:element minOccurs='0' ref='x:icon'/>
+                <xs:choice minOccurs='0'>
+                    <xs:element ref='x:allowedController'/>
+                    <xs:element ref='x:parents'/>
+                </xs:choice>
+            </xs:sequence>
+            <xs:attribute name='id' use='required' type='xs:integer'/>
+            <xs:attribute name='language' type='xs:NCName'/>
+            <xs:attribute name='name'/>
+            <xs:attribute name='revision' type='xs:integer'/>
+            <xs:attribute name='tstamp' type='xs:integer'/>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='icon'>
+        <xs:complexType>
+            <xs:attribute name='id' use='required' type='xs:integer'/>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='parents'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs='unbounded' ref='x:classification'/>
+            </xs:sequence>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='department'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs='0' ref='x:department'/>
+            </xs:sequence>
+            <xs:attribute name='id' type='xs:integer'/>
+            <xs:attribute name='language' type='xs:NCName'/>
+            <xs:attribute name='name'/>
+            <xs:attribute name='revision' type='xs:integer'/>
+            <xs:attribute name='tstamp' type='xs:integer'/>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='district'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs='0' ref='x:district'/>
+            </xs:sequence>
+            <xs:attribute name='id' type='xs:integer'/>
+            <xs:attribute name='language' type='xs:NCName'/>
+            <xs:attribute name='name' type='xs:NCName'/>
+            <xs:attribute name='revision' type='xs:integer'/>
+            <xs:attribute name='tstamp' type='xs:integer'/>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='file'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs='0' ref='x:alt'/>
+            </xs:sequence>
+            <xs:attribute name='id' use='required' type='xs:integer'/>
+            <xs:attribute name='name'/>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='location'>
+        <xs:complexType mixed='true'>
+            <xs:choice maxOccurs='unbounded'>
+                <xs:element ref='x:coordinates'/>
+                <xs:element ref='x:department'/>
+                <xs:element ref='x:district'/>
+                <xs:element ref='x:options'/>
+                <xs:element ref='x:region'/>
+                <xs:element ref='x:state'/>
+                <xs:element ref='x:alias'/>
+            </xs:choice>
+            <xs:attribute name='id' type='xs:integer'/>
+            <xs:attribute name='language' type='xs:NCName'/>
+            <xs:attribute name='name'/>
+            <xs:attribute name='revision' type='xs:integer'/>
+            <xs:attribute name='tstamp' type='xs:integer'/>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='alias'>
+        <xs:complexType mixed='true'>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='addition'>
+        <xs:complexType mixed='true'>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='zip'>
+        <xs:complexType mixed='true'>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='street'>
+        <xs:complexType mixed='true'>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='coordinates'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs='unbounded' ref='x:coordinate'/>
+            </xs:sequence>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='coordinate'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref='x:x'/>
+                <xs:element ref='x:y'/>
+                <xs:element ref='x:type'/>
+            </xs:sequence>
+            <xs:attribute name='cos' use='required' type='xs:NCName'/>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='x'>
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base='xs:decimal'>
+                    <xs:attribute name='type' use='required' type='xs:NCName'/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='y'>
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base='xs:decimal'>
+                    <xs:attribute name='type' use='required' type='xs:NCName'/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='connection'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref='x:type'/>
+                <xs:element ref='x:information'/>
+            </xs:sequence>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='information'>
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base='xs:anyURI'>
+                    <xs:attribute name='type' use='required' type='xs:NCName'/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='description'>
+        <xs:complexType mixed='true'>
+            <xs:sequence>
+                <xs:element maxOccurs='unbounded' ref='x:text'/>
+            </xs:sequence>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='text'>
+        <xs:complexType mixed='true'>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='price'>
+        <xs:complexType mixed='true'>
+            <xs:sequence>
+                <xs:element maxOccurs='unbounded' ref='x:pricerangecomplex'/>
+            </xs:sequence>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='pricerangecomplex'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref='x:category'/>
+                <xs:element ref='x:price'/>
+                <xs:sequence minOccurs='0'>
+                    <xs:element ref='x:agefrom'/>
+                    <xs:element ref='x:ageto'/>
+                </xs:sequence>
+                <xs:choice minOccurs='0'>
+                    <xs:element ref='x:categorytext'/>
+                    <xs:sequence>
+                        <xs:element ref='x:adultcount'/>
+                        <xs:element ref='x:childrencount'/>
+                    </xs:sequence>
+                </xs:choice>
+                <xs:element minOccurs='0' ref='x:description'/>
+            </xs:sequence>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='agefrom'>
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base='xs:integer'>
+                    <xs:attribute name='type' use='required' type='xs:NCName'/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='ageto'>
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base='xs:integer'>
+                    <xs:attribute name='type' use='required' type='xs:NCName'/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='categorytext'>
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base='xs:NCName'>
+                    <xs:attribute name='type' use='required' type='xs:NCName'/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='adultcount'>
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base='xs:integer'>
+                    <xs:attribute name='type' use='required' type='xs:NCName'/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='childrencount'>
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base='xs:integer'>
+                    <xs:attribute name='type' use='required' type='xs:NCName'/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='tour'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs='0' ref='x:options'/>
+                <xs:sequence minOccurs='0'>
+                    <xs:element ref='x:geom'/>
+                    <xs:element ref='x:tourStart'/>
+                    <xs:element ref='x:tourEnd'/>
+                    <xs:element ref='x:locations'/>
+                </xs:sequence>
+            </xs:sequence>
+            <xs:attribute name='id' use='required' type='xs:integer'/>
+            <xs:attribute name='name'/>
+            <xs:attribute name='tstamp' type='xs:integer'/>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='geom'>
+        <xs:complexType mixed='true'>
+            <xs:attribute name='srid' use='required' type='xs:integer'/>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='tourStart'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs='0' ref='x:addition'/>
+                <xs:element minOccurs='0' ref='x:location'/>
+                <xs:element minOccurs='0' ref='x:zip'/>
+                <xs:element minOccurs='0' ref='x:street'/>
+                <xs:element minOccurs='0' ref='x:coordinates'/>
+            </xs:sequence>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='tourEnd'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs='0' ref='x:addition'/>
+                <xs:element minOccurs='0' ref='x:location'/>
+                <xs:element minOccurs='0' ref='x:zip'/>
+                <xs:element minOccurs='0' ref='x:street'/>
+                <xs:element minOccurs='0' ref='x:coordinates'/>
+            </xs:sequence>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='locations'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs='unbounded' ref='x:location'/>
+            </xs:sequence>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='region'>
+        <xs:complexType>
+            <xs:choice minOccurs='0'>
+                <xs:element ref='x:region'/>
+                <xs:element ref='x:state'/>
+            </xs:choice>
+            <xs:attribute name='id' type='xs:integer'/>
+            <xs:attribute name='language' type='xs:NCName'/>
+            <xs:attribute name='name'/>
+            <xs:attribute name='revision' type='xs:integer'/>
+            <xs:attribute name='tstamp' type='xs:integer'/>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='state'>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs='0' ref='x:state'/>
+            </xs:sequence>
+            <xs:attribute name='id' type='xs:integer'/>
+            <xs:attribute name='name' type='xs:NCName'/>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='allowedController'>
+        <xs:complexType mixed='true'>
+            <xs:sequence>
+                <xs:element maxOccurs='unbounded' ref='x:controller'/>
+            </xs:sequence>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='controller'>
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base='xs:NCName'>
+                    <xs:attribute name='type' use='required' type='xs:NCName'/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='category'>
+        <xs:complexType mixed='true'>
+            <xs:attribute name='id' type='xs:integer'/>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='options'>
+        <xs:complexType mixed='true'>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='alt'>
+        <xs:complexType mixed='true'>
+            <xs:attribute name='type' use='required' type='xs:NCName'/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name='type'>
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base='xs:NCName'>
+                    <xs:attribute name='type' use='required' type='xs:NCName'/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

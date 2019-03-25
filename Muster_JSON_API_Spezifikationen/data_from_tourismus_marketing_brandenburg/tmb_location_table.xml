@@ -1,0 +1,909 @@
+<location type="location" id="799" name="Groß Briesen (14806)" language="de" revision="1" tstamp="1549920922">
+    <district type="array">
+        <district type="district" id="382" />
+    </district>
+    <department type="array">
+        <department type="department" id="168" />
+    </department>
+    <region type="array">
+        <region type="region" id="146" />
+    </region>
+    <coordinates type="array">
+        <coordinate type="coordinate" cos="utm33">
+            <x type="varchar">3328041</x>
+            <y type="varchar">5790544</y>
+            <type type="coordinateType">utm33</type>
+        </coordinate>
+    </coordinates>
+    <state type="state" id="107361" />
+</location>
+<location type="location" id="800" name="Lüsse" language="de" revision="1" tstamp="1549920923">
+    <district type="array">
+        <district type="district" id="382" />
+    </district>
+    <department type="array">
+        <department type="department" id="168" />
+    </department>
+    <region type="array">
+        <region type="region" id="146" />
+    </region>
+    <coordinates type="array">
+        <coordinate type="coordinate" cos="utm33">
+            <x type="varchar">3339706</x>
+            <y type="varchar">5780201</y>
+            <type type="coordinateType">utm33</type>
+        </coordinate>
+    </coordinates>
+    <state type="state" id="107361" />
+</location>
+<location type="location" id="801" name="Neschholz" language="de" revision="1" tstamp="1549920923">
+    <district type="array">
+        <district type="district" id="382" />
+    </district>
+    <department type="array">
+        <department type="department" id="168" />
+    </department>
+    <region type="array">
+        <region type="region" id="146" />
+    </region>
+    <coordinates type="array">
+        <coordinate type="coordinate" cos="utm33">
+            <x type="varchar">3342258</x>
+            <y type="varchar">5780329</y>
+            <type type="coordinateType">utm33</type>
+        </coordinate>
+    </coordinates>
+    <state type="state" id="107361" />
+</location>
+<location type="location" id="802" name="Werbig (14806)" language="de" revision="1" tstamp="1549920927">
+    <district type="array">
+        <district type="district" id="382" />
+    </district>
+    <department type="array">
+        <department type="department" id="168" />
+    </department>
+    <region type="array">
+        <region type="region" id="146" />
+    </region>
+    <coordinates type="array">
+        <coordinate type="coordinate" cos="utm33">
+            <x type="varchar">3326699</x>
+            <y type="varchar">5784632</y>
+            <type type="coordinateType">utm33</type>
+        </coordinate>
+    </coordinates>
+    <state type="state" id="107361" />
+</location>
+<location type="location" id="803" name="Lübnitz" language="de" revision="1" tstamp="1549920923">
+    <district type="array">
+        <district type="district" id="382" />
+    </district>
+    <department type="array">
+        <department type="department" id="168" />
+    </department>
+    <region type="array">
+        <region type="region" id="146" />
+    </region>
+    <coordinates type="array">
+        <coordinate type="coordinate" cos="utm33">
+            <x type="varchar">3331034</x>
+            <y type="varchar">5781279</y>
+            <type type="coordinateType">utm33</type>
+        </coordinate>
+    </coordinates>
+    <state type="state" id="107361" />
+</location>
+<location type="location" id="805" name="Dippmannsdorf" language="de" revision="1" tstamp="1549920921">
+    <district type="array">
+        <district type="district" id="382" />
+    </district>
+    <department type="array">
+        <department type="department" id="168" />
+    </department>
+    <region type="array">
+        <region type="region" id="146" />
+    </region>
+    <coordinates type="array">
+        <coordinate type="coordinate" cos="utm33">
+            <x type="varchar">3335798</x>
+            <y type="varchar">5788093</y>
+            <type type="coordinateType">utm33</type>
+        </coordinate>
+    </coordinates>
+    <state type="state" id="107361" />
+</location>
+<location type="location" id="806" name="Borne" language="de" revision="1" tstamp="1549920920">
+    <district type="array">
+        <district type="district" id="382" />
+    </district>
+    <department type="array">
+        <department type="department" id="168" />
+    </department>
+    <region type="array">
+        <region type="region" id="146" />
+    </region>
+    <coordinates type="array">
+        <coordinate type="coordinate" cos="utm33">
+            <x type="varchar">3331387</x>
+            <y type="varchar">5776358</y>
+            <type type="coordinateType">utm33</type>
+        </coordinate>
+    </coordinates>
+    <state type="state" id="107361" />
+</location>
+<location type="location" id="807" name="Bad Belzig" language="de" revision="1" tstamp="1549920920">
+    <district type="array">
+        <district type="district" id="382" />
+    </district>
+    <department type="array">
+        <department type="department" id="168" />
+    </department>
+    <region type="array">
+        <region type="region" id="146" />
+    </region>
+    <coordinates type="array">
+        <coordinate type="coordinate" cos="utm33">
+            <x type="varchar">3335364</x>
+            <y type="varchar">5779543</y>
+            <type type="coordinateType">utm33</type>
+        </coordinate>
+    </coordinates>
+    <state type="state" id="107361" />
+</location>
+<location type="location" id="808" name="Verlorenwasser" language="de" revision="1" tstamp="1549920927">
+    <district type="array">
+        <district type="district" id="382" />
+    </district>
+    <department type="array">
+        <department type="department" id="168" />
+    </department>
+    <region type="array">
+        <region type="region" id="146" />
+    </region>
+    <coordinates type="array">
+        <coordinate type="coordinate" cos="utm33">
+            <x type="varchar">3327894</x>
+            <y type="varchar">5787008</y>
+            <type type="coordinateType">utm33</type>
+        </coordinate>
+    </coordinates>
+    <state type="state" id="107361" />
+</location>
+<location type="location" id="811" name="Hagelberg" language="de" revision="1" tstamp="1549920922">
+    <district type="array">
+        <district type="district" id="382" />
+    </district>
+    <department type="array">
+        <department type="department" id="168" />
+    </department>
+    <region type="array">
+        <region type="region" id="146" />
+    </region>
+    <coordinates type="array">
+        <coordinate type="coordinate" cos="utm33">
+            <x type="varchar">3330268</x>
+            <y type="varchar">5779418</y>
+            <type type="coordinateType">utm33</type>
+        </coordinate>
+    </coordinates>
+    <state type="state" id="107361" />
+</location>
+<location type="location" id="814" name="Klein-Glien" language="de" revision="1" tstamp="1549920922">
+    <district type="array">
+        <district type="district" id="382" />
+    </district>
+    <department type="array">
+        <department type="department" id="168" />
+    </department>
+    <region type="array">
+        <region type="region" id="146" />
+    </region>
+    <coordinates type="array">
+        <coordinate type="coordinate" cos="utm33">
+            <x type="varchar">3329827</x>
+            <y type="varchar">5778592</y>
+            <type type="coordinateType">utm33</type>
+        </coordinate>
+    </coordinates>
+    <state type="state" id="107361" />
+</location>
+<location type="location" id="822" name="Weitzgrund" language="de" revision="1" tstamp="1549920927">
+    <district type="array">
+        <district type="district" id="382" />
+    </district>
+    <department type="array">
+        <department type="department" id="168" />
+    </department>
+    <region type="array">
+        <region type="region" id="146" />
+    </region>
+    <coordinates type="array">
+        <coordinate type="coordinate" cos="utm33">
+            <x type="varchar">3331218</x>
+            <y type="varchar">5785577</y>
+            <type type="coordinateType">utm33</type>
+        </coordinate>
+    </coordinates>
+    <state type="state" id="107361" />
+</location>
+<location type="location" id="824" name="Preußnitz" language="de" revision="1" tstamp="1549920924">
+    <district type="array">
+        <district type="district" id="382" />
+    </district>
+    <department type="array">
+        <department type="department" id="168" />
+    </department>
+    <region type="array">
+        <region type="region" id="146" />
+    </region>
+    <coordinates type="array">
+        <coordinate type="coordinate" cos="utm33">
+            <x type="varchar">3337819</x>
+            <y type="varchar">5778419</y>
+            <type type="coordinateType">utm33</type>
+        </coordinate>
+    </coordinates>
+    <state type="state" id="107361" />
+</location>
+<location type="location" id="829" name="Klein Briesen" language="de" revision="1" tstamp="1549920922">
+    <district type="array">
+        <district type="district" id="382" />
+    </district>
+    <department type="array">
+        <department type="department" id="168" />
+    </department>
+    <region type="array">
+        <region type="region" id="146" />
+    </region>
+    <coordinates type="array">
+        <coordinate type="coordinate" cos="utm33">
+            <x type="varchar">3330058</x>
+            <y type="varchar">5790921</y>
+            <type type="coordinateType">utm33</type>
+        </coordinate>
+    </coordinates>
+    <state type="state" id="107361" />
+</location>
+<location type="location" id="3558" name="Kranepuhl" language="de" revision="1" tstamp="1549920923">
+    <district type="array">
+        <district type="district" id="382" />
+    </district>
+    <department type="array">
+        <department type="department" id="278" />
+    </department>
+    <region type="array">
+        <region type="region" id="146" />
+    </region>
+    <coordinates type="array">
+        <coordinate type="coordinate" cos="utm33">
+            <x type="varchar">3336715</x>
+            <y type="varchar">5774694</y>
+            <type type="coordinateType">utm33</type>
+        </coordinate>
+    </coordinates>
+    <state type="state" id="107361" />
+</location>
+<location type="location" id="3561" name="Haseloff" language="de" revision="1" tstamp="1549920922">
+    <district type="array">
+        <district type="district" id="382" />
+    </district>
+    <department type="array">
+        <department type="department" id="278" />
+    </department>
+    <region type="array">
+        <region type="region" id="146" />
+    </region>
+    <coordinates type="array">
+        <coordinate type="coordinate" cos="utm33">
+            <x type="varchar">3345974</x>
+            <y type="varchar">5773278</y>
+            <type type="coordinateType">utm33</type>
+        </coordinate>
+    </coordinates>
+    <state type="state" id="107361" />
+</location>
+<location type="location" id="3562" name="Jeserig" language="de" revision="1" tstamp="1549920922">
+    <district type="array">
+        <district type="district" id="382" />
+    </district>
+    <department type="array">
+        <department type="department" id="278" />
+    </department>
+    <region type="array">
+        <region type="region" id="146" />
+    </region>
+    <coordinates type="array">
+        <coordinate type="coordinate" cos="utm33">
+            <x type="varchar">3348723</x>
+            <y type="varchar">5777639</y>
+            <type type="coordinateType">utm33</type>
+        </coordinate>
+    </coordinates>
+    <state type="state" id="107361" />
+</location>
+<location type="location" id="3565" name="Lühnsdorf" language="de" revision="1" tstamp="1549920923">
+    <district type="array">
+        <district type="district" id="382" />
+    </district>
+    <department type="array">
+        <department type="department" id="278" />
+    </department>
+    <region type="array">
+        <region type="region" id="146" />
+    </region>
+    <coordinates type="array">
+        <coordinate type="coordinate" cos="utm33">
+            <x type="varchar">3338195</x>
+            <y type="varchar">5772819</y>
+            <type type="coordinateType">utm33</type>
+        </coordinate>
+    </coordinates>
+    <state type="state" id="107361" />
+</location>
+<location type="location" id="3569" name="Werdermühle" language="de" revision="1" tstamp="1549920927">
+    <district type="array">
+        <district type="district" id="382" />
+    </district>
+    <department type="array">
+        <department type="department" id="278" />
+    </department>
+    <region type="array">
+        <region type="region" id="146" />
+    </region>
+    <coordinates type="array">
+        <coordinate type="coordinate" cos="utm33">
+            <x type="varchar">3339450</x>
+            <y type="varchar">5771973</y>
+            <type type="coordinateType">utm33</type>
+        </coordinate>
+    </coordinates>
+    <state type="state" id="107361" />
+</location>
+<location type="location" id="3570" name="Dahnsdorf" language="de" revision="1" tstamp="1549920921">
+    <district type="array">
+        <district type="district" id="382" />
+    </district>
+    <department type="array">
+        <department type="department" id="278" />
+    </department>
+    <region type="array">
+        <region type="region" id="146" />
+    </region>
+    <coordinates type="array">
+        <coordinate type="coordinate" cos="utm33">
+            <x type="varchar">3340263</x>
+            <y type="varchar">5774788</y>
+            <type type="coordinateType">utm33</type>
+        </coordinate>
+    </coordinates>
+    <state type="state" id="107361" />
+</location>
+<location type="location" id="3572" name="Locktow" language="de" revision="1" tstamp="1549920923">
+    <district type="array">
+        <district type="district" id="382" />
+    </district>
+    <department type="array">
+        <department type="department" id="278" />
+    </department>
+    <region type="array">
+        <region type="region" id="146" />
+    </region>
+    <coordinates type="array">
+        <coordinate type="coordinate" cos="utm33">
+            <x type="varchar">3343670</x>
+            <y type="varchar">5778869</y>
+            <type type="coordinateType">utm33</type>
+        </coordinate>
+    </coordinates>
+    <state type="state" id="107361" />
+</location>
+<location type="location" id="3577" name="Garrey" language="de" revision="1" tstamp="1549920921">
+    <district type="array">
+        <district type="district" id="382" />
+    </district>
+    <department type="array">
+        <department type="department" id="278" />
+    </department>
+    <region type="array">
+        <region type="region" id="146" />
+    </region>
+    <coordinates type="array">
+        <coordinate type="coordinate" cos="utm33">
+            <x type="varchar">3339783</x>
+            <y type="varchar">5765849</y>
+            <type type="coordinateType">utm33</type>
+        </coordinate>
+    </coordinates>
+    <state type="state" id="107361" />
+</location>
+<location type="location" id="3579" name="Klein Marzehns" language="de" revision="1" tstamp="1549920922">
+    <district type="array">
+        <district type="district" id="382" />
+    </district>
+    <department type="array">
+        <department type="department" id="278" />
+    </department>
+    <region type="array">
+        <region type="region" id="146" />
+    </region>
+    <coordinates type="array">
+        <coordinate type="coordinate" cos="utm33">
+            <x type="varchar">3336314</x>
+            <y type="varchar">5765376</y>
+            <type type="coordinateType">utm33</type>
+        </coordinate>
+    </coordinates>
+    <state type="state" id="107361" />
+</location>
+<location type="location" id="3580" name="Neuendorf (14823)" language="de" revision="1" tstamp="1549920924">
+    <district type="array">
+        <district type="district" id="382" />
+    </district>
+    <department type="array">
+        <department type="department" id="278" />
+    </department>
+    <region type="array">
+        <region type="region" id="146" />
+    </region>
+    <coordinates type="array">
+        <coordinate type="coordinate" cos="utm33">
+            <x type="varchar">3339432</x>
+            <y type="varchar">5769748</y>
+            <type type="coordinateType">utm33</type>
+        </coordinate>
+    </coordinates>
+    <state type="state" id="107361" />
+</location>
+<location type="location" id="3581" name="Raben" language="de" revision="1" tstamp="1549920924">
+    <district type="array">
+        <district type="district" id="382" />
+    </district>
+    <department type="array">
+        <department type="department" id="278" />
+    </department>
+    <region type="array">
+        <region type="region" id="146" />
+    </region>
+    <coordinates type="array">
+        <coordinate type="coordinate" cos="utm33">
+            <x type="varchar">3333869</x>
+            <y type="varchar">5768485</y>
+            <type type="coordinateType">utm33</type>
+        </coordinate>
+    </coordinates>
+    <state type="state" id="107361" />
+</location>
+<location type="location" id="3582" name="Rädigke" language="de" revision="1" tstamp="1549920924">
+    <district type="array">
+        <district type="district" id="382" />
+    </district>
+    <department type="array">
+        <department type="department" id="278" />
+    </department>
+    <region type="array">
+        <region type="region" id="146" />
+    </region>
+    <coordinates type="array">
+        <coordinate type="coordinate" cos="utm33">
+            <x type="varchar">3337000</x>
+            <y type="varchar">5769555</y>
+            <type type="coordinateType">utm33</type>
+        </coordinate>
+    </coordinates>
+    <state type="state" id="107361" />
+</location>
+<location type="location" id="3585" name="Niemegk" language="de" revision="1" tstamp="1549920924">
+    <district type="array">
+        <district type="district" id="382" />
+    </district>
+    <department type="array">
+        <department type="department" id="278" />
+    </department>
+    <region type="array">
+        <region type="region" id="146" />
+    </region>
+    <coordinates type="array">
+        <coordinate type="coordinate" cos="utm33">
+            <x type="varchar">3341682</x>
+            <y type="varchar">5771832</y>
+            <type type="coordinateType">utm33</type>
+        </coordinate>
+    </coordinates>
+    <state type="state" id="107361" />
+</location>
+<location type="location" id="5190" name="Spring" language="de" revision="1" tstamp="1549920925">
+    <district type="array">
+        <district type="district" id="382" />
+    </district>
+    <department type="array">
+        <department type="department" id="352" />
+    </department>
+    <region type="array">
+        <region type="region" id="146" />
+    </region>
+    <coordinates type="array">
+        <coordinate type="coordinate" cos="utm33">
+            <x type="varchar">3324356</x>
+            <y type="varchar">5771473</y>
+            <type type="coordinateType">utm33</type>
+        </coordinate>
+    </coordinates>
+    <state type="state" id="107361" />
+</location>
+<location type="location" id="5192" name="Schmerwitz" language="de" revision="1" tstamp="1549920925">
+    <district type="array">
+        <district type="district" id="382" />
+    </district>
+    <department type="array">
+        <department type="department" id="352" />
+    </department>
+    <region type="array">
+        <region type="region" id="146" />
+    </region>
+    <coordinates type="array">
+        <coordinate type="coordinate" cos="utm33">
+            <x type="varchar">3327657</x>
+            <y type="varchar">5779668</y>
+            <type type="coordinateType">utm33</type>
+        </coordinate>
+    </coordinates>
+    <state type="state" id="107361" />
+</location>
+<location type="location" id="5193" name="Medewitzerhütten" language="de" revision="1" tstamp="1549920923">
+    <district type="array">
+        <district type="district" id="382" />
+    </district>
+    <department type="array">
+        <department type="department" id="352" />
+    </department>
+    <region type="array">
+        <region type="region" id="146" />
+    </region>
+    <coordinates type="array">
+        <coordinate type="coordinate" cos="utm33">
+            <x type="varchar">3320530</x>
+            <y type="varchar">5772139</y>
+            <type type="coordinateType">utm33</type>
+        </coordinate>
+    </coordinates>
+    <state type="state" id="107361" />
+</location>
+<location type="location" id="5201" name="Jeserig/Fläming (14827)" language="de" revision="1" tstamp="1549920922">
+    <district type="array">
+        <district type="district" id="382" />
+    </district>
+    <department type="array">
+        <department type="department" id="352" />
+    </department>
+    <region type="array">
+        <region type="region" id="146" />
+    </region>
+    <coordinates type="array">
+        <coordinate type="coordinate" cos="utm33">
+            <x type="varchar">3325341</x>
+            <y type="varchar">5773570</y>
+            <type type="coordinateType">utm33</type>
+        </coordinate>
+    </coordinates>
+    <state type="state" id="107361" />
+</location>
+<location type="location" id="5203" name="Jeserigerhütten" language="de" revision="1" tstamp="1549920922">
+    <district type="array">
+        <district type="district" id="382" />
+    </district>
+    <department type="array">
+        <department type="department" id="352" />
+    </department>
+    <region type="array">
+        <region type="region" id="146" />
+    </region>
+    <coordinates type="array">
+        <coordinate type="coordinate" cos="utm33">
+            <x type="varchar">3325884</x>
+            <y type="varchar">5771428</y>
+            <type type="coordinateType">utm33</type>
+        </coordinate>
+    </coordinates>
+    <state type="state" id="107361" />
+</location>
+<location type="location" id="5206" name="Schlamau" language="de" revision="1" tstamp="1549920925">
+    <district type="array">
+        <district type="district" id="382" />
+    </district>
+    <department type="array">
+        <department type="department" id="352" />
+    </department>
+    <region type="array">
+        <region type="region" id="146" />
+    </region>
+    <coordinates type="array">
+        <coordinate type="coordinate" cos="utm33">
+            <x type="varchar">3325307</x>
+            <y type="varchar">5778638</y>
+            <type type="coordinateType">utm33</type>
+        </coordinate>
+    </coordinates>
+    <state type="state" id="107361" />
+</location>
+<location type="location" id="5207" name="Medewitz" language="de" revision="1" tstamp="1549920923">
+    <district type="array">
+        <district type="district" id="382" />
+    </district>
+    <department type="array">
+        <department type="department" id="352" />
+    </department>
+    <region type="array">
+        <region type="region" id="146" />
+    </region>
+    <coordinates type="array">
+        <coordinate type="coordinate" cos="utm33">
+            <x type="varchar">3320464</x>
+            <y type="varchar">5770628</y>
+            <type type="coordinateType">utm33</type>
+        </coordinate>
+    </coordinates>
+    <state type="state" id="107361" />
+</location>
+<location type="location" id="5209" name="Reetz" language="de" revision="1" tstamp="1549920924">
+    <district type="array">
+        <district type="district" id="382" />
+    </district>
+    <department type="array">
+        <department type="department" id="352" />
+    </department>
+    <region type="array">
+        <region type="region" id="146" />
+    </region>
+    <coordinates type="array">
+        <coordinate type="coordinate" cos="utm33">
+            <x type="varchar">3321808</x>
+            <y type="varchar">5776198</y>
+            <type type="coordinateType">utm33</type>
+        </coordinate>
+    </coordinates>
+    <state type="state" id="107361" />
+</location>
+<location type="location" id="5210" name="Reppinichen" language="de" revision="1" tstamp="1549920924">
+    <district type="array">
+        <district type="district" id="382" />
+    </district>
+    <department type="array">
+        <department type="department" id="352" />
+    </department>
+    <region type="array">
+        <region type="region" id="146" />
+    </region>
+    <coordinates type="array">
+        <coordinate type="coordinate" cos="utm33">
+            <x type="varchar">3316126</x>
+            <y type="varchar">5779928</y>
+            <type type="coordinateType">utm33</type>
+        </coordinate>
+    </coordinates>
+    <state type="state" id="107361" />
+</location>
+<location type="location" id="75288" name="Wiesenburg/Mark" language="de" revision="1" tstamp="1549920927">
+    <district type="array">
+        <district type="district" id="382" />
+    </district>
+    <department type="array">
+        <department type="department" id="352" />
+    </department>
+    <region type="array">
+        <region type="region" id="146" />
+    </region>
+    <coordinates type="array">
+        <coordinate type="coordinate" cos="utm33">
+            <x type="varchar">3325715</x>
+            <y type="varchar">5776801</y>
+            <type type="coordinateType">utm33</type>
+        </coordinate>
+    </coordinates>
+    <state type="state" id="107361" />
+</location>
+<location type="location" id="82068" name="Kuhlowitz" language="de" revision="1" tstamp="1549920923">
+    <alias type="varchar">Kuhlowitz</alias>
+    <district type="array">
+        <district type="district" id="382" />
+    </district>
+    <department type="array">
+        <department type="department" id="352" />
+    </department>
+    <region type="array">
+        <region type="region" id="146" />
+    </region>
+    <coordinates type="array">
+        <coordinate type="coordinate" cos="utm33">
+            <x type="varchar">3338054</x>
+            <y type="varchar">5778453</y>
+            <type type="coordinateType">utm33</type>
+        </coordinate>
+    </coordinates>
+    <state type="state" id="107361" />
+</location>
+<location type="location" id="85681" name="Tour durch mehrere Regionen" language="de" revision="1" tstamp="1549920926">
+    <alias type="varchar">Tour durch mehrere Regionen</alias>
+    <region type="array">
+        <region type="region" id="148" />
+        <region type="region" id="145" />
+        <region type="region" id="146" />
+        <region type="region" id="141" />
+        <region type="region" id="140" />
+        <region type="region" id="143" />
+        <region type="region" id="147" />
+        <region type="region" id="149" />
+    </region>
+    <options type="varchar">LOCATION_HIDE</options>
+    <state type="state" />
+</location>
+<location type="location" id="85682" name="Tour durch mehrere Regionen" language="de" revision="1" tstamp="1549920925">
+    <alias type="varchar">Tour durch mehrere Regionen</alias>
+    <region type="array">
+        <region type="region" id="145" />
+        <region type="region" id="151" />
+        <region type="region" id="146" />
+        <region type="region" id="141" />
+        <region type="region" id="87064" />
+        <region type="region" id="142" />
+        <region type="region" id="143" />
+        <region type="region" id="147" />
+        <region type="region" id="149" />
+        <region type="region" id="144" />
+    </region>
+    <options type="varchar">LOCATION_HIDE</options>
+    <state type="state" />
+</location>
+<location type="location" id="85689" name="Tour durch mehrere Regionen" language="de" revision="1" tstamp="1549920926">
+    <alias type="varchar">Tour durch mehrere Regionen</alias>
+    <region type="array">
+        <region type="region" id="148" />
+        <region type="region" id="146" />
+        <region type="region" id="149" />
+        <region type="region" id="152" />
+    </region>
+    <options type="varchar">LOCATION_HIDE</options>
+    <state type="state" />
+</location>
+<location type="location" id="85693" name="Tour durch mehrere Regionen" language="de" revision="1" tstamp="1549920925">
+    <alias type="varchar">Tour durch mehrere Regionen</alias>
+    <region type="array">
+        <region type="region" id="146" />
+        <region type="region" id="141" />
+        <region type="region" id="140" />
+        <region type="region" id="147" />
+        <region type="region" id="152" />
+    </region>
+    <options type="varchar">LOCATION_HIDE</options>
+    <state type="state" />
+</location>
+<location type="location" id="85694" name="Tour durch mehrere Regionen" language="de" revision="1" tstamp="1549920926">
+    <alias type="varchar">Tour durch mehrere Regionen</alias>
+    <region type="array">
+        <region type="region" id="146" />
+        <region type="region" id="140" />
+        <region type="region" id="152" />
+    </region>
+    <options type="varchar">LOCATION_HIDE</options>
+    <state type="state" />
+</location>
+<location type="location" id="85700" name="Tour durch mehrere Regionen" language="de" revision="1" tstamp="1549920926">
+    <alias type="varchar">Tour durch mehrere Regionen</alias>
+    <region type="array">
+        <region type="region" id="148" />
+        <region type="region" id="146" />
+    </region>
+    <options type="varchar">LOCATION_HIDE</options>
+    <state type="state" />
+</location>
+<location type="location" id="85702" name="Tour durch mehrere Regionen" language="de" revision="1" tstamp="1549920926">
+    <alias type="varchar">Tour durch mehrere Regionen</alias>
+    <region type="array">
+        <region type="region" id="151" />
+        <region type="region" id="146" />
+        <region type="region" id="87064" />
+    </region>
+    <options type="varchar">LOCATION_HIDE</options>
+    <state type="state" />
+</location>
+<location type="location" id="85704" name="Tour durch mehrere Regionen" language="de" revision="1" tstamp="1549920926">
+    <alias type="varchar">Tour durch mehrere Regionen</alias>
+    <region type="array">
+        <region type="region" id="151" />
+        <region type="region" id="146" />
+        <region type="region" id="87064" />
+        <region type="region" id="147" />
+        <region type="region" id="149" />
+    </region>
+    <options type="varchar">LOCATION_HIDE</options>
+    <state type="state" />
+</location>
+<location type="location" id="85705" name="Tour durch mehrere Regionen" language="de" revision="1" tstamp="1549920926">
+    <alias type="varchar">Tour durch mehrere Regionen</alias>
+    <region type="array">
+        <region type="region" id="151" />
+        <region type="region" id="146" />
+        <region type="region" id="149" />
+    </region>
+    <options type="varchar">LOCATION_HIDE</options>
+    <state type="state" />
+</location>
+<location type="location" id="85706" name="Tour durch mehrere Regionen" language="de" revision="1" tstamp="1549920926">
+    <alias type="varchar">Tour durch mehrere Regionen</alias>
+    <region type="array">
+        <region type="region" id="151" />
+        <region type="region" id="146" />
+    </region>
+    <options type="varchar">LOCATION_HIDE</options>
+    <state type="state" />
+</location>
+<location type="location" id="85709" name="Tour durch mehrere Regionen" language="de" revision="1" tstamp="1549920926">
+    <alias type="varchar">Tour durch mehrere Regionen</alias>
+    <region type="array">
+        <region type="region" id="146" />
+        <region type="region" id="141" />
+        <region type="region" id="140" />
+    </region>
+    <options type="varchar">LOCATION_HIDE</options>
+    <state type="state" />
+</location>
+<location type="location" id="85710" name="Tour durch mehrere Regionen" language="de" revision="1" tstamp="1549920925">
+    <alias type="varchar">Tour durch mehrere Regionen</alias>
+    <region type="array">
+        <region type="region" id="146" />
+        <region type="region" id="141" />
+    </region>
+    <options type="varchar">LOCATION_HIDE</options>
+    <state type="state" />
+</location>
+<location type="location" id="85711" name="Tour durch mehrere Regionen" language="de" revision="1" tstamp="1549920926">
+    <alias type="varchar">Tour durch mehrere Regionen</alias>
+    <region type="array">
+        <region type="region" id="146" />
+        <region type="region" id="149" />
+    </region>
+    <options type="varchar">LOCATION_HIDE</options>
+    <state type="state" />
+</location>
+<location type="location" id="102308" name="Tour durch mehrere Regionen" language="de" revision="1" tstamp="1549920925">
+    <alias type="varchar">Tour durch mehrere Regionen</alias>
+    <region type="array">
+        <region type="region" id="146" />
+        <region type="region" id="152" />
+    </region>
+    <options type="varchar">LOCATION_HIDE</options>
+    <state type="state" />
+</location>
+<location type="location" id="105473" name="Tour durch mehrere Regionen" language="de" revision="1" tstamp="1549920926">
+    <alias type="varchar">Tour durch mehrere Regionen</alias>
+    <region type="array">
+        <region type="region" id="146" />
+        <region type="region" id="141" />
+        <region type="region" id="140" />
+        <region type="region" id="152" />
+    </region>
+    <options type="varchar">LOCATION_HIDE</options>
+    <state type="state" />
+</location>
+<location type="location" id="127797" name="Tour durch mehrere Regionen" language="de" revision="1" tstamp="1549219901">
+    <alias type="varchar">Tour durch mehrere Regionen</alias>
+    <region type="array">
+        <region type="region" id="140" />
+        <region type="region" id="141" />
+        <region type="region" id="146" />
+    </region>
+    <options type="varchar">LOCATION_HIDE</options>
+    <state type="state" />
+</location>
+
+<department type="department" id="168" name="Belzig" language="de" revision="1" tstamp="1265125966" />
+<department type="department" id="185" name="Döbern-Land" language="de" revision="1" tstamp="1265125967" />
+<department type="department" id="242" name="Kremmen" language="de" revision="1" tstamp="1265125969" />
+<department type="department" id="243" name="Kyritz" language="de" revision="1" tstamp="1265125969" />
+<department type="department" id="258" name="Lychen" language="de" revision="1" tstamp="1265125969" />
+<department type="department" id="278" name="Niemegk" language="de" revision="1" tstamp="1265125970" />
+<department type="department" id="352" name="Wiesenburg/Mark" language="de" revision="1" tstamp="1265125972" />
+<district type="district" id="377" name="Oberhavel" language="de" revision="1" tstamp="1265125972" />
+<district type="district" id="380" name="Ostprignitz-Ruppin" language="de" revision="1" tstamp="1265125972" />
+<district type="district" id="382" name="Potsdam-Mittelmark" language="de" revision="1" tstamp="1265125973" />
+<district type="district" id="384" name="Spree-Neiße" language="de" revision="1" tstamp="1265125973" />
+<district type="district" id="386" name="Uckermark" language="de" revision="1" tstamp="1265125973" />

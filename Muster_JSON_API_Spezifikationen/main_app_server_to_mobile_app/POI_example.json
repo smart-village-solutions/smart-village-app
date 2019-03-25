@@ -1,0 +1,242 @@
+{
+    "poi": {
+        "id": 21,
+        "poi_id_tmb": "11399",
+        "german":{
+            "name": "Burg Rabenstein",
+            "description": "Die Burg Rabenstein gehört zu den schönsten Burgen in Brandenburg. Im 13. Jahrhundert wurde die Anlage auf dem 153 Meter hohen \"Steilen Hagen\" das erste Mal erwähnt. Die Burg galt lange Zeit als uneinnehmbar. Zur Burganlage gehören eine Kapelle, ein Rittersaal und die Folterkammer. Im Burgvorhof befinden sich der Brunnen, die Scheune und das Backhaus. Der 30 Meter hohe Bergfried bietet eine einmalige Aussicht über den Hohen Fläming. Jedes Jahr zu Ostern findet auf Burg Rabenstein ein mittelalterliches Burgspektakel statt.",
+            "mobile_description": "Beschriebungstext speziell für mobile Endgeräte, falls vorhanden"
+        },
+        "english":{
+            "name": "Rabenstein Castle",
+            "description": "Rabenstein Castle is located in the midst of the “Steile Hagen“ (a steep hill) at the dizzy height of 153 metres where once, in the Middle Ages, sabres rattled and the armour of knights clattered. The complex, with the keep of almost 30m in height at its centre, was probably built in the 12th century. The knights’ hall, the working quarters, the well, the barn and the baking house can be visited and provide information about life in earlier centuries. Every year at Easter, there is a medieval spectacle at Rabenstein Castle. The visitor information centre for the Hohe (high) Fläming Nature Park is at the old distillery in the village of Raben. Buying products that are typical of Fläming, renting bicycles and finding out everything about hikes and bicycle rides through the nature park: all this is on the agenda here.",
+            "mobile_description": "description text for mobile devices"
+        },
+        "category": [
+            "Sehenswürdigkeiten",
+            "Burgen"
+        ],
+        "created_at": "test",
+        "updated_at": "test",
+        "status": "active",
+        "tour": "false",
+        "poi_provider": "TMB",
+        "inactive_period": {
+            "from": "2019-03-01",
+            "till": "2019-05-31"
+        },
+        "address": { 
+            "addition": "blablub",
+            "city": "Rabenstein/Fläming OT Raben",
+            "street": "Zur Burg 49",
+            "zip": 14823,
+            "coordinates": { //man bekommt die coordinaten im lat lng Format wenn man beim Abruf den Parameter  /latlng/true in der URL mitschickt.
+                "coordinate":{
+                    "lat": 3334076,
+                    "lng": 5767630
+            }       
+        },
+        "contact": {
+            "telephone": "033848-60221",
+            "e-mail": "info@burgrabenstein.de",
+            "fax": "033848-60230",
+            "url": "www.burgrabenstein.de"
+        },
+        "responsible_provider_of_poi": { //Betreiberverein der Burg/POI/Schwimmbad
+            "name": "Fremdenverkehrsverein \"Niemegker-Land\" e.V.",
+            "address": { 
+                "city": "Rabenstein/Fläming OT Raben",
+                "street": "Zur Burg 49",
+                "zip": 14823
+            },
+            "contact": {
+                "telephone": "033848-60221",
+                "e-mail": "info@burgrabenstein.de",
+                "fax": "033848-60230",
+                "url": "www.burgrabenstein.de"
+            }
+        },
+        "location": { //laut Dokumentation ist dies die VErknüpfung eines POI mit geographischen MErkmalen(region, department district, nächstgelegner Ort, Postadresse und koordinate des poi findet man im adressbereich)
+            "id": 3581,
+            "name": "Raben",
+            "department": "Niemegk",
+            "district": "Potsdam-Mittelmark",
+            "region": "Fläming",
+            "coordinates": {
+                "lat": 3333869,
+                "lng": 5768485,
+                "type": "utm33"
+            },
+            "adress_opt": {
+                "zip":"",
+                "city": "",
+                 "street": ""
+            }
+        },
+        "thumbnail": "thumbnail_image_url",
+        "image_gallery": [
+            "image_url_1",
+            "image_url_2",
+            "image_url_3"
+        ],
+        "price": [
+            {
+                "category": "adult",
+                "price": 2.50,
+                "description": "Museum+Turm"
+            },
+            {
+                "category": "reduced",
+                "price": 1.50,
+                "description": "Museum+Turm"
+            },
+            {
+                "category": "senior",
+                "agefrom": 65,
+                "price": 1.00,
+                "description": "Museum+Turm"
+            },
+            {
+                "category": "children",
+                "price": 0.50,
+                "agefrom": 6,
+                "ageto": 17,
+                "description": "Museum+Turm"
+            },
+            {
+                "category": "family",
+                "price": 6.50,
+                "groupprice": "true",
+                "agefrom": 5,
+                "ageto": 17,
+                "adultcount": 2,
+                "childrencount": 3,
+                "description": "Museum+Turm"
+            },
+            {
+                "category": "group",
+                "price": 12.50,
+                "adultcount": 8,
+                "childrencount": 4,
+                "description": "Museum+Turm"
+            },
+            {
+                "category": "Burgtarif", //bei category other/discount steht hier das was tmb im xml tag categorytext liefert(falls categorytext gefüllt)                   
+                "price": 1.00,
+                "description": "Turm (ohne Museum)"
+            },
+            {
+                "category": "Arbeistlosentarif", //bei category other/discount steht hier das was tmb im xml tag categorytext liefert(falls categorytext gefüllt)                   
+                "price": 0.50,
+                "description": "Museum+Turm"
+            },
+            {
+                "description": "Kinder unter 6 Jahren haben immer freien Eintritt"
+            }
+        ],
+        "openinghours":{
+            "openingtimedate": [
+                {
+                    "weekday": "wednesday",
+                    "timefrom": "11:00:00",
+                    "timeto": "20:00:00",
+                    "open": true
+                },
+                {
+                    "weekday": "thursday",
+                    "timefrom": "11:00:00",
+                    "timeto": "20:00:00",
+                    "open": true
+                },
+                {
+                    "weekday": "friday",
+                    "timefrom": "11:00:00",
+                    "timeto": "20:00:00",
+                    "open": true
+                },
+                {
+                    "weekday": "saturday",
+                    "timefrom": "11:00:00",
+                    "timeto": "18:00:00",
+                    "open": true
+                },
+                {
+                    "weekday": "sunday",
+                    "date_from": "01.03.",
+                    "date_to": "01.09.",
+                    "timefrom": "11:00:00",
+                    "timeto": "19:00:00",
+                    "open": true
+                },
+                {
+                    "weekday": "holidays",
+                    "timefrom": "11:00:00",
+                    "timeto": "19:00:00",
+                    "open": true
+                },
+                {
+                    "weekday": "sylvester",
+                    "timefrom": "10:00:00",
+                    "timeto": "13:00:00",
+                    "open": true
+                },
+                {
+                    "weekday": "christmas_eve",
+                    "timefrom": "10:00:00",
+                    "timeto": "13:00:00",
+                    "open": true
+                },
+                {
+                    "weekday": "first_christmas_day",
+                    "timefrom": "10:00:00",
+                    "timeto": "13:00:00",
+                    "open": true
+                },
+                {
+                    "weekday": "second_christmas_day",
+                    "timefrom": "10:00:00",
+                    "timeto": "13:00:00",
+                    "open": false
+                },
+                {
+                    "weekday": "second_christmas_day",
+                    "timefrom": "10:00:00",
+                    "timeto": "13:00:00",
+                    "open": false
+                },
+                {
+                    "weekday": "new_year",
+                    "timefrom": "10:00:00",
+                    "timeto": "13:00:00",
+                    "open": false
+                }
+            ],
+            "additional_information": "letzter Eintritt eine Stunde vor Schließung"
+        },
+        "vendor": {
+            "address": {
+                "name": "Tourismusagentur BB",
+                "city": "Potsdam",
+                "zip": 14467,
+                "street": "Am Neuen Markt 1"
+            },
+            "contact": {
+                "phone": "0123-456789",
+                "fax": "0123-987654",
+                "emai": "test@test.de",
+                "url": "www.test.de"
+            }
+        },
+        "tags": ["Freilufttheater", "Geschichts- und Gewerbemuseum", "Historische Baudenkmäler"],
+       //booking code product und packages machen nur für hotels und andere arten von unterküften sinnn die mit dem Buchungssystem Toimas verknüpft sind und eine TOMAS_ID haben. Gleiches gilt für buchungslink zu anderen buchungssystemen
+        "bookingcode": {
+            "hotelcode": "9XXX",
+            "productcode": "J87DH",
+            "tomasid": "TMBXXX"
+        },
+        "product": "basic or premium",
+        "packages": "Hier kann (bei Unterkünften) eine Pauschale eingetragen sein.",
+        "certificates": ["Anbieter mit Zertifizierung: 'Burgen Qualität Deutschland'"],
+        "barrierefreiheit_info_link": "http://www.barrierefrei- brandenburg.de/index.php?id=dsview&tx_tmbpoisearch_pi2[poi]=11399"
+    }
+}

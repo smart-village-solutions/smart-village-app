@@ -1,0 +1,99 @@
+<poi type="poi" id="11498" language="de" revision="1" name="Schloss Wiesenburg" tstamp="1457604900">
+		<addresses type="array">
+			<address type="address">
+				<addition type="varchar">Schloss Wiesenburg GbR, Arne Ahlert</addition>
+				<location type="varchar">Wiesenburg</location>
+				<zip type="varchar">14827</zip>
+				<street type="varchar">Schlossstraße 1</street>
+				<coordinates type="array">
+					<coordinate type="coordinate" cos="utm33">
+						<x type="varchar">3325558</x>
+						<y type="varchar">5776638</y>
+						<type type="coordinateType">utm33</type>
+					</coordinate>
+				</coordinates>
+			</address>
+		</addresses>
+		<connections type="array">
+			<connection type="connection">
+				<type type="connectionType">telefon</type>
+				<information type="text">033849-30980</information>
+			</connection>
+			<connection type="connection">
+				<type type="connectionType">url</type>
+				<information type="text">http://www.schloss-wiesenburg.de</information>
+			</connection>
+			<connection type="connection">
+				<type type="connectionType">email</type>
+				<information type="text">info@tourismusverein-wiesenburgmark.de</information>
+			</connection>
+		</connections>
+		<categories type="array">
+			<classification type="classification_category_poi" id="5497" />
+		</categories>
+		<description type="rte">
+			<text type="text">Wiesenburg besitzt mit seinem Schlossturm mit der kegelförmigen Spitze ein nicht zu übersehendes Wahrzeichen. Der Turm ist Teil einer Schlossanlage, die aus einer mittelalterlichen Burg des 12. Jahrhunderts hervorgegangen ist. Nach einem Feuer wird das Schloss als Renaissancebau ab dem Jahre 1550 wieder aufgebaut. In den Jahren zwischen 1864 bis 1880 erhält es seine heutige Gestalt im Neorenaissancestil. Von der mittelalterlichen Burg ist heute nur noch der Bergfried im Eingangsbereich das heutigen Schlosses vorhanden. In der Heimatstube im Bergfried wird über die Wiesenburg und die Geschichte des Schlosses informiert. Sehr gut erhalten sind die Portal-Einrahmungen aus dem 17. und 18. Jahrhundert sowie das Männekentor. Im Hof befindet sich ein Brunnen von 1609. Eine breite Terrasse leitet zum großen Landschaftspark über.
+
+Der unter Landschaftsschutz gestellte Schlosspark mit seinem bemerkenswerten Baumbestand, den Terrassenbeeten, Teichen und angrenzendem Wald ist wohl der bedeutendste zwischen Sanssouci und Wörlitz. Eine besondere Attraktion ist die Rhododendronblüte. 
+
+Schloss Wiesenburg ist heute in privater Nutzung. Im Torhaus befindet sich die die Touristinformation mit Museum und Möglichkeit zum Turmaufstieg. Informationsmaterial ist auch erhältlich im Rathaus (Mo-Fr) oder in der Bibliothek nebenan (Di/Do), Zimmernachweis auch im Schaukasten am Goetheplatz.</text>
+		</description>
+		<location type="location" id="75288" />
+		<thumbnail type="file" id="236910" />
+		<gallery type="array">
+			<file type="file" id="202466" />
+			<file type="file" id="202467" />
+			<file type="file" id="202468" />
+		</gallery>
+		<hasDatasheet type="bool">false</hasDatasheet>
+		<canonical type="varchar">https://www.reiseland-brandenburg.de/poi/flaeming/schloesser-und-parks/schloss-wiesenburg/</canonical>
+		<openinghours type="array">
+			<openingtimedate type="openingtimedate">
+				<weekday type="varchar">monday</weekday>
+				<timefrom type="time">11:00:00</timefrom>
+				<timeto type="time">16:00:00</timeto>
+				<open type="bool">t</open>
+			</openingtimedate>
+			<openingtimedate type="openingtimedate">
+				<weekday type="varchar">tuesday</weekday>
+				<timefrom type="time">11:00:00</timefrom>
+				<timeto type="time">16:00:00</timeto>
+				<open type="bool">t</open>
+			</openingtimedate>
+			<openingtimedate type="openingtimedate">
+				<weekday type="varchar">wednesday</weekday>
+				<timefrom type="time">11:00:00</timefrom>
+				<timeto type="time">16:00:00</timeto>
+				<open type="bool">t</open>
+			</openingtimedate>
+			<openingtimedate type="openingtimedate">
+				<weekday type="varchar">thursday</weekday>
+				<timefrom type="time">11:00:00</timefrom>
+				<timeto type="time">16:00:00</timeto>
+				<open type="bool">t</open>
+			</openingtimedate>
+			<openingtimedate type="openingtimedate">
+				<weekday type="varchar">friday</weekday>
+				<timefrom type="time">11:00:00</timefrom>
+				<timeto type="time">16:00:00</timeto>
+				<open type="bool">t</open>
+			</openingtimedate>
+			<openingtimedate type="openingtimedate">
+				<weekday type="varchar">saturday</weekday>
+				<timefrom type="time">11:00:00</timefrom>
+				<timeto type="time">16:00:00</timeto>
+				<open type="bool">t</open>
+			</openingtimedate>
+			<openingtimedate type="openingtimedate">
+				<weekday type="varchar">sunday_holiday</weekday>
+				<timefrom type="time">11:00:00</timefrom>
+				<timeto type="time">16:00:00</timeto>
+				<open type="bool">t</open>
+			</openingtimedate>
+		</openinghours>
+		<tags type="array">
+			<attribute type="attribute_tag" id="83077">
+				<value type="text">true</value>
+			</attribute>
+		</tags>
+	</poi>

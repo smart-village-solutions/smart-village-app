@@ -1,0 +1,199 @@
+Innerhalb des poi tags der tmb xml findet sich die xml repräsentation der poi tabelle der brandenburger tourismus datenbank
+
+WURZEL(root)-ATTRIBUTE (NAME, ID, SPRACHE, REVISION, ZEITSTEMPEL, LETZTER BEARBEITER)
+
+Ort (Location)
+     verweist auf einen Eintrag der Ort Location Seite
+
+Stammdatum((MASTERDATA))
+    ist zugewiesen hat aber keine Funktion
+
+Eintrag nicht anzeigen(NONVALIDITYPERIOD)
+    Das Feld Eintrag nicht anzeigen besteht aus zwei Werten, welche einen Zeitraum markieren. In diesem Zeitraum soll das POI als inaktiv betrachtet werden!
+
+Adressen(ADDRESSES) type:Array
+    Ein POI kann 0..n Adressen enthalten, welche jeweils einen Ortsnamen, eine Postleitzahl, 
+    die Straße sowie eine beliebige Anzahl an Koordinaten beinhalten können. 
+    Unter dem Punkt addresses werden die Elemente noch einmal im Einzelnen aufgeführt.
+
+VERBINDUNGEN (CONNECTIONS)
+    Ein POI kann 0..n Verbindungen besitzen. 
+    Typisch repräsentieren diese beispielsweise Telefon/Fax/Email-Verbindungen. 
+    Mehr Informationen zu den möglichen Verbindungsarten befinden sich unter connection.
+Jede Verbindungsart kann hierbei beliebig oft vorkommen - zum Beispiel können mehre E-Mail- Adressen 
+angegeben sein. Eine Unterscheidung zwischen verschiedenen Adressen einer 
+Verbindungsart ist redaktionell nicht möglich.
+
+KATEGORIEN (CATEGORIES)
+    Ein Poi besitzt 1..n Kategorien, ist also ein “Pflichtfeld”. 
+    Eine Kategorie wird durch eine Klassifizierung repräsentiert, welche als Vorgänger die 
+    Klassifizierung “Kategorie (root)” / Id: 12 besitzt. Weitere Informationen befinden sich bei 
+    Kategorien. Die Rubriken / Kategorien und Ihre IDs werden in einer fortwährend aktualisierten 
+    Liste von der TMB zur Verfügung gestellt (falls nicht vorhanden, bitte anfordern).
+
+ZERTIFIKATE (CERTIFICATES)
+    Ein Poi besitzt 0..n Zertifikate. Ein Zertifikat wird durch eine Klassifizierung repräsentiert, 
+    welche als Vorgänger die Klassifizierung “Zertifikate (root)” / Id: 14 besitzt. 
+    Weitere Informationen befinden sich bei Zertifikate .
+    Die Zertifikate und Ihre IDs werden in einer fortwährend aktualisierten Liste von der TMB 
+    zur Verfügung gestellt. Die jeweils relevanten Zertifikate werden in dieser 
+    Liste den Kategorien zugeordnet.
+
+BESCHREIBUNG (DESCRIPTION)
+    Das Beschreibungfeld enthält ein Element vom Typ text. Dieses Element kann Text beliebiger 
+    Länge enthalten und HTML- Auszeichnungen verwenden.
+
+BESCHREIBUNG MOBIL (DESCRIPTIONMOBILESINGLE)
+    Das Feld “Beschreibung Mobil” enthält ein Element vom Typ text. Dieses Element kann Text 
+    beliebiger Länge enthalten und HTML-Auszeichnungen verwenden. Für mobile Endgeräte soll 
+    zunächst geprüft werden, ob für ein POI ein “mobiler Text” vorliegt. Ist dies nicht der Fall, 
+    wird der Standardtext (description) herangezogen.
+
+VORSCHAUBILD (THUMBNAIL)
+    Das Feld Vorschaubild enthält eine Referenz auf eine Bilddatei. Die Referenzierung erfolgt 
+    über das Attribut id.
+
+GALERIE (GALLERY)
+    Das Feld Galerie ist ein Array und enthält 0..n Referenzen auf Bilddateien. Die Referenzierung
+    erfolgt über das Attribut id der jeweiligen file-Elemente.
+
+BUCHUNGSCODE (BOOKINGCODE)
+    Das Feld Buchungscode ist ein Array und enthält 0..n Elemente des Typs bookingcodelang.
+<bookingcode type="array">
+    <bookingcodelang type="bookingcodelang">
+        <label type="varchar">Buchungscode</label>
+        <hotelcode type="varchar">12345</hotelcode>
+        <productcode type="varchar">6789</productcode>
+        <language type="varchar">DE</language>
+        <tomasid type="varchar">12345</tomasid>
+    </bookingcodelang>
+</bookingcode>
+    
+    label           Bezeichnet den Namen eines Angebotes
+    hotelcode       Bezeichnet den Hotelcode aus dem Buchungssystem TOMAS (z.B. 9HBBL1234)
+    productcode     Bezeichnet den Leistungscode aus dem Buchungssystem TOMAS (z.B. WB1)
+    language        Bezeichnet die Sprache der Buchung, die angesprochen werden soll, üblicherweise “de”
+    tomasid         Bezeichnet die TOMAS-ID des Anbieters. Hiermit kann bspw. die Verbindung zur 
+                    TOMAS SOAP-Schnittstelle hergestellt werden, um Daten wie Vakanzen und Preise live abzufragen.
+
+SONSTIGER BUCHUNGSLINK (OTHERBOOKINGCODE)
+    Das Feld Sonstiger Buchungslink ist ein varchar-Feld, welches einmal pro POI verwendet werden
+    kann. Hier können sonstige Links zu beliebigen Buchungssystemen und Websites mit Buchungsfunktionen
+    hinterlegt werden.
+
+PRODUKTART (PRODUCT)
+    Das Feld Produktart dient der Unterscheidung der POIs in Basis- und Premiumeinträge.
+
+HAT DATENBLATT (HASDATASHEET)
+    Dieses Feld vom Typ bool gibt an, ob zu dem POI ein Datenblatt mit 
+    Barrierefreiheits-Informationen verfügbar ist.
+    Ist der Wert true, so kann mithilfe der POI-Id ein Link zur Webseite “Barrierefrei Brandenburg”
+    erzeugt werden. Der Link hat die Form 
+    http://www.barrierefrei- brandenburg.de/index.php?id=dsview&tx_tmbpoisearch_pi2[poi]=XXXXX - 
+    wobei XXXXX für die ID des POI steht!
+
+SEO-LINK (CANONICAL)
+    Dieses Textfeld enthält einen URL-Verweis auf den entsprechenden POI-Eintrag im Reiseland 
+    Brandenburg (falls vorhanden).
+
+PREISE (PRICE)
+    Dieses Array-Feld enthält 0..n Preisinformationen vom Typ pricerangecomplex. Die Preise können
+    je nach ausgezeichneter Kategorie unterschiedliche Felder enthalten.
+
+<price type="array">
+    <pricerangecomplex type="pricerangecomplex">
+        <category type="pricecategory">adult</category>
+        <price type="text">7</price>
+        <description type="text">Beschreibung zum Preis</description>
+    </pricerangecomplex>
+    <pricerangecomplex type="pricerangecomplex">
+        <category type="pricecategory">discount</category>
+        <categorytext type="text">Gruppen</categorytext>
+        <description type="text">Beschreibung Gruppen</description>
+    </pricerangecomplex>
+</price>
+
+    PRICERANGECOMPLEX
+    Der Datentyp Preis besteht aus 9 Feldern, welche jedoch nicht in allen Preiskategorien Anwendung finden.
+<pricerangecomplex type="pricerangecomplex">
+    <category type="pricecategory">discount</category>
+    <price type="text">10</price>
+    <ageto type="int2">0</ageto>
+    <agefrom type="int2">16</agefrom>
+    <adultcount type="int2">2</adultcount>
+    <childrencount type="int2">4</childrencount>
+    <groupprice type="bool">t</groupprice>
+    <categorytext type="text">Text 123</categorytext>
+    <description type="text">Beschreibung 123</description>
+</pricerangecomplex>
+    
+    category    Dieser Wert bestimmt die Kategorie des Preises, welche wiederum die Verwendung der folgenden Felder definiert. 
+                
+                Mögliche Werte:
+                    children
+                    adult
+                    group 
+                    family 
+                    senior 
+                    reduced 
+                    discount 
+                    other
+   
+    price           Der Preis in Euro
+    ageto/agefrom   Gültigkeit nach Altersbereich
+    adultcount      Maximale Anzahl der Erwachsenen
+    childrencount   Maximale Anzahl der Kinder
+    groupprice      Wenn der Wert true ist, ist der Preis als Gruppenpreis zu interpretieren
+    categorytext    Bei Auswahl der Kategorien „other“ und „discount“ wird hier die Kategorie frei benannt
+    description     Ein freies Textfeld zur Beschreibung
+
+
+WEITERE PREISE (OTHERPRICE)
+    Das Feld Weitere Preise ist ein varchar- Feld, welches einmal pro POI verwendet werden kann.
+
+ÖFFNUNGSZEITEN (OPENINGHOURS)
+    Das Öffnungszeiten-Feld ist ein Array mit 0..n Elementen vom Typ openingtimedate
+
+<openinghours type="array">
+    <openingtimedate type="openingtimedate">
+        <weekday type="varchar">tuesday</weekday>
+        <timefrom type="time">00:00:00</timefrom>
+        <timeto type="time">00:00:00</timeto>
+        <open type="bool">t</open>
+    </openingtimedate>
+    <openingtimedate type="openingtimedate">
+        <weekday type="varchar">thursday</weekday>
+        <timefrom type="time">00:00:00</timefrom>
+        <timeto type="time">00:00:00</timeto>
+        <open type="bool">t</open>
+    </openingtimedate>
+    <openingtimedate type="openingtimedate">
+        <weekday type="varchar">friday</weekday>
+        <timefrom type="time">00:00:00</timefrom>
+        <timeto type="time">00:00:00</timeto>
+        <open type="bool">t</open>
+    </openingtimedate>
+    <openingtimedate type="openingtimedate">
+        <weekday type="varchar">newYear</weekday>
+        <timefrom type="time">00:00:00</timefrom>
+        <timeto type="time">00:00:00</timeto>
+    </openingtimedate>
+    <openingtimedate type="openingtimedate">
+        <weekday type="varchar">christmasEve</weekday>
+        <timefrom type="time">00:00:00</timefrom>
+        <timeto type="time">00:00:00</timeto>
+    </openingtimedate>
+</openinghours>
+
+SONSTIGE ÖFFNUNGSZEITEN (OTHEROPENINGHOURS)
+    Das Feld Sonstige Öffnungszeiten ist ein varchar- Feld, welches einmal pro POI verwendet werden kann. 
+    Hier können Hinweise oder weitere Informationen zur Öffnungszeit hinterlegt werden.
+    <otheropeninghours type="varchar">letzter Eintritt eine Stunde vor Schließung </otheropeninghours>
+
+TOUREN (TOURS)
+    Das Feld Touren ist ein Array-Feld, welches Referenzen auf 0..n Einträge vom Typ tour enthalten kann. 
+    Die Referenzierung erfolgt über das id-Attribut innerhalb eines Touren-Elements.
+    DEtails siehe Touren Tabelle.
+    <tours type="array">
+        <tour type="tour" id="77434"/>
+    </tours>

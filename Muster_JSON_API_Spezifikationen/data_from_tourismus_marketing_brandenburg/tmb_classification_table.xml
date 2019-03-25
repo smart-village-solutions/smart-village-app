@@ -1,0 +1,2176 @@
+<classification type="classification" id="5489" language="de" revision="1" name="Sehenswürdigkeiten" tstamp="1546602919">
+    <options type="varchar">TMB_HIDE,</options>
+    <alt type="varchar">Sehenswürdigkeiten</alt>
+    <icon type="file" id="354569" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5481" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5489" language="en" revision="1" name="Tourist attractions" tstamp="1546602920">
+    <options type="varchar">MOBILE_HIDE,TMB_HIDE,</options>
+    <alt type="varchar">Tourist attractions</alt>
+    <icon type="file" id="357898" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5481" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5490" language="de" revision="1" name="Ferienwohnungen etc." tstamp="1546602920">
+    <options type="varchar">SEND_REMINDER,BRBAZ_HOST</options>
+    <alt type="varchar">Ferienwohnungen, -häuser und -parks</alt>
+    <icon type="file" id="342877" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5474" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5491" language="de" revision="1" name="Hotels, Pensionen etc." tstamp="1546602920">
+    <options type="varchar">SEND_REMINDER,BRBAZ_HOST</options>
+    <alt type="varchar">Hotels, Pensionen, Privatzimmer</alt>
+    <icon type="file" id="342892" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5474" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5492" language="de" revision="1" name="Museen" tstamp="1546602920">
+    <options type="varchar">SEND_REMINDER</options>
+    <alt type="varchar">Museen, Außenstandorte mit geschichtlicher Bedeutung, Ausstellungen, Lehrpfaden</alt>
+    <icon type="file" id="345686" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5477" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5494" language="de" revision="1" name="In der Luft" tstamp="1546602921">
+    <options type="varchar">SEND_REMINDER</options>
+    <alt type="varchar">Flugzeug-, Segelflug- und Ballonangebote</alt>
+    <icon type="file" id="342893" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5479" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5495" language="de" revision="1" name="Bühnen" tstamp="1546602921">
+    <options type="varchar">SEND_REMINDER</options>
+    <alt type="varchar">Theater- und Kleinkunstbühnen</alt>
+    <icon type="file" id="345681" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5477" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5497" language="de" revision="1" name="Schlösser und Parks" tstamp="1546602922">
+    <options type="varchar">SEND_REMINDER</options>
+    <alt type="varchar">Schlösser und Parkanlagen</alt>
+    <icon type="file" id="342910" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5477" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5498" language="de" revision="1" name="Kirchen" tstamp="1546602923">
+    <options type="varchar">SEND_REMINDER</options>
+    <alt type="varchar">Kirchen</alt>
+    <icon type="file" id="345684" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5477" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5500" language="de" revision="1" name="Burgen" tstamp="1546602923">
+    <options type="varchar">SEND_REMINDER</options>
+    <alt type="varchar">Burgen</alt>
+    <icon type="file" id="342873" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5477" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5503" language="de" revision="1" name="Gärten und Parkanlagen" tstamp="1546602925">
+    <options type="varchar">SEND_REMINDER</options>
+    <alt type="varchar">Gärten und Parkanlagen</alt>
+    <icon type="file" id="342881" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5479" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5504" language="de" revision="1" name="Gastronomie" tstamp="1546602925">
+    <options type="varchar">SEND_REMINDER,BRBAZ_GASTRONOMY</options>
+    <alt type="varchar">Restaurants, Cafés und Ausflugsgaststätten</alt>
+    <icon type="file" id="354571" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5475" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5504" language="en" revision="1" name="Gastronomy" tstamp="1546602925">
+    <options type="varchar">SEND_REMINDER,MOBILE_HIDE,BRBAZ_GASTRONOMY,TMB_HIDE,</options>
+    <alt type="varchar">Restaurants, Cafés and taverns</alt>
+    <icon type="file" id="357844" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5475" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5505" language="de" revision="1" name="Radtouren" tstamp="1546602926">
+    <alt type="varchar">Fernradwege und regionale Radrouten</alt>
+    <icon type="file" id="342907" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5479" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5505" language="en" revision="1" name="Bike tours" tstamp="1546602926">
+    <options type="varchar">MOBILE_HIDE,TMB_HIDE,</options>
+    <alt type="varchar">Long distance and regional cycle paths</alt>
+    <icon type="file" id="357848" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5479" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5506" language="de" revision="1" name="Wandertouren" tstamp="1546602926">
+    <alt type="varchar">Wanderwege</alt>
+    <icon type="file" id="342920" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5479" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5506" language="en" revision="1" name="Hiking tours" tstamp="1546602926">
+    <options type="varchar">TMB_HIDE,</options>
+    <alt type="varchar">Hiking trails</alt>
+    <icon type="file" id="357847" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5479" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5511" language="de" revision="1" name="Strand- und Freibäder" tstamp="1546602927">
+    <options type="varchar">SEND_REMINDER</options>
+    <alt type="varchar">Strand- und Freibäder (mit wassertouristischer Infrastruktur)</alt>
+    <icon type="file" id="342915" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5480" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5513" language="de" revision="1" name="Hofläden" tstamp="1546602928">
+    <options type="varchar">SEND_REMINDER</options>
+    <alt type="varchar">Hofläden, Selbstpflücke</alt>
+    <icon type="file" id="354570" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5475" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5514" language="de" revision="1" name="Nationale Naturlandschaften" tstamp="1546602929">
+    <options type="varchar">TMB_HIDE,BRBAZ_HIDE</options>
+    <alt type="varchar">Nationale Naturlandschaften</alt>
+    <icon type="file" id="353410" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5479" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5515" language="de" revision="1" name="Thermen" tstamp="1546602929">
+    <options type="varchar">SEND_REMINDER</options>
+    <alt type="varchar">Thermen</alt>
+    <icon type="file" id="342917" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5485" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5516" language="de" revision="1" name="Campingplätze" tstamp="1546602929">
+    <options type="varchar">SEND_REMINDER</options>
+    <alt type="varchar">Campingplätze</alt>
+    <icon type="file" id="342874" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5474" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5517" language="de" revision="1" name="Wohnmobilstellplätze" tstamp="1546602930">
+    <options type="varchar">SEND_REMINDER</options>
+    <alt type="varchar">Wohnmobilstellplätze</alt>
+    <icon type="file" id="342925" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5474" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5518" language="de" revision="1" name="Kanutouren" tstamp="1546602930">
+    <alt type="varchar">Kanutouren (Empfehlungen)</alt>
+    <icon type="file" id="342896" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5480" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5519" language="de" revision="1" name="Hausboottouren" tstamp="1546602931">
+    <alt type="varchar">Motorboottouren (Empfehlungen)</alt>
+    <icon type="file" id="342889" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5480" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5524" language="de" revision="1" name="Fahrradvermietung/-service" tstamp="1546602931">
+    <options type="varchar">SEND_REMINDER</options>
+    <alt type="varchar">Fahrradvermietung/-service</alt>
+    <icon type="file" id="342876" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5479" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5526" language="de" revision="1" name="Reiterhöfe" tstamp="1546602932">
+    <options type="varchar">SEND_REMINDER</options>
+    <alt type="varchar">Reiterhöfe, Pferdepensionen, Kremserfahrten, Ponyreiten, Reitschulen</alt>
+    <icon type="file" id="342908" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5479" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5527" language="de" revision="1" name="Historische Stadtkerne" tstamp="1546602932">
+    <options type="varchar">TMB_HIDE,</options>
+    <alt type="varchar">Städte mit historischem Stadtkern</alt>
+    <icon type="file" id="353407" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5477" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5528" language="de" revision="1" name="Ortsbeschreibung" tstamp="1546602932">
+    <options type="varchar">MOBILE_HIDE,TMB_HIDE</options>
+    <alt type="varchar">Ortsbeschreibung</alt>
+    <icon type="file" id="353411" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5481" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5529" language="de" revision="1" name="Geprüfte Touristinformationen und Info-Stellen" tstamp="1546602933">
+    <options type="varchar">SEND_REMINDER</options>
+    <alt type="varchar">Geprüfte Touristinformationen und Info-Stellen</alt>
+    <icon type="file" id="342883" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5481" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5533" language="de" revision="1" name="Aktiverlebnisse" tstamp="1546602933">
+    <options type="varchar">SEND_REMINDER</options>
+    <alt type="varchar">Klettergärten, Draisinenbahnen, Off-Radtouren</alt>
+    <icon type="file" id="342865" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5479" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5535" language="de" revision="1" name="Kinder- und Jugendunterkünfte" tstamp="1544795358">
+    <options type="varchar">SEND_REMINDER,BE_POI_NOEDIT,</options>
+    <alt type="varchar">Kinder- und Jugendunterkünfte</alt>
+    <icon type="file" id="357905" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5474" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5541" language="de" revision="1" name="Kurort" tstamp="1546602935">
+    <options type="varchar">TMB_HIDE</options>
+    <alt type="varchar">Kurort</alt>
+    <icon type="file" id="353409" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5485" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5554" language="de" revision="1" name="Handwerk &amp; Manufakturen" tstamp="1546602937">
+    <options type="varchar">SEND_REMINDER</options>
+    <alt type="varchar">Handwerk &amp; Manufakturen</alt>
+    <icon type="file" id="342887" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5486" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5555" language="de" revision="1" name="Tagungshotels" tstamp="1502831269">
+    <options type="varchar">BRBAZ_HIDE,BE_POI_NOEDIT,MOBILE_HIDE,JSMAP_HIDE,TMB_HIDE,</options>
+    <alt type="varchar">Tagungshotels</alt>
+    <icon type="file" id="357908" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5474" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5555" language="en" revision="1" name="Convention hotels" tstamp="1502832320">
+    <options type="varchar">BRBAZ_HIDE,BE_POI_NOEDIT,MOBILE_HIDE,TMB_HIDE,</options>
+    <alt type="varchar">Convention hotels</alt>
+    <icon type="file" id="357918" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5474" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5556" language="de" revision="1" name="Eventlocations" tstamp="1549537047">
+    <options type="varchar">BRBAZ_HIDE,JSMAP_HIDE,BE_POI_NOEDIT,MOBILE_HIDE,TMB_HIDE,</options>
+    <alt type="varchar">Tagungsstätten</alt>
+    <icon type="file" id="359389" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5474" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5578" language="de" revision="1" name="Ferienwohnung/-haus" tstamp="1524042887">
+    <alt type="varchar">Ferienwohnung und Ferienhaus</alt>
+    <icon type="file" id="294792" />
+    <parents type="array">
+        <classification type="classification" id="14" />
+        <classification type="classification" id="5564" />
+        <classification type="classification" id="98266" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+        <controller type="controller">Convention</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5579" language="de" revision="1" name="Gasthaus" tstamp="1520592293">
+    <options type="varchar">BRBAZ_HOST</options>
+    <alt type="varchar">Gasthaus</alt>
+    <icon type="file" id="294793" />
+    <parents type="array">
+        <classification type="classification" id="14" />
+        <classification type="classification" id="5564" />
+        <classification type="classification" id="98266" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+        <controller type="controller">Salesguide</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5580" language="de" revision="1" name="Hotel" tstamp="1520592294">
+    <alt type="varchar">Hotel</alt>
+    <icon type="file" id="294794" />
+    <parents type="array">
+        <classification type="classification" id="14" />
+        <classification type="classification" id="5564" />
+        <classification type="classification" id="98266" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+        <controller type="controller">Convention</controller>
+        <controller type="controller">Salesguide</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5580" language="en" revision="1" name="hotel" tstamp="1520592919">
+    <options type="varchar">TMB_HIDE,</options>
+    <alt type="varchar">hotel</alt>
+    <icon type="file" id="278601" />
+    <parents type="array">
+        <classification type="classification" id="14" />
+        <classification type="classification" id="5564" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+        <controller type="controller">Convention</controller>
+        <controller type="controller">Salesguide</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5583" language="de" revision="1" name="Privatzimmer" tstamp="1520592297">
+    <alt type="varchar">Privatzimmer</alt>
+    <icon type="file" id="294797" />
+    <parents type="array">
+        <classification type="classification" id="14" />
+        <classification type="classification" id="5564" />
+        <classification type="classification" id="98266" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5591" language="de" revision="1" name="ServiceQualität Deutschland Stufe 1" tstamp="1523186798">
+    <alt type="varchar">ServiceQualität Deutschland Stufe 1 </alt>
+    <icon type="file" id="294781" />
+    <parents type="array">
+        <classification type="classification" id="14" />
+        <classification type="classification" id="5561" />
+        <classification type="classification" id="98263" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+        <controller type="controller">Familypass</controller>
+        <controller type="controller">Kiju</controller>
+        <controller type="controller">Convention</controller>
+        <controller type="controller">Salesguide</controller>
+        <controller type="controller">Excursion</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5591" language="en" revision="1" name="Service Quality Germany Level 1" tstamp="1523449194">
+    <options type="varchar">TMB_HIDE,</options>
+    <alt type="varchar">Service Quality Germany Level 1</alt>
+    <icon type="file" id="278606" />
+    <parents type="array">
+        <classification type="classification" id="14" />
+        <classification type="classification" id="5561" />
+        <classification type="classification" id="14" />
+        <classification type="classification" id="14" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+        <controller type="controller">Familypass</controller>
+        <controller type="controller">Kiju</controller>
+        <controller type="controller">Convention</controller>
+        <controller type="controller">Salesguide</controller>
+        <controller type="controller">Excursion</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5592" language="de" revision="1" name="ServiceQualität Deutschland Stufe 2" tstamp="1523186798">
+    <alt type="varchar">ServiceQualität Deutschland Stufe 2 </alt>
+    <icon type="file" id="294782" />
+    <parents type="array">
+        <classification type="classification" id="14" />
+        <classification type="classification" id="5561" />
+        <classification type="classification" id="98263" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+        <controller type="controller">Familypass</controller>
+        <controller type="controller">Kiju</controller>
+        <controller type="controller">Convention</controller>
+        <controller type="controller">Salesguide</controller>
+        <controller type="controller">Excursion</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5594" language="de" revision="1" name="Anbieter mit ADFC Klassifizierung &quot;Bett &amp; Bike&quot;" tstamp="1520592296">
+    <alt type="varchar">Anbieter mit ADFC Klassifizierung "Bett &amp; Bike"</alt>
+    <icon type="file" id="294756" />
+    <parents type="array">
+        <classification type="classification" id="14" />
+        <classification type="classification" id="5568" />
+        <classification type="classification" id="98261" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+        <controller type="controller">Kiju</controller>
+        <controller type="controller">Convention</controller>
+        <controller type="controller">Salesguide</controller>
+        <controller type="controller">Excursion</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5594" language="en" revision="1" name="Accommodation provider with ADFC classification &quot;Bed &amp; Bike&quot;" tstamp="1520592917">
+    <options type="varchar">TMB_HIDE,</options>
+    <alt type="varchar">Accommodation provider with ADFC classification "Bed &amp; Bike"</alt>
+    <icon type="file" id="278591" />
+    <parents type="array">
+        <classification type="classification" id="14" />
+        <classification type="classification" id="5568" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+        <controller type="controller">Kiju</controller>
+        <controller type="controller">Convention</controller>
+        <controller type="controller">Salesguide</controller>
+        <controller type="controller">Excursion</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5597" language="de" revision="1" name="Zertifizierter Betrieb: Qualitätsmanagement Kinder- und Jugendtourismus" tstamp="1520592297">
+    <alt type="varchar">Zertifizierter Betrieb: Qualitätsmanagement Kinder- und Jugendtourismus</alt>
+    <icon type="file" id="294711" />
+    <parents type="array">
+        <classification type="classification" id="14" />
+        <classification type="classification" id="5565" />
+        <classification type="classification" id="98259" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+        <controller type="controller">Kiju</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5598" language="de" revision="1" name="Informationen für Gäste mit Mobilitätseinschränkungen" tstamp="1523186796">
+    <alt type="varchar">Informationen für Gäste mit  Mobilitätseinschränkungen</alt>
+    <icon type="file" id="294653" />
+    <parents type="array">
+        <classification type="classification" id="14" />
+        <classification type="classification" id="5566" />
+        <classification type="classification" id="98254" />
+        <classification type="classification" id="19" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+        <controller type="controller">Familypass</controller>
+        <controller type="controller">Kiju</controller>
+        <controller type="controller">Salesguide</controller>
+        <controller type="controller">Excursion</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5598" language="en" revision="1" name="Accessible for people with impaired mobility" tstamp="1523186795">
+    <options type="varchar">TMB_HIDE,</options>
+    <alt type="varchar">Information for guests with impaired mobility</alt>
+    <icon type="file" id="278589" />
+    <parents type="array">
+        <classification type="classification" id="14" />
+        <classification type="classification" id="5566" />
+        <classification type="classification" id="19" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+        <controller type="controller">Familypass</controller>
+        <controller type="controller">Kiju</controller>
+        <controller type="controller">Salesguide</controller>
+        <controller type="controller">Excursion</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5599" language="de" revision="1" name="Informationen für Gäste mit Sinneseinschränkungen" tstamp="1523186797">
+    <alt type="varchar">Informationen für Gäste mit Sinneseinschränkungen</alt>
+    <icon type="file" id="294692" />
+    <parents type="array">
+        <classification type="classification" id="14" />
+        <classification type="classification" id="5566" />
+        <classification type="classification" id="98255" />
+        <classification type="classification" id="19" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+        <controller type="controller">Familypass</controller>
+        <controller type="controller">Kiju</controller>
+        <controller type="controller">Salesguide</controller>
+        <controller type="controller">Excursion</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5600" language="de" revision="1" name="Informationen für Gäste mit Lernschwierigkeiten / &quot;geistiger Behinderung&quot;" tstamp="1523186796">
+    <alt type="varchar">Informationen für Gäste mit Lernschwierigkeiten / "geistiger Behinderung"</alt>
+    <icon type="file" id="294702" />
+    <parents type="array">
+        <classification type="classification" id="14" />
+        <classification type="classification" id="5566" />
+        <classification type="classification" id="98256" />
+        <classification type="classification" id="19" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+        <controller type="controller">Familypass</controller>
+        <controller type="controller">Kiju</controller>
+        <controller type="controller">Salesguide</controller>
+        <controller type="controller">Excursion</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5601" language="de" revision="1" name="Informationen für Gäste mit Allergien / speziellem Ernährungsbedarf" tstamp="1523186796">
+    <alt type="varchar">Informationen für Gäste mit Allergien / speziellem Ernährungsbedarf</alt>
+    <icon type="file" id="294709" />
+    <parents type="array">
+        <classification type="classification" id="14" />
+        <classification type="classification" id="5566" />
+        <classification type="classification" id="98258" />
+        <classification type="classification" id="19" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+        <controller type="controller">Familypass</controller>
+        <controller type="controller">Kiju</controller>
+        <controller type="controller">Salesguide</controller>
+        <controller type="controller">Excursion</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5601" language="en" revision="1" name="Activities for allergy sufferers and people with chronic illnesses" tstamp="1523186795">
+    <options type="varchar">TMB_HIDE,</options>
+    <alt type="varchar">Information for allergy sufferers/ people being on a special diet</alt>
+    <icon type="file" id="278592" />
+    <parents type="array">
+        <classification type="classification" id="14" />
+        <classification type="classification" id="5566" />
+        <classification type="classification" id="19" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+        <controller type="controller">Familypass</controller>
+        <controller type="controller">Kiju</controller>
+        <controller type="controller">Salesguide</controller>
+        <controller type="controller">Excursion</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5602" language="de" revision="1" name="2 Sterne" tstamp="1520592297">
+    <options type="varchar">BRBAZ_SORTING(2)</options>
+    <alt type="varchar">2 Sterne</alt>
+    <icon type="file" id="294785" />
+    <parents type="array">
+        <classification type="classification" id="14" />
+        <classification type="classification" id="5562" />
+        <classification type="classification" id="98264" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+        <controller type="controller">Convention</controller>
+        <controller type="controller">Salesguide</controller>
+        <controller type="controller">Kiju</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5603" language="de" revision="1" name="Anbieter mit Unterkunftssternen" tstamp="1520592295">
+    <options type="varchar">TMB_HIDE,</options>
+    <alt type="varchar">Anbieter mit Sterneklassifizierung nach Dt. Tourismusverband e.V. und Dt. Hotel- und Gaststättenverband e.V.</alt>
+    <icon type="file" id="278576" />
+    <parents type="array">
+        <classification type="classification" id="14" />
+        <classification type="classification" id="5563" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+        <controller type="controller">Convention</controller>
+        <controller type="controller">Salesguide</controller>
+        <controller type="controller">Kiju</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5603" language="en" revision="1" name="Yes, with star-classification" tstamp="1520592916">
+    <options type="varchar">TMB_HIDE,</options>
+    <alt type="varchar">Provider with star-classification</alt>
+    <icon type="file" id="278612" />
+    <parents type="array">
+        <classification type="classification" id="14" />
+        <classification type="classification" id="5563" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+        <controller type="controller">Convention</controller>
+        <controller type="controller">Salesguide</controller>
+        <controller type="controller">Kiju</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5604" language="de" revision="1" name="3 Sterne" tstamp="1520592296">
+    <options type="varchar">BRBAZ_SORTING(3)</options>
+    <alt type="varchar">3 Sterne</alt>
+    <icon type="file" id="294786" />
+    <parents type="array">
+        <classification type="classification" id="14" />
+        <classification type="classification" id="5562" />
+        <classification type="classification" id="98264" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+        <controller type="controller">Convention</controller>
+        <controller type="controller">Salesguide</controller>
+        <controller type="controller">Kiju</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5604" language="en" revision="1" name="3 stars" tstamp="1520592917">
+    <options type="varchar">BRBAZ_SORTING(3),TMB_HIDE,</options>
+    <alt type="varchar">3 stars</alt>
+    <icon type="file" id="278586" />
+    <parents type="array">
+        <classification type="classification" id="14" />
+        <classification type="classification" id="5562" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+        <controller type="controller">Convention</controller>
+        <controller type="controller">Salesguide</controller>
+        <controller type="controller">Kiju</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5605" language="de" revision="1" name="4 Sterne" tstamp="1520592296">
+    <options type="varchar">BRBAZ_SORTING(4)</options>
+    <alt type="varchar">4 Sterne</alt>
+    <icon type="file" id="294787" />
+    <parents type="array">
+        <classification type="classification" id="14" />
+        <classification type="classification" id="5562" />
+        <classification type="classification" id="98264" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+        <controller type="controller">Convention</controller>
+        <controller type="controller">Salesguide</controller>
+        <controller type="controller">Kiju</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5607" language="de" revision="1" name="Online Buchbar" tstamp="1520592293">
+    <options type="varchar">BRBAZ_BOOKABLE,TMB_HIDE,</options>
+    <alt type="varchar">Anbieter ist online buchbar</alt>
+    <icon type="file" id="278580" />
+    <parents type="array">
+        <classification type="classification" id="14" />
+        <classification type="classification" id="5569" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5610" language="de" revision="1" name="Anbieter zertifiziert nach Service Qualität Deutschland" tstamp="1523186795">
+    <options type="varchar"> BRBAZ_SERVICE_HIDE</options>
+    <alt type="varchar">Zertifiziert mit ServiceQualität Deutschland (Stufe 1-3) durch Tourismusakademie Brandenburg </alt>
+    <icon type="file" id="328410" />
+    <parents type="array">
+        <classification type="classification" id="14" />
+        <classification type="classification" id="5574" />
+        <classification type="classification" id="98263" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+        <controller type="controller">Convention</controller>
+        <controller type="controller">Kiju</controller>
+        <controller type="controller">Excursion</controller>
+        <controller type="controller">Salesguide</controller>
+        <controller type="controller">Familypass</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5610" language="en" revision="1" name="Service Quality Germany" tstamp="1523186798">
+    <options type="varchar">TMB_HIDE,</options>
+    <alt type="varchar">Provider certified with "Service Quality Germany" (levels 1 to 3) according to the tourism academy Brandenburg</alt>
+    <icon type="file" id="278605" />
+    <parents type="array">
+        <classification type="classification" id="14" />
+        <classification type="classification" id="5574" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+        <controller type="controller">Convention</controller>
+        <controller type="controller">Kiju</controller>
+        <controller type="controller">Excursion</controller>
+        <controller type="controller">Salesguide</controller>
+        <controller type="controller">Familypass</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5613" language="de" revision="1" name="Anbieter mit Zertifizierung &quot;Brandenburger Gastlichkeit&quot;" tstamp="1520592295">
+    <alt type="varchar">Anbieter mit Zertifizierung "Brandenburger Gastlichkeit"</alt>
+    <icon type="file" id="294765" />
+    <parents type="array">
+        <classification type="classification" id="14" />
+        <classification type="classification" id="5565" />
+        <classification type="classification" id="98262" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+        <controller type="controller">Convention</controller>
+        <controller type="controller">Salesguide</controller>
+        <controller type="controller">Excursion</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5613" language="en" revision="1" name="Provider certified with &quot;Brandenburg Hospitality&quot; seal" tstamp="1520592917">
+    <options type="varchar">TMB_HIDE,</options>
+    <alt type="varchar">Provider certified with "Brandenburg Hospitality" seal</alt>
+    <icon type="file" id="278603" />
+    <parents type="array">
+        <classification type="classification" id="14" />
+        <classification type="classification" id="5565" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+        <controller type="controller">Convention</controller>
+        <controller type="controller">Salesguide</controller>
+        <controller type="controller">Excursion</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="11259" language="de" revision="1" name="Verkauft" tstamp="1501102356">
+    <alt type="varchar">{Poi, Salesguide}</alt>
+    <parents type="array">
+        <classification type="classification" id="17" />
+    </parents>
+</classification>
+<classification type="classification" id="46760" language="de" revision="1" name="Bootsvermietung (Kanu etc.)" tstamp="1546602938">
+    <options type="varchar">SEND_REMINDER, </options>
+    <alt type="varchar">Kanus, Kajak, Canadier, Ruderboote, Tretboote</alt>
+    <icon type="file" id="342871" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5480" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="48319" language="de" revision="1" name="Superior" tstamp="1520592294">
+    <options type="varchar">BRBAZ_SORTING(0)</options>
+    <icon type="file" id="294789" />
+    <parents type="array">
+        <classification type="classification" id="5562" />
+        <classification type="classification" id="14" />
+        <classification type="classification" id="98264" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+        <controller type="controller">Convention</controller>
+        <controller type="controller">Salesguide</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="49221" language="de" revision="1" name="Gesundheit &amp; Entspannung" tstamp="1546602939">
+    <options type="varchar">SEND_REMINDER</options>
+    <alt type="varchar">Sauna, Massagen, Anwendungen, Yoga</alt>
+    <icon type="file" id="342885" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5485" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="51710" language="de" revision="1" name="Galerien &amp; Ateliers" tstamp="1546602941">
+    <options type="varchar">SEND_REMINDER,H</options>
+    <alt type="varchar">Galerien &amp; Ateliers</alt>
+    <icon type="file" id="345682" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5477" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="52883" language="de" revision="1" name="Tief durchatmen" tstamp="1523187235">
+    <options type="varchar">BE_POI_NOEDIT</options>
+    <alt type="varchar">Tief durchatmen </alt>
+    <icon type="file" id="342918" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5476" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="52884" language="de" revision="1" name="Landlust ausleben" tstamp="1523187230">
+    <options type="varchar">BE_POI_NOEDIT</options>
+    <alt type="varchar">Landlust ausleben </alt>
+    <icon type="file" id="342900" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5476" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="53834" language="de" revision="1" name="Geschäfte &amp; Einkaufszentren" tstamp="1546602942">
+    <options type="varchar">SEND_REMINDER,MOBILE_HIDE</options>
+    <alt type="varchar">Geschäfte &amp; Einkaufszentren</alt>
+    <icon type="file" id="342884" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5486" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="68770" language="de" revision="1" name="Stromtankstellen" tstamp="1546602943">
+    <options type="varchar">MOBILE_HIDE</options>
+    <alt type="varchar">Stromtankstellen für Elektroautos</alt>
+    <icon type="file" id="357906" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5483" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="68978" language="de" revision="1" name="Angelgewässer" tstamp="1546602944">
+    <options type="varchar">SEND_REMINDER,JSMAP_HIDE,MOBILE_HIDE</options>
+    <alt type="varchar">Angelgewässer</alt>
+    <icon type="file" id="342866" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5480" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="69677" language="de" revision="1" name="Besucherzentren" tstamp="1546602944">
+    <options type="varchar">SEND_REMINDER</options>
+    <alt type="varchar">Besucherzentren</alt>
+    <icon type="file" id="342870" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5479" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="76809" language="de" revision="1" name="Wanderbares Deutschland - Qualitätsweg" tstamp="1520592297">
+    <alt type="varchar">Zertifizierter Qualitätsweg Wanderbares Deutschland</alt>
+    <icon type="file" id="328413" />
+    <parents type="array">
+        <classification type="classification" id="14" />
+        <classification type="classification" id="98249" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+        <controller type="controller">Excursion</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="79565" language="de" revision="1" name="Aussichtstürme" tstamp="1546602944">
+    <options type="varchar">SEND_REMINDER</options>
+    <alt type="varchar">Aussichtstürme</alt>
+    <icon type="file" id="342868" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5479" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="79581" language="de" revision="1" name="Natur- und Landschaftsführungen" tstamp="1546602945">
+    <options type="varchar">SEND_REMINDER</options>
+    <alt type="varchar">Natur- und Landschaftsführungen</alt>
+    <icon type="file" id="342904" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5479" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="79582" language="de" revision="1" name="Historische Baudenkmäler und Stätten" tstamp="1546602945">
+    <options type="varchar">SEND_REMINDER</options>
+    <alt type="varchar">Historische Baudenkmäler und Stätten</alt>
+    <icon type="file" id="345683" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5477" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="79583" language="de" revision="1" name="Stadtführungen" tstamp="1546602946">
+    <options type="varchar">SEND_REMINDER</options>
+    <alt type="varchar">Stadtführungen</alt>
+    <icon type="file" id="342914" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5477" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="81896" language="de" revision="1" name="draußen" tstamp="1529425666">
+    <parents type="array">
+        <classification type="classification" id="81894" />
+        <classification type="classification" id="78206" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="81897" language="de" revision="1" name="drinnen" tstamp="1529425667">
+    <parents type="array">
+        <classification type="classification" id="81894" />
+        <classification type="classification" id="78206" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="87996" language="de" revision="1" name="i-Marke (geprüfte Touristinformation)" tstamp="1520592296">
+    <alt type="varchar">geprüfte Touristinformation mit Zertifikat "i-Marke"</alt>
+    <icon type="file" id="294791" />
+    <parents type="array">
+        <classification type="classification" id="14" />
+        <classification type="classification" id="98265" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="126059" language="de" revision="1" name="Am Wasser" tstamp="1534529750">
+    <parents type="array">
+        <classification type="classification" id="81894" />
+        <classification type="classification" id="78206" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="12" language="de" revision="1" name="Kategorie" tstamp="1364888955">
+    <options type="varchar">BRBAZ_CATEGORY</options>
+    <alt type="varchar">Kategorien</alt>
+    <parents type="array">
+        <classification type="classification" id="9" />
+    </parents>
+</classification>
+<classification type="classification" id="14" language="de" revision="1" name="Zertifikate" tstamp="1364888976">
+    <options type="varchar">BRBAZ_CERTIFICATE</options>
+    <alt type="varchar">Zertifikate</alt>
+    <parents type="array">
+        <classification type="classification" id="9" />
+    </parents>
+</classification>
+<classification type="classification" id="17" language="de" revision="1" name="Status" tstamp="1265125962">
+    <alt type="varchar">Status</alt>
+    <parents type="array">
+        <classification type="classification" id="9" />
+    </parents>
+</classification>
+<classification type="classification" id="19" language="de" revision="1" name="Accesbility" tstamp="1265125962">
+    <alt type="varchar">Barrierefreiheit</alt>
+    <parents type="array">
+        <classification type="classification" id="9" />
+    </parents>
+</classification>
+<classification type="classification" id="5474" language="de" revision="1" name="Übernachten" tstamp="1501095898">
+    <alt type="varchar">Übernachten</alt>
+    <parents type="array">
+        <classification type="classification" id="11" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Classification</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5474" language="en" revision="1" name="Staying overnight " tstamp="1501095898">
+    <options type="varchar">TMB_HIDE</options>
+    <alt type="varchar">Staying overnight</alt>
+    <parents type="array">
+        <classification type="classification" id="11" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Classification</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5475" language="de" revision="1" name="Essen &amp; Trinken" tstamp="1501095899">
+    <alt type="varchar">Essen &amp; Trinken</alt>
+    <parents type="array">
+        <classification type="classification" id="11" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Classification</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5475" language="en" revision="1" name="Eat &amp; Drink" tstamp="1501095899">
+    <options type="varchar">TMB_HIDE</options>
+    <alt type="varchar">Eat &amp; Drink</alt>
+    <parents type="array">
+        <classification type="classification" id="11" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Classification</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5476" language="de" revision="1" name="TOP-Angebote" tstamp="1501095898">
+    <options type="varchar">BRBAZ_CHECK_RUBRIC</options>
+    <alt type="varchar">TOP-Angebote</alt>
+    <parents type="array">
+        <classification type="classification" id="11" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Classification</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5477" language="de" revision="1" name="Kultur" tstamp="1501095896">
+    <alt type="varchar">Kultur</alt>
+    <parents type="array">
+        <classification type="classification" id="11" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Classification</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5479" language="de" revision="1" name="Aktiv &amp; Natur" tstamp="1501095895">
+    <alt type="varchar">Aktiv &amp; Natur</alt>
+    <parents type="array">
+        <classification type="classification" id="11" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Classification</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5479" language="en" revision="1" name="Active &amp; Nature" tstamp="1524431018">
+    <options type="varchar">TMB_HIDE</options>
+    <alt type="varchar">Sport &amp; Active</alt>
+    <parents type="array">
+        <classification type="classification" id="11" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Classification</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5480" language="de" revision="1" name="Wasser" tstamp="1501095897">
+    <options type="varchar">BRBAZ_WATER</options>
+    <alt type="varchar">Wasser</alt>
+    <parents type="array">
+        <classification type="classification" id="11" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Classification</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5481" language="de" revision="1" name="Weitere Informationen" tstamp="1501095897">
+    <options type="varchar">BRBAZ_CHECK_RUBRIC</options>
+    <alt type="varchar">Weitere Informationen</alt>
+    <parents type="array">
+        <classification type="classification" id="11" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Classification</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5483" language="de" revision="1" name="Sonstige Kategorien" tstamp="1501095896">
+    <options type="varchar">XMLVIEW_PLACES,BRBAZ_HIDE,JSMAP_HIDE</options>
+    <alt type="varchar">Sonstige Kategorien</alt>
+    <parents type="array">
+        <classification type="classification" id="11" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Classification</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5485" language="de" revision="1" name="Wellness" tstamp="1501095899">
+    <alt type="varchar">Kurorte, Thermen und Erlebnisbäder</alt>
+    <parents type="array">
+        <classification type="classification" id="11" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Classification</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5486" language="de" revision="1" name="Einkaufserlebnisse" tstamp="1501095899">
+    <alt type="varchar">Einkaufserlebnisse</alt>
+    <parents type="array">
+        <classification type="classification" id="11" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Classification</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5561" language="de" revision="1" name="Service-Qualität Deutschland" tstamp="1501101999">
+    <options type="varchar">BRBAZ_BOTTOM, BRBAZ_SERVICE,TMB_HIDE</options>
+    <parents type="array">
+        <classification type="classification" id="13" />
+        <classification type="classification" id="5489" />
+        <classification type="classification" id="5490" />
+        <classification type="classification" id="5491" />
+        <classification type="classification" id="5492" />
+        <classification type="classification" id="5493" />
+        <classification type="classification" id="5494" />
+        <classification type="classification" id="5495" />
+        <classification type="classification" id="5496" />
+        <classification type="classification" id="5497" />
+        <classification type="classification" id="5498" />
+        <classification type="classification" id="5499" />
+        <classification type="classification" id="5500" />
+        <classification type="classification" id="5501" />
+        <classification type="classification" id="5502" />
+        <classification type="classification" id="5503" />
+        <classification type="classification" id="5504" />
+        <classification type="classification" id="5507" />
+        <classification type="classification" id="5508" />
+        <classification type="classification" id="5511" />
+        <classification type="classification" id="5512" />
+        <classification type="classification" id="5513" />
+        <classification type="classification" id="5514" />
+        <classification type="classification" id="5515" />
+        <classification type="classification" id="5516" />
+        <classification type="classification" id="5517" />
+        <classification type="classification" id="5522" />
+        <classification type="classification" id="5524" />
+        <classification type="classification" id="5526" />
+        <classification type="classification" id="5528" />
+        <classification type="classification" id="5529" />
+        <classification type="classification" id="5533" />
+        <classification type="classification" id="5534" />
+        <classification type="classification" id="5535" />
+        <classification type="classification" id="5540" />
+        <classification type="classification" id="5541" />
+        <classification type="classification" id="5543" />
+        <classification type="classification" id="5545" />
+        <classification type="classification" id="5554" />
+        <classification type="classification" id="5555" />
+        <classification type="classification" id="5556" />
+        <classification type="classification" id="5557" />
+        <classification type="classification" id="5558" />
+    </parents>
+</classification>
+<classification type="classification" id="5562" language="de" revision="1" name="Unterkunftssterne" tstamp="1501102000">
+    <options type="varchar">BRBAZ_TOP, BRBAZ_STAR,TMB_HIDE</options>
+    <parents type="array">
+        <classification type="classification" id="13" />
+        <classification type="classification" id="5490" />
+        <classification type="classification" id="5491" />
+        <classification type="classification" id="5516" />
+        <classification type="classification" id="5517" />
+        <classification type="classification" id="5535" />
+        <classification type="classification" id="5545" />
+        <classification type="classification" id="5555" />
+        <classification type="classification" id="5556" />
+        <classification type="classification" id="5557" />
+        <classification type="classification" id="5558" />
+    </parents>
+</classification>
+<classification type="classification" id="5563" language="de" revision="1" name="Hat Unterkunftssterne" tstamp="1501101997">
+    <options type="varchar">BRBAZ_FILTER_LOCAL,JSMAP_FILTER,TMB_HIDE</options>
+    <parents type="array">
+        <classification type="classification" id="13" />
+        <classification type="classification" id="5490" />
+        <classification type="classification" id="5491" />
+        <classification type="classification" id="5516" />
+        <classification type="classification" id="5517" />
+        <classification type="classification" id="5535" />
+        <classification type="classification" id="5545" />
+        <classification type="classification" id="5555" />
+        <classification type="classification" id="5556" />
+        <classification type="classification" id="5557" />
+        <classification type="classification" id="5558" />
+    </parents>
+</classification>
+<classification type="classification" id="5564" language="de" revision="1" name="Unterkunft" tstamp="1501102000">
+    <options type="varchar">BRBAZ_TOP,BRBAZ_DEPENDS(3),BRBAZ_HOST,BRBAZ_ACCOMODATION,TMB_HIDE</options>
+    <parents type="array">
+        <classification type="classification" id="13" />
+        <classification type="classification" id="5490" />
+        <classification type="classification" id="5491" />
+        <classification type="classification" id="5516" />
+        <classification type="classification" id="5517" />
+        <classification type="classification" id="5535" />
+        <classification type="classification" id="5545" />
+        <classification type="classification" id="5555" />
+        <classification type="classification" id="5556" />
+        <classification type="classification" id="5557" />
+        <classification type="classification" id="5558" />
+    </parents>
+</classification>
+<classification type="classification" id="5565" language="de" revision="1" name="Zertifizierungen" tstamp="1501102001">
+    <options type="varchar">BRBAZ_BOTTOM,JSMAP_FILTER,TMB_HIDE</options>
+    <parents type="array">
+        <classification type="classification" id="13" />
+        <classification type="classification" id="5504" />
+        <classification type="classification" id="5516" />
+        <classification type="classification" id="5517" />
+        <classification type="classification" id="5522" />
+        <classification type="classification" id="5524" />
+        <classification type="classification" id="5535" />
+        <classification type="classification" id="5545" />
+        <classification type="classification" id="5549" />
+        <classification type="classification" id="5555" />
+        <classification type="classification" id="5556" />
+        <classification type="classification" id="5557" />
+        <classification type="classification" id="5558" />
+    </parents>
+</classification>
+<classification type="classification" id="5566" language="de" revision="1" name="Barrierefreiheit für Mobilitätseingeschränkte" tstamp="1501101994">
+    <options type="varchar">BRBAZ_FILTER_GLOBAL,BRBAZ_TOP,JSMAP_FILTER,BRBAZ_ACCESSIBILITY,TMB_HIDE</options>
+    <parents type="array">
+        <classification type="classification" id="13" />
+        <classification type="classification" id="5489" />
+        <classification type="classification" id="5490" />
+        <classification type="classification" id="5491" />
+        <classification type="classification" id="5492" />
+        <classification type="classification" id="5493" />
+        <classification type="classification" id="5494" />
+        <classification type="classification" id="5495" />
+        <classification type="classification" id="5496" />
+        <classification type="classification" id="5497" />
+        <classification type="classification" id="5498" />
+        <classification type="classification" id="5499" />
+        <classification type="classification" id="5500" />
+        <classification type="classification" id="5501" />
+        <classification type="classification" id="5502" />
+        <classification type="classification" id="5503" />
+        <classification type="classification" id="5504" />
+        <classification type="classification" id="5505" />
+        <classification type="classification" id="5506" />
+        <classification type="classification" id="5507" />
+        <classification type="classification" id="5508" />
+        <classification type="classification" id="5511" />
+        <classification type="classification" id="5512" />
+        <classification type="classification" id="5513" />
+        <classification type="classification" id="5514" />
+        <classification type="classification" id="5515" />
+        <classification type="classification" id="5516" />
+        <classification type="classification" id="5517" />
+        <classification type="classification" id="5518" />
+        <classification type="classification" id="5519" />
+        <classification type="classification" id="5522" />
+        <classification type="classification" id="5524" />
+        <classification type="classification" id="5526" />
+        <classification type="classification" id="5527" />
+        <classification type="classification" id="5528" />
+        <classification type="classification" id="5529" />
+        <classification type="classification" id="5533" />
+        <classification type="classification" id="5534" />
+        <classification type="classification" id="5535" />
+        <classification type="classification" id="5538" />
+        <classification type="classification" id="5540" />
+        <classification type="classification" id="5542" />
+        <classification type="classification" id="5543" />
+        <classification type="classification" id="5549" />
+        <classification type="classification" id="5551" />
+        <classification type="classification" id="5552" />
+        <classification type="classification" id="5553" />
+        <classification type="classification" id="5554" />
+        <classification type="classification" id="5555" />
+        <classification type="classification" id="5556" />
+        <classification type="classification" id="5557" />
+        <classification type="classification" id="5558" />
+        <classification type="classification" id="5505" />
+        <classification type="classification" id="5506" />
+        <classification type="classification" id="5518" />
+        <classification type="classification" id="5519" />
+        <classification type="classification" id="48993" />
+    </parents>
+</classification>
+<classification type="classification" id="5568" language="de" revision="1" name="Bett &amp; Bike" tstamp="1501101995">
+    <options type="varchar">BRBAZ_FILTER_LOCAL,BRBAZ_BOTTOM,JSMAP_FILTER,TMB_HIDE</options>
+    <parents type="array">
+        <classification type="classification" id="13" />
+        <classification type="classification" id="5490" />
+        <classification type="classification" id="5491" />
+        <classification type="classification" id="5504" />
+        <classification type="classification" id="5516" />
+        <classification type="classification" id="5517" />
+        <classification type="classification" id="5535" />
+        <classification type="classification" id="5545" />
+        <classification type="classification" id="5555" />
+        <classification type="classification" id="5556" />
+        <classification type="classification" id="5557" />
+        <classification type="classification" id="5558" />
+    </parents>
+</classification>
+<classification type="classification" id="5569" language="de" revision="1" name="Online buchbar" tstamp="1501101998">
+    <options type="varchar">BRBAZ_FILTER_LOCAL,TMB_HIDE</options>
+    <parents type="array">
+        <classification type="classification" id="13" />
+        <classification type="classification" id="5490" />
+        <classification type="classification" id="5491" />
+        <classification type="classification" id="5545" />
+        <classification type="classification" id="5555" />
+        <classification type="classification" id="5556" />
+        <classification type="classification" id="5557" />
+        <classification type="classification" id="5558" />
+    </parents>
+</classification>
+<classification type="classification" id="5574" language="de" revision="1" name="Hat Service Qualität" tstamp="1501101997">
+    <options type="varchar">JSMAP_FILTER,TMB_HIDE</options>
+    <parents type="array">
+        <classification type="classification" id="13" />
+        <classification type="classification" id="5489" />
+        <classification type="classification" id="5490" />
+        <classification type="classification" id="5491" />
+        <classification type="classification" id="5492" />
+        <classification type="classification" id="5493" />
+        <classification type="classification" id="5494" />
+        <classification type="classification" id="5495" />
+        <classification type="classification" id="5496" />
+        <classification type="classification" id="5497" />
+        <classification type="classification" id="5498" />
+        <classification type="classification" id="5499" />
+        <classification type="classification" id="5500" />
+        <classification type="classification" id="5501" />
+        <classification type="classification" id="5502" />
+        <classification type="classification" id="5503" />
+        <classification type="classification" id="5504" />
+        <classification type="classification" id="5507" />
+        <classification type="classification" id="5508" />
+        <classification type="classification" id="5511" />
+        <classification type="classification" id="5512" />
+        <classification type="classification" id="5513" />
+        <classification type="classification" id="5514" />
+        <classification type="classification" id="5515" />
+        <classification type="classification" id="5516" />
+        <classification type="classification" id="5517" />
+        <classification type="classification" id="5522" />
+        <classification type="classification" id="5524" />
+        <classification type="classification" id="5526" />
+        <classification type="classification" id="5528" />
+        <classification type="classification" id="5529" />
+        <classification type="classification" id="5533" />
+        <classification type="classification" id="5534" />
+        <classification type="classification" id="5535" />
+        <classification type="classification" id="5540" />
+        <classification type="classification" id="5545" />
+        <classification type="classification" id="5556" />
+        <classification type="classification" id="5557" />
+        <classification type="classification" id="5558" />
+    </parents>
+</classification>
+<classification type="classification" id="81894" language="de" revision="1" name="Metainformation" tstamp="1439214893">
+    <parents type="array">
+        <classification type="classification" id="9" />
+    </parents>
+</classification>
+<classification type="classification" id="98249" language="de" revision="1" name="Wanderbares Deutschland - Qualitätswege (TMB)" tstamp="1501102117">
+    <parents type="array">
+        <classification type="classification" id="13" />
+        <classification type="classification" id="5506" />
+    </parents>
+</classification>
+<classification type="classification" id="98254" language="de" revision="1" name="Informationen für Gäste mit Mobilitätseinschränkungen (TMB)" tstamp="1501102115">
+    <parents type="array">
+        <classification type="classification" id="13" />
+        <classification type="classification" id="5533" />
+        <classification type="classification" id="5493" />
+        <classification type="classification" id="79565" />
+        <classification type="classification" id="69677" />
+        <classification type="classification" id="46760" />
+        <classification type="classification" id="5495" />
+        <classification type="classification" id="5500" />
+        <classification type="classification" id="5516" />
+        <classification type="classification" id="5501" />
+        <classification type="classification" id="5524" />
+        <classification type="classification" id="5490" />
+        <classification type="classification" id="61076" />
+        <classification type="classification" id="48993" />
+        <classification type="classification" id="51710" />
+        <classification type="classification" id="5503" />
+        <classification type="classification" id="5504" />
+        <classification type="classification" id="5529" />
+        <classification type="classification" id="53834" />
+        <classification type="classification" id="49221" />
+        <classification type="classification" id="5496" />
+        <classification type="classification" id="5554" />
+        <classification type="classification" id="5512" />
+        <classification type="classification" id="5519" />
+        <classification type="classification" id="79582" />
+        <classification type="classification" id="58335" />
+        <classification type="classification" id="5513" />
+        <classification type="classification" id="5491" />
+        <classification type="classification" id="5494" />
+        <classification type="classification" id="5534" />
+        <classification type="classification" id="46762" />
+        <classification type="classification" id="5518" />
+        <classification type="classification" id="5498" />
+        <classification type="classification" id="5499" />
+        <classification type="classification" id="52887" />
+        <classification type="classification" id="52884" />
+        <classification type="classification" id="5508" />
+        <classification type="classification" id="5492" />
+        <classification type="classification" id="79581" />
+        <classification type="classification" id="51708" />
+        <classification type="classification" id="28611" />
+        <classification type="classification" id="5505" />
+        <classification type="classification" id="5526" />
+        <classification type="classification" id="5497" />
+        <classification type="classification" id="5538" />
+        <classification type="classification" id="5520" />
+        <classification type="classification" id="5507" />
+        <classification type="classification" id="46761" />
+        <classification type="classification" id="80658" />
+        <classification type="classification" id="79583" />
+        <classification type="classification" id="5511" />
+        <classification type="classification" id="79584" />
+        <classification type="classification" id="5515" />
+        <classification type="classification" id="52883" />
+        <classification type="classification" id="51709" />
+        <classification type="classification" id="5506" />
+        <classification type="classification" id="52886" />
+        <classification type="classification" id="5540" />
+        <classification type="classification" id="5517" />
+        <classification type="classification" id="5502" />
+        <classification type="classification" id="5537" />
+        <classification type="classification" id="5557" />
+        <classification type="classification" id="5535" />
+        <classification type="classification" id="5555" />
+        <classification type="classification" id="5556" />
+        <classification type="classification" id="13" />
+    </parents>
+</classification>
+<classification type="classification" id="98255" language="de" revision="1" name="Informationen für Gäste mit Sinneseinschränkungen (TMB)" tstamp="1501102116">
+    <parents type="array">
+        <classification type="classification" id="13" />
+        <classification type="classification" id="5533" />
+        <classification type="classification" id="5493" />
+        <classification type="classification" id="79565" />
+        <classification type="classification" id="69677" />
+        <classification type="classification" id="46760" />
+        <classification type="classification" id="5495" />
+        <classification type="classification" id="5500" />
+        <classification type="classification" id="5516" />
+        <classification type="classification" id="5501" />
+        <classification type="classification" id="5524" />
+        <classification type="classification" id="5490" />
+        <classification type="classification" id="61076" />
+        <classification type="classification" id="51710" />
+        <classification type="classification" id="5503" />
+        <classification type="classification" id="5504" />
+        <classification type="classification" id="5529" />
+        <classification type="classification" id="5496" />
+        <classification type="classification" id="5512" />
+        <classification type="classification" id="79582" />
+        <classification type="classification" id="5513" />
+        <classification type="classification" id="5491" />
+        <classification type="classification" id="5494" />
+        <classification type="classification" id="5534" />
+        <classification type="classification" id="46762" />
+        <classification type="classification" id="5498" />
+        <classification type="classification" id="5499" />
+        <classification type="classification" id="52887" />
+        <classification type="classification" id="52884" />
+        <classification type="classification" id="5508" />
+        <classification type="classification" id="5492" />
+        <classification type="classification" id="79581" />
+        <classification type="classification" id="51708" />
+        <classification type="classification" id="5526" />
+        <classification type="classification" id="5497" />
+        <classification type="classification" id="46761" />
+        <classification type="classification" id="79583" />
+        <classification type="classification" id="5511" />
+        <classification type="classification" id="79584" />
+        <classification type="classification" id="5515" />
+        <classification type="classification" id="52883" />
+        <classification type="classification" id="51709" />
+        <classification type="classification" id="52886" />
+        <classification type="classification" id="5540" />
+        <classification type="classification" id="5502" />
+        <classification type="classification" id="5537" />
+        <classification type="classification" id="5557" />
+        <classification type="classification" id="5535" />
+        <classification type="classification" id="5555" />
+        <classification type="classification" id="5556" />
+        <classification type="classification" id="13" />
+    </parents>
+</classification>
+<classification type="classification" id="98256" language="de" revision="1" name="Informationen für Gäste mit Lernschwierigkeiten (TMB)" tstamp="1501102115">
+    <parents type="array">
+        <classification type="classification" id="13" />
+        <classification type="classification" id="5533" />
+        <classification type="classification" id="5493" />
+        <classification type="classification" id="79565" />
+        <classification type="classification" id="69677" />
+        <classification type="classification" id="46760" />
+        <classification type="classification" id="5495" />
+        <classification type="classification" id="5500" />
+        <classification type="classification" id="5516" />
+        <classification type="classification" id="5501" />
+        <classification type="classification" id="5524" />
+        <classification type="classification" id="5490" />
+        <classification type="classification" id="61076" />
+        <classification type="classification" id="51710" />
+        <classification type="classification" id="5503" />
+        <classification type="classification" id="5504" />
+        <classification type="classification" id="5529" />
+        <classification type="classification" id="5496" />
+        <classification type="classification" id="5512" />
+        <classification type="classification" id="79582" />
+        <classification type="classification" id="5513" />
+        <classification type="classification" id="5491" />
+        <classification type="classification" id="5494" />
+        <classification type="classification" id="5534" />
+        <classification type="classification" id="46762" />
+        <classification type="classification" id="5498" />
+        <classification type="classification" id="5499" />
+        <classification type="classification" id="52887" />
+        <classification type="classification" id="52884" />
+        <classification type="classification" id="5508" />
+        <classification type="classification" id="5492" />
+        <classification type="classification" id="79581" />
+        <classification type="classification" id="5526" />
+        <classification type="classification" id="5497" />
+        <classification type="classification" id="46761" />
+        <classification type="classification" id="79583" />
+        <classification type="classification" id="79584" />
+        <classification type="classification" id="5515" />
+        <classification type="classification" id="52883" />
+        <classification type="classification" id="51709" />
+        <classification type="classification" id="52886" />
+        <classification type="classification" id="5540" />
+        <classification type="classification" id="5517" />
+        <classification type="classification" id="5502" />
+        <classification type="classification" id="5537" />
+        <classification type="classification" id="5557" />
+        <classification type="classification" id="5535" />
+        <classification type="classification" id="5555" />
+        <classification type="classification" id="5556" />
+        <classification type="classification" id="13" />
+    </parents>
+</classification>
+<classification type="classification" id="98258" language="de" revision="1" name="Informationen für Gäste mit Allergien (TMB)" tstamp="1501102114">
+    <parents type="array">
+        <classification type="classification" id="13" />
+        <classification type="classification" id="5493" />
+        <classification type="classification" id="5490" />
+        <classification type="classification" id="5504" />
+        <classification type="classification" id="5513" />
+        <classification type="classification" id="5491" />
+        <classification type="classification" id="52887" />
+        <classification type="classification" id="52884" />
+        <classification type="classification" id="5526" />
+        <classification type="classification" id="79584" />
+        <classification type="classification" id="52883" />
+        <classification type="classification" id="52886" />
+        <classification type="classification" id="5557" />
+        <classification type="classification" id="5535" />
+        <classification type="classification" id="5555" />
+        <classification type="classification" id="5556" />
+        <classification type="classification" id="13" />
+    </parents>
+</classification>
+<classification type="classification" id="98259" language="de" revision="1" name="Zertifizierter Betrieb: Qualitätsmanagement Kinder- und Jugendtourismus (TMB)" tstamp="1501102117">
+    <parents type="array">
+        <classification type="classification" id="13" />
+        <classification type="classification" id="5535" />
+        <classification type="classification" id="13" />
+    </parents>
+</classification>
+<classification type="classification" id="98261" language="de" revision="1" name="Bett &amp; Bike - Zertifizierung (TMB)" tstamp="1501102113">
+    <parents type="array">
+        <classification type="classification" id="13" />
+        <classification type="classification" id="5516" />
+        <classification type="classification" id="5490" />
+        <classification type="classification" id="5491" />
+        <classification type="classification" id="52887" />
+        <classification type="classification" id="52884" />
+        <classification type="classification" id="52883" />
+        <classification type="classification" id="52886" />
+        <classification type="classification" id="5517" />
+        <classification type="classification" id="5535" />
+        <classification type="classification" id="5555" />
+        <classification type="classification" id="13" />
+        <classification type="classification" id="13" />
+    </parents>
+</classification>
+<classification type="classification" id="98262" language="de" revision="1" name="Brandenburger Gastlichkeit (TMB)" tstamp="1501102113">
+    <parents type="array">
+        <classification type="classification" id="13" />
+        <classification type="classification" id="5504" />
+        <classification type="classification" id="52887" />
+        <classification type="classification" id="52884" />
+        <classification type="classification" id="52883" />
+        <classification type="classification" id="52886" />
+        <classification type="classification" id="13" />
+    </parents>
+</classification>
+<classification type="classification" id="98263" language="de" revision="1" name="Service Qualität Deutschland - Zertifizierung (TMB)&#x9;&#x9;&#x9;" tstamp="1520258360">
+    <parents type="array">
+        <classification type="classification" id="13" />
+        <classification type="classification" id="5533" />
+        <classification type="classification" id="5493" />
+        <classification type="classification" id="69677" />
+        <classification type="classification" id="46760" />
+        <classification type="classification" id="5495" />
+        <classification type="classification" id="5500" />
+        <classification type="classification" id="5516" />
+        <classification type="classification" id="5501" />
+        <classification type="classification" id="5524" />
+        <classification type="classification" id="5490" />
+        <classification type="classification" id="61076" />
+        <classification type="classification" id="51710" />
+        <classification type="classification" id="5503" />
+        <classification type="classification" id="5504" />
+        <classification type="classification" id="5529" />
+        <classification type="classification" id="53834" />
+        <classification type="classification" id="49221" />
+        <classification type="classification" id="5496" />
+        <classification type="classification" id="5554" />
+        <classification type="classification" id="5512" />
+        <classification type="classification" id="79582" />
+        <classification type="classification" id="5513" />
+        <classification type="classification" id="5491" />
+        <classification type="classification" id="5494" />
+        <classification type="classification" id="5534" />
+        <classification type="classification" id="46762" />
+        <classification type="classification" id="5498" />
+        <classification type="classification" id="5499" />
+        <classification type="classification" id="52887" />
+        <classification type="classification" id="52884" />
+        <classification type="classification" id="5508" />
+        <classification type="classification" id="5492" />
+        <classification type="classification" id="79581" />
+        <classification type="classification" id="5526" />
+        <classification type="classification" id="5497" />
+        <classification type="classification" id="5538" />
+        <classification type="classification" id="46761" />
+        <classification type="classification" id="79583" />
+        <classification type="classification" id="79584" />
+        <classification type="classification" id="5515" />
+        <classification type="classification" id="52883" />
+        <classification type="classification" id="52886" />
+        <classification type="classification" id="5540" />
+        <classification type="classification" id="5517" />
+        <classification type="classification" id="5502" />
+        <classification type="classification" id="5557" />
+        <classification type="classification" id="5535" />
+        <classification type="classification" id="43438" />
+        <classification type="classification" id="5555" />
+        <classification type="classification" id="5556" />
+        <classification type="classification" id="13" />
+    </parents>
+</classification>
+<classification type="classification" id="98264" language="de" revision="1" name="Unterkunftssterne - Zertifizierung (TMB)" tstamp="1501102117">
+    <parents type="array">
+        <classification type="classification" id="13" />
+        <classification type="classification" id="5516" />
+        <classification type="classification" id="5490" />
+        <classification type="classification" id="5491" />
+        <classification type="classification" id="52887" />
+        <classification type="classification" id="52884" />
+        <classification type="classification" id="52883" />
+        <classification type="classification" id="52886" />
+        <classification type="classification" id="5535" />
+        <classification type="classification" id="5555" />
+        <classification type="classification" id="13" />
+    </parents>
+</classification>
+<classification type="classification" id="98265" language="de" revision="1" name="Geprüfte Touristinformationen - Zertifizierung (TMB)" tstamp="1501102114">
+    <parents type="array">
+        <classification type="classification" id="13" />
+        <classification type="classification" id="5529" />
+        <classification type="classification" id="13" />
+    </parents>
+</classification>
+<classification type="classification" id="98266" language="de" revision="1" name="Unterkünfte mit Zertifizierung (TMB)" tstamp="1501102117">
+    <parents type="array">
+        <classification type="classification" id="13" />
+        <classification type="classification" id="5516" />
+        <classification type="classification" id="5490" />
+        <classification type="classification" id="5491" />
+        <classification type="classification" id="52887" />
+        <classification type="classification" id="52884" />
+        <classification type="classification" id="52883" />
+        <classification type="classification" id="52886" />
+        <classification type="classification" id="5535" />
+        <classification type="classification" id="5555" />
+        <classification type="classification" id="13" />
+    </parents>
+</classification>
+<classification type="classification" id="9" language="de" revision="1" name="root" tstamp="1364889790">
+    <options type="varchar">BRBAZ_ROOT</options>
+    <alt type="varchar">Wurzel für alle Klassifizierungen</alt>
+    <parents type="array">
+        <classification type="classification" id="9" />
+    </parents>
+</classification>
+<classification type="classification" id="11" language="de" revision="1" name="Rubrik" tstamp="1366018379">
+    <options type="varchar">BRBAZ_RUBRIC</options>
+    <alt type="varchar">Rubrik</alt>
+    <parents type="array">
+        <classification type="classification" id="9" />
+    </parents>
+</classification>
+<classification type="classification" id="13" language="de" revision="1" name="Klasse" tstamp="1265125962">
+    <alt type="varchar">Klassen</alt>
+    <parents type="array">
+        <classification type="classification" id="9" />
+    </parents>
+</classification>
+<classification type="classification" id="5493" language="de" revision="1" name="Ausflugsschifffahrt" tstamp="1546602920">
+    <options type="varchar">SEND_REMINDER</options>
+    <alt type="varchar">Ausflugsschifffahrt</alt>
+    <icon type="file" id="342867" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5480" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5496" language="de" revision="1" name="Golfplätze" tstamp="1546602922">
+    <options type="varchar">SEND_REMINDER</options>
+    <alt type="varchar">Golfplätze</alt>
+    <icon type="file" id="342886" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5479" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5499" language="de" revision="1" name="Klöster" tstamp="1546602923">
+    <options type="varchar">SEND_REMINDER</options>
+    <alt type="varchar">Klöster</alt>
+    <icon type="file" id="345685" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5477" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5501" language="de" revision="1" name="Erlebnis- und Spaßbäder" tstamp="1546602924">
+    <options type="varchar">SEND_REMINDER</options>
+    <alt type="varchar">Erlebnis- und Spaßbäder</alt>
+    <icon type="file" id="342875" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5485" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5502" language="de" revision="1" name="Zoos und Tierparke" tstamp="1546602924">
+    <options type="varchar">SEND_REMINDER</options>
+    <alt type="varchar">Zoos und Tierparke</alt>
+    <icon type="file" id="342926" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5479" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5507" language="de" revision="1" name="Skatingstrecken" tstamp="1546602926">
+    <alt type="varchar">Skatingstrecken (Empfehlungen)</alt>
+    <icon type="file" id="342912" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5479" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5508" language="de" revision="1" name="Mit PS unterwegs" tstamp="1546602927">
+    <options type="varchar">SEND_REMINDER</options>
+    <alt type="varchar">Safari- und Quadtouren, Rennstrecken</alt>
+    <icon type="file" id="342901" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5479" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5512" language="de" revision="1" name="Hausboot- &amp; Motorbootvermietung" tstamp="1546602928">
+    <options type="varchar">SEND_REMINDER</options>
+    <alt type="varchar">Haus- und Motorboote, Yachten, Motorbootführerschein</alt>
+    <icon type="file" id="342888" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5480" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5534" language="de" revision="1" name="Industriekultur" tstamp="1546602934">
+    <options type="varchar">SEND_REMINDER</options>
+    <alt type="varchar">Industriekultur (Museen, Denkmäler, Freizeitparks)</alt>
+    <icon type="file" id="342894" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5477" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5538" language="de" revision="1" name="Segeln" tstamp="1546602934">
+    <options type="varchar">SEND_REMINDER</options>
+    <alt type="varchar">Segelbootvermietung, Segelreviere, Segelschule, Surfen</alt>
+    <icon type="file" id="342911" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5480" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5540" language="de" revision="1" name="Wasser-Funsport &amp; Tauchen" tstamp="1546602935">
+    <options type="varchar">SEND_REMINDER</options>
+    <alt type="varchar">Wasserski, Wakeboarding, Surfen, Tauchen</alt>
+    <icon type="file" id="342922" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5480" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5542" language="de" revision="1" name="Schleusen" tstamp="1546602935">
+    <options type="varchar">SEND_REMINDER,BRBAZ_HIDE,MOBILE_HIDE</options>
+    <alt type="varchar">Schleusen</alt>
+    <icon type="file" id="342909" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5480" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="5543" language="de" revision="1" name="Wasserwanderrast- und Gastliegeplätze" tstamp="1546602936">
+    <options type="varchar">SEND_REMINDER,MOBILE_HIDE</options>
+    <alt type="varchar">Wasserwanderrast- und Gastliegeplätze</alt>
+    <icon type="file" id="342923" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5480" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="28611" language="de" revision="1" name="Nordic Walking &amp; Laufstrecken" tstamp="1546602937">
+    <alt type="varchar">Nordic Walking &amp; Laufstrecken</alt>
+    <icon type="file" id="342905" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5479" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="43438" language="de" revision="1" name="Reiseveranstalter" tstamp="1527511585">
+    <options type="varchar">BRBAZ_HIDE,JSMAP_HIDE,BE_POI_NOEDIT,MOBILE_HIDE,SEND_REMINDER</options>
+    <alt type="varchar">Kinder-Jugendreiseveranstalter</alt>
+    <icon type="file" id="359383" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5474" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="46761" language="de" revision="1" name="Sportboothäfen &amp; Marinas" tstamp="1546602938">
+    <options type="varchar">SEND_REMINDER, </options>
+    <alt type="varchar">Sportboothäfen &amp; Marinas</alt>
+    <icon type="file" id="342913" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5480" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="46762" language="de" revision="1" name="Kahnfahrten" tstamp="1546602939">
+    <options type="varchar">SEND_REMINDER, </options>
+    <alt type="varchar">Kahnfahrten</alt>
+    <icon type="file" id="342895" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5480" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="48993" language="de" revision="1" name="Floßtouren" tstamp="1546602939">
+    <alt type="varchar">Floßtouren (Empfehlungen)</alt>
+    <icon type="file" id="342879" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5480" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="51708" language="de" revision="1" name="Naturbadestellen" tstamp="1546602940">
+    <options type="varchar">SEND_REMINDER,MOBILE_HIDE</options>
+    <alt type="varchar">Naturbadestellen </alt>
+    <icon type="file" id="342903" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5480" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="51709" language="de" revision="1" name="Vogelbeobachtung" tstamp="1546602940">
+    <options type="varchar">SEND_REMINDER,MOBILE_HIDE</options>
+    <alt type="varchar">Vogelbeobachtungsgebiete und -beobachtungstürme</alt>
+    <icon type="file" id="342919" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5479" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="52886" language="de" revision="1" name="Wasser entdecken" tstamp="1523187235">
+    <options type="varchar">BE_POI_NOEDIT</options>
+    <alt type="varchar">Wasser entdecken </alt>
+    <icon type="file" id="342921" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5476" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="52887" language="de" revision="1" name="Kultur erleben" tstamp="1523187230">
+    <options type="varchar">BE_POI_NOEDIT</options>
+    <alt type="varchar">Kultur erleben </alt>
+    <icon type="file" id="342899" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5476" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="58335" language="de" revision="1" name="Hochzeitslocations" tstamp="1546602942">
+    <options type="varchar">BRBAZ_HIDE,MOBILE_HIDE,JSMAP_HIDE,TMB_HIDE</options>
+    <alt type="varchar">Hochzeitslocations </alt>
+    <icon type="file" id="353408" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5477" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="61076" language="de" revision="1" name="Flöße" tstamp="1546602943">
+    <options type="varchar">SEND_REMINDER</options>
+    <alt type="varchar">Flöße / schwimmende Ferienhäuser</alt>
+    <icon type="file" id="342878" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5480" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="79584" language="de" revision="1" name="Themenparks und Erlebnisausstellungen" tstamp="1546602946">
+    <options type="varchar">SEND_REMINDER</options>
+    <alt type="varchar">Themenparks und Erlebnisausstellungen</alt>
+    <icon type="file" id="342916" />
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5477" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="80658" language="de" revision="1" name="Sportstätten" tstamp="1546602947">
+    <options type="varchar">BRBAZ_HIDE, TMB_HIDE</options>
+    <alt type="varchar">Sportstätten (Bowling, Minigolf, Tennis, Hallenbad etc.)</alt>
+    <parents type="array">
+        <classification type="classification" id="12" />
+        <classification type="classification" id="5479" />
+    </parents>
+    <allowedController type="array">
+        <controller type="controller">Poi</controller>
+    </allowedController>
+</classification>
+<classification type="classification" id="82947" language="de" revision="1" name="Tag" tstamp="1444805527">
+    <alt type="varchar">Tagging-Klassifikation</alt>
+    <parents type="array">
+        <classification type="classification" id="9" />
+    </parents>
+</classification>

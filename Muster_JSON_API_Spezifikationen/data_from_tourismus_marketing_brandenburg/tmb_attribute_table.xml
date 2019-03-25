@@ -1,0 +1,821 @@
+<attribute type="attribute" id="82969" language="de" revision="1" name="Tourenlänge (km)" tstamp="1501095327">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5519" />
+	</attribute>
+	<attribute type="attribute" id="82970" language="de" revision="1" name="Tour von A nach B" tstamp="1501095328">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5519" />
+	</attribute>
+	<attribute type="attribute" id="82971" language="de" revision="1" name="Rundtour" tstamp="1501095231">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5519" />
+	</attribute>
+	<attribute type="attribute" id="82972" language="de" revision="1" name="führerscheinfrei befahrbare Tour" tstamp="1501095120">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5519" />
+	</attribute>
+	<attribute type="attribute" id="82980" language="de" revision="1" name="Tourenlänge (km)" tstamp="1501095328">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5518" />
+	</attribute>
+	<attribute type="attribute" id="82981" language="de" revision="1" name="Tour von A nach B" tstamp="1501095328">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5518" />
+	</attribute>
+	<attribute type="attribute" id="82982" language="de" revision="1" name="Rundtour" tstamp="1501095231">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5518" />
+	</attribute>
+	<attribute type="attribute" id="82983" language="de" revision="1" name="Tour ohne Schleusen / Wehre" tstamp="1501095328">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5518" />
+	</attribute>
+	<attribute type="attribute" id="82986" language="de" revision="1" name="Naturbad" tstamp="1501095228">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5511" />
+	</attribute>
+	<attribute type="attribute" id="82987" language="de" revision="1" name="Schwimmbad" tstamp="1501095232">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5511" />
+	</attribute>
+	<attribute type="attribute" id="83038" language="de" revision="1" name="Tourenlänge (km)" tstamp="1501095327">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5505" />
+	</attribute>
+	<attribute type="attribute" id="83039" language="de" revision="1" name="Tour von A nach B" tstamp="1501095328">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5505" />
+	</attribute>
+	<attribute type="attribute" id="83040" language="de" revision="1" name="Rundtour" tstamp="1501095231">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5505" />
+	</attribute>
+	<attribute type="attribute" id="83041" language="de" revision="1" name="Fahrradvermietung" tstamp="1501095118">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5524" />
+	</attribute>
+	<attribute type="attribute" id="83042" language="de" revision="1" name="E-Bike-Vermietung" tstamp="1501095117">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5524" />
+	</attribute>
+	<attribute type="attribute" id="83043" language="de" revision="1" name="E-Bike-Aufladestation" tstamp="1501095117">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5524" />
+	</attribute>
+	<attribute type="attribute" id="83044" language="de" revision="1" name="Werkstatt / Reparatur" tstamp="1501095329">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5524" />
+	</attribute>
+	<attribute type="attribute" id="83045" language="de" revision="1" name="Tourenlänge (km)" tstamp="1501095327">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5506" />
+	</attribute>
+	<attribute type="attribute" id="83046" language="de" revision="1" name="Tour von A nach B" tstamp="1501095328">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5506" />
+	</attribute>
+	<attribute type="attribute" id="83047" language="de" revision="1" name="Rundtour" tstamp="1501095231">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5506" />
+	</attribute>
+	<attribute type="attribute" id="83048" language="de" revision="1" name="der Nationalen Naturlandschaften" tstamp="1501095116">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="69677" />
+	</attribute>
+	<attribute type="attribute" id="83049" language="de" revision="1" name="zu Fuß" tstamp="1501095331">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="79581" />
+	</attribute>
+	<attribute type="attribute" id="83050" language="de" revision="1" name="mit dem Fahrrad" tstamp="1501095227">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="79581" />
+	</attribute>
+	<attribute type="attribute" id="83051" language="de" revision="1" name="mit dem Boot" tstamp="1501095227">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="79581" />
+	</attribute>
+	<attribute type="attribute" id="83052" language="de" revision="1" name="mit Tieren" tstamp="1501095228">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="79581" />
+	</attribute>
+	<attribute type="attribute" id="83053" language="de" revision="1" name="Wanderreitstation / Gastpferdeboxen" tstamp="1501095329">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5526" />
+	</attribute>
+	<attribute type="attribute" id="83054" language="de" revision="1" name="geführte Ausritte / Leihpferde" tstamp="1501095123">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5526" />
+	</attribute>
+	<attribute type="attribute" id="83055" language="de" revision="1" name="Kremserfahrten" tstamp="1501095227">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5526" />
+	</attribute>
+	<attribute type="attribute" id="83056" language="de" revision="1" name="Reiterferien" tstamp="1501095230">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5526" />
+	</attribute>
+	<attribute type="attribute" id="83057" language="de" revision="1" name="Reitunterricht" tstamp="1501095230">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5526" />
+	</attribute>
+	<attribute type="attribute" id="83061" language="de" revision="1" name="Kletterpark" tstamp="1501095227">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5533" />
+	</attribute>
+	<attribute type="attribute" id="83062" language="de" revision="1" name="Draisine / Eisenbahn" tstamp="1501095116">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5533" />
+	</attribute>
+	<attribute type="attribute" id="83063" language="de" revision="1" name="Spiel &amp; Spaß" tstamp="1501095324">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5533" />
+	</attribute>
+	<attribute type="attribute" id="83064" language="de" revision="1" name="Restaurant" tstamp="1501095231">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5504" />
+	</attribute>
+	<attribute type="attribute" id="83065" language="de" revision="1" name="Café" tstamp="1501095115">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5504" />
+	</attribute>
+	<attribute type="attribute" id="83066" language="de" revision="1" name="Ausflugslokal / Biergarten" tstamp="1501095112">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5504" />
+	</attribute>
+	<attribute type="attribute" id="83067" language="de" revision="1" name="Bar / Kneipe" tstamp="1501095114">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5504" />
+	</attribute>
+	<attribute type="attribute" id="83068" language="de" revision="1" name="Auszeichnung nach &quot;Gault&amp;Millau&quot;" tstamp="1501095113">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5504" />
+	</attribute>
+	<attribute type="attribute" id="83069" language="de" revision="1" name="Selbstpflücke" tstamp="1501095323">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5513" />
+	</attribute>
+	<attribute type="attribute" id="83070" language="de" revision="1" name="Mitglied in Bioverband (z.B. Demeter)" tstamp="1501095228">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5513" />
+	</attribute>
+	<attribute type="attribute" id="83077" language="de" revision="1" name="Schloss öffentlich zugänglich" tstamp="1501095232">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5497" />
+	</attribute>
+	<attribute type="attribute" id="83078" language="de" revision="1" name="Freilufttheater" tstamp="1501095120">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5495" />
+	</attribute>
+	<attribute type="attribute" id="83079" language="de" revision="1" name="zu Fuß" tstamp="1501095331">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="79583" />
+	</attribute>
+	<attribute type="attribute" id="83080" language="de" revision="1" name="mit dem Fahrrad" tstamp="1501095227">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="79583" />
+	</attribute>
+	<attribute type="attribute" id="83081" language="de" revision="1" name="mit dem Segway" tstamp="1501095228">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="79583" />
+	</attribute>
+	<attribute type="attribute" id="83082" language="de" revision="1" name="mit dem Boot" tstamp="1501095227">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="79583" />
+	</attribute>
+	<attribute type="attribute" id="83086" language="de" revision="1" name="Stadt-, Regional- und Heimatmuseum" tstamp="1501095325">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5492" />
+	</attribute>
+	<attribute type="attribute" id="83087" language="de" revision="1" name="Geschichts- und Gewerbemuseum" tstamp="1501095123">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5492" />
+	</attribute>
+	<attribute type="attribute" id="83088" language="de" revision="1" name="Schloss- und Sakralmuseum" tstamp="1501095232">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5492" />
+	</attribute>
+	<attribute type="attribute" id="83089" language="de" revision="1" name="Kunst- und Literaturmuseum" tstamp="1501095227">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5492" />
+	</attribute>
+	<attribute type="attribute" id="83090" language="de" revision="1" name="Technikmuseum" tstamp="1501095326">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5492" />
+	</attribute>
+	<attribute type="attribute" id="83091" language="de" revision="1" name="Naturkundemuseum" tstamp="1501095228">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5492" />
+	</attribute>
+	<attribute type="attribute" id="83092" language="de" revision="1" name="Agrar- und Forstmuseum" tstamp="1501095110">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5492" />
+	</attribute>
+	<attribute type="attribute" id="83093" language="de" revision="1" name="Mahn- und Gedenkstätte" tstamp="1501095227">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5492" />
+	</attribute>
+	<attribute type="attribute" id="83094" language="de" revision="1" name="sonstiges Museum" tstamp="1501095323">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5492" />
+	</attribute>
+	<attribute type="attribute" id="83095" language="de" revision="1" name="Baudenkmal" tstamp="1501095114">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="79582" />
+	</attribute>
+	<attribute type="attribute" id="83096" language="de" revision="1" name="historische Stätte / Gedenkstätte" tstamp="1501095223">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="79582" />
+	</attribute>
+	<attribute type="attribute" id="83097" language="de" revision="1" name="archäologischer Ort" tstamp="1501095112">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="79582" />
+	</attribute>
+	<attribute type="attribute" id="83098" language="de" revision="1" name="Mühle" tstamp="1501095228">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="79582" />
+	</attribute>
+	<attribute type="attribute" id="83099" language="de" revision="1" name="Bunker" tstamp="1501095115">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="79582" />
+	</attribute>
+	<attribute type="attribute" id="83100" language="de" revision="1" name="Hunde erlaubt" tstamp="1501095224">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5516" />
+	</attribute>
+	<attribute type="attribute" id="83101" language="de" revision="1" name="Seenähe / Strand" tstamp="1501095233">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5516" />
+	</attribute>
+	<attribute type="attribute" id="83102" language="de" revision="1" name="WLAN vorhanden" tstamp="1501095329">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5516" />
+	</attribute>
+	<attribute type="attribute" id="83103" language="de" revision="1" name="Restaurant / Imbiss vorhanden" tstamp="1501095231">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5516" />
+	</attribute>
+	<attribute type="attribute" id="83104" language="de" revision="1" name="EC Kartenzahlung" tstamp="1501095117">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5516" />
+	</attribute>
+	<attribute type="attribute" id="83105" language="de" revision="1" name="Hunde erlaubt" tstamp="1501095224">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5517" />
+	</attribute>
+	<attribute type="attribute" id="83106" language="de" revision="1" name="Seenähe / Strand" tstamp="1501095233">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5517" />
+	</attribute>
+	<attribute type="attribute" id="83107" language="de" revision="1" name="WLAN vorhanden" tstamp="1501095329">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5517" />
+	</attribute>
+	<attribute type="attribute" id="83108" language="de" revision="1" name="Stromanschluss vorhanden" tstamp="1501095325">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5517" />
+	</attribute>
+	<attribute type="attribute" id="83109" language="de" revision="1" name="Sanitäreinrichtungen vorhanden" tstamp="1501095231">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5517" />
+	</attribute>
+	<attribute type="attribute" id="83110" language="de" revision="1" name="WC-Entsorgung möglich" tstamp="1501095329">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5517" />
+	</attribute>
+	<attribute type="attribute" id="83111" language="de" revision="1" name="auf einem Campingplatz" tstamp="1501095112">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5517" />
+	</attribute>
+	<attribute type="attribute" id="83112" language="de" revision="1" name="gebührenfrei" tstamp="1501095123">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5517" />
+	</attribute>
+	<attribute type="attribute" id="85991" language="de" revision="1" name="Auszeichnung nach &quot;Guide Michelin&quot;" tstamp="1501095113">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5504" />
+	</attribute>
+	<attribute type="attribute" id="85992" language="de" revision="1" name="Hausboot" tstamp="1501095125">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52883" />
+	</attribute>
+	<attribute type="attribute" id="85993" language="de" revision="1" name="Kanu" tstamp="1501095226">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52883" />
+	</attribute>
+	<attribute type="attribute" id="85994" language="de" revision="1" name="Baden" tstamp="1501095114">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52883" />
+	</attribute>
+	<attribute type="attribute" id="85995" language="de" revision="1" name="Floß" tstamp="1501095120">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52883" />
+	</attribute>
+	<attribute type="attribute" id="85996" language="de" revision="1" name="Segeln" tstamp="1501095435">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52883" />
+	</attribute>
+	<attribute type="attribute" id="85997" language="de" revision="1" name="Kahnfahrten" tstamp="1501095226">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52883" />
+	</attribute>
+	<attribute type="attribute" id="85998" language="de" revision="1" name="Ausflugsschifffahrt" tstamp="1501095113">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52883" />
+	</attribute>
+	<attribute type="attribute" id="85999" language="de" revision="1" name="Wasser-Funsport &amp; Tauchen" tstamp="1501095329">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52883" />
+	</attribute>
+	<attribute type="attribute" id="86000" language="de" revision="1" name="Angeln" tstamp="1501095111">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52883" />
+	</attribute>
+	<attribute type="attribute" id="86001" language="de" revision="1" name="Radfahren" tstamp="1501095230">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52883" />
+	</attribute>
+	<attribute type="attribute" id="86002" language="de" revision="1" name="Wandern" tstamp="1501095328">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52883" />
+	</attribute>
+	<attribute type="attribute" id="86003" language="de" revision="1" name="Natur erleben &amp; verstehen" tstamp="1501095228">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52883" />
+	</attribute>
+	<attribute type="attribute" id="86004" language="de" revision="1" name="Reiten" tstamp="1501095230">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52883" />
+	</attribute>
+	<attribute type="attribute" id="86005" language="de" revision="1" name="Skaten" tstamp="1501095323">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52883" />
+	</attribute>
+	<attribute type="attribute" id="86006" language="de" revision="1" name="Aktiverlebnisse &amp; Sport" tstamp="1501095110">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52883" />
+	</attribute>
+	<attribute type="attribute" id="86007" language="de" revision="1" name="Gärten &amp; Parks" tstamp="1501095121">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52883" />
+	</attribute>
+	<attribute type="attribute" id="86008" language="de" revision="1" name="Zoos &amp; Tierparke" tstamp="1501095331">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52883" />
+	</attribute>
+	<attribute type="attribute" id="86009" language="de" revision="1" name="Gastronomie" tstamp="1501095122">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52883" />
+	</attribute>
+	<attribute type="attribute" id="86010" language="de" revision="1" name="Hofläden" tstamp="1501095223">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52883" />
+	</attribute>
+	<attribute type="attribute" id="86011" language="de" revision="1" name="Handwerk &amp; Manufakturen" tstamp="1501095125">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52883" />
+	</attribute>
+	<attribute type="attribute" id="86012" language="de" revision="1" name="Geschäfte &amp; Einkaufszentren" tstamp="1501095123">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52883" />
+	</attribute>
+	<attribute type="attribute" id="86013" language="de" revision="1" name="Galerien &amp; Ateliers" tstamp="1501095121">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52883" />
+	</attribute>
+	<attribute type="attribute" id="86014" language="de" revision="1" name="Theater &amp; Bühnen" tstamp="1501095327">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52883" />
+	</attribute>
+	<attribute type="attribute" id="86015" language="de" revision="1" name="Stadtführungen" tstamp="1501095324">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52883" />
+	</attribute>
+	<attribute type="attribute" id="86016" language="de" revision="1" name="Schlösser &amp; Herrenhäuser" tstamp="1501095231">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52883" />
+	</attribute>
+	<attribute type="attribute" id="86017" language="de" revision="1" name="Museen &amp; Themenparks" tstamp="1501095228">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52883" />
+	</attribute>
+	<attribute type="attribute" id="86018" language="de" revision="1" name="Industriekultur" tstamp="1501095224">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52883" />
+	</attribute>
+	<attribute type="attribute" id="86019" language="de" revision="1" name="Kirchen, Klöster &amp; Co." tstamp="1501095227">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52883" />
+	</attribute>
+	<attribute type="attribute" id="86020" language="de" revision="1" name="Historische Baudenkmäler &amp; Stätten" tstamp="1501095126">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52883" />
+	</attribute>
+	<attribute type="attribute" id="86021" language="de" revision="1" name="Preußisches Arkadien" tstamp="1501095229">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52883" />
+	</attribute>
+	<attribute type="attribute" id="86022" language="de" revision="1" name="Filmorte" tstamp="1501095119">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52883" />
+	</attribute>
+	<attribute type="attribute" id="86023" language="de" revision="1" name="Gesundheit &amp; Entschleunigung" tstamp="1501095124">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52883" />
+	</attribute>
+	<attribute type="attribute" id="86024" language="de" revision="1" name="Thermen" tstamp="1501095327">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52883" />
+	</attribute>
+	<attribute type="attribute" id="86025" language="de" revision="1" name="Erlebnisbäder" tstamp="1501095118">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52883" />
+	</attribute>
+	<attribute type="attribute" id="86026" language="de" revision="1" name="Hotels &amp; Pensionen" tstamp="1501095224">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52883" />
+	</attribute>
+	<attribute type="attribute" id="86027" language="de" revision="1" name="Ferienwohnungen &amp; -häuser" tstamp="1501095118">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52883" />
+	</attribute>
+	<attribute type="attribute" id="86028" language="de" revision="1" name="Campingplätze" tstamp="1501095116">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52883" />
+	</attribute>
+	<attribute type="attribute" id="86029" language="de" revision="1" name="Wohnmobilstellplätze" tstamp="1501095330">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52883" />
+	</attribute>
+	<attribute type="attribute" id="86106" language="de" revision="1" name="Hausboot" tstamp="1501095125">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52884" />
+	</attribute>
+	<attribute type="attribute" id="86107" language="de" revision="1" name="Kanu" tstamp="1501095226">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52884" />
+	</attribute>
+	<attribute type="attribute" id="86108" language="de" revision="1" name="Baden" tstamp="1501095114">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52884" />
+	</attribute>
+	<attribute type="attribute" id="86109" language="de" revision="1" name="Floß" tstamp="1501095120">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52884" />
+	</attribute>
+	<attribute type="attribute" id="86110" language="de" revision="1" name="Segeln" tstamp="1501095322">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52884" />
+	</attribute>
+	<attribute type="attribute" id="86111" language="de" revision="1" name="Kahnfahrten" tstamp="1501095225">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52884" />
+	</attribute>
+	<attribute type="attribute" id="86112" language="de" revision="1" name="Ausflugsschifffahrt" tstamp="1501095112">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52884" />
+	</attribute>
+	<attribute type="attribute" id="86113" language="de" revision="1" name="Wasser-Funsport &amp; Tauchen" tstamp="1501095329">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52884" />
+	</attribute>
+	<attribute type="attribute" id="86114" language="de" revision="1" name="Angeln" tstamp="1501095111">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52884" />
+	</attribute>
+	<attribute type="attribute" id="86115" language="de" revision="1" name="Radfahren" tstamp="1501095229">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52884" />
+	</attribute>
+	<attribute type="attribute" id="86116" language="de" revision="1" name="Wandern" tstamp="1501095328">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52884" />
+	</attribute>
+	<attribute type="attribute" id="86117" language="de" revision="1" name="Natur erleben &amp; verstehen" tstamp="1501095228">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52884" />
+	</attribute>
+	<attribute type="attribute" id="86118" language="de" revision="1" name="Reiten" tstamp="1501095230">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52884" />
+	</attribute>
+	<attribute type="attribute" id="86119" language="de" revision="1" name="Skaten" tstamp="1501095323">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52884" />
+	</attribute>
+	<attribute type="attribute" id="86120" language="de" revision="1" name="Aktiverlebnisse &amp; Sport" tstamp="1501095110">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52884" />
+	</attribute>
+	<attribute type="attribute" id="86121" language="de" revision="1" name="Gärten &amp; Parks" tstamp="1501095122">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52884" />
+	</attribute>
+	<attribute type="attribute" id="86122" language="de" revision="1" name="Zoos &amp; Tierparke" tstamp="1501095331">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52884" />
+	</attribute>
+	<attribute type="attribute" id="86123" language="de" revision="1" name="Gastronomie" tstamp="1501095122">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52884" />
+	</attribute>
+	<attribute type="attribute" id="86124" language="de" revision="1" name="Hofläden" tstamp="1501095223">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52884" />
+	</attribute>
+	<attribute type="attribute" id="86125" language="de" revision="1" name="Handwerk &amp; Manufakturen" tstamp="1501095124">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52884" />
+	</attribute>
+	<attribute type="attribute" id="86126" language="de" revision="1" name="Geschäfte &amp; Einkaufszentren" tstamp="1501095123">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52884" />
+	</attribute>
+	<attribute type="attribute" id="86127" language="de" revision="1" name="Galerien &amp; Ateliers" tstamp="1501095121">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52884" />
+	</attribute>
+	<attribute type="attribute" id="86128" language="de" revision="1" name="Theater &amp; Bühnen" tstamp="1501095327">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52884" />
+	</attribute>
+	<attribute type="attribute" id="86129" language="de" revision="1" name="Stadtführungen" tstamp="1501095324">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52884" />
+	</attribute>
+	<attribute type="attribute" id="86130" language="de" revision="1" name="Schlösser &amp; Herrenhäuser" tstamp="1501095231">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52884" />
+	</attribute>
+	<attribute type="attribute" id="86131" language="de" revision="1" name="Museen &amp; Themenparks" tstamp="1501095228">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52884" />
+	</attribute>
+	<attribute type="attribute" id="86132" language="de" revision="1" name="Industriekultur" tstamp="1501095224">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52884" />
+	</attribute>
+	<attribute type="attribute" id="86133" language="de" revision="1" name="Kirchen, Klöster &amp; Co." tstamp="1501095227">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52884" />
+	</attribute>
+	<attribute type="attribute" id="86134" language="de" revision="1" name="Historische Baudenkmäler &amp; Stätten" tstamp="1501095126">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52884" />
+	</attribute>
+	<attribute type="attribute" id="86135" language="de" revision="1" name="Preußisches Arkadien" tstamp="1501095229">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52884" />
+	</attribute>
+	<attribute type="attribute" id="86136" language="de" revision="1" name="Filmorte" tstamp="1501095119">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52884" />
+	</attribute>
+	<attribute type="attribute" id="86137" language="de" revision="1" name="Gesundheit &amp; Entschleunigung" tstamp="1501095123">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52884" />
+	</attribute>
+	<attribute type="attribute" id="86138" language="de" revision="1" name="Thermen" tstamp="1501095327">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52884" />
+	</attribute>
+	<attribute type="attribute" id="86139" language="de" revision="1" name="Erlebnisbäder" tstamp="1501095117">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52884" />
+	</attribute>
+	<attribute type="attribute" id="86140" language="de" revision="1" name="Hotels &amp; Pensionen" tstamp="1501095224">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52884" />
+	</attribute>
+	<attribute type="attribute" id="86141" language="de" revision="1" name="Ferienwohnungen &amp; -häuser" tstamp="1501095119">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52884" />
+	</attribute>
+	<attribute type="attribute" id="86142" language="de" revision="1" name="Campingplätze" tstamp="1501095116">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52884" />
+	</attribute>
+	<attribute type="attribute" id="86143" language="de" revision="1" name="Wohnmobilstellplätze" tstamp="1501095330">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="52884" />
+	</attribute>
+	<attribute type="attribute" id="86551" language="de" revision="1" name="Brauerei" tstamp="1501095115">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5504" />
+	</attribute>
+	<attribute type="attribute" id="86552" language="de" revision="1" name="An-/Abreise mit ÖPNV möglich" tstamp="1501095110">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5506" />
+	</attribute>
+	<attribute type="attribute" id="87583" language="de" revision="1" name="Hotel" tstamp="1501095223">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5491" />
+	</attribute>
+	<attribute type="attribute" id="87584" language="de" revision="1" name="Pension" tstamp="1501095229">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5491" />
+	</attribute>
+	<attribute type="attribute" id="87585" language="de" revision="1" name="Privatvermieter" tstamp="1501095229">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5491" />
+	</attribute>
+	<attribute type="attribute" id="87586" language="de" revision="1" name="Gruppenunterkunft" tstamp="1501095124">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5491" />
+	</attribute>
+	<attribute type="attribute" id="87587" language="de" revision="1" name="Hostel / Jugendherberge" tstamp="1501095223">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5491" />
+	</attribute>
+	<attribute type="attribute" id="87588" language="de" revision="1" name="sonstiger Anbieter" tstamp="1501095323">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5491" />
+	</attribute>
+	<attribute type="attribute" id="87589" language="de" revision="1" name="Ferienwohnung / Ferienhaus" tstamp="1501095119">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5490" />
+	</attribute>
+	<attribute type="attribute" id="87590" language="de" revision="1" name="Feriendorf" tstamp="1501095118">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5490" />
+	</attribute>
+	<attribute type="attribute" id="100943" language="de" revision="1" name="Kino" tstamp="1501095227">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+		<classification type="classification" id="5495" />
+	</attribute>
+	<attribute type="attribute" id="100944" language="de" revision="1" name="Tourenlänge (km)" tstamp="1501095327">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+	</attribute>
+	<attribute type="attribute" id="100945" language="de" revision="1" name="Tour von A nach B" tstamp="1501095328">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+	</attribute>
+	<attribute type="attribute" id="100946" language="de" revision="1" name="Rundtour" tstamp="1501095231">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+	</attribute>
+	<attribute type="attribute" id="101123" language="de" revision="1" name="Tourendauer (h)" tstamp="1501095327">
+		<allowedController type="controller">Poi</allowedController>
+		<category type="classification" id="82947" />
+	</attribute>
