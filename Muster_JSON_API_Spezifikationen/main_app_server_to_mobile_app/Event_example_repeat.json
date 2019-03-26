@@ -1,4 +1,5 @@
 { // englische, deutsche und polnische versionen trennen !! Idee: Event einer Eventserie möglich.
+	//To _Do: Struktur an Haupt Example anpassen !!!
 	"event": {
 		"id":"",
 		"parent_id": "", // z.B. ein festival mit einem Zeitraum und child events wie konzerten
