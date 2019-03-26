@@ -1,6 +1,6 @@
 { // POIs = Branchenbuch oder = Sehenswerte Orte ?
     "style/design": {
-        "main_theme_color":"green",
+        "main_theme_color": "green",
         "font_size": {
             "standard": "1rem",
             "h1": "6rem",
@@ -11,34 +11,10 @@
             "h6": "1.5rem"
         },
         "font": "Museo Sans",
-        "brand_icon":"",
+        "brand_icon": "",
         "color_gradient": "",
     },
     "form_screens": [
-        {
-            "headline": "Maerker",
-            "subheadline": "",
-            "summary": "",
-            "content": "ösdn vöms dvsad vm",
-            "input_fields": [
-                {
-                    "label": "Ihr Name",
-                    "type": "text",
-                    "tooltip": ""
-                },
-                {
-                    "label": "Ihre E-Mail-Adresse",
-                    "type": "email",
-                    "tooltip": "Hier können SIe ihre E-Mail-Adresse eingeben"
-                },
-                {
-                    "label": "Ihr Anliegen",
-                    "type": "text area",
-                    "tooltip": "Hier können Sie uns ihr Anliegen mitteilen."
-                }
-            ], 
-            "thank_you_message": "Dankeschön."
-        },
         {
             "headline": "Feedback",
             "subheadline": "",
@@ -60,56 +36,233 @@
                     "type": "text area",
                     "tooltip": "Hier können Sie uns ihr Anliegen mitteilen."
                 }
-            ], 
-            "thank_you_message": "Dankeschön.",
-        },
-        {
-            "headline": "Abfallkalender", // ? Abfallkalender infos kommen von einer extra API oder aus unserer Datenbank ?
-            "subheadline": "Welche Tonne muss wann rausgestellt werden",
-            "summary": "",
-            "content": "Integer ipsum dolor sit amet consectetur adipiscing",
-            "input_fields": [
-                {
-                    "label": "Ihre Adresse",
-                    "type": "text",
-                    "placeholder": "Straße, Hausnummer und Ort"
-                }
-            ]
+            ],
+            "success_message": "Dankeschön.",
+            "error_message": "Bitte erneut eingeben."
         }
     ],
-    "home": {
+    "home_screen": {
         "headline": "Stadt Bad Belzig",
         "welcome_text": "",
         "background-image": "",
-        "splash_1": {
-            "headline": "Stadt Bad Belzig", 
-            "teaser":"",
-            "text": "",
-            "background_image":""
-        },
-        "splash_2": {
-            "headline": "Praesent commodo", 
-            "teaser":"",
-            "text": "Praesent commodo Praesent commodo Praesent commodo Praesent commodo Praesent commodo, Praesent commodo.",
-            "background_image":""
-        },
-        "splash_3": {
-            "headline": "Lorem ipsum dolor sit amet consectetur adipiscing", 
-            "teaser":"",
-            "text": "",
-            "background_image":"image_link"
-        },
-        "splash_4": {
-            "headline": "Lorem ipsum dolor sit amet consectetur adipiscing", 
-            "teaser":"",
-            "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit class lacus dis mus, suspendisse euismod augue luctus nulla feugiat dapibus etiam placerat nibh a, himenaeos commodo at porta magnis facilisi tempus quam pharetra sapien. Consectetur euismod ultrices nullam sed cum, pellentesque gravida arcu vel inceptos sagittis, nam nostra molestie mauris. Nisi diam consectetur vivamus fermentum iaculis massa praesent ipsum, dolor tempor senectus mattis congue hac dictumst, habitant litora lectus morbi in sociis mollis.",
-            "background_image":""
-        }
+        "building_blocks": [
+            {
+                "sortorder/position": 1,
+                "headline": {
+                    "text": "Nachrichten",
+                    "link": null
+                },
+                "main_content": [
+                    {
+                        "sort_order": 1,
+                        "type": "list",
+                        "items": [
+                            {
+                                "image": null,
+                                "headline": "Bürgermeister wiederspricht der MAZ: Soziale Medien sind toll.",
+                                "tagline": "22.01.2019 | Rathaus Bad Belzig",
+                                "subheadline": null,
+                                "link": "link_to_news_article",
+                                "sort_order": 1 // ist nicht unbedingt notwendig, da die liste geordnet aus der Datenbank kommen sollte
+                            },
+                            {
+                                "image": null,
+                                "headline": "Bürgermeister der smarten Stadt lehnt Soziale Medien ab.",
+                                "tagline": "21.01.2019 | Märkische Allgemeine Zeitung",
+                                "subheadline": null,
+                                "link": "link_to_news_article",
+                                "sort_order": 2
+                            },
+                            {
+                                "image": null,
+                                "headline": "Veranstaltungsplan 2019 veröffentlicht",
+                                "tagline": "09.01.2019 | Coconat",
+                                "subheadline": null,
+                                "link": "link_to_news_article",
+                                "sort_order": 3
+                            },
+                            {
+                                "image": null,
+                                "headline": "Es knallt an der 'Carl-von-Ossietzky'-Schule",
+                                "tagline": "07.01.2019 |  Märkische Allgemeine Zeitung",
+                                "subheadline": null,
+                                "link": "link_to_news_article",
+                                "sort_order": 4
+                            }
+                        ]
+                    }
+                ],
+                "footer": {
+                    "text": "Zur Nachrichten-Übersicht",
+                    "link": "link_to_nachrichten_index"
+                }
+            },
+            {
+                "sortorder/position": 2,
+                "headline": {
+                    "text": "Sehenswerte Orte ",
+                    "link": null
+                },
+                "main_content": [
+                    {
+                        "sort_order": 1,
+                        "type": "tiles",
+                        "items": [
+                            {
+                                "image": "image_link_1",
+                                "headline": null,
+                                "tagline": null,
+                                "subheadline": "Burg Eisenhardt",
+                                "link": "link_to_poi_burg_eisenhardt",
+                                "sort_order": 1 // ist nicht unbedingt notwendig, da die liste geordnet aus der Datenbank kommen sollte
+                            },
+                            {
+                                "image": "image_link_2",
+                                "headline": null,
+                                "tagline": null,
+                                "subheadline": "Roger Loewig Museum",
+                                "link": "link_to_poi_roger_loewig_museum",
+                                "sort_order": 2
+                            },
+                            {
+                                "image": "image_link_3",
+                                "headline": null,
+                                "tagline": null,
+                                "subheadline": "Steintherme Belzig",
+                                "link": "link_to_poi_steintherme_belzig",
+                                "sort_order": 3
+                            },
+                            {
+                                "image": "image_link_4",
+                                "headline": null,
+                                "tagline": null,
+                                "subheadline": "Internationaler Kunstwanderweg",
+                                "link": "link_to_tour_kunstwanderweg",
+                                "sort_order": 4
+                            }
+                        ]
+                    },
+                    {
+                        "sort_order": 2,
+                        "type": "text",
+                        "headline": "",
+                        "summary": "",
+                        "paragraphs": [
+                            "Lorem ipsum dolor sit amet consectetur adipiscing",
+                            "Lorem ipsum dolor sit amet consectetur adipiscing",
+                            "Lorem ipsum dolor sit amet consectetur adipiscing"
+                        ]
+                    }
+                ],
+                "footer": {
+                    "text": "Zu allen Sehenswürdigkeiten/Routen",
+                    "link": "link_to_poi_or_tour_index"
+                }
+            },
+            {
+                "sortorder/position": 3,
+                "headline": {
+                    "text": "Über die App ",
+                    "link": null
+                },
+                "main_content": [
+                    {
+                        "sort_order": 1,
+                        "type": "list",
+                        "items": [
+                            {
+                                "image": null,
+                                "headline": "Projekt Hintergrund",
+                                "tagline": null,
+                                "subheadline": null,
+                                "link": "link_to_projekt_hintergrund_content",
+                                "sort_order": 1
+                            },
+                            {
+                                "image": null,
+                                "headline": "Mitmachen",
+                                "tagline": null,
+                                "subheadline": null,
+                                "link": "link_to_mitmachen_content",
+                                "sort_order": 2
+                            },
+                            {
+                                "image": null,
+                                "headline": "Häufige Fragen",
+                                "tagline": null,
+                                "subheadline": null,
+                                "link": "link_to_haeufige_fragen_content",
+                                "sort_order": 3
+                            },
+                            {
+                                "image": null,
+                                "headline": "Datenschutz",
+                                "tagline": null,
+                                "subheadline": null,
+                                "link": "link_to_datenschutz_content",
+                                "sort_order": 4
+                            },
+                            {
+                                "image": null,
+                                "headline": "Impressum",
+                                "tagline": null,
+                                "subheadline": null,
+                                "link": "link_to_impressum_content",
+                                "sort_order": 5 // ist nicht unbedingt notwendig, da die liste geordnet aus der Datenbank kommen sollte
+                            }
+                        ]
+                    },
+                    {
+                        "sort_order": 2,
+                        "type": "text",
+                        "headline": "",
+                        "summary": "",
+                        "paragraphs": [
+                            "Lorem ipsum dolor sit amet consectetur adipiscing",
+                            "Lorem ipsum dolor sit amet consectetur adipiscing",
+                            "Lorem ipsum dolor sit amet consectetur adipiscing"
+                        ]
+                    }
+                ],
+                "footer": {
+                    "button": {
+                        "text": "Zum Feedbackformular",
+                        "link": "link_to_feedback_form"
+                    }
+                }
+            }
+        ]
     },
+    "splashes": [
+        {
+            "headline": "Stadt Bad Belzig",
+            "summary": "",
+            "text": "",
+            "background_image": ""
+        },
+        {
+            "headline": "Praesent commodo",
+            "summary": "",
+            "text": "Praesent commodo Praesent commodo Praesent commodo Praesent commodo Praesent commodo, Praesent commodo.",
+            "background_image": ""
+        },
+        {
+            "headline": "Lorem ipsum dolor sit amet consectetur adipiscing",
+            "summary": "",
+            "text": "",
+            "background_image": "image_link"
+        },
+        {
+            "headline": "Lorem ipsum dolor sit amet consectetur adipiscing",
+            "summary": "",
+            "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit class lacus dis mus, suspendisse euismod augue luctus nulla feugiat dapibus etiam placerat nibh a, himenaeos commodo at porta magnis facilisi tempus quam pharetra sapien. Consectetur euismod ultrices nullam sed cum, pellentesque gravida arcu vel inceptos sagittis, nam nostra molestie mauris. Nisi diam consectetur vivamus fermentum iaculis massa praesent ipsum, dolor tempor senectus mattis congue hac dictumst, habitant litora lectus morbi in sociis mollis.",
+            "background_image": ""
+        }
+    ],
     "impressum": {
         "name": "Stad Bad Belzig",
         "adress": {
-            "street": "mnusterstraße 1",
+            "street": "musterstraße 1",
             "zip": 12345,
             "city": "Bad Belzig"
         },
@@ -141,3 +294,5 @@
     "mitmachen": "",
     "Nutzungsbestimmungen:": "text"
 }
+// homescreen struktur die den homescreen abbildet und seiteninhalte nicht aus datenbank zieht sondern einfach content.
+// Static content, Content Blöcke des Home Screens siehe Handy Foto.
