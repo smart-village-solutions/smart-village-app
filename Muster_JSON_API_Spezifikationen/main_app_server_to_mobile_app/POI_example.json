@@ -12,14 +12,31 @@
             "description": "Rabenstein Castle is located in the midst of the “Steile Hagen“ (a steep hill) at the dizzy height of 153 metres where once, in the Middle Ages, sabres rattled and the armour of knights clattered. The complex, with the keep of almost 30m in height at its centre, was probably built in the 12th century. The knights’ hall, the working quarters, the well, the barn and the baking house can be visited and provide information about life in earlier centuries. Every year at Easter, there is a medieval spectacle at Rabenstein Castle. The visitor information centre for the Hohe (high) Fläming Nature Park is at the old distillery in the village of Raben. Buying products that are typical of Fläming, renting bicycles and finding out everything about hikes and bicycle rides through the nature park: all this is on the agenda here.",
             "mobile_description": "description text for mobile devices"
         },
-        "main_category": "Kultur", // Kategorientabelle verwaltung mapping tmb id mitbedenken. initial 1 zu 1 zu tmb tabelle
-        "sub_category": "Burgen",
-        "category_id": "", 
-        "created_at": "test",
-        "updated_at": "test",
-        "status": "active",
+        "category_id": 8876, 
+        "created_at": "01.01.01",
+        "updated_at": "01.01.01",
+        "status": "active", // mögliche "Stati": active, inactive
         "tour": "false", // Tour soll ein Extra Datenmodell
-        "poi_provider": "TMB",
+        "data_provider": { // ergibt sich aus dem authentifzierten uploader der die Daten hochgeladen hat. ! in POI kopieren!
+			"name": "tmb",
+			"address": {
+				"street": "Musterstr. 123",
+				"zip": "14567",
+				"city": "Potsdam",
+				"coordinates": {
+					"lat": 52.345678,
+					"lng": 12.345678
+				}
+			},
+			"contact": {
+				"phone": "+4903384860004",
+				"fax": "",
+				"email": "test@test.net",
+				"url": "http://www.flaeming.net"
+			},
+			"logo": "image_link",
+			"description": ""
+		},
         "inactive_period": {
             "from": "2019-03-01",
             "till": "2019-05-31"
