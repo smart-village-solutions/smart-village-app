@@ -8,14 +8,18 @@
 				"time_start": "13:00:00",
 				"time_end": "18:00:00",
 				"weekday":"monday", // defined only together repeat true and duration and only if use_only time description is true
-				"time_description": null,
+				"time_description_de": null,
+				"time_description_en": null,
+				"time_description_pl": null,
 				"use_only_time_description": true
 			},
 			"date_2": {
 				"time_start": "13:00:00",
 				"time_end": "18:00:00",
 				"weekday": "wednesday",
-				"time_description": "",
+				"time_description_de": null,
+				"time_description_en": null,
+				"time_description_pl": null,
 				"use_only_time_description": true
 			}
 		},
@@ -23,12 +27,11 @@
 		"repeat_duration": {
 			"start": "01.03.",
 			"end": "01.09",
-			"every_year": true
+			"every_year": true // wenn false muss die Jahreszahl für das start date und das enddate vorhanden sein.
 		},
 		"url":{
 			"event_url_1": "http://www.hoher-flaeming-naturpark.de",
 			"event_url_2": "http://www.naturwacht.de",
-			"ticket_url": ""
 		},
 		"highlight":{
 			"event": false,
@@ -37,137 +40,125 @@
 			"regional": false,
 			"local": false
 		},
-		"address": {
+		"address": { //event_location_adress
 			"name": "Treffpunkt: Naturparkzentrum Hoher Fläming",
 			"street": "Brennereiweg 45 OT Raben",
 			"zip": "14823",
 			"city": "Raben",
-			"coordinates": { 
+			"coordinates": {
 				"lat": 52.041297912598,
 				"lng": 12.578530311584
 			}
 		},
-        "location": { 
-            "id": 3581,
-            "name": "Raben",
-            "department": "Niemegk",
-            "district": "Potsdam-Mittelmark",
-            "region": "Fläming",
-            "coordinates": {
-                "lat": 52.042051020544,
-                "lng": 12.577602953518
-            }
-        },
-		"contact": { 
-			"company/name": "Naturparkzentrum Hoher Fläming",
+		"contact": { //contact  event location
 			"phone": "+4903384860004",
-			"fax": "",
+			"fax": null,
 			"email": "info@flaeming.net",
 			"url": "http://www.flaeming.net"
 		},
-		"organizer":{ // Event Veranstalter, kann mit contact und adress identisch sein, muss es aber nicht
-			"name": "Natur Event Agentur Brandenburg",
+		"organizer": { // Event Veranstalter, kann mit contact und adress identisch sein, muss es aber nicht
+			"company/name": "Naturparkzentrum Hoher Fläming",
 			"address": {
-				"street": "Musterstr. 123",
-				"zip": "14567",
-				"city": "Potsdam",
-				"coordinates": { 
-				"lat": 52.345678,
-				"lng": 12.345678
+				"street": "Brennereiweg 45 OT Raben",
+				"zip": "14823",
+				"city": "Raben",
+				"coordinates": {
+					"lat": 52.041297912598,
+					"lng": 12.578530311584
+				}
 			},
 			"contact": {
 				"phone": "+4903384860004",
-				"fax": "",
-				"email": "test@test.net",
+				"fax": null,
+				"email": "info@flaeming.net",
 				"url": "http://www.flaeming.net"
 			}
-		}, 
-		"data_provider": { // ergibt sich aus dem authentifzierten uploader der die Daten hochgeladen hat
+		},
+		"location": { //zugehöriger geographischer Ort
+			"id": 3581,
+			"name": "Raben",
+			"department": "Niemegk",
+			"district": "Potsdam-Mittelmark",
+			"region": "Fläming",
+			"coordinates": {
+				"lat": 52.042051020544,
+				"lng": 12.577602953518
+			}
+		},
+		"data_provider": { // ergibt sich aus dem authentifzierten uploader der die Daten hochgeladen hat. ! in POI kopieren!
 			"name": "tmb",
 			"address": {
 				"street": "Musterstr. 123",
 				"zip": "14567",
 				"city": "Potsdam",
-				"coordinates": { 
-				"lat": 52.345678,
-				"lng": 12.345678
+				"coordinates": {
+					"lat": 52.345678,
+					"lng": 12.345678
+				}
 			},
 			"contact": {
 				"phone": "+4903384860004",
 				"fax": "",
 				"email": "test@test.net",
 				"url": "http://www.flaeming.net"
-			}
-		}, 
-		"images": {
-			"imagelink": "http://eingabe.events-in-brandenburg.de/images/itempics/4/2/2/item_457224_pic_1_medium.jpg",
-			"imagelink_big": "http://eingabe.events-in-brandenburg.de/images/itempics/4/2/2/item_457224_pic_1_contentwidth.jpg",
-			"imagelink_xl": {
-				"width": "782",
-				"height": "1200",
-				"sha1_hash": "b5480712dd90f42c12ea65d0ca7f6a77ca7b51ce",
-				"url": "http://eingabe.events-in-brandenburg.de/images/itempics/4/2/2/item_457224_pic_1_orig.jpg"
 			},
-			"imagelink_2": "",
-			"imagelink_2_BIG": "",
-			"imagelink_XL": "",
-			"imagelink_3": "",
-			"imagelink_3_BIG": "",
-			"imagelink_3_XL": ""
+			"logo": "image_link",
+			"description": ""
 		},
+		"images": [ // image_alt_text wieder zu images !!! Wenn es mehrere Bilder gibt, ist das erste Bild das teaser Bild.
+			{
+				"link": "http://eingabe.events-in-brandenburg.de/images/itempics/4/2/2/item_457224_pic_1_medium.jpg",
+				"caption_text": "Damhirsch",
+				"caption_text_en": "test",
+				"caption_text_pl": "test"
+			},
+			{
+				"link": "image_link_2",
+				"caption_text": "Schwarzwild",
+				"caption_text_en": "test",
+				"caption_text_pl": "test"
+			}
+		],
 		"german_version:": {
-			"category_name_de": "Lust auf NaTour",
-			"category_name2_de": "",
-			"category_name3_de": "",
-			"category_name4_de": "",
 			"title": "Wildspuren",
 			"description": "Mit der Naturwacht und dem Förster begeben wir uns ins Revier, um den Waldtieren auf die Spur zu kommen.\nWelche Tierarten gibt es im Naturpark und welche davon stehen unter Schutz? Wie sind die Lebensbedingungen? Wovon ernährt sich das Wild? Wie passt sich das Wild an seine Umgebung an und wie gehen wir damit um?\nIm Anschluss an die Pirsch durch Wald und Feld können Sie sich bei einem kleinen Picknick am Feuer wärmen, stärken und sich vielleicht noch etwas über das Erlebte austauschen.\nBitte denken Sie an warme Kleidung.",
 			"price_information": "2,50 Euro (erm. für Kinder bis 14: 1,50 Euro)",
+			"categories": [
+				"Lust auf NaTour"
+			],
 			"event_url_1_description": "Naturpark Hoher Fläming",
 			"event_url_2_description": "Naturwacht Brandenburg",
-			"image_alt_text": "Damhirsch",
-			"image2_alt_text": "",
-			"image3_alt_text": "",
+			"ticket_url": "",
 			"region_name": "Fläming"
 		},
-        "english_version": {
-            "title": "",
-            "description": "",
-            "price_information": "",
-			"category_name_en": "Great Outdoors Events",
-			"category_name2_en": "",
-			"category_name3_en": "",
-			"category_name4_en": "",
-            "event_url_1_description": "",
-            "event_url_2_description": "",
-            "contact_company": "",
-            "location_name": "",
-            "ticket_url": "",
-            "time_description": "",
-            "image_alt_text": "",
-            "image_alt_text_2": "",
-            "image_alt_text_3": "",
-			"region_name": ""
-        },
-        "polish_version": {
-            "title": "",
-            "description": "",
-			"category_name_pl": "Radość z NaTour",
-			"category_name2_pl": "",
-			"category_name3_pl": "",
-			"category_name4_pl": "",
-            "price_information": "",
+		"english_version": {
+			"title": "",
+			"description": "",
+			"price_information": "",
+			"categories": [
+				"Great Outdoors Events"
+			],
 			"event_url_1_description": "",
-            "event_url_2_description": "",
-            "contact_company": "",
-            "location_name": "",
-            "ticket_url": "",
-            "time_description": "",
-            "image_alt_text": "",
-            "image_alt_text_2": "",
-            "image_alt_text_3": "",
+			"event_url_2_description": "",
+			"contact_company": "",
+			"location_name": "",
+			"ticket_url": "",
 			"region_name": ""
-        },
+		},
+		"polish_version": {
+			"title": "",
+			"description": "",
+			"categories": [
+				"Radość z NaTour"
+			],
+			"price_information": "",
+			"event_url_1_description": "",
+			"event_url_2_description": "",
+			"contact_company": "",
+			"location_name": "",
+			"ticket_url": "",
+			"region_name": ""
+		},
 		"barrierefrei_types": "",
 		"barrierefrei_description": "",
 		"barrierefrei_url": "",
