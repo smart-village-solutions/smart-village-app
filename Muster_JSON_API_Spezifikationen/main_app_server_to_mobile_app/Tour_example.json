@@ -4,7 +4,7 @@
         "created_at": "01.01.2018",
         "updated_at": "08.10.2018",
         "status": "active",
-        "data_provider": { // ergibt sich aus dem authentifzierten uploader der die Daten hochgeladen hat.
+        "data_provider": {
             "name": "tmb",
             "address": {
                 "street": "Musterstr. 123",
@@ -57,28 +57,26 @@
         "description": "Die Zeit vor der Reformation war durch eine tiefe Frömmigkeit der Menschen gekennzeichnet, die sich durch den Ausbau von Klosteranlagen durch die Mönchsorden sowie herausragende Stadtpfarrkirchen mit prächtigen Altären widerspiegelt. Im Zuge der Reformation wurden sie oftmals umgenutzt oder aufgelöst. Auf dieser Rundtour liegen sieben historische Stadtkerne mit neun Schlössern und beeindruckenden Kirchen sowie heute kulturell genutzten Klosteranlagen und spannende Museen. In Jüterbog und Mühlberg/Elbe sind die bedeutendsten Zeugnisse der Reformation zu sehen und wurden mit dem Europäischen Kulturerbesiegel dafür ausgezeichnet. Beginnend im Fläming verläuft die Radroute von Jüterbog weiter Richtung Süden zur Elbe, um dann nach einem Bogen durch die Niederlausitz wieder zum Start zurückzukehren.",
         "thumbnail": "thumbnail_image_url",
         "image_gallery": [
-            "image_url_1",
-            "image_url_2",
-            "image_url_3"
-        ],
-        "tags": [
-            "Rundtour"
-        ],
-        "length": 296,
-        "locations": { //alle  Orte der Datenbank die sich in max. Entfernung der Route befinden. die  ids aus der xml tabelle sind als id in der location tabelle nicht vorhanden. Bsp.: id=2288
-            "location": { //laut Dokumentation ist dies die VErknüpfung eines POI mit geographischen MErkmalen(region, department district, nächstgelegner Ort, Postadresse und koordinate des poi findet man im adressbereich)
-                "id": 76,
-                "name": "Herzberg/Elster",
-                "department": "Niemegk",
-                "district": "Potsdam-Mittelmark",
-                "region": "Fläming",
-                "coordinates": {
-                    "lat": 3333869,
-                    "lng": 5768485
-                    
-                }
+            {
+                "link": "image_link_1",
+                "caption_text": "test_1",
+                "caption_text_en": "test",
+                "caption_text_pl": "test"
+            },
+            {
+                "link": "image_link_2",
+                "caption_text": "test_2",
+                "caption_text_en": "test",
+                "caption_text_pl": "test"
             }
-        },
+        ],
+        "type": "Rundtour",
+        "tags": [
+            "Wald",
+            "Seen",
+            "Scenic Route"
+        ],
+        "length_km": 296,
         "geometry_tour_data": [
             [
                 13.5611057,
