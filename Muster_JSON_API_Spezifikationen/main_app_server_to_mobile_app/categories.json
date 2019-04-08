@@ -1,0 +1,45 @@
+//JSON Prototype for the category table. categories from tmb data only have two levels.
+{
+    "categories": {
+        "culture": {
+            "id": 1,
+            "tmb_id": 17,
+            "castles": {
+                "id": 8876,
+                "tmb_id": 32,
+                "17th_century": {
+                    "id": 4765,
+                    "tmb_id": 737
+                },
+                "middle_ages": {
+                    "id": 38,
+                    "tmb_id": 47
+                }  
+            },
+            "museums": {
+                "id": 456,
+                "tmb_id": 53434
+            },
+            "churches": {
+                "id": 453,
+                "tmb_id": 53464
+            }
+        },
+        "staying_overnight": {
+            "id": 2,
+            "tmb_id": 19,
+            "hotels": {
+                "id": 457,
+                "tmb_id": 53466
+            },
+            "holiday_flats": {
+                "id": 458,
+                "tmb_id": 53467
+            },
+            "camping_sites": {
+                "id": 978,
+                "tmb_id": 53468
+            }
+        }
+    }
+}
