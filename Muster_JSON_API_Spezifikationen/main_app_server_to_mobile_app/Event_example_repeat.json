@@ -1,14 +1,13 @@
-{ // englische, deutsche und polnische versionen trennen !! Idee: Event einer Eventserie möglich.
-	//To _Do: Struktur an Haupt Example anpassen !!!
+{
 	"event": {
-		"id":"",
-		"parent_id": "", // z.B. ein festival mit einem Zeitraum und child events wie konzerten
-		"dates": { // Es kann mehrere Daten für ein Event geben, für wiederkehrende events ist auch ein boolscher parameter denkbar
+		"id": "",
+		"parent_id": "",
+		"dates": {
 			"date_1": {
 				"time_start": "13:00:00",
 				"time_end": "18:00:00",
-				"weekday":"monday", // defined only together repeat true and duration and only if use_only time description is true
-				"time_description_de": null,
+				"weekday": "monday",
+				"time_description_de": "Jeden zweiten Montag im Monat",
 				"time_description_en": null,
 				"time_description_pl": null,
 				"use_only_time_description": true
@@ -17,30 +16,30 @@
 				"time_start": "13:00:00",
 				"time_end": "18:00:00",
 				"weekday": "wednesday",
-				"time_description_de": null,
+				"time_description_de": "Jeden ersten Montag im Monat",
 				"time_description_en": null,
 				"time_description_pl": null,
 				"use_only_time_description": true
 			}
 		},
-		"repeat": true, // wenn repeat true ist es ein wiederkehrender Event, Dies muss dann in der Darstellung berücksichtigt werden. Die Wochentage der dates im date hash werden verwendet.
+		"repeat": true,
 		"repeat_duration": {
 			"start": "01.03.",
 			"end": "01.09",
-			"every_year": true // wenn false muss die Jahreszahl für das start date und das enddate vorhanden sein.
+			"every_year": true
 		},
-		"url":{
+		"url": {
 			"event_url_1": "http://www.hoher-flaeming-naturpark.de",
 			"event_url_2": "http://www.naturwacht.de",
 		},
-		"highlight":{
+		"highlight": {
 			"event": false,
 			"holiday": false,
 			"monthly": false,
 			"regional": false,
 			"local": false
 		},
-		"address": { //event_location_adress
+		"address": {
 			"name": "Treffpunkt: Naturparkzentrum Hoher Fläming",
 			"street": "Brennereiweg 45 OT Raben",
 			"zip": "14823",
@@ -50,13 +49,13 @@
 				"lng": 12.578530311584
 			}
 		},
-		"contact": { //contact  event location
+		"contact": {
 			"phone": "+4903384860004",
 			"fax": null,
 			"email": "info@flaeming.net",
 			"url": "http://www.flaeming.net"
 		},
-		"organizer": { // Event Veranstalter, kann mit contact und adress identisch sein, muss es aber nicht
+		"organizer": {
 			"company/name": "Naturparkzentrum Hoher Fläming",
 			"address": {
 				"street": "Brennereiweg 45 OT Raben",
@@ -74,7 +73,7 @@
 				"url": "http://www.flaeming.net"
 			}
 		},
-		"location": { //zugehöriger geographischer Ort
+		"location": {
 			"id": 3581,
 			"name": "Raben",
 			"department": "Niemegk",
@@ -85,7 +84,7 @@
 				"lng": 12.577602953518
 			}
 		},
-		"data_provider": { // ergibt sich aus dem authentifzierten uploader der die Daten hochgeladen hat. ! in POI kopieren!
+		"data_provider": {
 			"name": "tmb",
 			"address": {
 				"street": "Musterstr. 123",
@@ -105,7 +104,7 @@
 			"logo": "image_link",
 			"description": ""
 		},
-		"images": [ // image_alt_text wieder zu images !!! Wenn es mehrere Bilder gibt, ist das erste Bild das teaser Bild.
+		"images": [
 			{
 				"link": "http://eingabe.events-in-brandenburg.de/images/itempics/4/2/2/item_457224_pic_1_medium.jpg",
 				"caption_text": "Damhirsch",

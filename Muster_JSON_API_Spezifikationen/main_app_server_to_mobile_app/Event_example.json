@@ -1,8 +1,8 @@
-{ //englische, deutsche und polnische versionen trennen wo möglich!!
+{
 	"event": {
 		"id": 2,
-		"parent_id": "", // z.B. ein festival mit einem zeitrum und child events wie konzerten
-		"dates": { //Es kann mehrere daten für ein Event geben, für wiederkehrende events ist auch ein boolscher parameter denkbar
+		"parent_id": "",
+		"dates": {
 			"date_1": {
 				"date_start": "2019-02-16",
 				"time_start": "13:00:00",
@@ -11,7 +11,7 @@
 				"time_description_de": null,
 				"time_description_en": null,
 				"time_description_pl": null,
-				"use_only_time_description": "0"
+				"use_only_time_description": false
 			},
 			"date_2": {
 				"date_start": "2019-02-17",
@@ -21,10 +21,10 @@
 				"time_description_de": null,
 				"time_description_en": null,
 				"time_description_pl": null,
-				"use_only_time_description": "0"
+				"use_only_time_description": false
 			}
 		},
-		"repeat": false, // wenn repeat true ist es ein wiederkehrender Event, Dies muss dann in der Darstellung berücksichtigt werden. Die Wochentage der dates im date hash werden verwendet.
+		"repeat": false,
 		"repeat_duration": {
 			"start": null,
 			"end": null,
@@ -41,7 +41,7 @@
 			"regional": false,
 			"local": false
 		},
-		"address": { //event_location_adress
+		"address": {
 			"name": "Treffpunkt: Naturparkzentrum Hoher Fläming",
 			"street": "Brennereiweg 45 OT Raben",
 			"zip": "14823",
@@ -51,13 +51,13 @@
 				"lng": 12.578530311584
 			}
 		},
-		"contact": { //contact  event location
+		"contact": {
 			"phone": "+4903384860004",
 			"fax": null,
 			"email": "info@flaeming.net",
 			"url": "http://www.flaeming.net"
 		},
-		"organizer": { // Event Veranstalter, kann mit contact und adress identisch sein, muss es aber nicht
+		"organizer": {
 			"company/name": "Naturparkzentrum Hoher Fläming",
 			"address": {
 				"street": "Brennereiweg 45 OT Raben",
@@ -75,7 +75,7 @@
 				"url": "http://www.flaeming.net"
 			}
 		},
-		"location": { //zugehöriger geographischer Ort
+		"location": {
 			"id": 3581,
 			"name": "Raben",
 			"department": "Niemegk",
@@ -86,7 +86,7 @@
 				"lng": 12.577602953518
 			}
 		},
-		"data_provider": { // ergibt sich aus dem authentifzierten uploader der die Daten hochgeladen hat. ! in POI kopieren!
+		"data_provider": {
 			"name": "tmb",
 			"address": {
 				"street": "Musterstr. 123",
@@ -106,7 +106,7 @@
 			"logo": "image_link",
 			"description": ""
 		},
-		"images": [ // image_alt_text wieder zu images !!! Wenn es mehrere Bilder gibt, ist das erste Bild das teaser Bild.
+		"images": [
 			{
 				"link": "http://eingabe.events-in-brandenburg.de/images/itempics/4/2/2/item_457224_pic_1_medium.jpg",
 				"caption_text": "Damhirsch",
@@ -149,6 +149,7 @@
 		"polish_version": {
 			"title": "",
 			"description": "",
+			"price_information": "",
 			"categories": [
 				"Radość z NaTour"
 			],
@@ -165,6 +166,7 @@
 		"barrierefrei_url": "",
 		"barrierefrei_url_description": "",
 		"created_at": "date",
-		"updated_at": "date"
+		"updated_at": "date",
+		"updated_at_tmb": "2018-07-31 13:16:19"
 	}
 }

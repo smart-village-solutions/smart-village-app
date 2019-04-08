@@ -1,0 +1,22 @@
+Event example und Event_example_repeat.json
+
+"parent_id": "", // z.B. ein festival mit einem Zeitraum und child events wie konzerten
+
+"dates": {} Es kann mehrere Daten für ein Event geben
+
+
+wenn date_start und date_end bei einem date fehlt dann ist hat es entweder eine individuelle 
+time_description_de in Kombination mit "use_only_time_description": true oder es ist ein weekday 
+definiert. In diesem Fall handelt es sich um einen sich wiederholenden Event
+
+"repeat": true // wenn repeat true ist es ein wiederkehrender Event, Dies muss dann in 
+der Darstellung berücksichtigt werden. Die Wochentage der dates im date hash werden verwendet.
+
+"repeat_duration": {
+			"every_year": true // wenn false muss die Jahreszahl für das start date und das enddate vorhanden sein.
+		}
+
+"data_provider": { // ergibt sich aus dem authentifzierten uploader der die Daten hochgeladen hat.
+
+
+"images": Bei mehreren Bildern die nicht teil einer Gallery sind ist das erste Bild das TEaser Bild.
