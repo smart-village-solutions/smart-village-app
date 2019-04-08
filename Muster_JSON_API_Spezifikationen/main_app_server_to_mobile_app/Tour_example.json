@@ -1,0 +1,393 @@
+{
+    "tour": {
+        "name": "Zwischen fürstlichen Schlössern und frommen Klöstern",
+        "created_at": "01.01.2018",
+        "updated_at": "08.10.2018",
+        "status": "active",
+        "data_provider": { // ergibt sich aus dem authentifzierten uploader der die Daten hochgeladen hat.
+            "name": "tmb",
+            "address": {
+                "street": "Musterstr. 123",
+                "zip": "14567",
+                "city": "Potsdam",
+                "coordinates": {
+                    "lat": 52.345678,
+                    "lng": 12.345678
+                }
+            },
+            "contact": {
+                "phone": "+4903384860004",
+                "fax": "",
+                "email": "test@test.net",
+                "url": "http://www.flaeming.net"
+            },
+            "logo": "image_link",
+            "description": ""
+        },
+        "operating_company": {
+            "name": "Tourismusverband Elbe-Elster-Land e.V.",
+            "address": {
+                "city": "Bad Liebenwerda",
+                "street": "Markt 20",
+                "zip": 04924,
+                "coordinates": {
+                    "coordinate": {
+                        "lat": 51.609621155607,
+                        "lng": 13.545282982203
+                    },
+                    "coordinate": {
+                        "lat": 51.850808029998,
+                        "lng": 13.707147395602
+                    }
+                },
+                "contact": {
+                    "telephone": "035341-30652",
+                    "e-mail": "info@elbe-elster-land.de",
+                    "fax": "035341-12672",
+                    "url": "www.elbe-elster-land.de"
+                }
+            },
+            "description": ""
+        },
+        "regions": [
+            "Elbe-Elster-Land",
+            "Fläming",
+            "Spreewald"
+        ],
+        "description": "Die Zeit vor der Reformation war durch eine tiefe Frömmigkeit der Menschen gekennzeichnet, die sich durch den Ausbau von Klosteranlagen durch die Mönchsorden sowie herausragende Stadtpfarrkirchen mit prächtigen Altären widerspiegelt. Im Zuge der Reformation wurden sie oftmals umgenutzt oder aufgelöst. Auf dieser Rundtour liegen sieben historische Stadtkerne mit neun Schlössern und beeindruckenden Kirchen sowie heute kulturell genutzten Klosteranlagen und spannende Museen. In Jüterbog und Mühlberg/Elbe sind die bedeutendsten Zeugnisse der Reformation zu sehen und wurden mit dem Europäischen Kulturerbesiegel dafür ausgezeichnet. Beginnend im Fläming verläuft die Radroute von Jüterbog weiter Richtung Süden zur Elbe, um dann nach einem Bogen durch die Niederlausitz wieder zum Start zurückzukehren.",
+        "thumbnail": "thumbnail_image_url",
+        "image_gallery": [
+            "image_url_1",
+            "image_url_2",
+            "image_url_3"
+        ],
+        "tags": [
+            "Rundtour"
+        ],
+        "length": 296,
+        "locations": { //alle  Orte der Datenbank die sich in max. Entfernung der Route befinden. die  ids aus der xml tabelle sind als id in der location tabelle nicht vorhanden. Bsp.: id=2288
+            "location": { //laut Dokumentation ist dies die VErknüpfung eines POI mit geographischen MErkmalen(region, department district, nächstgelegner Ort, Postadresse und koordinate des poi findet man im adressbereich)
+                "id": 76,
+                "name": "Herzberg/Elster",
+                "department": "Niemegk",
+                "district": "Potsdam-Mittelmark",
+                "region": "Fläming",
+                "coordinates": {
+                    "lat": 3333869,
+                    "lng": 5768485
+                    
+                }
+            }
+        },
+        "geometry_tour_data": [
+            [
+                13.5611057,
+                51.6196185
+            ],
+            [
+                13.561013,
+                51.6196115
+            ],
+            [
+                13.5609715,
+                51.6196061
+            ],
+            [
+                13.5609239,
+                51.6195979
+            ],
+            [
+                13.5597052,
+                51.6193648
+            ],
+            [
+                13.5578198,
+                51.6189981
+            ],
+            [
+                13.5575696,
+                51.6189423
+            ],
+            [
+                13.556685,
+                51.618761
+            ],
+            [
+                13.556203,
+                51.6186594
+            ],
+            [
+                13.5558976,
+                51.6185816
+            ],
+            [
+                13.5558334,
+                51.6185653
+            ],
+            [
+                13.5555942,
+                51.6184528
+            ],
+            [
+                13.5552789,
+                51.618221
+            ],
+            [
+                13.555078,
+                51.6179604
+            ],
+            [
+                13.5548018,
+                51.6176019
+            ],
+            [
+                13.5543359,
+                51.6170607
+            ],
+            [
+                13.5540635,
+                51.6167449
+            ],
+            [
+                13.5536782,
+                51.6162986
+            ],
+            [
+                13.5534934,
+                51.6160701
+            ],
+            [
+                13.5529459,
+                51.6153931
+            ],
+            [
+                13.5528031,
+                51.6152165
+            ],
+            [
+                13.5521749,
+                51.6144396
+            ],
+            [
+                13.5518759,
+                51.6141053
+            ],
+            [
+                13.5517738,
+                51.613991
+            ],
+            [
+                13.5514932,
+                51.613695
+            ],
+            [
+                13.5514355,
+                51.6136475
+            ],
+            [
+                13.551394,
+                51.6136323
+            ],
+            [
+                13.5512103,
+                51.61356
+            ],
+            [
+                13.5508876,
+                51.6134375
+            ],
+            [
+                13.5496354,
+                51.6129311
+            ],
+            [
+                13.5483462,
+                51.6124562
+            ],
+            [
+                13.5485612,
+                51.612228
+            ],
+            [
+                13.5487704,
+                51.6120048
+            ],
+            [
+                13.5489517,
+                51.611826
+            ],
+            [
+                13.5490976,
+                51.6117017
+            ],
+            [
+                13.5492693,
+                51.6115485
+            ],
+            [
+                13.5494269,
+                51.6113768
+            ],
+            [
+                13.5496247,
+                51.611185
+            ],
+            [
+                13.5497209,
+                51.6112193
+            ],
+            [
+                13.5498228,
+                51.6111194
+            ],
+            [
+                13.5498797,
+                51.6110482
+            ],
+            [
+                13.5499508,
+                51.6109639
+            ],
+            [
+                13.5499707,
+                51.6109374
+            ],
+            [
+                13.5498565,
+                51.6108889
+            ],
+            [
+                13.5496805,
+                51.6108198
+            ],
+            [
+                13.54715,
+                51.6098428
+            ],
+            [
+                13.5466764,
+                51.6097099
+            ],
+            [
+                13.5467448,
+                51.6095983
+            ],
+            [
+                13.5465832,
+                51.6094985
+            ],
+            [
+                13.5464039,
+                51.6093602
+            ],
+            [
+                13.5462247,
+                51.6091782
+            ],
+            [
+                13.5462724,
+                51.6087397
+            ],
+            [
+                13.5463789,
+                51.6084657
+            ],
+            [
+                13.5476691,
+                51.6073317
+            ],
+            [
+                13.5471051,
+                51.6048246
+            ],
+            [
+                13.54639,
+                51.60153
+            ],
+            [
+                13.5463893,
+                51.6013208
+            ],
+            [
+                13.546388,
+                51.600908
+            ],
+            [
+                13.5464039,
+                51.6008296
+            ],
+            [
+                13.5466849,
+                51.5994479
+            ],
+            [
+                13.5469172,
+                51.598806
+            ],
+            [
+                13.5472556,
+                51.5978708
+            ],
+            [
+                13.5476165,
+                51.5969999
+            ],
+            [
+                13.5476853,
+                51.5968339
+            ],
+            [
+                13.5477228,
+                51.596718
+            ],
+            [
+                13.5477945,
+                51.5964956
+            ],
+            [
+                13.5477984,
+                51.5962804
+            ],
+            [
+                13.547745,
+                51.5961279
+            ],
+            [
+                13.5476368,
+                51.5958779
+            ],
+            [
+                13.546022,
+                51.5940324
+            ],
+            [
+                13.5452528,
+                51.5935572
+            ]
+        ],
+        "tour_start": {
+            "name": "Bahnhof Doberlug-Kirchhain",
+            "city": "Doberlug-Kirchhain",
+            "zip": 03253,
+            "street": "Bahnhofsallee",
+            "coordinates": {
+                "coordinate": {
+                    "lat": 51.620237992608,
+                    "lng": 13.561093731208
+                }
+            }
+        },
+        "tour_end": {
+            "name": "Bahnhof Doberlug-Kirchhain",
+            "city": "Doberlug-Kirchhain",
+            "zip": 03253,
+            "street": "Bahnhofsallee",
+            "coordinates": {
+                "coordinate": {
+                    "lat": 51.620237992608,
+                    "lng": 13.561093731208
+                }
+            }
+        }
+    }
+}
