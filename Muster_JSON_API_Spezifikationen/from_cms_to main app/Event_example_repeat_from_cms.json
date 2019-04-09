@@ -1,7 +1,7 @@
 {
 	"event": {
-		"id": 33,
-		"parent_id": 56,
+		"id_from_cms": 66,
+		"parent_id_from_cms": 57,
 		"dates": {
 			"date_1": {
 				"time_start": "13:00:00",
