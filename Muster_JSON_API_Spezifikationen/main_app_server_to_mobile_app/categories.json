@@ -1,4 +1,3 @@
-//JSON Prototype for the category table. categories from tmb data only have two levels.
 {
     "categories": {
         "culture": {

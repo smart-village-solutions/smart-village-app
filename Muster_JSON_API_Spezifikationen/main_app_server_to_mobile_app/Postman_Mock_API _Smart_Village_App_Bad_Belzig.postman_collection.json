@@ -1,0 +1,911 @@
+{
+	"info": {
+		"_postman_id": "a055ba83-7b1a-4e81-b2c5-5a795b77418c",
+		"name": "Mock API  Smart Village App Bad Belzig",
+		"description": "This is the Api Documentation for the Smart Village App Bad Belzig",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get All Points of Interests",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://3864f6f3-64e8-4473-ba6f-90a55c71e60e.mock.pstmn.io/api/v1/points-of-interest",
+					"protocol": "https",
+					"host": [
+						"3864f6f3-64e8-4473-ba6f-90a55c71e60e",
+						"mock",
+						"pstmn",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"points-of-interest"
+					]
+				},
+				"description": "Endpoint which provides all Points of Interests (Castles, Museums, etc.)"
+			},
+			"response": [
+				{
+					"name": "Get All Points of Interests",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://3864f6f3-64e8-4473-ba6f-90a55c71e60e.mock.pstmn.io/api/v1/points-of-interest",
+							"protocol": "https",
+							"host": [
+								"3864f6f3-64e8-4473-ba6f-90a55c71e60e",
+								"mock",
+								"pstmn",
+								"io"
+							],
+							"path": [
+								"api",
+								"v1",
+								"points-of-interest"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": ""
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": ""
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": ""
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Expose-Headers",
+							"value": ""
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 09 Apr 2019 15:46:23 GMT"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"af-MmpVeTvfnSW88c4riXD0uw\""
+						},
+						{
+							"key": "Server",
+							"value": "nginx"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Content-Length",
+							"value": "148"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"Points_of_Interest\": [\n        {\n            \"id\": 1,\n            \"external_id\": \"11399\",\n            \"german\": {\n                \"name\": \"Burg Rabenstein\",\n                \"description\": \"Die Burg Rabenstein gehört zu den schönsten Burgen in Brandenburg. Im 13. Jahrhundert wurde die Anlage auf dem 153 Meter hohen \\\"Steilen Hagen\\\" das erste Mal erwähnt. Die Burg galt lange Zeit als uneinnehmbar. Zur Burganlage gehören eine Kapelle, ein Rittersaal und die Folterkammer. Im Burgvorhof befinden sich der Brunnen, die Scheune und das Backhaus. Der 30 Meter hohe Bergfried bietet eine einmalige Aussicht über den Hohen Fläming. Jedes Jahr zu Ostern findet auf Burg Rabenstein ein mittelalterliches Burgspektakel statt.\",\n                \"mobile_description\": \"Beschreibungstext speziell für mobile Endgeräte, falls vorhanden\"\n            },\n            \"english\": {\n                \"name\": \"Rabenstein Castle\",\n                \"description\": \"Rabenstein Castle is located in the midst of the “Steile Hagen“ (a steep hill) at the dizzy height of 153 metres where once, in the Middle Ages, sabres rattled and the armour of knights clattered. The complex, with the keep of almost 30m in height at its centre, was probably built in the 12th century. The knights’ hall, the working quarters, the well, the barn and the baking house can be visited and provide information about life in earlier centuries. Every year at Easter, there is a medieval spectacle at Rabenstein Castle. The visitor information centre for the Hohe (high) Fläming Nature Park is at the old distillery in the village of Raben. Buying products that are typical of Fläming, renting bicycles and finding out everything about hikes and bicycle rides through the nature park: all this is on the agenda here.\",\n                \"mobile_description\": \"description text for mobile devices\"\n            },\n            \"category_id\": 8876,\n            \"created_at\": \"01.01.01\",\n            \"updated_at\": \"01.01.01\",\n            \"status\": \"active\",\n            \"data_provider\": {\n                \"name\": \"tmb\",\n                \"address\": {\n                    \"street\": \"Musterstr. 123\",\n                    \"zip\": \"14567\",\n                    \"city\": \"Potsdam\",\n                    \"coordinates\": {\n                        \"lat\": 52.345678,\n                        \"lng\": 12.345678\n                    }\n                },\n                \"contact\": {\n                    \"phone\": \"+4903384860004\",\n                    \"fax\": \"\",\n                    \"email\": \"test@test.net\",\n                    \"url\": \"http://www.flaeming.net\"\n                },\n                \"logo\": \"image_link\",\n                \"description\": \"\"\n            },\n            \"inactive_period\": {\n                \"from\": \"2019-03-01\",\n                \"till\": \"2019-05-31\"\n            },\n            \"address\": {\n                \"addition\": \"blablub\",\n                \"city\": \"Rabenstein/Fläming OT Raben\",\n                \"street\": \"Zur Burg 49\",\n                \"zip\": 14823,\n                \"coordinates\": {\n                    \"coordinate\": {\n                        \"lat\": 3334076,\n                        \"lng\": 5767630\n                    }\n                },\n                \"contact\": {\n                    \"telephone\": \"033848-60221\",\n                    \"e-mail\": \"info@burgrabenstein.de\",\n                    \"fax\": \"033848-60230\",\n                    \"url\": \"www.burgrabenstein.de\"\n                }\n            },\n            \"operating_company\": {\n                \"name\": \"Fremdenverkehrsverein \\\"Niemegker-Land\\\" e.V.\",\n                \"address\": {\n                    \"city\": \"Rabenstein/Fläming OT Raben\",\n                    \"street\": \"Zur Burg 49\",\n                    \"zip\": 14823\n                },\n                \"contact\": {\n                    \"telephone\": \"033848-60221\",\n                    \"e-mail\": \"info@burgrabenstein.de\",\n                    \"fax\": \"033848-60230\",\n                    \"url\": \"www.burgrabenstein.de\"\n                }\n            },\n            \"location\": {\n                \"id\": 3581,\n                \"name\": \"Raben\",\n                \"department\": \"Niemegk\",\n                \"district\": \"Potsdam-Mittelmark\",\n                \"region\": \"Fläming\",\n                \"state\": \"Brandenburg\",\n                \"country\": \"Germany\",\n                \"coordinates\": {\n                    \"lat\": 3333869,\n                    \"lng\": 5768485\n                }\n            },\n            \"thumbnail\": \"thumbnail_image_url\",\n            \"image_gallery\": [\n                {\n                    \"link\": \"image_link_1\",\n                    \"caption_text\": \"text_1\",\n                    \"caption_text_en\": \"test\",\n                    \"caption_text_pl\": \"test\"\n                },\n                {\n                    \"link\": \"image_link_2\",\n                    \"caption_text\": \"text_2\",\n                    \"caption_text_en\": \"test\",\n                    \"caption_text_pl\": \"test\"\n                },\n                {\n                    \"link\": \"image_link_3\",\n                    \"caption_text\": \"text_3\",\n                    \"caption_text_en\": \"test\",\n                    \"caption_text_pl\": \"test\"\n                }\n            ],\n            \"price\": [\n                {\n                    \"category\": \"adult\",\n                    \"price\": 2.5,\n                    \"description\": \"Museum+Turm\"\n                },\n                {\n                    \"category\": \"reduced\",\n                    \"price\": 1.5,\n                    \"description\": \"Museum+Turm\"\n                },\n                {\n                    \"category\": \"senior\",\n                    \"agefrom\": 65,\n                    \"price\": 1,\n                    \"description\": \"Museum+Turm\"\n                },\n                {\n                    \"category\": \"children\",\n                    \"price\": 0.5,\n                    \"agefrom\": 6,\n                    \"ageto\": 17,\n                    \"description\": \"Museum+Turm\"\n                },\n                {\n                    \"category\": \"family\",\n                    \"price\": 6.5,\n                    \"groupprice\": \"true\",\n                    \"agefrom\": 5,\n                    \"ageto\": 17,\n                    \"adultcount\": 2,\n                    \"childrencount\": 3,\n                    \"description\": \"Museum+Turm\"\n                },\n                {\n                    \"category\": \"group\",\n                    \"price\": 12.5,\n                    \"adultcount\": 8,\n                    \"childrencount\": 4,\n                    \"description\": \"Museum+Turm\"\n                },\n                {\n                    \"category\": \"Burgtarif\",\n                    \"price\": 1,\n                    \"description\": \"Turm (ohne Museum)\"\n                },\n                {\n                    \"category\": \"Arbeistlosentarif\",\n                    \"price\": 0.5,\n                    \"description\": \"Museum+Turm\"\n                },\n                {\n                    \"description\": \"Kinder unter 6 Jahren haben immer freien Eintritt\"\n                }\n            ],\n            \"openinghours\": {\n                \"openingtimedate\": [\n                    {\n                        \"weekday\": \"wednesday\",\n                        \"timefrom\": \"11:00:00\",\n                        \"timeto\": \"20:00:00\",\n                        \"open\": true\n                    },\n                    {\n                        \"weekday\": \"thursday\",\n                        \"timefrom\": \"11:00:00\",\n                        \"timeto\": \"20:00:00\",\n                        \"open\": true\n                    },\n                    {\n                        \"weekday\": \"friday\",\n                        \"timefrom\": \"11:00:00\",\n                        \"timeto\": \"20:00:00\",\n                        \"open\": true\n                    },\n                    {\n                        \"weekday\": \"saturday\",\n                        \"timefrom\": \"11:00:00\",\n                        \"timeto\": \"18:00:00\",\n                        \"open\": true\n                    },\n                    {\n                        \"weekday\": \"saturday\",\n                        \"date_from\": \"01.03.2017\",\n                        \"date_to\": \"01.09.2017\",\n                        \"timefrom\": \"11:00:00\",\n                        \"timeto\": \"19:00:00\",\n                        \"open\": true\n                    },\n                    {\n                        \"weekday\": \"sunday\",\n                        \"date_from\": \"01.03.\",\n                        \"date_to\": \"01.09.\",\n                        \"timefrom\": \"11:00:00\",\n                        \"timeto\": \"19:00:00\",\n                        \"open\": true\n                    },\n                    {\n                        \"weekday\": \"holidays\",\n                        \"timefrom\": \"11:00:00\",\n                        \"timeto\": \"19:00:00\",\n                        \"open\": true\n                    },\n                    {\n                        \"weekday\": \"sylvester\",\n                        \"date\": \"\",\n                        \"timefrom\": \"10:00:00\",\n                        \"timeto\": \"13:00:00\",\n                        \"open\": true\n                    },\n                    {\n                        \"weekday\": \"christmas_eve\",\n                        \"date\": \"\",\n                        \"timefrom\": \"10:00:00\",\n                        \"timeto\": \"13:00:00\",\n                        \"open\": true\n                    },\n                    {\n                        \"weekday\": \"first_christmas_day\",\n                        \"date\": \"\",\n                        \"timefrom\": \"10:00:00\",\n                        \"timeto\": \"13:00:00\",\n                        \"open\": true\n                    },\n                    {\n                        \"weekday\": \"second_christmas_day\",\n                        \"date\": \"\",\n                        \"timefrom\": \"10:00:00\",\n                        \"timeto\": \"13:00:00\",\n                        \"open\": false\n                    },\n                    {\n                        \"weekday\": \"new_year\",\n                        \"date\": \"\",\n                        \"timefrom\": \"10:00:00\",\n                        \"timeto\": \"13:00:00\",\n                        \"open\": false\n                    }\n                ],\n                \"additional_information\": \"letzter Eintritt eine Stunde vor Schließung\"\n            },\n            \"vendor\": {\n                \"address\": {\n                    \"name\": \"Tourismusagentur BB\",\n                    \"city\": \"Potsdam\",\n                    \"zip\": 14467,\n                    \"street\": \"Am Neuen Markt 1\"\n                },\n                \"contact\": {\n                    \"phone\": \"0123-456789\",\n                    \"fax\": \"0123-987654\",\n                    \"emai\": \"test@test.de\",\n                    \"url\": \"www.test.de\"\n                }\n            },\n            \"tags\": [\n                \"Freilufttheater\",\n                \"Geschichts- und Gewerbemuseum\",\n                \"Historische Baudenkmäler\"\n            ],\n            \"certificates\": [\n                \"Anbieter mit Zertifizierung: 'Burgen Qualität Deutschland'\"\n            ],\n            \"accesibility_info_link\": \"http://www.barrierefrei-brandenburg.de/index.php?id=dsview&tx_tmbpoisearch_pi2[poi]=11399\"\n        },\n        {\n            \"id\": 2,\n            \"external_id\": \"11399\",\n            \"german\": {\n                \"name\": \"Burg Rabenstein\",\n                \"description\": \"Die Burg Rabenstein gehört zu den schönsten Burgen in Brandenburg. Im 13. Jahrhundert wurde die Anlage auf dem 153 Meter hohen \\\"Steilen Hagen\\\" das erste Mal erwähnt. Die Burg galt lange Zeit als uneinnehmbar. Zur Burganlage gehören eine Kapelle, ein Rittersaal und die Folterkammer. Im Burgvorhof befinden sich der Brunnen, die Scheune und das Backhaus. Der 30 Meter hohe Bergfried bietet eine einmalige Aussicht über den Hohen Fläming. Jedes Jahr zu Ostern findet auf Burg Rabenstein ein mittelalterliches Burgspektakel statt.\",\n                \"mobile_description\": \"Beschreibungstext speziell für mobile Endgeräte, falls vorhanden\"\n            },\n            \"english\": {\n                \"name\": \"Rabenstein Castle\",\n                \"description\": \"Rabenstein Castle is located in the midst of the “Steile Hagen“ (a steep hill) at the dizzy height of 153 metres where once, in the Middle Ages, sabres rattled and the armour of knights clattered. The complex, with the keep of almost 30m in height at its centre, was probably built in the 12th century. The knights’ hall, the working quarters, the well, the barn and the baking house can be visited and provide information about life in earlier centuries. Every year at Easter, there is a medieval spectacle at Rabenstein Castle. The visitor information centre for the Hohe (high) Fläming Nature Park is at the old distillery in the village of Raben. Buying products that are typical of Fläming, renting bicycles and finding out everything about hikes and bicycle rides through the nature park: all this is on the agenda here.\",\n                \"mobile_description\": \"description text for mobile devices\"\n            },\n            \"category_id\": 8876,\n            \"created_at\": \"01.01.01\",\n            \"updated_at\": \"01.01.01\",\n            \"status\": \"active\",\n            \"data_provider\": {\n                \"name\": \"tmb\",\n                \"address\": {\n                    \"street\": \"Musterstr. 123\",\n                    \"zip\": \"14567\",\n                    \"city\": \"Potsdam\",\n                    \"coordinates\": {\n                        \"lat\": 52.345678,\n                        \"lng\": 12.345678\n                    }\n                },\n                \"contact\": {\n                    \"phone\": \"+4903384860004\",\n                    \"fax\": \"\",\n                    \"email\": \"test@test.net\",\n                    \"url\": \"http://www.flaeming.net\"\n                },\n                \"logo\": \"image_link\",\n                \"description\": \"\"\n            },\n            \"inactive_period\": {\n                \"from\": \"2019-03-01\",\n                \"till\": \"2019-05-31\"\n            },\n            \"address\": {\n                \"addition\": \"blablub\",\n                \"city\": \"Rabenstein/Fläming OT Raben\",\n                \"street\": \"Zur Burg 49\",\n                \"zip\": 14823,\n                \"coordinates\": {\n                    \"coordinate\": {\n                        \"lat\": 3334076,\n                        \"lng\": 5767630\n                    }\n                },\n                \"contact\": {\n                    \"telephone\": \"033848-60221\",\n                    \"e-mail\": \"info@burgrabenstein.de\",\n                    \"fax\": \"033848-60230\",\n                    \"url\": \"www.burgrabenstein.de\"\n                }\n            },\n            \"operating_company\": {\n                \"name\": \"Fremdenverkehrsverein \\\"Niemegker-Land\\\" e.V.\",\n                \"address\": {\n                    \"city\": \"Rabenstein/Fläming OT Raben\",\n                    \"street\": \"Zur Burg 49\",\n                    \"zip\": 14823\n                },\n                \"contact\": {\n                    \"telephone\": \"033848-60221\",\n                    \"e-mail\": \"info@burgrabenstein.de\",\n                    \"fax\": \"033848-60230\",\n                    \"url\": \"www.burgrabenstein.de\"\n                }\n            },\n            \"location\": {\n                \"id\": 3581,\n                \"name\": \"Raben\",\n                \"department\": \"Niemegk\",\n                \"district\": \"Potsdam-Mittelmark\",\n                \"region\": \"Fläming\",\n                \"state\": \"Brandenburg\",\n                \"country\": \"Germany\",\n                \"coordinates\": {\n                    \"lat\": 3333869,\n                    \"lng\": 5768485\n                }\n            },\n            \"thumbnail\": \"thumbnail_image_url\",\n            \"image_gallery\": [\n                {\n                    \"link\": \"image_link_1\",\n                    \"caption_text\": \"text_1\",\n                    \"caption_text_en\": \"test\",\n                    \"caption_text_pl\": \"test\"\n                },\n                {\n                    \"link\": \"image_link_2\",\n                    \"caption_text\": \"text_2\",\n                    \"caption_text_en\": \"test\",\n                    \"caption_text_pl\": \"test\"\n                },\n                {\n                    \"link\": \"image_link_3\",\n                    \"caption_text\": \"text_3\",\n                    \"caption_text_en\": \"test\",\n                    \"caption_text_pl\": \"test\"\n                }\n            ],\n            \"price\": [\n                {\n                    \"category\": \"adult\",\n                    \"price\": 2.5,\n                    \"description\": \"Museum+Turm\"\n                },\n                {\n                    \"category\": \"reduced\",\n                    \"price\": 1.5,\n                    \"description\": \"Museum+Turm\"\n                },\n                {\n                    \"category\": \"senior\",\n                    \"agefrom\": 65,\n                    \"price\": 1,\n                    \"description\": \"Museum+Turm\"\n                },\n                {\n                    \"category\": \"children\",\n                    \"price\": 0.5,\n                    \"agefrom\": 6,\n                    \"ageto\": 17,\n                    \"description\": \"Museum+Turm\"\n                },\n                {\n                    \"category\": \"family\",\n                    \"price\": 6.5,\n                    \"groupprice\": \"true\",\n                    \"agefrom\": 5,\n                    \"ageto\": 17,\n                    \"adultcount\": 2,\n                    \"childrencount\": 3,\n                    \"description\": \"Museum+Turm\"\n                },\n                {\n                    \"category\": \"group\",\n                    \"price\": 12.5,\n                    \"adultcount\": 8,\n                    \"childrencount\": 4,\n                    \"description\": \"Museum+Turm\"\n                },\n                {\n                    \"category\": \"Burgtarif\",\n                    \"price\": 1,\n                    \"description\": \"Turm (ohne Museum)\"\n                },\n                {\n                    \"category\": \"Arbeistlosentarif\",\n                    \"price\": 0.5,\n                    \"description\": \"Museum+Turm\"\n                },\n                {\n                    \"description\": \"Kinder unter 6 Jahren haben immer freien Eintritt\"\n                }\n            ],\n            \"openinghours\": {\n                \"openingtimedate\": [\n                    {\n                        \"weekday\": \"wednesday\",\n                        \"timefrom\": \"11:00:00\",\n                        \"timeto\": \"20:00:00\",\n                        \"open\": true\n                    },\n                    {\n                        \"weekday\": \"thursday\",\n                        \"timefrom\": \"11:00:00\",\n                        \"timeto\": \"20:00:00\",\n                        \"open\": true\n                    },\n                    {\n                        \"weekday\": \"friday\",\n                        \"timefrom\": \"11:00:00\",\n                        \"timeto\": \"20:00:00\",\n                        \"open\": true\n                    },\n                    {\n                        \"weekday\": \"saturday\",\n                        \"timefrom\": \"11:00:00\",\n                        \"timeto\": \"18:00:00\",\n                        \"open\": true\n                    },\n                    {\n                        \"weekday\": \"saturday\",\n                        \"date_from\": \"01.03.2017\",\n                        \"date_to\": \"01.09.2017\",\n                        \"timefrom\": \"11:00:00\",\n                        \"timeto\": \"19:00:00\",\n                        \"open\": true\n                    },\n                    {\n                        \"weekday\": \"sunday\",\n                        \"date_from\": \"01.03.\",\n                        \"date_to\": \"01.09.\",\n                        \"timefrom\": \"11:00:00\",\n                        \"timeto\": \"19:00:00\",\n                        \"open\": true\n                    },\n                    {\n                        \"weekday\": \"holidays\",\n                        \"timefrom\": \"11:00:00\",\n                        \"timeto\": \"19:00:00\",\n                        \"open\": true\n                    },\n                    {\n                        \"weekday\": \"sylvester\",\n                        \"date\": \"\",\n                        \"timefrom\": \"10:00:00\",\n                        \"timeto\": \"13:00:00\",\n                        \"open\": true\n                    },\n                    {\n                        \"weekday\": \"christmas_eve\",\n                        \"date\": \"\",\n                        \"timefrom\": \"10:00:00\",\n                        \"timeto\": \"13:00:00\",\n                        \"open\": true\n                    },\n                    {\n                        \"weekday\": \"first_christmas_day\",\n                        \"date\": \"\",\n                        \"timefrom\": \"10:00:00\",\n                        \"timeto\": \"13:00:00\",\n                        \"open\": true\n                    },\n                    {\n                        \"weekday\": \"second_christmas_day\",\n                        \"date\": \"\",\n                        \"timefrom\": \"10:00:00\",\n                        \"timeto\": \"13:00:00\",\n                        \"open\": false\n                    },\n                    {\n                        \"weekday\": \"new_year\",\n                        \"date\": \"\",\n                        \"timefrom\": \"10:00:00\",\n                        \"timeto\": \"13:00:00\",\n                        \"open\": false\n                    }\n                ],\n                \"additional_information\": \"letzter Eintritt eine Stunde vor Schließung\"\n            },\n            \"vendor\": {\n                \"address\": {\n                    \"name\": \"Tourismusagentur BB\",\n                    \"city\": \"Potsdam\",\n                    \"zip\": 14467,\n                    \"street\": \"Am Neuen Markt 1\"\n                },\n                \"contact\": {\n                    \"phone\": \"0123-456789\",\n                    \"fax\": \"0123-987654\",\n                    \"emai\": \"test@test.de\",\n                    \"url\": \"www.test.de\"\n                }\n            },\n            \"tags\": [\n                \"Freilufttheater\",\n                \"Geschichts- und Gewerbemuseum\",\n                \"Historische Baudenkmäler\"\n            ],\n            \"certificates\": [\n                \"Anbieter mit Zertifizierung: 'Burgen Qualität Deutschland'\"\n            ],\n            \"accesibility_info_link\": \"http://www.barrierefrei-brandenburg.de/index.php?id=dsview&tx_tmbpoisearch_pi2[poi]=11399\"\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Get one specific Point of Interest",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://3864f6f3-64e8-4473-ba6f-90a55c71e60e.mock.pstmn.io/api/v1/points-of-interest/1",
+					"protocol": "https",
+					"host": [
+						"3864f6f3-64e8-4473-ba6f-90a55c71e60e",
+						"mock",
+						"pstmn",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"points-of-interest",
+						"1"
+					]
+				},
+				"description": "Endpoint which provides one endpoint specified by its id"
+			},
+			"response": [
+				{
+					"name": "Get one specific Point of Interest",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://3864f6f3-64e8-4473-ba6f-90a55c71e60e.mock.pstmn.io/api/v1/points-of-interest/1",
+							"protocol": "https",
+							"host": [
+								"3864f6f3-64e8-4473-ba6f-90a55c71e60e",
+								"mock",
+								"pstmn",
+								"io"
+							],
+							"path": [
+								"api",
+								"v1",
+								"points-of-interest",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "{\n    \"point_of_interest\": {\n        \"id\": 1,\n        \"external_id\": \"11399\",\n        \"german\": {\n            \"name\": \"Burg Rabenstein\",\n            \"description\": \"Die Burg Rabenstein gehört zu den schönsten Burgen in Brandenburg. Im 13. Jahrhundert wurde die Anlage auf dem 153 Meter hohen \\\"Steilen Hagen\\\" das erste Mal erwähnt. Die Burg galt lange Zeit als uneinnehmbar. Zur Burganlage gehören eine Kapelle, ein Rittersaal und die Folterkammer. Im Burgvorhof befinden sich der Brunnen, die Scheune und das Backhaus. Der 30 Meter hohe Bergfried bietet eine einmalige Aussicht über den Hohen Fläming. Jedes Jahr zu Ostern findet auf Burg Rabenstein ein mittelalterliches Burgspektakel statt.\",\n            \"mobile_description\": \"Beschreibungstext speziell für mobile Endgeräte, falls vorhanden\"\n        },\n        \"english\": {\n            \"name\": \"Rabenstein Castle\",\n            \"description\": \"Rabenstein Castle is located in the midst of the “Steile Hagen“ (a steep hill) at the dizzy height of 153 metres where once, in the Middle Ages, sabres rattled and the armour of knights clattered. The complex, with the keep of almost 30m in height at its centre, was probably built in the 12th century. The knights’ hall, the working quarters, the well, the barn and the baking house can be visited and provide information about life in earlier centuries. Every year at Easter, there is a medieval spectacle at Rabenstein Castle. The visitor information centre for the Hohe (high) Fläming Nature Park is at the old distillery in the village of Raben. Buying products that are typical of Fläming, renting bicycles and finding out everything about hikes and bicycle rides through the nature park: all this is on the agenda here.\",\n            \"mobile_description\": \"description text for mobile devices\"\n        },\n        \"category_id\": 8876,\n        \"created_at\": \"01.01.01\",\n        \"updated_at\": \"01.01.01\",\n        \"status\": \"active\",\n        \"data_provider\": {\n            \"name\": \"tmb\",\n            \"address\": {\n                \"street\": \"Musterstr. 123\",\n                \"zip\": \"14567\",\n                \"city\": \"Potsdam\",\n                \"coordinates\": {\n                    \"lat\": 52.345678,\n                    \"lng\": 12.345678\n                }\n            },\n            \"contact\": {\n                \"phone\": \"+4903384860004\",\n                \"fax\": \"\",\n                \"email\": \"test@test.net\",\n                \"url\": \"http://www.flaeming.net\"\n            },\n            \"logo\": \"image_link\",\n            \"description\": \"\"\n        },\n        \"inactive_period\": {\n            \"from\": \"2019-03-01\",\n            \"till\": \"2019-05-31\"\n        },\n        \"address\": {\n            \"addition\": \"blablub\",\n            \"city\": \"Rabenstein/Fläming OT Raben\",\n            \"street\": \"Zur Burg 49\",\n            \"zip\": 14823,\n            \"coordinates\": {\n                \"coordinate\": {\n                    \"lat\": 3334076,\n                    \"lng\": 5767630\n                }\n            },\n            \"contact\": {\n                \"telephone\": \"033848-60221\",\n                \"e-mail\": \"info@burgrabenstein.de\",\n                \"fax\": \"033848-60230\",\n                \"url\": \"www.burgrabenstein.de\"\n            }\n        },\n        \"operating_company\": {\n            \"name\": \"Fremdenverkehrsverein \\\"Niemegker-Land\\\" e.V.\",\n            \"address\": {\n                \"city\": \"Rabenstein/Fläming OT Raben\",\n                \"street\": \"Zur Burg 49\",\n                \"zip\": 14823\n            },\n            \"contact\": {\n                \"telephone\": \"033848-60221\",\n                \"e-mail\": \"info@burgrabenstein.de\",\n                \"fax\": \"033848-60230\",\n                \"url\": \"www.burgrabenstein.de\"\n            }\n        },\n        \"location\": {\n            \"id\": 3581,\n            \"name\": \"Raben\",\n            \"department\": \"Niemegk\",\n            \"district\": \"Potsdam-Mittelmark\",\n            \"region\": \"Fläming\",\n            \"state\": \"Brandenburg\",\n            \"country\": \"Germany\",\n            \"coordinates\": {\n                \"lat\": 3333869,\n                \"lng\": 5768485\n            }\n        },\n        \"thumbnail\": \"thumbnail_image_url\",\n        \"image_gallery\": [\n            {\n                \"link\": \"image_link_1\",\n                \"caption_text\": \"text_1\",\n                \"caption_text_en\": \"test\",\n                \"caption_text_pl\": \"test\"\n            },\n            {\n                \"link\": \"image_link_2\",\n                \"caption_text\": \"text_2\",\n                \"caption_text_en\": \"test\",\n                \"caption_text_pl\": \"test\"\n            },\n            {\n                \"link\": \"image_link_3\",\n                \"caption_text\": \"text_3\",\n                \"caption_text_en\": \"test\",\n                \"caption_text_pl\": \"test\"\n            }\n        ],\n        \"price\": [\n            {\n                \"category\": \"adult\",\n                \"price\": 2.5,\n                \"description\": \"Museum+Turm\"\n            },\n            {\n                \"category\": \"reduced\",\n                \"price\": 1.5,\n                \"description\": \"Museum+Turm\"\n            },\n            {\n                \"category\": \"senior\",\n                \"agefrom\": 65,\n                \"price\": 1,\n                \"description\": \"Museum+Turm\"\n            },\n            {\n                \"category\": \"children\",\n                \"price\": 0.5,\n                \"agefrom\": 6,\n                \"ageto\": 17,\n                \"description\": \"Museum+Turm\"\n            },\n            {\n                \"category\": \"family\",\n                \"price\": 6.5,\n                \"groupprice\": \"true\",\n                \"agefrom\": 5,\n                \"ageto\": 17,\n                \"adultcount\": 2,\n                \"childrencount\": 3,\n                \"description\": \"Museum+Turm\"\n            },\n            {\n                \"category\": \"group\",\n                \"price\": 12.5,\n                \"adultcount\": 8,\n                \"childrencount\": 4,\n                \"description\": \"Museum+Turm\"\n            },\n            {\n                \"category\": \"Burgtarif\",\n                \"price\": 1,\n                \"description\": \"Turm (ohne Museum)\"\n            },\n            {\n                \"category\": \"Arbeistlosentarif\",\n                \"price\": 0.5,\n                \"description\": \"Museum+Turm\"\n            },\n            {\n                \"description\": \"Kinder unter 6 Jahren haben immer freien Eintritt\"\n            }\n        ],\n        \"openinghours\": {\n            \"openingtimedate\": [\n                {\n                    \"weekday\": \"wednesday\",\n                    \"timefrom\": \"11:00:00\",\n                    \"timeto\": \"20:00:00\",\n                    \"open\": true\n                },\n                {\n                    \"weekday\": \"thursday\",\n                    \"timefrom\": \"11:00:00\",\n                    \"timeto\": \"20:00:00\",\n                    \"open\": true\n                },\n                {\n                    \"weekday\": \"friday\",\n                    \"timefrom\": \"11:00:00\",\n                    \"timeto\": \"20:00:00\",\n                    \"open\": true\n                },\n                {\n                    \"weekday\": \"saturday\",\n                    \"timefrom\": \"11:00:00\",\n                    \"timeto\": \"18:00:00\",\n                    \"open\": true\n                },\n                {\n                    \"weekday\": \"saturday\",\n                    \"date_from\": \"01.03.2017\",\n                    \"date_to\": \"01.09.2017\",\n                    \"timefrom\": \"11:00:00\",\n                    \"timeto\": \"19:00:00\",\n                    \"open\": true\n                },\n                {\n                    \"weekday\": \"sunday\",\n                    \"date_from\": \"01.03.\",\n                    \"date_to\": \"01.09.\",\n                    \"timefrom\": \"11:00:00\",\n                    \"timeto\": \"19:00:00\",\n                    \"open\": true\n                },\n                {\n                    \"weekday\": \"holidays\",\n                    \"timefrom\": \"11:00:00\",\n                    \"timeto\": \"19:00:00\",\n                    \"open\": true\n                },\n                {\n                    \"weekday\": \"sylvester\",\n                    \"date\": \"\",\n                    \"timefrom\": \"10:00:00\",\n                    \"timeto\": \"13:00:00\",\n                    \"open\": true\n                },\n                {\n                    \"weekday\": \"christmas_eve\",\n                    \"date\": \"\",\n                    \"timefrom\": \"10:00:00\",\n                    \"timeto\": \"13:00:00\",\n                    \"open\": true\n                },\n                {\n                    \"weekday\": \"first_christmas_day\",\n                    \"date\": \"\",\n                    \"timefrom\": \"10:00:00\",\n                    \"timeto\": \"13:00:00\",\n                    \"open\": true\n                },\n                {\n                    \"weekday\": \"second_christmas_day\",\n                    \"date\": \"\",\n                    \"timefrom\": \"10:00:00\",\n                    \"timeto\": \"13:00:00\",\n                    \"open\": false\n                },\n                {\n                    \"weekday\": \"new_year\",\n                    \"date\": \"\",\n                    \"timefrom\": \"10:00:00\",\n                    \"timeto\": \"13:00:00\",\n                    \"open\": false\n                }\n            ],\n            \"additional_information\": \"letzter Eintritt eine Stunde vor Schließung\"\n        },\n        \"vendor\": {\n            \"address\": {\n                \"name\": \"Tourismusagentur BB\",\n                \"city\": \"Potsdam\",\n                \"zip\": 14467,\n                \"street\": \"Am Neuen Markt 1\"\n            },\n            \"contact\": {\n                \"phone\": \"0123-456789\",\n                \"fax\": \"0123-987654\",\n                \"emai\": \"test@test.de\",\n                \"url\": \"www.test.de\"\n            }\n        },\n        \"tags\": [\n            \"Freilufttheater\",\n            \"Geschichts- und Gewerbemuseum\",\n            \"Historische Baudenkmäler\"\n        ],\n        \"certificates\": [\n            \"Anbieter mit Zertifizierung: 'Burgen Qualität Deutschland'\"\n        ],\n        \"accesibility_info_link\": \"http://www.barrierefrei-brandenburg.de/index.php?id=dsview&tx_tmbpoisearch_pi2[poi]=11399\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Get all Tours",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://3864f6f3-64e8-4473-ba6f-90a55c71e60e.mock.pstmn.io/api/v1/tours",
+					"protocol": "https",
+					"host": [
+						"3864f6f3-64e8-4473-ba6f-90a55c71e60e",
+						"mock",
+						"pstmn",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"tours"
+					]
+				},
+				"description": "Endpoint which provides all Tours"
+			},
+			"response": [
+				{
+					"name": "Get all Tours",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://3864f6f3-64e8-4473-ba6f-90a55c71e60e.mock.pstmn.io/api/v1/tours",
+							"protocol": "https",
+							"host": [
+								"3864f6f3-64e8-4473-ba6f-90a55c71e60e",
+								"mock",
+								"pstmn",
+								"io"
+							],
+							"path": [
+								"api",
+								"v1",
+								"tours"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "{\n    \"tours\": [\n        {\n            \"name\": \"Zwischen fürstlichen Schlössern und frommen Klöstern\",\n            \"created_at\": \"01.01.2018\",\n            \"updated_at\": \"08.10.2018\",\n            \"status\": \"active\",\n            \"data_provider\": {\n                \"name\": \"tmb\",\n                \"address\": {\n                    \"street\": \"Musterstr. 123\",\n                    \"zip\": \"14567\",\n                    \"city\": \"Potsdam\",\n                    \"coordinates\": {\n                        \"lat\": 52.345678,\n                        \"lng\": 12.345678\n                    }\n                },\n                \"contact\": {\n                    \"phone\": \"+4903384860004\",\n                    \"fax\": \"\",\n                    \"email\": \"test@test.net\",\n                    \"url\": \"http://www.flaeming.net\"\n                },\n                \"logo\": \"image_link\",\n                \"description\": \"\"\n            },\n            \"operating_company\": {\n                \"name\": \"Tourismusverband Elbe-Elster-Land e.V.\",\n                \"address\": {\n                    \"city\": \"Bad Liebenwerda\",\n                    \"street\": \"Markt 20\",\n                    \"zip\": 49240,\n                    \"coordinates\": {\n                        \"lat\": 51.609621155607,\n                        \"lng\": 13.545282982203\n                    },\n                    \"contact\": {\n                        \"telephone\": \"035341-30652\",\n                        \"e-mail\": \"info@elbe-elster-land.de\",\n                        \"fax\": \"035341-12672\",\n                        \"url\": \"www.elbe-elster-land.de\"\n                    }\n                },\n                \"description\": \"\"\n            },\n            \"regions\": [\n                \"Elbe-Elster-Land\",\n                \"Fläming\",\n                \"Spreewald\"\n            ],\n            \"description\": \"Die Zeit vor der Reformation war durch eine tiefe Frömmigkeit der Menschen gekennzeichnet, die sich durch den Ausbau von Klosteranlagen durch die Mönchsorden sowie herausragende Stadtpfarrkirchen mit prächtigen Altären widerspiegelt. Im Zuge der Reformation wurden sie oftmals umgenutzt oder aufgelöst. Auf dieser Rundtour liegen sieben historische Stadtkerne mit neun Schlössern und beeindruckenden Kirchen sowie heute kulturell genutzten Klosteranlagen und spannende Museen. In Jüterbog und Mühlberg/Elbe sind die bedeutendsten Zeugnisse der Reformation zu sehen und wurden mit dem Europäischen Kulturerbesiegel dafür ausgezeichnet. Beginnend im Fläming verläuft die Radroute von Jüterbog weiter Richtung Süden zur Elbe, um dann nach einem Bogen durch die Niederlausitz wieder zum Start zurückzukehren.\",\n            \"thumbnail\": \"thumbnail_image_url\",\n            \"image_gallery\": [\n                {\n                    \"link\": \"image_link_1\",\n                    \"caption_text\": \"test_1\",\n                    \"caption_text_en\": \"test\",\n                    \"caption_text_pl\": \"test\"\n                },\n                {\n                    \"link\": \"image_link_2\",\n                    \"caption_text\": \"test_2\",\n                    \"caption_text_en\": \"test\",\n                    \"caption_text_pl\": \"test\"\n                }\n            ],\n            \"type\": \"Rundtour\",\n            \"tags\": [\n                \"Wald\",\n                \"Seen\",\n                \"Scenic Route\"\n            ],\n            \"length_km\": 296,\n            \"geometry_tour_data\": [\n                [\n                    13.5611057,\n                    51.6196185\n                ],\n                [\n                    13.561013,\n                    51.6196115\n                ],\n                [\n                    13.5609715,\n                    51.6196061\n                ],\n                [\n                    13.5609239,\n                    51.6195979\n                ],\n                [\n                    13.5597052,\n                    51.6193648\n                ],\n                [\n                    13.5578198,\n                    51.6189981\n                ],\n                [\n                    13.5575696,\n                    51.6189423\n                ],\n                [\n                    13.556685,\n                    51.618761\n                ],\n                [\n                    13.556203,\n                    51.6186594\n                ],\n                [\n                    13.5558976,\n                    51.6185816\n                ],\n                [\n                    13.5558334,\n                    51.6185653\n                ],\n                [\n                    13.5555942,\n                    51.6184528\n                ],\n                [\n                    13.5552789,\n                    51.618221\n                ],\n                [\n                    13.555078,\n                    51.6179604\n                ],\n                [\n                    13.5548018,\n                    51.6176019\n                ],\n                [\n                    13.5543359,\n                    51.6170607\n                ],\n                [\n                    13.5540635,\n                    51.6167449\n                ],\n                [\n                    13.5536782,\n                    51.6162986\n                ],\n                [\n                    13.5534934,\n                    51.6160701\n                ],\n                [\n                    13.5529459,\n                    51.6153931\n                ],\n                [\n                    13.5528031,\n                    51.6152165\n                ],\n                [\n                    13.5521749,\n                    51.6144396\n                ],\n                [\n                    13.5518759,\n                    51.6141053\n                ],\n                [\n                    13.5517738,\n                    51.613991\n                ],\n                [\n                    13.5514932,\n                    51.613695\n                ],\n                [\n                    13.5514355,\n                    51.6136475\n                ],\n                [\n                    13.551394,\n                    51.6136323\n                ],\n                [\n                    13.5512103,\n                    51.61356\n                ],\n                [\n                    13.5508876,\n                    51.6134375\n                ],\n                [\n                    13.5496354,\n                    51.6129311\n                ],\n                [\n                    13.5483462,\n                    51.6124562\n                ],\n                [\n                    13.5485612,\n                    51.612228\n                ],\n                [\n                    13.5487704,\n                    51.6120048\n                ],\n                [\n                    13.5489517,\n                    51.611826\n                ],\n                [\n                    13.5490976,\n                    51.6117017\n                ],\n                [\n                    13.5492693,\n                    51.6115485\n                ],\n                [\n                    13.5494269,\n                    51.6113768\n                ],\n                [\n                    13.5496247,\n                    51.611185\n                ],\n                [\n                    13.5497209,\n                    51.6112193\n                ],\n                [\n                    13.5498228,\n                    51.6111194\n                ],\n                [\n                    13.5498797,\n                    51.6110482\n                ],\n                [\n                    13.5499508,\n                    51.6109639\n                ],\n                [\n                    13.5499707,\n                    51.6109374\n                ],\n                [\n                    13.5498565,\n                    51.6108889\n                ],\n                [\n                    13.5496805,\n                    51.6108198\n                ],\n                [\n                    13.54715,\n                    51.6098428\n                ],\n                [\n                    13.5466764,\n                    51.6097099\n                ],\n                [\n                    13.5467448,\n                    51.6095983\n                ],\n                [\n                    13.5465832,\n                    51.6094985\n                ],\n                [\n                    13.5464039,\n                    51.6093602\n                ],\n                [\n                    13.5462247,\n                    51.6091782\n                ],\n                [\n                    13.5462724,\n                    51.6087397\n                ],\n                [\n                    13.5463789,\n                    51.6084657\n                ],\n                [\n                    13.5476691,\n                    51.6073317\n                ],\n                [\n                    13.5471051,\n                    51.6048246\n                ],\n                [\n                    13.54639,\n                    51.60153\n                ],\n                [\n                    13.5463893,\n                    51.6013208\n                ],\n                [\n                    13.546388,\n                    51.600908\n                ],\n                [\n                    13.5464039,\n                    51.6008296\n                ],\n                [\n                    13.5466849,\n                    51.5994479\n                ],\n                [\n                    13.5469172,\n                    51.598806\n                ],\n                [\n                    13.5472556,\n                    51.5978708\n                ],\n                [\n                    13.5476165,\n                    51.5969999\n                ],\n                [\n                    13.5476853,\n                    51.5968339\n                ],\n                [\n                    13.5477228,\n                    51.596718\n                ],\n                [\n                    13.5477945,\n                    51.5964956\n                ],\n                [\n                    13.5477984,\n                    51.5962804\n                ],\n                [\n                    13.547745,\n                    51.5961279\n                ],\n                [\n                    13.5476368,\n                    51.5958779\n                ],\n                [\n                    13.546022,\n                    51.5940324\n                ],\n                [\n                    13.5452528,\n                    51.5935572\n                ]\n            ],\n            \"tour_start\": {\n                \"name\": \"Bahnhof Doberlug-Kirchhain\",\n                \"city\": \"Doberlug-Kirchhain\",\n                \"zip\": 32530,\n                \"street\": \"Bahnhofsallee\",\n                \"coordinates\": {\n                    \"coordinate\": {\n                        \"lat\": 51.620237992608,\n                        \"lng\": 13.561093731208\n                    }\n                }\n            },\n            \"tour_end\": {\n                \"name\": \"Bahnhof Doberlug-Kirchhain\",\n                \"city\": \"Doberlug-Kirchhain\",\n                \"zip\": 32530,\n                \"street\": \"Bahnhofsallee\",\n                \"coordinates\": {\n                    \"coordinate\": {\n                        \"lat\": 51.620237992608,\n                        \"lng\": 13.561093731208\n                    }\n                }\n            }\n        },\n        {\n            \"name\": \"Radrouten Historische Stadtkerne - Route 5 \",\n            \"created_at\": \"01.01.2018\",\n            \"updated_at\": \"08.10.2018\",\n            \"status\": \"active\",\n            \"data_provider\": {\n                \"name\": \"tmb\",\n                \"address\": {\n                    \"street\": \"Musterstr. 123\",\n                    \"zip\": \"14567\",\n                    \"city\": \"Potsdam\",\n                    \"coordinates\": {\n                        \"lat\": 52.345678,\n                        \"lng\": 12.345678\n                    }\n                },\n                \"contact\": {\n                    \"phone\": \"+4903384860004\",\n                    \"fax\": \"\",\n                    \"email\": \"test@test.net\",\n                    \"url\": \"http://www.flaeming.net\"\n                },\n                \"logo\": \"image_link\",\n                \"description\": \"\"\n            },\n            \"operating_company\": {\n                \"name\": \"Tourismusverband Elbe-Elster-Land e.V.\",\n                \"address\": {\n                    \"city\": \"Bad Liebenwerda\",\n                    \"street\": \"Markt 20\",\n                    \"zip\": 49240,\n                    \"coordinates\": {\n                        \"lat\": 51.609621155607,\n                        \"lng\": 13.545282982203\n                    },\n                    \"contact\": {\n                        \"telephone\": \"035341-30652\",\n                        \"e-mail\": \"info@elbe-elster-land.de\",\n                        \"fax\": \"035341-12672\",\n                        \"url\": \"www.elbe-elster-land.de\"\n                    }\n                },\n                \"description\": \"\"\n            },\n            \"regions\": [\n                \"Elbe-Elster-Land\",\n                \"Fläming\",\n                \"Spreewald\"\n            ],\n            \"description\": \"Neben den historischen Städten verläuft die Route durch eine naturnahe Landschaftskulisse, die unter anderem durch die Naturparks Niederlausitzer Heidelandschaft und Niederlausitzer Landrücken geprägt ist.\",\n            \"thumbnail\": \"thumbnail_image_url\",\n            \"image_gallery\": [\n                {\n                    \"link\": \"image_link_1\",\n                    \"caption_text\": \"test_1\",\n                    \"caption_text_en\": \"test\",\n                    \"caption_text_pl\": \"test\"\n                },\n                {\n                    \"link\": \"image_link_2\",\n                    \"caption_text\": \"test_2\",\n                    \"caption_text_en\": \"test\",\n                    \"caption_text_pl\": \"test\"\n                }\n            ],\n            \"type\": \"Rundtour\",\n            \"tags\": [\n                \"Wald\",\n                \"Seen\",\n                \"Scenic Route\"\n            ],\n            \"length_km\": 296,\n            \"geometry_tour_data\": [\n                [\n                    13.5611057,\n                    51.6196185\n                ],\n                [\n                    13.561013,\n                    51.6196115\n                ],\n                [\n                    13.5609715,\n                    51.6196061\n                ],\n                [\n                    13.5609239,\n                    51.6195979\n                ],\n                [\n                    13.5597052,\n                    51.6193648\n                ],\n                [\n                    13.5578198,\n                    51.6189981\n                ],\n                [\n                    13.5575696,\n                    51.6189423\n                ],\n                [\n                    13.556685,\n                    51.618761\n                ],\n                [\n                    13.556203,\n                    51.6186594\n                ],\n                [\n                    13.5558976,\n                    51.6185816\n                ],\n                [\n                    13.5558334,\n                    51.6185653\n                ],\n                [\n                    13.5555942,\n                    51.6184528\n                ],\n                [\n                    13.5552789,\n                    51.618221\n                ],\n                [\n                    13.555078,\n                    51.6179604\n                ],\n                [\n                    13.5548018,\n                    51.6176019\n                ],\n                [\n                    13.5543359,\n                    51.6170607\n                ],\n                [\n                    13.5540635,\n                    51.6167449\n                ],\n                [\n                    13.5536782,\n                    51.6162986\n                ],\n                [\n                    13.5534934,\n                    51.6160701\n                ],\n                [\n                    13.5529459,\n                    51.6153931\n                ],\n                [\n                    13.5528031,\n                    51.6152165\n                ],\n                [\n                    13.5521749,\n                    51.6144396\n                ],\n                [\n                    13.5518759,\n                    51.6141053\n                ],\n                [\n                    13.5517738,\n                    51.613991\n                ],\n                [\n                    13.5514932,\n                    51.613695\n                ],\n                [\n                    13.5514355,\n                    51.6136475\n                ],\n                [\n                    13.551394,\n                    51.6136323\n                ],\n                [\n                    13.5512103,\n                    51.61356\n                ],\n                [\n                    13.5508876,\n                    51.6134375\n                ],\n                [\n                    13.5496354,\n                    51.6129311\n                ],\n                [\n                    13.5483462,\n                    51.6124562\n                ],\n                [\n                    13.5485612,\n                    51.612228\n                ],\n                [\n                    13.5487704,\n                    51.6120048\n                ],\n                [\n                    13.5489517,\n                    51.611826\n                ],\n                [\n                    13.5490976,\n                    51.6117017\n                ],\n                [\n                    13.5492693,\n                    51.6115485\n                ],\n                [\n                    13.5494269,\n                    51.6113768\n                ],\n                [\n                    13.5496247,\n                    51.611185\n                ],\n                [\n                    13.5497209,\n                    51.6112193\n                ],\n                [\n                    13.5498228,\n                    51.6111194\n                ],\n                [\n                    13.5498797,\n                    51.6110482\n                ],\n                [\n                    13.5499508,\n                    51.6109639\n                ],\n                [\n                    13.5499707,\n                    51.6109374\n                ],\n                [\n                    13.5498565,\n                    51.6108889\n                ],\n                [\n                    13.5496805,\n                    51.6108198\n                ],\n                [\n                    13.54715,\n                    51.6098428\n                ],\n                [\n                    13.5466764,\n                    51.6097099\n                ],\n                [\n                    13.5467448,\n                    51.6095983\n                ],\n                [\n                    13.5465832,\n                    51.6094985\n                ],\n                [\n                    13.5464039,\n                    51.6093602\n                ],\n                [\n                    13.5462247,\n                    51.6091782\n                ],\n                [\n                    13.5462724,\n                    51.6087397\n                ],\n                [\n                    13.5463789,\n                    51.6084657\n                ],\n                [\n                    13.5476691,\n                    51.6073317\n                ],\n                [\n                    13.5471051,\n                    51.6048246\n                ],\n                [\n                    13.54639,\n                    51.60153\n                ],\n                [\n                    13.5463893,\n                    51.6013208\n                ],\n                [\n                    13.546388,\n                    51.600908\n                ],\n                [\n                    13.5464039,\n                    51.6008296\n                ],\n                [\n                    13.5466849,\n                    51.5994479\n                ],\n                [\n                    13.5469172,\n                    51.598806\n                ],\n                [\n                    13.5472556,\n                    51.5978708\n                ],\n                [\n                    13.5476165,\n                    51.5969999\n                ],\n                [\n                    13.5476853,\n                    51.5968339\n                ],\n                [\n                    13.5477228,\n                    51.596718\n                ],\n                [\n                    13.5477945,\n                    51.5964956\n                ],\n                [\n                    13.5477984,\n                    51.5962804\n                ],\n                [\n                    13.547745,\n                    51.5961279\n                ],\n                [\n                    13.5476368,\n                    51.5958779\n                ],\n                [\n                    13.546022,\n                    51.5940324\n                ],\n                [\n                    13.5452528,\n                    51.5935572\n                ]\n            ],\n            \"tour_start\": {\n                \"name\": \"Bahnhof Doberlug-Kirchhain\",\n                \"city\": \"Doberlug-Kirchhain\",\n                \"zip\": 32530,\n                \"street\": \"Bahnhofsallee\",\n                \"coordinates\": {\n                    \"coordinate\": {\n                        \"lat\": 51.620237992608,\n                        \"lng\": 13.561093731208\n                    }\n                }\n            },\n            \"tour_end\": {\n                \"name\": \"Bahnhof Doberlug-Kirchhain\",\n                \"city\": \"Doberlug-Kirchhain\",\n                \"zip\": 32530,\n                \"street\": \"Bahnhofsallee\",\n                \"coordinates\": {\n                    \"coordinate\": {\n                        \"lat\": 51.620237992608,\n                        \"lng\": 13.561093731208\n                    }\n                }\n            }\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Get one specific Tour",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://3864f6f3-64e8-4473-ba6f-90a55c71e60e.mock.pstmn.io/api/v1/tours/1",
+					"protocol": "https",
+					"host": [
+						"3864f6f3-64e8-4473-ba6f-90a55c71e60e",
+						"mock",
+						"pstmn",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"tours",
+						"1"
+					]
+				},
+				"description": "Endpoint which provides one tour specified by id"
+			},
+			"response": [
+				{
+					"name": "Get one specific Tour",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://3864f6f3-64e8-4473-ba6f-90a55c71e60e.mock.pstmn.io/api/v1/tours/1",
+							"protocol": "https",
+							"host": [
+								"3864f6f3-64e8-4473-ba6f-90a55c71e60e",
+								"mock",
+								"pstmn",
+								"io"
+							],
+							"path": [
+								"api",
+								"v1",
+								"tours",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "{\n    \"tour\": {\n    \t\"id\": 1,\n        \"name\": \"Zwischen fürstlichen Schlössern und frommen Klöstern\",\n        \"created_at\": \"01.01.2018\",\n        \"updated_at\": \"08.10.2018\",\n        \"status\": \"active\",\n        \"data_provider\": {\n            \"name\": \"tmb\",\n            \"address\": {\n                \"street\": \"Musterstr. 123\",\n                \"zip\": \"14567\",\n                \"city\": \"Potsdam\",\n                \"coordinates\": {\n                    \"lat\": 52.345678,\n                    \"lng\": 12.345678\n                }\n            },\n            \"contact\": {\n                \"phone\": \"+4903384860004\",\n                \"fax\": \"\",\n                \"email\": \"test@test.net\",\n                \"url\": \"http://www.flaeming.net\"\n            },\n            \"logo\": \"image_link\",\n            \"description\": \"\"\n        },\n        \"operating_company\": {\n            \"name\": \"Tourismusverband Elbe-Elster-Land e.V.\",\n            \"address\": {\n                \"city\": \"Bad Liebenwerda\",\n                \"street\": \"Markt 20\",\n                \"zip\": 49240,\n                \"coordinates\": {\n                    \"lat\": 51.609621155607,\n                    \"lng\": 13.545282982203\n                },\n                \"contact\": {\n                    \"telephone\": \"035341-30652\",\n                    \"e-mail\": \"info@elbe-elster-land.de\",\n                    \"fax\": \"035341-12672\",\n                    \"url\": \"www.elbe-elster-land.de\"\n                }\n            },\n            \"description\": \"\"\n        },\n        \"regions\": [\n            \"Elbe-Elster-Land\",\n            \"Fläming\",\n            \"Spreewald\"\n        ],\n        \"description\": \"Die Zeit vor der Reformation war durch eine tiefe Frömmigkeit der Menschen gekennzeichnet, die sich durch den Ausbau von Klosteranlagen durch die Mönchsorden sowie herausragende Stadtpfarrkirchen mit prächtigen Altären widerspiegelt. Im Zuge der Reformation wurden sie oftmals umgenutzt oder aufgelöst. Auf dieser Rundtour liegen sieben historische Stadtkerne mit neun Schlössern und beeindruckenden Kirchen sowie heute kulturell genutzten Klosteranlagen und spannende Museen. In Jüterbog und Mühlberg/Elbe sind die bedeutendsten Zeugnisse der Reformation zu sehen und wurden mit dem Europäischen Kulturerbesiegel dafür ausgezeichnet. Beginnend im Fläming verläuft die Radroute von Jüterbog weiter Richtung Süden zur Elbe, um dann nach einem Bogen durch die Niederlausitz wieder zum Start zurückzukehren.\",\n        \"thumbnail\": \"thumbnail_image_url\",\n        \"image_gallery\": [\n            {\n                \"link\": \"image_link_1\",\n                \"caption_text\": \"test_1\",\n                \"caption_text_en\": \"test\",\n                \"caption_text_pl\": \"test\"\n            },\n            {\n                \"link\": \"image_link_2\",\n                \"caption_text\": \"test_2\",\n                \"caption_text_en\": \"test\",\n                \"caption_text_pl\": \"test\"\n            }\n        ],\n        \"type\": \"Rundtour\",\n        \"tags\": [\n            \"Wald\",\n            \"Seen\",\n            \"Scenic Route\"\n        ],\n        \"length_km\": 296,\n        \"geometry_tour_data\": [\n            [\n                13.5611057,\n                51.6196185\n            ],\n            [\n                13.561013,\n                51.6196115\n            ],\n            [\n                13.5609715,\n                51.6196061\n            ],\n            [\n                13.5609239,\n                51.6195979\n            ],\n            [\n                13.5597052,\n                51.6193648\n            ],\n            [\n                13.5578198,\n                51.6189981\n            ],\n            [\n                13.5575696,\n                51.6189423\n            ],\n            [\n                13.556685,\n                51.618761\n            ],\n            [\n                13.556203,\n                51.6186594\n            ],\n            [\n                13.5558976,\n                51.6185816\n            ],\n            [\n                13.5558334,\n                51.6185653\n            ],\n            [\n                13.5555942,\n                51.6184528\n            ],\n            [\n                13.5552789,\n                51.618221\n            ],\n            [\n                13.555078,\n                51.6179604\n            ],\n            [\n                13.5548018,\n                51.6176019\n            ],\n            [\n                13.5543359,\n                51.6170607\n            ],\n            [\n                13.5540635,\n                51.6167449\n            ],\n            [\n                13.5536782,\n                51.6162986\n            ],\n            [\n                13.5534934,\n                51.6160701\n            ],\n            [\n                13.5529459,\n                51.6153931\n            ],\n            [\n                13.5528031,\n                51.6152165\n            ],\n            [\n                13.5521749,\n                51.6144396\n            ],\n            [\n                13.5518759,\n                51.6141053\n            ],\n            [\n                13.5517738,\n                51.613991\n            ],\n            [\n                13.5514932,\n                51.613695\n            ],\n            [\n                13.5514355,\n                51.6136475\n            ],\n            [\n                13.551394,\n                51.6136323\n            ],\n            [\n                13.5512103,\n                51.61356\n            ],\n            [\n                13.5508876,\n                51.6134375\n            ],\n            [\n                13.5496354,\n                51.6129311\n            ],\n            [\n                13.5483462,\n                51.6124562\n            ],\n            [\n                13.5485612,\n                51.612228\n            ],\n            [\n                13.5487704,\n                51.6120048\n            ],\n            [\n                13.5489517,\n                51.611826\n            ],\n            [\n                13.5490976,\n                51.6117017\n            ],\n            [\n                13.5492693,\n                51.6115485\n            ],\n            [\n                13.5494269,\n                51.6113768\n            ],\n            [\n                13.5496247,\n                51.611185\n            ],\n            [\n                13.5497209,\n                51.6112193\n            ],\n            [\n                13.5498228,\n                51.6111194\n            ],\n            [\n                13.5498797,\n                51.6110482\n            ],\n            [\n                13.5499508,\n                51.6109639\n            ],\n            [\n                13.5499707,\n                51.6109374\n            ],\n            [\n                13.5498565,\n                51.6108889\n            ],\n            [\n                13.5496805,\n                51.6108198\n            ],\n            [\n                13.54715,\n                51.6098428\n            ],\n            [\n                13.5466764,\n                51.6097099\n            ],\n            [\n                13.5467448,\n                51.6095983\n            ],\n            [\n                13.5465832,\n                51.6094985\n            ],\n            [\n                13.5464039,\n                51.6093602\n            ],\n            [\n                13.5462247,\n                51.6091782\n            ],\n            [\n                13.5462724,\n                51.6087397\n            ],\n            [\n                13.5463789,\n                51.6084657\n            ],\n            [\n                13.5476691,\n                51.6073317\n            ],\n            [\n                13.5471051,\n                51.6048246\n            ],\n            [\n                13.54639,\n                51.60153\n            ],\n            [\n                13.5463893,\n                51.6013208\n            ],\n            [\n                13.546388,\n                51.600908\n            ],\n            [\n                13.5464039,\n                51.6008296\n            ],\n            [\n                13.5466849,\n                51.5994479\n            ],\n            [\n                13.5469172,\n                51.598806\n            ],\n            [\n                13.5472556,\n                51.5978708\n            ],\n            [\n                13.5476165,\n                51.5969999\n            ],\n            [\n                13.5476853,\n                51.5968339\n            ],\n            [\n                13.5477228,\n                51.596718\n            ],\n            [\n                13.5477945,\n                51.5964956\n            ],\n            [\n                13.5477984,\n                51.5962804\n            ],\n            [\n                13.547745,\n                51.5961279\n            ],\n            [\n                13.5476368,\n                51.5958779\n            ],\n            [\n                13.546022,\n                51.5940324\n            ],\n            [\n                13.5452528,\n                51.5935572\n            ]\n        ],\n        \"tour_start\": {\n            \"name\": \"Bahnhof Doberlug-Kirchhain\",\n            \"city\": \"Doberlug-Kirchhain\",\n            \"zip\": 32530,\n            \"street\": \"Bahnhofsallee\",\n            \"coordinates\": {\n                \"coordinate\": {\n                    \"lat\": 51.620237992608,\n                    \"lng\": 13.561093731208\n                }\n            }\n        },\n        \"tour_end\": {\n            \"name\": \"Bahnhof Doberlug-Kirchhain\",\n            \"city\": \"Doberlug-Kirchhain\",\n            \"zip\": 32530,\n            \"street\": \"Bahnhofsallee\",\n            \"coordinates\": {\n                \"coordinate\": {\n                    \"lat\": 51.620237992608,\n                    \"lng\": 13.561093731208\n                }\n            }\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Get alle categories",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"categories\": {\n        \"culture\": {\n            \"id\": 1,\n            \"tmb_id\": 17,\n            \"castles\": {\n                \"id\": 8876,\n                \"tmb_id\": 32,\n                \"17th_century\": {\n                    \"id\": 4765,\n                    \"tmb_id\": 737\n                },\n                \"middle_ages\": {\n                    \"id\": 38,\n                    \"tmb_id\": 47\n                }  \n            },\n            \"museums\": {\n                \"id\": 456,\n                \"tmb_id\": 53434\n            },\n            \"churches\": {\n                \"id\": 453,\n                \"tmb_id\": 53464\n            }\n        },\n        \"staying_overnight\": {\n            \"id\": 2,\n            \"tmb_id\": 19,\n            \"hotels\": {\n                \"id\": 457,\n                \"tmb_id\": 53466\n            },\n            \"holiday_flats\": {\n                \"id\": 458,\n                \"tmb_id\": 53467\n            },\n            \"camping_sites\": {\n                \"id\": 978,\n                \"tmb_id\": 53468\n            }\n        }\n    }\n}"
+				},
+				"url": {
+					"raw": "https://3864f6f3-64e8-4473-ba6f-90a55c71e60e.mock.pstmn.io/api/v1/categories",
+					"protocol": "https",
+					"host": [
+						"3864f6f3-64e8-4473-ba6f-90a55c71e60e",
+						"mock",
+						"pstmn",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"categories"
+					]
+				},
+				"description": "Get alle categories to be able to resolve POI categorization."
+			},
+			"response": [
+				{
+					"name": "Get alle categories",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://3864f6f3-64e8-4473-ba6f-90a55c71e60e.mock.pstmn.io/api/v1/categories",
+							"protocol": "https",
+							"host": [
+								"3864f6f3-64e8-4473-ba6f-90a55c71e60e",
+								"mock",
+								"pstmn",
+								"io"
+							],
+							"path": [
+								"api",
+								"v1",
+								"categories"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "{\n    \"categories\": {\n        \"culture\": {\n            \"id\": 1,\n            \"tmb_id\": 17,\n            \"castles\": {\n                \"id\": 8876,\n                \"tmb_id\": 32,\n                \"17th_century\": {\n                    \"id\": 4765,\n                    \"tmb_id\": 737\n                },\n                \"middle_ages\": {\n                    \"id\": 38,\n                    \"tmb_id\": 47\n                }  \n            },\n            \"museums\": {\n                \"id\": 456,\n                \"tmb_id\": 53434\n            },\n            \"churches\": {\n                \"id\": 453,\n                \"tmb_id\": 53464\n            }\n        },\n        \"staying_overnight\": {\n            \"id\": 2,\n            \"tmb_id\": 19,\n            \"hotels\": {\n                \"id\": 457,\n                \"tmb_id\": 53466\n            },\n            \"holiday_flats\": {\n                \"id\": 458,\n                \"tmb_id\": 53467\n            },\n            \"camping_sites\": {\n                \"id\": 978,\n                \"tmb_id\": 53468\n            }\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Get all events",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://3864f6f3-64e8-4473-ba6f-90a55c71e60e.mock.pstmn.io/api/v1/events",
+					"protocol": "https",
+					"host": [
+						"3864f6f3-64e8-4473-ba6f-90a55c71e60e",
+						"mock",
+						"pstmn",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"events"
+					]
+				},
+				"description": "Get all events (Concerts, festivals, sport evenst) for Bad Belzig and the surrounding area"
+			},
+			"response": [
+				{
+					"name": "Get all events",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://3864f6f3-64e8-4473-ba6f-90a55c71e60e.mock.pstmn.io/api/v1/events",
+							"protocol": "https",
+							"host": [
+								"3864f6f3-64e8-4473-ba6f-90a55c71e60e",
+								"mock",
+								"pstmn",
+								"io"
+							],
+							"path": [
+								"api",
+								"v1",
+								"events"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "{\n    \"events\": [\n        {\n            \"id\": 2,\n            \"parent_id\": \"\",\n            \"dates\": {\n                \"date_1\": {\n                    \"date_start\": \"2019-02-16\",\n                    \"time_start\": \"13:00:00\",\n                    \"date_end\": \"2019-02-16\",\n                    \"time_end\": \"18:00:00\",\n                    \"time_description_de\": null,\n                    \"time_description_en\": null,\n                    \"time_description_pl\": null,\n                    \"use_only_time_description\": false\n                },\n                \"date_2\": {\n                    \"date_start\": \"2019-02-17\",\n                    \"time_start\": \"13:00:00\",\n                    \"date_end\": \"2019-03-16\",\n                    \"time_end\": \"18:00:00\",\n                    \"time_description_de\": null,\n                    \"time_description_en\": null,\n                    \"time_description_pl\": null,\n                    \"use_only_time_description\": false\n                }\n            },\n            \"repeat\": false,\n            \"repeat_duration\": {\n                \"start\": null,\n                \"end\": null,\n                \"every_year\": null\n            },\n            \"url\": {\n                \"event_url_1\": \"http://www.hoher-flaeming-naturpark.de\",\n                \"event_url_2\": \"http://www.naturwacht.de\"\n            },\n            \"highlight\": {\n                \"event\": false,\n                \"holiday\": false,\n                \"monthly\": false,\n                \"regional\": false,\n                \"local\": false\n            },\n            \"address\": {\n                \"name\": \"Treffpunkt: Naturparkzentrum Hoher Fläming\",\n                \"street\": \"Brennereiweg 45 OT Raben\",\n                \"zip\": \"14823\",\n                \"city\": \"Raben\",\n                \"coordinates\": {\n                    \"lat\": 52.041297912598,\n                    \"lng\": 12.578530311584\n                }\n            },\n            \"contact\": {\n                \"phone\": \"+4903384860004\",\n                \"fax\": null,\n                \"email\": \"info@flaeming.net\",\n                \"url\": \"http://www.flaeming.net\"\n            },\n            \"organizer\": {\n                \"company/name\": \"Naturparkzentrum Hoher Fläming\",\n                \"address\": {\n                    \"street\": \"Brennereiweg 45 OT Raben\",\n                    \"zip\": \"14823\",\n                    \"city\": \"Raben\",\n                    \"coordinates\": {\n                        \"lat\": 52.041297912598,\n                        \"lng\": 12.578530311584\n                    }\n                },\n                \"contact\": {\n                    \"phone\": \"+4903384860004\",\n                    \"fax\": null,\n                    \"email\": \"info@flaeming.net\",\n                    \"url\": \"http://www.flaeming.net\"\n                }\n            },\n            \"location\": {\n                \"id\": 3581,\n                \"name\": \"Raben\",\n                \"department\": \"Niemegk\",\n                \"district\": \"Potsdam-Mittelmark\",\n                \"region\": \"Fläming\",\n                \"coordinates\": {\n                    \"lat\": 52.042051020544,\n                    \"lng\": 12.577602953518\n                }\n            },\n            \"data_provider\": {\n                \"name\": \"tmb\",\n                \"address\": {\n                    \"street\": \"Musterstr. 123\",\n                    \"zip\": \"14567\",\n                    \"city\": \"Potsdam\",\n                    \"coordinates\": {\n                        \"lat\": 52.345678,\n                        \"lng\": 12.345678\n                    }\n                },\n                \"contact\": {\n                    \"phone\": \"+4903384860004\",\n                    \"fax\": \"\",\n                    \"email\": \"test@test.net\",\n                    \"url\": \"http://www.flaeming.net\"\n                },\n                \"logo\": \"image_link\",\n                \"description\": \"\"\n            },\n            \"images\": [\n                {\n                    \"link\": \"http://eingabe.events-in-brandenburg.de/images/itempics/4/2/2/item_457224_pic_1_medium.jpg\",\n                    \"caption_text\": \"Damhirsch\",\n                    \"caption_text_en\": \"test\",\n                    \"caption_text_pl\": \"test\"\n                },\n                {\n                    \"link\": \"image_link_2\",\n                    \"caption_text\": \"Schwarzwild\",\n                    \"caption_text_en\": \"test\",\n                    \"caption_text_pl\": \"test\"\n                }\n            ],\n            \"german_version:\": {\n                \"title\": \"Wildspuren\",\n                \"description\": \"Mit der Naturwacht und dem Förster begeben wir uns ins Revier, um den Waldtieren auf die Spur zu kommen.\\nWelche Tierarten gibt es im Naturpark und welche davon stehen unter Schutz? Wie sind die Lebensbedingungen? Wovon ernährt sich das Wild? Wie passt sich das Wild an seine Umgebung an und wie gehen wir damit um?\\nIm Anschluss an die Pirsch durch Wald und Feld können Sie sich bei einem kleinen Picknick am Feuer wärmen, stärken und sich vielleicht noch etwas über das Erlebte austauschen.\\nBitte denken Sie an warme Kleidung.\",\n                \"price_information\": \"2,50 Euro (erm. für Kinder bis 14: 1,50 Euro)\",\n                \"categories\": [\n                    \"Lust auf NaTour\"\n                ],\n                \"event_url_1_description\": \"Naturpark Hoher Fläming\",\n                \"event_url_2_description\": \"Naturwacht Brandenburg\",\n                \"ticket_url\": \"\",\n                \"region_name\": \"Fläming\"\n            },\n            \"english_version\": {\n                \"title\": \"\",\n                \"description\": \"\",\n                \"price_information\": \"\",\n                \"categories\": [\n                    \"Great Outdoors Events\"\n                ],\n                \"event_url_1_description\": \"\",\n                \"event_url_2_description\": \"\",\n                \"contact_company\": \"\",\n                \"location_name\": \"\",\n                \"ticket_url\": \"\",\n                \"region_name\": \"\"\n            },\n            \"polish_version\": {\n                \"title\": \"\",\n                \"description\": \"\",\n                \"price_information\": \"\",\n                \"categories\": [\n                    \"Radość z NaTour\"\n                ],\n                \"event_url_1_description\": \"\",\n                \"event_url_2_description\": \"\",\n                \"contact_company\": \"\",\n                \"location_name\": \"\",\n                \"ticket_url\": \"\",\n                \"region_name\": \"\"\n            },\n            \"barrierefrei_types\": \"\",\n            \"barrierefrei_description\": \"\",\n            \"barrierefrei_url\": \"\",\n            \"barrierefrei_url_description\": \"\",\n            \"created_at\": \"date\",\n            \"updated_at\": \"date\",\n            \"updated_at_tmb\": \"2018-07-31 13:16:19\"\n        },\n        {\n            \"id\": 33,\n            \"parent_id\": 56,\n            \"dates\": {\n                \"date_1\": {\n                    \"time_start\": \"13:00:00\",\n                    \"time_end\": \"18:00:00\",\n                    \"weekday\": \"monday\",\n                    \"time_description_de\": \"Jeden zweiten Montag im Monat\",\n                    \"time_description_en\": null,\n                    \"time_description_pl\": null,\n                    \"use_only_time_description\": true\n                },\n                \"date_2\": {\n                    \"time_start\": \"13:00:00\",\n                    \"time_end\": \"18:00:00\",\n                    \"weekday\": \"wednesday\",\n                    \"time_description_de\": \"Jeden ersten Montag im Monat\",\n                    \"time_description_en\": null,\n                    \"time_description_pl\": null,\n                    \"use_only_time_description\": true\n                }\n            },\n            \"repeat\": true,\n            \"repeat_duration\": {\n                \"start\": \"01.03.\",\n                \"end\": \"01.09\",\n                \"every_year\": true\n            },\n            \"url\": {\n                \"event_url_1\": \"http://www.hoher-flaeming-naturpark.de\",\n                \"event_url_2\": \"http://www.naturwacht.de\"\n            },\n            \"highlight\": {\n                \"event\": false,\n                \"holiday\": false,\n                \"monthly\": false,\n                \"regional\": false,\n                \"local\": false\n            },\n            \"address\": {\n                \"name\": \"Treffpunkt: Naturparkzentrum Hoher Fläming\",\n                \"street\": \"Brennereiweg 45 OT Raben\",\n                \"zip\": \"14823\",\n                \"city\": \"Raben\",\n                \"coordinates\": {\n                    \"lat\": 52.041297912598,\n                    \"lng\": 12.578530311584\n                }\n            },\n            \"contact\": {\n                \"phone\": \"+4903384860004\",\n                \"fax\": null,\n                \"email\": \"info@flaeming.net\",\n                \"url\": \"http://www.flaeming.net\"\n            },\n            \"organizer\": {\n                \"company/name\": \"Naturparkzentrum Hoher Fläming\",\n                \"address\": {\n                    \"street\": \"Brennereiweg 45 OT Raben\",\n                    \"zip\": \"14823\",\n                    \"city\": \"Raben\",\n                    \"coordinates\": {\n                        \"lat\": 52.041297912598,\n                        \"lng\": 12.578530311584\n                    }\n                },\n                \"contact\": {\n                    \"phone\": \"+4903384860004\",\n                    \"fax\": null,\n                    \"email\": \"info@flaeming.net\",\n                    \"url\": \"http://www.flaeming.net\"\n                }\n            },\n            \"location\": {\n                \"id\": 3581,\n                \"name\": \"Raben\",\n                \"department\": \"Niemegk\",\n                \"district\": \"Potsdam-Mittelmark\",\n                \"region\": \"Fläming\",\n                \"coordinates\": {\n                    \"lat\": 52.042051020544,\n                    \"lng\": 12.577602953518\n                }\n            },\n            \"data_provider\": {\n                \"name\": \"tmb\",\n                \"address\": {\n                    \"street\": \"Musterstr. 123\",\n                    \"zip\": \"14567\",\n                    \"city\": \"Potsdam\",\n                    \"coordinates\": {\n                        \"lat\": 52.345678,\n                        \"lng\": 12.345678\n                    }\n                },\n                \"contact\": {\n                    \"phone\": \"+4903384860004\",\n                    \"fax\": \"\",\n                    \"email\": \"test@test.net\",\n                    \"url\": \"http://www.flaeming.net\"\n                },\n                \"logo\": \"image_link\",\n                \"description\": \"\"\n            },\n            \"images\": [\n                {\n                    \"link\": \"http://eingabe.events-in-brandenburg.de/images/itempics/4/2/2/item_457224_pic_1_medium.jpg\",\n                    \"caption_text\": \"Damhirsch\",\n                    \"caption_text_en\": \"test\",\n                    \"caption_text_pl\": \"test\"\n                },\n                {\n                    \"link\": \"image_link_2\",\n                    \"caption_text\": \"Schwarzwild\",\n                    \"caption_text_en\": \"test\",\n                    \"caption_text_pl\": \"test\"\n                }\n            ],\n            \"german_version:\": {\n                \"title\": \"Wildspuren\",\n                \"description\": \"Mit der Naturwacht und dem Förster begeben wir uns ins Revier, um den Waldtieren auf die Spur zu kommen.\\nWelche Tierarten gibt es im Naturpark und welche davon stehen unter Schutz? Wie sind die Lebensbedingungen? Wovon ernährt sich das Wild? Wie passt sich das Wild an seine Umgebung an und wie gehen wir damit um?\\nIm Anschluss an die Pirsch durch Wald und Feld können Sie sich bei einem kleinen Picknick am Feuer wärmen, stärken und sich vielleicht noch etwas über das Erlebte austauschen.\\nBitte denken Sie an warme Kleidung.\",\n                \"price_information\": \"2,50 Euro (erm. für Kinder bis 14: 1,50 Euro)\",\n                \"categories\": [\n                    \"Lust auf NaTour\"\n                ],\n                \"event_url_1_description\": \"Naturpark Hoher Fläming\",\n                \"event_url_2_description\": \"Naturwacht Brandenburg\",\n                \"ticket_url\": \"\",\n                \"region_name\": \"Fläming\"\n            },\n            \"english_version\": {\n                \"title\": \"\",\n                \"description\": \"\",\n                \"price_information\": \"\",\n                \"categories\": [\n                    \"Great Outdoors Events\"\n                ],\n                \"event_url_1_description\": \"\",\n                \"event_url_2_description\": \"\",\n                \"contact_company\": \"\",\n                \"location_name\": \"\",\n                \"ticket_url\": \"\",\n                \"region_name\": \"\"\n            },\n            \"polish_version\": {\n                \"title\": \"\",\n                \"description\": \"\",\n                \"categories\": [\n                    \"Radość z NaTour\"\n                ],\n                \"price_information\": \"\",\n                \"event_url_1_description\": \"\",\n                \"event_url_2_description\": \"\",\n                \"contact_company\": \"\",\n                \"location_name\": \"\",\n                \"ticket_url\": \"\",\n                \"region_name\": \"\"\n            },\n            \"barrierefrei_types\": \"\",\n            \"barrierefrei_description\": \"\",\n            \"barrierefrei_url\": \"\",\n            \"barrierefrei_url_description\": \"\",\n            \"created_at\": \"date\",\n            \"updated_at\": \"date\",\n            \"updated_at_tmb\": \"2018-07-31 13:16:19\"\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Get one specific event",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://3864f6f3-64e8-4473-ba6f-90a55c71e60e.mock.pstmn.io/api/v1/events/33",
+					"protocol": "https",
+					"host": [
+						"3864f6f3-64e8-4473-ba6f-90a55c71e60e",
+						"mock",
+						"pstmn",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"events",
+						"33"
+					]
+				},
+				"description": "Get one specific event (Concerts, festivals, sport evenst) for Bad Belzig and the surrounding area"
+			},
+			"response": [
+				{
+					"name": "Get one specific event",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://3864f6f3-64e8-4473-ba6f-90a55c71e60e.mock.pstmn.io/api/v1/events/33",
+							"protocol": "https",
+							"host": [
+								"3864f6f3-64e8-4473-ba6f-90a55c71e60e",
+								"mock",
+								"pstmn",
+								"io"
+							],
+							"path": [
+								"api",
+								"v1",
+								"events",
+								"33"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": ""
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": ""
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": ""
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Expose-Headers",
+							"value": ""
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 09 Apr 2019 16:01:35 GMT"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1764-UFf6NOft2rso+vKy5fkFgw\""
+						},
+						{
+							"key": "Server",
+							"value": "nginx"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1562"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"event\": {\n        \"id\": 33,\n        \"parent_id\": 56,\n        \"dates\": {\n            \"date_1\": {\n                \"time_start\": \"13:00:00\",\n                \"time_end\": \"18:00:00\",\n                \"weekday\": \"monday\",\n                \"time_description_de\": \"Jeden zweiten Montag im Monat\",\n                \"time_description_en\": null,\n                \"time_description_pl\": null,\n                \"use_only_time_description\": true\n            },\n            \"date_2\": {\n                \"time_start\": \"13:00:00\",\n                \"time_end\": \"18:00:00\",\n                \"weekday\": \"wednesday\",\n                \"time_description_de\": \"Jeden ersten Montag im Monat\",\n                \"time_description_en\": null,\n                \"time_description_pl\": null,\n                \"use_only_time_description\": true\n            }\n        },\n        \"repeat\": true,\n        \"repeat_duration\": {\n            \"start\": \"01.03.\",\n            \"end\": \"01.09\",\n            \"every_year\": true\n        },\n        \"url\": {\n            \"event_url_1\": \"http://www.hoher-flaeming-naturpark.de\",\n            \"event_url_2\": \"http://www.naturwacht.de\"\n        },\n        \"highlight\": {\n            \"event\": false,\n            \"holiday\": false,\n            \"monthly\": false,\n            \"regional\": false,\n            \"local\": false\n        },\n        \"address\": {\n            \"name\": \"Treffpunkt: Naturparkzentrum Hoher Fläming\",\n            \"street\": \"Brennereiweg 45 OT Raben\",\n            \"zip\": \"14823\",\n            \"city\": \"Raben\",\n            \"coordinates\": {\n                \"lat\": 52.041297912598,\n                \"lng\": 12.578530311584\n            }\n        },\n        \"contact\": {\n            \"phone\": \"+4903384860004\",\n            \"fax\": null,\n            \"email\": \"info@flaeming.net\",\n            \"url\": \"http://www.flaeming.net\"\n        },\n        \"organizer\": {\n            \"company/name\": \"Naturparkzentrum Hoher Fläming\",\n            \"address\": {\n                \"street\": \"Brennereiweg 45 OT Raben\",\n                \"zip\": \"14823\",\n                \"city\": \"Raben\",\n                \"coordinates\": {\n                    \"lat\": 52.041297912598,\n                    \"lng\": 12.578530311584\n                }\n            },\n            \"contact\": {\n                \"phone\": \"+4903384860004\",\n                \"fax\": null,\n                \"email\": \"info@flaeming.net\",\n                \"url\": \"http://www.flaeming.net\"\n            }\n        },\n        \"location\": {\n            \"id\": 3581,\n            \"name\": \"Raben\",\n            \"department\": \"Niemegk\",\n            \"district\": \"Potsdam-Mittelmark\",\n            \"region\": \"Fläming\",\n            \"coordinates\": {\n                \"lat\": 52.042051020544,\n                \"lng\": 12.577602953518\n            }\n        },\n        \"data_provider\": {\n            \"name\": \"tmb\",\n            \"address\": {\n                \"street\": \"Musterstr. 123\",\n                \"zip\": \"14567\",\n                \"city\": \"Potsdam\",\n                \"coordinates\": {\n                    \"lat\": 52.345678,\n                    \"lng\": 12.345678\n                }\n            },\n            \"contact\": {\n                \"phone\": \"+4903384860004\",\n                \"fax\": \"\",\n                \"email\": \"test@test.net\",\n                \"url\": \"http://www.flaeming.net\"\n            },\n            \"logo\": \"image_link\",\n            \"description\": \"\"\n        },\n        \"images\": [\n            {\n                \"link\": \"http://eingabe.events-in-brandenburg.de/images/itempics/4/2/2/item_457224_pic_1_medium.jpg\",\n                \"caption_text\": \"Damhirsch\",\n                \"caption_text_en\": \"test\",\n                \"caption_text_pl\": \"test\"\n            },\n            {\n                \"link\": \"image_link_2\",\n                \"caption_text\": \"Schwarzwild\",\n                \"caption_text_en\": \"test\",\n                \"caption_text_pl\": \"test\"\n            }\n        ],\n        \"german_version:\": {\n            \"title\": \"Wildspuren\",\n            \"description\": \"Mit der Naturwacht und dem Förster begeben wir uns ins Revier, um den Waldtieren auf die Spur zu kommen.\\nWelche Tierarten gibt es im Naturpark und welche davon stehen unter Schutz? Wie sind die Lebensbedingungen? Wovon ernährt sich das Wild? Wie passt sich das Wild an seine Umgebung an und wie gehen wir damit um?\\nIm Anschluss an die Pirsch durch Wald und Feld können Sie sich bei einem kleinen Picknick am Feuer wärmen, stärken und sich vielleicht noch etwas über das Erlebte austauschen.\\nBitte denken Sie an warme Kleidung.\",\n            \"price_information\": \"2,50 Euro (erm. für Kinder bis 14: 1,50 Euro)\",\n            \"categories\": [\n                \"Lust auf NaTour\"\n            ],\n            \"event_url_1_description\": \"Naturpark Hoher Fläming\",\n            \"event_url_2_description\": \"Naturwacht Brandenburg\",\n            \"ticket_url\": \"\",\n            \"region_name\": \"Fläming\"\n        },\n        \"english_version\": {\n            \"title\": \"\",\n            \"description\": \"\",\n            \"price_information\": \"\",\n            \"categories\": [\n                \"Great Outdoors Events\"\n            ],\n            \"event_url_1_description\": \"\",\n            \"event_url_2_description\": \"\",\n            \"contact_company\": \"\",\n            \"location_name\": \"\",\n            \"ticket_url\": \"\",\n            \"region_name\": \"\"\n        },\n        \"polish_version\": {\n            \"title\": \"\",\n            \"description\": \"\",\n            \"categories\": [\n                \"Radość z NaTour\"\n            ],\n            \"price_information\": \"\",\n            \"event_url_1_description\": \"\",\n            \"event_url_2_description\": \"\",\n            \"contact_company\": \"\",\n            \"location_name\": \"\",\n            \"ticket_url\": \"\",\n            \"region_name\": \"\"\n        },\n        \"barrierefrei_types\": \"\",\n        \"barrierefrei_description\": \"\",\n        \"barrierefrei_url\": \"\",\n        \"barrierefrei_url_description\": \"\",\n        \"created_at\": \"date\",\n        \"updated_at\": \"date\",\n        \"updated_at_tmb\": \"2018-07-31 13:16:19\"\n    }\n}"
+				},
+				{
+					"name": "Get one specific event",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://3864f6f3-64e8-4473-ba6f-90a55c71e60e.mock.pstmn.io/api/v1/events/33",
+							"protocol": "https",
+							"host": [
+								"3864f6f3-64e8-4473-ba6f-90a55c71e60e",
+								"mock",
+								"pstmn",
+								"io"
+							],
+							"path": [
+								"api",
+								"v1",
+								"events",
+								"33"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "{\n    \"event\": {\n        \"id\": 33,\n        \"parent_id\": 56,\n        \"dates\": {\n            \"date_1\": {\n                \"time_start\": \"13:00:00\",\n                \"time_end\": \"18:00:00\",\n                \"weekday\": \"monday\",\n                \"time_description_de\": \"Jeden zweiten Montag im Monat\",\n                \"time_description_en\": null,\n                \"time_description_pl\": null,\n                \"use_only_time_description\": true\n            },\n            \"date_2\": {\n                \"time_start\": \"13:00:00\",\n                \"time_end\": \"18:00:00\",\n                \"weekday\": \"wednesday\",\n                \"time_description_de\": \"Jeden ersten Montag im Monat\",\n                \"time_description_en\": null,\n                \"time_description_pl\": null,\n                \"use_only_time_description\": true\n            }\n        },\n        \"repeat\": true,\n        \"repeat_duration\": {\n            \"start\": \"01.03.\",\n            \"end\": \"01.09\",\n            \"every_year\": true\n        },\n        \"url\": {\n            \"event_url_1\": \"http://www.hoher-flaeming-naturpark.de\",\n            \"event_url_2\": \"http://www.naturwacht.de\"\n        },\n        \"highlight\": {\n            \"event\": false,\n            \"holiday\": false,\n            \"monthly\": false,\n            \"regional\": false,\n            \"local\": false\n        },\n        \"address\": {\n            \"name\": \"Treffpunkt: Naturparkzentrum Hoher Fläming\",\n            \"street\": \"Brennereiweg 45 OT Raben\",\n            \"zip\": \"14823\",\n            \"city\": \"Raben\",\n            \"coordinates\": {\n                \"lat\": 52.041297912598,\n                \"lng\": 12.578530311584\n            }\n        },\n        \"contact\": {\n            \"phone\": \"+4903384860004\",\n            \"fax\": null,\n            \"email\": \"info@flaeming.net\",\n            \"url\": \"http://www.flaeming.net\"\n        },\n        \"organizer\": {\n            \"company/name\": \"Naturparkzentrum Hoher Fläming\",\n            \"address\": {\n                \"street\": \"Brennereiweg 45 OT Raben\",\n                \"zip\": \"14823\",\n                \"city\": \"Raben\",\n                \"coordinates\": {\n                    \"lat\": 52.041297912598,\n                    \"lng\": 12.578530311584\n                }\n            },\n            \"contact\": {\n                \"phone\": \"+4903384860004\",\n                \"fax\": null,\n                \"email\": \"info@flaeming.net\",\n                \"url\": \"http://www.flaeming.net\"\n            }\n        },\n        \"location\": {\n            \"id\": 3581,\n            \"name\": \"Raben\",\n            \"department\": \"Niemegk\",\n            \"district\": \"Potsdam-Mittelmark\",\n            \"region\": \"Fläming\",\n            \"coordinates\": {\n                \"lat\": 52.042051020544,\n                \"lng\": 12.577602953518\n            }\n        },\n        \"data_provider\": {\n            \"name\": \"tmb\",\n            \"address\": {\n                \"street\": \"Musterstr. 123\",\n                \"zip\": \"14567\",\n                \"city\": \"Potsdam\",\n                \"coordinates\": {\n                    \"lat\": 52.345678,\n                    \"lng\": 12.345678\n                }\n            },\n            \"contact\": {\n                \"phone\": \"+4903384860004\",\n                \"fax\": \"\",\n                \"email\": \"test@test.net\",\n                \"url\": \"http://www.flaeming.net\"\n            },\n            \"logo\": \"image_link\",\n            \"description\": \"\"\n        },\n        \"images\": [\n            {\n                \"link\": \"http://eingabe.events-in-brandenburg.de/images/itempics/4/2/2/item_457224_pic_1_medium.jpg\",\n                \"caption_text\": \"Damhirsch\",\n                \"caption_text_en\": \"test\",\n                \"caption_text_pl\": \"test\"\n            },\n            {\n                \"link\": \"image_link_2\",\n                \"caption_text\": \"Schwarzwild\",\n                \"caption_text_en\": \"test\",\n                \"caption_text_pl\": \"test\"\n            }\n        ],\n        \"german_version:\": {\n            \"title\": \"Wildspuren\",\n            \"description\": \"Mit der Naturwacht und dem Förster begeben wir uns ins Revier, um den Waldtieren auf die Spur zu kommen.\\nWelche Tierarten gibt es im Naturpark und welche davon stehen unter Schutz? Wie sind die Lebensbedingungen? Wovon ernährt sich das Wild? Wie passt sich das Wild an seine Umgebung an und wie gehen wir damit um?\\nIm Anschluss an die Pirsch durch Wald und Feld können Sie sich bei einem kleinen Picknick am Feuer wärmen, stärken und sich vielleicht noch etwas über das Erlebte austauschen.\\nBitte denken Sie an warme Kleidung.\",\n            \"price_information\": \"2,50 Euro (erm. für Kinder bis 14: 1,50 Euro)\",\n            \"categories\": [\n                \"Lust auf NaTour\"\n            ],\n            \"event_url_1_description\": \"Naturpark Hoher Fläming\",\n            \"event_url_2_description\": \"Naturwacht Brandenburg\",\n            \"ticket_url\": \"\",\n            \"region_name\": \"Fläming\"\n        },\n        \"english_version\": {\n            \"title\": \"\",\n            \"description\": \"\",\n            \"price_information\": \"\",\n            \"categories\": [\n                \"Great Outdoors Events\"\n            ],\n            \"event_url_1_description\": \"\",\n            \"event_url_2_description\": \"\",\n            \"contact_company\": \"\",\n            \"location_name\": \"\",\n            \"ticket_url\": \"\",\n            \"region_name\": \"\"\n        },\n        \"polish_version\": {\n            \"title\": \"\",\n            \"description\": \"\",\n            \"categories\": [\n                \"Radość z NaTour\"\n            ],\n            \"price_information\": \"\",\n            \"event_url_1_description\": \"\",\n            \"event_url_2_description\": \"\",\n            \"contact_company\": \"\",\n            \"location_name\": \"\",\n            \"ticket_url\": \"\",\n            \"region_name\": \"\"\n        },\n        \"barrierefrei_types\": \"\",\n        \"barrierefrei_description\": \"\",\n        \"barrierefrei_url\": \"\",\n        \"barrierefrei_url_description\": \"\",\n        \"created_at\": \"date\",\n        \"updated_at\": \"date\",\n        \"updated_at_tmb\": \"2018-07-31 13:16:19\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Get all news",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": ""
+				},
+				"description": "Endpoint to get all available news."
+			},
+			"response": [
+				{
+					"name": "Get all news",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://3864f6f3-64e8-4473-ba6f-90a55c71e60e.mock.pstmn.io/api/v1/news",
+							"protocol": "https",
+							"host": [
+								"3864f6f3-64e8-4473-ba6f-90a55c71e60e",
+								"mock",
+								"pstmn",
+								"io"
+							],
+							"path": [
+								"api",
+								"v1",
+								"news"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": ""
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": ""
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": ""
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Expose-Headers",
+							"value": ""
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 09 Apr 2019 16:04:52 GMT"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"4e05-MQlh50k+KXdj+XcxUhJHgQ\""
+						},
+						{
+							"key": "Server",
+							"value": "nginx"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Content-Length",
+							"value": "2989"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"news\": [\n        {\n            \"id\": 1,\n            \"author\": \"Tim Test\",\n            \"original_article_url\": \"http://www.maz-online.de/Lokales/Ostprignitz-Ruppin/Neuruppin/Fontane-Therme-Fontane-Doener-Fontane-Kuchen-Hier-steckt-ueberall-der-Dichter-aus-Brandenburg-drin\",\n            \"type\": \"news article\",\n            \"blocks\": [\n                {\n                    \"title\": \"Döner, Sprudel, Graffiti: Hier steckt überall Fontane drin\",\n                    \"url_alias\": \"Fontane-Therme, Fontane-Döner, Fontane-Kuchen: Hier steckt überall der Dichter aus Brandenburg drin\",\n                    \"location\": \"Potsdam\",\n                    \"intro\": \"\\n<p>Zum 200. Geburtstag von Theodor Fontane haben wir uns mal umgesehen, was eigentlich alles nach dem märkischen Schriftsteller benannt ist – und sind nicht nur in Brandenburg fündig geworden.</p>\\n<p>\\n    <!-- Methode uuid: \\\"5ff95920-4f0c-11e9-8de8-e140b6794626\\\"-->\\n</p>\\n\",\n                    \"body\": \"\\n<p>Das Märkische hat Fontane berühmt gemacht, vor allem mit seinen „Wanderungen durch die \\n    <a href=\\\"http://multimedia.maz-online.de/wanderungen-durch-die-mark-brandenburg-auf-den-spuren-von-theodor-fontane\\\" target=\\\"_self\\\">Mark Brandenburg</a>“ und seinem Spätwerk „Der Stechlin“ (1897). Es ist die\\n    <a href=\\\"\\\" target=\\\"_self\\\">Heimat Fontanes</a>. In Neuruppin kam er als Sohn eines Apothekers hugenottischer Abstammung zur Welt. In der Fontane-Stadt gibt es eine Fontane-Apotheke, Fontane-Döner, Fontane-Festspiele, eine Fontane-Buchhandlung, die Fontane-Therme, den Kindergarten Fontaneknirpse, den Keglerverein Fontanespatzen und im Weinhaus am Markt den Wein „Edition Fontane“. Im Jahr von Fontanes 200. Geburtstag hat aber nicht nur Neuruppin Fontane-Spezialitäten zu bieten –\\n    <a href=\\\"\\\" target=\\\"_blank\\\">dabei ist das Label gar nicht so ohne weiteres erlaubt</a>. Unsere Fotostrecke zeigt, wo noch überall Fontane zu finden ist – von seiner Wirkstätte Brandenburg bis nach Asien:\\n</p>\\n<p>\\n    <object type=\\\"gallery\\\">23665163</object>\\n</p>\\n<p>\\n    <strong>Haben Sie noch etwas entdeckt?</strong> Dann schreiben Sie uns eine Mail an\\n    <a href=\\\"mailto:online@maz-online.de\\\" target=\\\"_blank\\\">online@maz-online.de</a>!\\n</p>\\n<p>\\n    <strong>Das könnte Sie auch interessieren:</strong>\\n</p>\\n<p>\\n    <ul>\\n\\n        <li>\\n            <p>\\n                <a href=\\\"\\\" target=\\\"_blank\\\">Vorsicht bei Fontane-Werbung: Markenrechts-Verletzungen drohen</a>\\n            </p>\\n        </li>\\n\\n        <li>\\n            <p>\\n                <a href=\\\"\\\" target=\\\"_blank\\\">MAZ-Special zum 200. Geburtstag: Alles zum Fontane-Jahr in Brandenburg</a>\\n            </p>\\n        </li>\\n\\n        <li>\\n            <p>\\n                <a href=\\\"http://multimedia.maz-online.de/wanderungen-durch-die-mark-brandenburg-auf-den-spuren-von-theodor-fontane\\\" target=\\\"_blank\\\">Multimedia-Story: Auf Fontanes Spuren durch die Mark Brandenburg wandern</a>\\n            </p>\\n        </li>\\n\\n        <li>\\n            <p>\\n                <a href=\\\"\\\" target=\\\"_blank\\\">Tolle Bustouren: Auf Entdeckungsreise mit Fontane</a>\\n            </p>\\n        </li>\\n\\n    </ul>\\n</p>\\n<p>\\n    <em>Von MAZonline</em>\\n</p>\\n\",\n                    \"image\": {\n                        \"external_id\": \"23665198-716717881\",\n                        \"width\": \"768\",\n                        \"height\": \"513\",\n                        \"alt_text\": \"Vor allem in seiner Geburtsstadt Neuruppin ist vieles nach dem Schriftsteller benannt.\",\n                        \"filename\": \"Doener-Sprudel-Graffiti-Hier-steckt-ueberall-Fontane-drin.jpg\",\n                        \"url\": \"/var/storage/images/maz/brandenburg/fontane-therme-fontane-doener-fontane-kuchen-hier-steckt-ueberall-der-dichter-aus-brandenburg-drin/716717881-3-ger-DE/Doener-Sprudel-Graffiti-Hier-steckt-ueberall-Fontane-drin.jpg\",\n                        \"photographer\": \"MAZ\",\n                        \"caption\": \"\\n<p>Vor allem in seiner Geburtsstadt Neuruppin ist vieles nach dem Schriftsteller benannt.</p>\\n\"\n                    },\n                    \"publication_date\": {\n                        \"type\": \"datetime\",\n                        \"value\": null\n                    },\n                    \"publish_date\": {\n                        \"date\": \"2019-03-30 04:39:53.000000\",\n                        \"timezone\": \"+00:00\"\n                    },\n                    \"show_publish_date\": true,\n                    \"geo_location\": {\n                        \"latitude\": 52.3924855,\n                        \"longitude\": 13.0645172,\n                        \"address\": null\n                    },\n                    \"image_gallery\": {\n                        \"description\": \"\\n<p>Im Jahr von Fontanes 200. Geburtstag hat nicht nur Neuruppin Fontane-Spezialitäten zu bieten. Unsere Fotostrecke zeigt, wo noch überall Fontane drin steckt – von der Mark bis nach Asien.</p>\\n\",\n                        \"publish_date\": {\n                            \"date\": \"2019-03-30 04:39:53.000000\",\n                            \"timezone\": \"+00:00\"\n                        },\n                        \"images\": [\n                            {\n                                \"external_id\": \"2365165-716717507\",\n                                \"width\": \"1024\",\n                                \"height\": \"768\",\n                                \"alternativeText\": \"6d480006-4fc8-11e9-a527-47c4c02d837a_27144752975\",\n                                \"filename\": \"6d480006-4fc8-11e9-a527-47c4c02d837a_27144752975.jpg\",\n                                \"url\": \"/var/storage/images/maz/lokales/bildergalerien-region/2019/3/hier-steckt-ueberall-fontane-drin/6d480006-4fc8-11e9-a527-47c4c02d837a_27144752975/716717500-1-ger-DE/6d480006-4fc8-11e9-a527-47c4c02d837a_27144752975.jpg\",\n                                \"caption\": \"\\n<p>Seit 1998 trägt die Stadt Neuruppin offiziell den Beinamen „Fontanestadt“. Dem Schriftsteller zu Ehren steht auf dem Fontaneplatz das Fontanedenkmal, geschaffen 1907 vom Bildhauer Max Wiese. Die Skulptur ist inzwischen wohl schon über die Landesgrenzen hinaus bekannt...</p>\\n\",\n                                \"photographer\": \"Peter Geisler\"\n                            },\n                            {\n                                \"external_id\": \"23665165-716717507\",\n                                \"width\": \"1024\",\n                                \"height\": \"768\",\n                                \"alternativeText\": \"35addb66-4fc8-11e9-a527-47c4c02d837a_27144753774\",\n                                \"filename\": \"35addb66-4fc8-11e9-a527-47c4c02d837a_27144753774.jpg\",\n                                \"url\": \"/var/storage/images/maz/lokales/bildergalerien-region/2019/3/hier-steckt-ueberall-fontane-drin/35addb66-4fc8-11e9-a527-47c4c02d837a_27144753774/716717507-1-ger-DE/35addb66-4fc8-11e9-a527-47c4c02d837a_27144753774.jpg\",\n                                \"caption\": \"\\n<p>...aber kennen Sie schon die Fontane-Playmobil-Figur, die der Spielzeughersteller anlässlich des 200. Geburtstags des Literaten herausgebracht hat? Sie hält sogar ein Exemplar der „Wanderungen durch die Mark Brandenburg“ in der Hand.</p>\\n\",\n                                \"photographer\": \"Peter Geisler\"\n                            },\n                            {\n                                \"external_id\": \"23665166-716717514\",\n                                \"width\": \"1024\",\n                                \"height\": \"768\",\n                                \"alternativeText\": \"7a56528a-4fc7-11e9-a527-47c4c02d837a_27144756502\",\n                                \"filename\": \"7a56528a-4fc7-11e9-a527-47c4c02d837a_27144756502.jpg\",\n                                \"url\": \"/var/storage/images/maz/lokales/bildergalerien-region/2019/3/hier-steckt-ueberall-fontane-drin/7a56528a-4fc7-11e9-a527-47c4c02d837a_27144756502/716717514-1-ger-DE/7a56528a-4fc7-11e9-a527-47c4c02d837a_27144756502.jpg\",\n                                \"caption\": \"\\n<p>Wer durch Neuruppin wandert, kommt ohenhin nicht an Fontane vorbei. Auf dem Schulplatz und am Rosengarten können Passanten 51 Ortsnamen lesen, die Fontane in seinen Werken beschrieben hat. Für einige Orte hat Franziska Zänker (Foto), die das Projekt künstlerisch umsetzt, zusätzliche Signets gestaltet. </p>\\n\",\n                                \"photographer\": \"Peter Geisler\"\n                            },\n                            {\n                                \"external_id\": \"23690297-717420406\",\n                                \"width\": \"1024\",\n                                \"height\": \"768\",\n                                \"alternativeText\": \"df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264\",\n                                \"filename\": \"df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264.jpg\",\n                                \"url\": \"/var/storage/images/maz/lokales/bildergalerien-region/2019/3/hier-steckt-ueberall-fontane-drin/df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264/717420406-1-ger-DE/df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264.jpg\",\n                                \"caption\": \"\\n<p>Wer die Neuruppiner Straßen quert, findet seit dem 5. April Fontane als Ampelmännchen vor.</p>\\n\",\n                                \"photographer\": \"Peter Geisler\"\n                            }\n                        ]\n                    }\n                }\n            ]\n        },\n        {\n            \"id\": 23665198,\n            \"author\": \"Tim Test\",\n            \"original_article_url\": \"http://www.maz-online.de/Lokales/Ostprignitz-Ruppin/Neuruppin/Fontane-Therme-Fontane-Doener-Fontane-Kuchen-Hier-steckt-ueberall-der-Dichter-aus-Brandenburg-drin\",\n            \"url_alias\": \"Fontane-Therme, Fontane-Döner, Fontane-Kuchen: Hier steckt überall der Dichter aus Brandenburg drin\",\n            \"type\": \"story\",\n            \"blocks\": [\n                {\n                    \"title\": \"Döner, Sprudel, Graffiti: Hier steckt überall Fontane drin\",\n                    \"location\": \"Potsdam\",\n                    \"intro\": \"\\n<p>Zum 200. Geburtstag von Theodor Fontane haben wir uns mal umgesehen, was eigentlich alles nach dem märkischen Schriftsteller benannt ist – und sind nicht nur in Brandenburg fündig geworden.</p>\\n<p>\\n    <!-- Methode uuid: \\\"5ff95920-4f0c-11e9-8de8-e140b6794626\\\"-->\\n</p>\\n\",\n                    \"body\": \"\\n<p>Das Märkische hat Fontane berühmt gemacht, vor allem mit seinen „Wanderungen durch die \\n    <a href=\\\"http://multimedia.maz-online.de/wanderungen-durch-die-mark-brandenburg-auf-den-spuren-von-theodor-fontane\\\" target=\\\"_self\\\">Mark Brandenburg</a>“ und seinem Spätwerk „Der Stechlin“ (1897). Es ist die\\n    <a href=\\\"\\\" target=\\\"_self\\\">Heimat Fontanes</a>. In Neuruppin kam er als Sohn eines Apothekers hugenottischer Abstammung zur Welt. In der Fontane-Stadt gibt es eine Fontane-Apotheke, Fontane-Döner, Fontane-Festspiele, eine Fontane-Buchhandlung, die Fontane-Therme, den Kindergarten Fontaneknirpse, den Keglerverein Fontanespatzen und im Weinhaus am Markt den Wein „Edition Fontane“. Im Jahr von Fontanes 200. Geburtstag hat aber nicht nur Neuruppin Fontane-Spezialitäten zu bieten –\\n    <a href=\\\"\\\" target=\\\"_blank\\\">dabei ist das Label gar nicht so ohne weiteres erlaubt</a>. Unsere Fotostrecke zeigt, wo noch überall Fontane zu finden ist – von seiner Wirkstätte Brandenburg bis nach Asien:\\n</p>\\n<p>\\n    <object type=\\\"gallery\\\">23665163</object>\\n</p>\\n<p>\\n    <strong>Haben Sie noch etwas entdeckt?</strong> Dann schreiben Sie uns eine Mail an\\n    <a href=\\\"mailto:online@maz-online.de\\\" target=\\\"_blank\\\">online@maz-online.de</a>!\\n</p>\\n<p>\\n    <strong>Das könnte Sie auch interessieren:</strong>\\n</p>\\n<p>\\n    <ul>\\n\\n        <li>\\n            <p>\\n                <a href=\\\"\\\" target=\\\"_blank\\\">Vorsicht bei Fontane-Werbung: Markenrechts-Verletzungen drohen</a>\\n            </p>\\n        </li>\\n\\n        <li>\\n            <p>\\n                <a href=\\\"\\\" target=\\\"_blank\\\">MAZ-Special zum 200. Geburtstag: Alles zum Fontane-Jahr in Brandenburg</a>\\n            </p>\\n        </li>\\n\\n        <li>\\n            <p>\\n                <a href=\\\"http://multimedia.maz-online.de/wanderungen-durch-die-mark-brandenburg-auf-den-spuren-von-theodor-fontane\\\" target=\\\"_blank\\\">Multimedia-Story: Auf Fontanes Spuren durch die Mark Brandenburg wandern</a>\\n            </p>\\n        </li>\\n\\n        <li>\\n            <p>\\n                <a href=\\\"\\\" target=\\\"_blank\\\">Tolle Bustouren: Auf Entdeckungsreise mit Fontane</a>\\n            </p>\\n        </li>\\n\\n    </ul>\\n</p>\\n<p>\\n    <em>Von MAZonline</em>\\n</p>\\n\",\n                    \"images\": [\n                        {\n                            \"external_id\": \"23665198-716717881\",\n                            \"type\": \"default\",\n                            \"width\": \"768\",\n                            \"height\": \"513\",\n                            \"alt_text\": \"Vor allem in seiner Geburtsstadt Neuruppin ist vieles nach dem Schriftsteller benannt.\",\n                            \"filename\": \"Doener-Sprudel-Graffiti-Hier-steckt-ueberall-Fontane-drin.jpg\",\n                            \"url\": \"/var/storage/images/maz/brandenburg/fontane-therme-fontane-doener-fontane-kuchen-hier-steckt-ueberall-der-dichter-aus-brandenburg-drin/716717881-3-ger-DE/Doener-Sprudel-Graffiti-Hier-steckt-ueberall-Fontane-drin.jpg\",\n                            \"photographer\": \"MAZ\",\n                            \"caption\": \"\\n<p>Vor allem in seiner Geburtsstadt Neuruppin ist vieles nach dem Schriftsteller benannt.</p>\\n\"\n                        }\n                    ],\n                    \"publication_date\": {\n                        \"type\": \"datetime\",\n                        \"value\": null\n                    },\n                    \"publish_date\": {\n                        \"date\": \"2019-03-30 04:39:53.000000\",\n                        \"timezone\": \"+00:00\"\n                    },\n                    \"show_publish_date\": true,\n                    \"geo_location\": {\n                        \"latitude\": 52.3924855,\n                        \"longitude\": 13.0645172,\n                        \"address\": null\n                    },\n                    \"image_gallery\": {\n                        \"description\": \"\\n<p>Im Jahr von Fontanes 200. Geburtstag hat nicht nur Neuruppin Fontane-Spezialitäten zu bieten. Unsere Fotostrecke zeigt, wo noch überall Fontane drin steckt – von der Mark bis nach Asien.</p>\\n\",\n                        \"publish_date\": {\n                            \"date\": \"2019-03-30 04:39:53.000000\",\n                            \"timezone\": \"+00:00\"\n                        },\n                        \"images\": [\n                            {\n                                \"external_id\": \"2365165-716717507\",\n                                \"width\": \"1024\",\n                                \"height\": \"768\",\n                                \"alternativeText\": \"6d480006-4fc8-11e9-a527-47c4c02d837a_27144752975\",\n                                \"filename\": \"6d480006-4fc8-11e9-a527-47c4c02d837a_27144752975.jpg\",\n                                \"url\": \"/var/storage/images/maz/lokales/bildergalerien-region/2019/3/hier-steckt-ueberall-fontane-drin/6d480006-4fc8-11e9-a527-47c4c02d837a_27144752975/716717500-1-ger-DE/6d480006-4fc8-11e9-a527-47c4c02d837a_27144752975.jpg\",\n                                \"caption\": \"\\n<p>Seit 1998 trägt die Stadt Neuruppin offiziell den Beinamen „Fontanestadt“. Dem Schriftsteller zu Ehren steht auf dem Fontaneplatz das Fontanedenkmal, geschaffen 1907 vom Bildhauer Max Wiese. Die Skulptur ist inzwischen wohl schon über die Landesgrenzen hinaus bekannt...</p>\\n\",\n                                \"photographer\": \"Peter Geisler\"\n                            },\n                            {\n                                \"external_id\": \"23665165-716717507\",\n                                \"width\": \"1024\",\n                                \"height\": \"768\",\n                                \"alternativeText\": \"35addb66-4fc8-11e9-a527-47c4c02d837a_27144753774\",\n                                \"filename\": \"35addb66-4fc8-11e9-a527-47c4c02d837a_27144753774.jpg\",\n                                \"url\": \"/var/storage/images/maz/lokales/bildergalerien-region/2019/3/hier-steckt-ueberall-fontane-drin/35addb66-4fc8-11e9-a527-47c4c02d837a_27144753774/716717507-1-ger-DE/35addb66-4fc8-11e9-a527-47c4c02d837a_27144753774.jpg\",\n                                \"caption\": \"\\n<p>...aber kennen Sie schon die Fontane-Playmobil-Figur, die der Spielzeughersteller anlässlich des 200. Geburtstags des Literaten herausgebracht hat? Sie hält sogar ein Exemplar der „Wanderungen durch die Mark Brandenburg“ in der Hand.</p>\\n\",\n                                \"photographer\": \"Peter Geisler\"\n                            },\n                            {\n                                \"external_id\": \"23665166-716717514\",\n                                \"width\": \"1024\",\n                                \"height\": \"768\",\n                                \"alternativeText\": \"7a56528a-4fc7-11e9-a527-47c4c02d837a_27144756502\",\n                                \"filename\": \"7a56528a-4fc7-11e9-a527-47c4c02d837a_27144756502.jpg\",\n                                \"url\": \"/var/storage/images/maz/lokales/bildergalerien-region/2019/3/hier-steckt-ueberall-fontane-drin/7a56528a-4fc7-11e9-a527-47c4c02d837a_27144756502/716717514-1-ger-DE/7a56528a-4fc7-11e9-a527-47c4c02d837a_27144756502.jpg\",\n                                \"caption\": \"\\n<p>Wer durch Neuruppin wandert, kommt ohenhin nicht an Fontane vorbei. Auf dem Schulplatz und am Rosengarten können Passanten 51 Ortsnamen lesen, die Fontane in seinen Werken beschrieben hat. Für einige Orte hat Franziska Zänker (Foto), die das Projekt künstlerisch umsetzt, zusätzliche Signets gestaltet. </p>\\n\",\n                                \"photographer\": \"Peter Geisler\"\n                            },\n                            {\n                                \"external_id\": \"23690297-717420406\",\n                                \"width\": \"1024\",\n                                \"height\": \"768\",\n                                \"alternativeText\": \"df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264\",\n                                \"filename\": \"df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264.jpg\",\n                                \"url\": \"/var/storage/images/maz/lokales/bildergalerien-region/2019/3/hier-steckt-ueberall-fontane-drin/df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264/717420406-1-ger-DE/df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264.jpg\",\n                                \"caption\": \"\\n<p>Wer die Neuruppiner Straßen quert, findet seit dem 5. April Fontane als Ampelmännchen vor.</p>\\n\",\n                                \"photographer\": \"Peter Geisler\"\n                            }\n                        ]\n                    }\n                },\n                {\n                    \"title\": \"Kapitel 1 - Der kleine Theo erblickt das Licht der Welt\",\n                    \"body\": \"Lorem ipsum dolor sit amet consectetur adipiscing. Lorem ipsum dolor sit amet consectetur adipiscing\",\n                    \"image\": {\n                        \"external_id\": \"696-1\",\n                        \"type\": \"background\",\n                        \"url\": \"/var/storage/images/maz/lokales/bildergalerien-region/2019/3/hier-steckt-ueberall-fontane-drin/df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264/717420406-1-ger-DE/df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264.jpg\"\n                    },\n                    \"media_content\": [\n                        {\n                            \"type\": \"video\",\n                            \"link\": \"https://www.youtube.com\"\n                        }\n                    ]\n                },\n                {\n                    \"title\": \"Kapitel 2 - Eine behütete Kindheit\",\n                    \"body\": \"Lorem ipsum dolor sit amet consectetur adipiscing. Lorem ipsum dolor sit amet consectetur adipiscing\",\n                    \"image\": {\n                        \"external_id\": \"696-1\",\n                        \"type\": \"background\",\n                        \"url\": \"/var/storage/images/maz/lokales/bildergalerien-region/2019/3/hier-steckt-ueberall-fontane-drin/df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264/717420406-1-ger-DE/df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264.jpg\"\n                    },\n                    \"media_content\": [\n                        {\n                            \"type\": \"soundcloud\",\n                            \"link\": \"https://www.soundcloud.com/theos_kindheit_ein_feature_dlf.mp3\"\n                        }\n                    ]\n                }\n            ]\n        }\n    ]\n}"
+				},
+				{
+					"name": "Get all news",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://3864f6f3-64e8-4473-ba6f-90a55c71e60e.mock.pstmn.io/api/v1/news",
+							"protocol": "https",
+							"host": [
+								"3864f6f3-64e8-4473-ba6f-90a55c71e60e",
+								"mock",
+								"pstmn",
+								"io"
+							],
+							"path": [
+								"api",
+								"v1",
+								"news"
+							]
+						}
+					},
+					"_postman_previewlanguage": "json",
+					"header": [],
+					"cookie": [],
+					"body": "{\n    \"news\": [\n        {\n            \"id\": 1,\n            \"author\": \"Tim Test\",\n            \"original_article_url\": \"http://www.maz-online.de/Lokales/Ostprignitz-Ruppin/Neuruppin/Fontane-Therme-Fontane-Doener-Fontane-Kuchen-Hier-steckt-ueberall-der-Dichter-aus-Brandenburg-drin\",\n            \"type\": \"news article\",\n            \"blocks\": [\n                {\n                    \"title\": \"Döner, Sprudel, Graffiti: Hier steckt überall Fontane drin\",\n                    \"url_alias\": \"Fontane-Therme, Fontane-Döner, Fontane-Kuchen: Hier steckt überall der Dichter aus Brandenburg drin\",\n                    \"location\": \"Potsdam\",\n                    \"intro\": \"<p>Zum 200. Geburtstag von Theodor Fontane haben wir uns mal umgesehen, was eigentlich alles nach dem märkischen Schriftsteller benannt ist – und sind nicht nur in Brandenburg fündig geworden.</p><p><!-- Methode uuid: \\\"5ff95920-4f0c-11e9-8de8-e140b6794626\\\"--></p>\\n\",\n                    \"body\": \"<p>Das Märkische hat Fontane berühmt gemacht, vor allem mit seinen „Wanderungen durch die <a href=\\\"http://multimedia.maz-online.de/wanderungen-durch-die-mark-brandenburg-auf-den-spuren-von-theodor-fontane\\\" target=\\\"_self\\\">Mark Brandenburg</a>“ und seinem Spätwerk „Der Stechlin“ (1897). Es ist die <a href=\\\"\\\" target=\\\"_self\\\">Heimat Fontanes</a>. In Neuruppin kam er als Sohn eines Apothekers hugenottischer Abstammung zur Welt. In der Fontane-Stadt gibt es eine Fontane-Apotheke, Fontane-Döner, Fontane-Festspiele, eine Fontane-Buchhandlung, die Fontane-Therme, den Kindergarten Fontaneknirpse, den Keglerverein Fontanespatzen und im Weinhaus am Markt den Wein „Edition Fontane“. Im Jahr von Fontanes 200. Geburtstag hat aber nicht nur Neuruppin Fontane-Spezialitäten zu bieten – <a href=\\\"\\\" target=\\\"_blank\\\">dabei ist das Label gar nicht so ohne weiteres erlaubt</a>. Unsere Fotostrecke zeigt, wo noch überall Fontane zu finden ist – von seiner Wirkstätte Brandenburg bis nach Asien: </p><p><object type=\\\"gallery\\\">23665163</object></p><p><strong>Haben Sie noch etwas entdeckt?</strong> Dann schreiben Sie uns eine Mail an <a href=\\\"mailto:online@maz-online.de\\\" target=\\\"_blank\\\">online@maz-online.de</a>!</p><p><strong>Das könnte Sie auch interessieren:</strong></p><p><ul>\\n<li><p><a href=\\\"\\\" target=\\\"_blank\\\">Vorsicht bei Fontane-Werbung: Markenrechts-Verletzungen drohen</a></p></li>\\n<li><p><a href=\\\"\\\" target=\\\"_blank\\\">MAZ-Special zum 200. Geburtstag: Alles zum Fontane-Jahr in Brandenburg</a></p></li>\\n<li><p><a href=\\\"http://multimedia.maz-online.de/wanderungen-durch-die-mark-brandenburg-auf-den-spuren-von-theodor-fontane\\\" target=\\\"_blank\\\">Multimedia-Story: Auf Fontanes Spuren durch die Mark Brandenburg wandern</a></p></li>\\n<li><p><a href=\\\"\\\" target=\\\"_blank\\\">Tolle Bustouren: Auf Entdeckungsreise mit Fontane</a></p></li>\\n</ul></p><p><em>Von MAZonline</em></p>\\n\",\n                    \"image\": {\n                        \"external_id\": \"23665198-716717881\",\n                        \"width\": \"768\",\n                        \"height\": \"513\",\n                        \"alt_text\": \"Vor allem in seiner Geburtsstadt Neuruppin ist vieles nach dem Schriftsteller benannt.\",\n                        \"filename\": \"Doener-Sprudel-Graffiti-Hier-steckt-ueberall-Fontane-drin.jpg\",\n                        \"url\": \"/var/storage/images/maz/brandenburg/fontane-therme-fontane-doener-fontane-kuchen-hier-steckt-ueberall-der-dichter-aus-brandenburg-drin/716717881-3-ger-DE/Doener-Sprudel-Graffiti-Hier-steckt-ueberall-Fontane-drin.jpg\",\n                        \"photographer\": \"MAZ\",\n                        \"caption\": \"<p>Vor allem in seiner Geburtsstadt Neuruppin ist vieles nach dem Schriftsteller benannt.</p>\\n\"\n                    },\n                    \"publication_date\": {\n                        \"type\": \"datetime\",\n                        \"value\": null\n                    },\n                    \"publish_date\": {\n                        \"date\": \"2019-03-30 04:39:53.000000\",\n                        \"timezone\": \"+00:00\"\n                    },\n                    \"show_publish_date\": true,\n                    \"geo_location\": {\n                        \"latitude\": 52.3924855,\n                        \"longitude\": 13.0645172,\n                        \"address\": null\n                    },\n                    \"image_gallery\": {\n                        \"description\": \"<p>Im Jahr von Fontanes 200. Geburtstag hat nicht nur Neuruppin Fontane-Spezialitäten zu bieten. Unsere Fotostrecke zeigt, wo noch überall Fontane drin steckt – von der Mark bis nach Asien.</p>\\n\",\n                        \"publish_date\": {\n                            \"date\": \"2019-03-30 04:39:53.000000\",\n                            \"timezone\": \"+00:00\"\n                        },\n                        \"images\": [\n                            {\n                                \"external_id\": \"2365165-716717507\",\n                                \"width\": \"1024\",\n                                \"height\": \"768\",\n                                \"alternativeText\": \"6d480006-4fc8-11e9-a527-47c4c02d837a_27144752975\",\n                                \"filename\": \"6d480006-4fc8-11e9-a527-47c4c02d837a_27144752975.jpg\",\n                                \"url\": \"/var/storage/images/maz/lokales/bildergalerien-region/2019/3/hier-steckt-ueberall-fontane-drin/6d480006-4fc8-11e9-a527-47c4c02d837a_27144752975/716717500-1-ger-DE/6d480006-4fc8-11e9-a527-47c4c02d837a_27144752975.jpg\",\n                                \"caption\": \"<p>Seit 1998 trägt die Stadt Neuruppin offiziell den Beinamen „Fontanestadt“. Dem Schriftsteller zu Ehren steht auf dem Fontaneplatz das Fontanedenkmal, geschaffen 1907 vom Bildhauer Max Wiese. Die Skulptur ist inzwischen wohl schon über die Landesgrenzen hinaus bekannt...</p>\\n\",\n                                \"photographer\": \"Peter Geisler\"\n                            },\n                            {\n                                \"external_id\": \"23665165-716717507\",\n                                \"width\": \"1024\",\n                                \"height\": \"768\",\n                                \"alternativeText\": \"35addb66-4fc8-11e9-a527-47c4c02d837a_27144753774\",\n                                \"filename\": \"35addb66-4fc8-11e9-a527-47c4c02d837a_27144753774.jpg\",\n                                \"url\": \"/var/storage/images/maz/lokales/bildergalerien-region/2019/3/hier-steckt-ueberall-fontane-drin/35addb66-4fc8-11e9-a527-47c4c02d837a_27144753774/716717507-1-ger-DE/35addb66-4fc8-11e9-a527-47c4c02d837a_27144753774.jpg\",\n                                \"caption\": \"<p>...aber kennen Sie schon die Fontane-Playmobil-Figur, die der Spielzeughersteller anlässlich des 200. Geburtstags des Literaten herausgebracht hat? Sie hält sogar ein Exemplar der „Wanderungen durch die Mark Brandenburg“ in der Hand.</p>\\n\",\n                                \"photographer\": \"Peter Geisler\"\n                            },\n                            {\n                                \"external_id\": \"23665166-716717514\",\n                                \"width\": \"1024\",\n                                \"height\": \"768\",\n                                \"alternativeText\": \"7a56528a-4fc7-11e9-a527-47c4c02d837a_27144756502\",\n                                \"filename\": \"7a56528a-4fc7-11e9-a527-47c4c02d837a_27144756502.jpg\",\n                                \"url\": \"/var/storage/images/maz/lokales/bildergalerien-region/2019/3/hier-steckt-ueberall-fontane-drin/7a56528a-4fc7-11e9-a527-47c4c02d837a_27144756502/716717514-1-ger-DE/7a56528a-4fc7-11e9-a527-47c4c02d837a_27144756502.jpg\",\n                                \"caption\": \"<p>Wer durch Neuruppin wandert, kommt ohenhin nicht an Fontane vorbei. Auf dem Schulplatz und am Rosengarten können Passanten 51 Ortsnamen lesen, die Fontane in seinen Werken beschrieben hat. Für einige Orte hat Franziska Zänker (Foto), die das Projekt künstlerisch umsetzt, zusätzliche Signets gestaltet. </p>\\n\",\n                                \"photographer\": \"Peter Geisler\"\n                            },\n                            {\n                                \"external_id\": \"23690297-717420406\",\n                                \"width\": \"1024\",\n                                \"height\": \"768\",\n                                \"alternativeText\": \"df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264\",\n                                \"filename\": \"df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264.jpg\",\n                                \"url\": \"/var/storage/images/maz/lokales/bildergalerien-region/2019/3/hier-steckt-ueberall-fontane-drin/df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264/717420406-1-ger-DE/df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264.jpg\",\n                                \"caption\": \"<p>Wer die Neuruppiner Straßen quert, findet seit dem 5. April Fontane als Ampelmännchen vor.</p>\\n\",\n                                \"photographer\": \"Peter Geisler\"\n                            }\n                        ]\n                    }\n                }\n            ]\n        },\n        {\n            \"id\": 23665198,\n            \"author\": \"Tim Test\",\n            \"original_article_url\": \"http://www.maz-online.de/Lokales/Ostprignitz-Ruppin/Neuruppin/Fontane-Therme-Fontane-Doener-Fontane-Kuchen-Hier-steckt-ueberall-der-Dichter-aus-Brandenburg-drin\",\n            \"url_alias\": \"Fontane-Therme, Fontane-Döner, Fontane-Kuchen: Hier steckt überall der Dichter aus Brandenburg drin\",\n            \"type\": \"story\",\n            \"blocks\": [\n                {\n                    \"title\": \"Döner, Sprudel, Graffiti: Hier steckt überall Fontane drin\",\n                    \"location\": \"Potsdam\",\n                    \"intro\": \"<p>Zum 200. Geburtstag von Theodor Fontane haben wir uns mal umgesehen, was eigentlich alles nach dem märkischen Schriftsteller benannt ist – und sind nicht nur in Brandenburg fündig geworden.</p><p><!-- Methode uuid: \\\"5ff95920-4f0c-11e9-8de8-e140b6794626\\\"--></p>\\n\",\n                    \"body\": \"<p>Das Märkische hat Fontane berühmt gemacht, vor allem mit seinen „Wanderungen durch die <a href=\\\"http://multimedia.maz-online.de/wanderungen-durch-die-mark-brandenburg-auf-den-spuren-von-theodor-fontane\\\" target=\\\"_self\\\">Mark Brandenburg</a>“ und seinem Spätwerk „Der Stechlin“ (1897). Es ist die <a href=\\\"\\\" target=\\\"_self\\\">Heimat Fontanes</a>. In Neuruppin kam er als Sohn eines Apothekers hugenottischer Abstammung zur Welt. In der Fontane-Stadt gibt es eine Fontane-Apotheke, Fontane-Döner, Fontane-Festspiele, eine Fontane-Buchhandlung, die Fontane-Therme, den Kindergarten Fontaneknirpse, den Keglerverein Fontanespatzen und im Weinhaus am Markt den Wein „Edition Fontane“. Im Jahr von Fontanes 200. Geburtstag hat aber nicht nur Neuruppin Fontane-Spezialitäten zu bieten – <a href=\\\"\\\" target=\\\"_blank\\\">dabei ist das Label gar nicht so ohne weiteres erlaubt</a>. Unsere Fotostrecke zeigt, wo noch überall Fontane zu finden ist – von seiner Wirkstätte Brandenburg bis nach Asien: </p><p><object type=\\\"gallery\\\">23665163</object></p><p><strong>Haben Sie noch etwas entdeckt?</strong> Dann schreiben Sie uns eine Mail an <a href=\\\"mailto:online@maz-online.de\\\" target=\\\"_blank\\\">online@maz-online.de</a>!</p><p><strong>Das könnte Sie auch interessieren:</strong></p><p><ul>\\n<li><p><a href=\\\"\\\" target=\\\"_blank\\\">Vorsicht bei Fontane-Werbung: Markenrechts-Verletzungen drohen</a></p></li>\\n<li><p><a href=\\\"\\\" target=\\\"_blank\\\">MAZ-Special zum 200. Geburtstag: Alles zum Fontane-Jahr in Brandenburg</a></p></li>\\n<li><p><a href=\\\"http://multimedia.maz-online.de/wanderungen-durch-die-mark-brandenburg-auf-den-spuren-von-theodor-fontane\\\" target=\\\"_blank\\\">Multimedia-Story: Auf Fontanes Spuren durch die Mark Brandenburg wandern</a></p></li>\\n<li><p><a href=\\\"\\\" target=\\\"_blank\\\">Tolle Bustouren: Auf Entdeckungsreise mit Fontane</a></p></li>\\n</ul></p><p><em>Von MAZonline</em></p>\\n\",\n                    \"images\": [\n                        {\n                            \"external_id\": \"23665198-716717881\",\n                            \"type\": \"default\",\n                            \"width\": \"768\",\n                            \"height\": \"513\",\n                            \"alt_text\": \"Vor allem in seiner Geburtsstadt Neuruppin ist vieles nach dem Schriftsteller benannt.\",\n                            \"filename\": \"Doener-Sprudel-Graffiti-Hier-steckt-ueberall-Fontane-drin.jpg\",\n                            \"url\": \"/var/storage/images/maz/brandenburg/fontane-therme-fontane-doener-fontane-kuchen-hier-steckt-ueberall-der-dichter-aus-brandenburg-drin/716717881-3-ger-DE/Doener-Sprudel-Graffiti-Hier-steckt-ueberall-Fontane-drin.jpg\",\n                            \"photographer\": \"MAZ\",\n                            \"caption\": \"<p>Vor allem in seiner Geburtsstadt Neuruppin ist vieles nach dem Schriftsteller benannt.</p>\\n\"\n                        }\n                    ],\n                    \"publication_date\": {\n                        \"type\": \"datetime\",\n                        \"value\": null\n                    },\n                    \"publish_date\": {\n                        \"date\": \"2019-03-30 04:39:53.000000\",\n                        \"timezone\": \"+00:00\"\n                    },\n                    \"show_publish_date\": true,\n                    \"geo_location\": {\n                        \"latitude\": 52.3924855,\n                        \"longitude\": 13.0645172,\n                        \"address\": null\n                    },\n                    \"image_gallery\": {\n                        \"description\": \"<p>Im Jahr von Fontanes 200. Geburtstag hat nicht nur Neuruppin Fontane-Spezialitäten zu bieten. Unsere Fotostrecke zeigt, wo noch überall Fontane drin steckt – von der Mark bis nach Asien.</p>\\n\",\n                        \"publish_date\": {\n                            \"date\": \"2019-03-30 04:39:53.000000\",\n                            \"timezone\": \"+00:00\"\n                        },\n                        \"images\": [\n                            {\n                                \"external_id\": \"2365165-716717507\",\n                                \"width\": \"1024\",\n                                \"height\": \"768\",\n                                \"alternativeText\": \"6d480006-4fc8-11e9-a527-47c4c02d837a_27144752975\",\n                                \"filename\": \"6d480006-4fc8-11e9-a527-47c4c02d837a_27144752975.jpg\",\n                                \"url\": \"/var/storage/images/maz/lokales/bildergalerien-region/2019/3/hier-steckt-ueberall-fontane-drin/6d480006-4fc8-11e9-a527-47c4c02d837a_27144752975/716717500-1-ger-DE/6d480006-4fc8-11e9-a527-47c4c02d837a_27144752975.jpg\",\n                                \"caption\": \"<p>Seit 1998 trägt die Stadt Neuruppin offiziell den Beinamen „Fontanestadt“. Dem Schriftsteller zu Ehren steht auf dem Fontaneplatz das Fontanedenkmal, geschaffen 1907 vom Bildhauer Max Wiese. Die Skulptur ist inzwischen wohl schon über die Landesgrenzen hinaus bekannt...</p>\\n\",\n                                \"photographer\": \"Peter Geisler\"\n                            },\n                            {\n                                \"external_id\": \"23665165-716717507\",\n                                \"width\": \"1024\",\n                                \"height\": \"768\",\n                                \"alternativeText\": \"35addb66-4fc8-11e9-a527-47c4c02d837a_27144753774\",\n                                \"filename\": \"35addb66-4fc8-11e9-a527-47c4c02d837a_27144753774.jpg\",\n                                \"url\": \"/var/storage/images/maz/lokales/bildergalerien-region/2019/3/hier-steckt-ueberall-fontane-drin/35addb66-4fc8-11e9-a527-47c4c02d837a_27144753774/716717507-1-ger-DE/35addb66-4fc8-11e9-a527-47c4c02d837a_27144753774.jpg\",\n                                \"caption\": \"<p>...aber kennen Sie schon die Fontane-Playmobil-Figur, die der Spielzeughersteller anlässlich des 200. Geburtstags des Literaten herausgebracht hat? Sie hält sogar ein Exemplar der „Wanderungen durch die Mark Brandenburg“ in der Hand.</p>\\n\",\n                                \"photographer\": \"Peter Geisler\"\n                            },\n                            {\n                                \"external_id\": \"23665166-716717514\",\n                                \"width\": \"1024\",\n                                \"height\": \"768\",\n                                \"alternativeText\": \"7a56528a-4fc7-11e9-a527-47c4c02d837a_27144756502\",\n                                \"filename\": \"7a56528a-4fc7-11e9-a527-47c4c02d837a_27144756502.jpg\",\n                                \"url\": \"/var/storage/images/maz/lokales/bildergalerien-region/2019/3/hier-steckt-ueberall-fontane-drin/7a56528a-4fc7-11e9-a527-47c4c02d837a_27144756502/716717514-1-ger-DE/7a56528a-4fc7-11e9-a527-47c4c02d837a_27144756502.jpg\",\n                                \"caption\": \"<p>Wer durch Neuruppin wandert, kommt ohenhin nicht an Fontane vorbei. Auf dem Schulplatz und am Rosengarten können Passanten 51 Ortsnamen lesen, die Fontane in seinen Werken beschrieben hat. Für einige Orte hat Franziska Zänker (Foto), die das Projekt künstlerisch umsetzt, zusätzliche Signets gestaltet. </p>\\n\",\n                                \"photographer\": \"Peter Geisler\"\n                            },\n                            {\n                                \"external_id\": \"23690297-717420406\",\n                                \"width\": \"1024\",\n                                \"height\": \"768\",\n                                \"alternativeText\": \"df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264\",\n                                \"filename\": \"df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264.jpg\",\n                                \"url\": \"/var/storage/images/maz/lokales/bildergalerien-region/2019/3/hier-steckt-ueberall-fontane-drin/df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264/717420406-1-ger-DE/df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264.jpg\",\n                                \"caption\": \"<p>Wer die Neuruppiner Straßen quert, findet seit dem 5. April Fontane als Ampelmännchen vor.</p>\\n\",\n                                \"photographer\": \"Peter Geisler\"\n                            }\n                        ]\n                    }\n                },\n                {\n                    \"title\": \"Kapitel 1 - Der kleine Theo erblickt das Licht der Welt\",\n                    \"body\": \"Lorem ipsum dolor sit amet consectetur adipiscing. Lorem ipsum dolor sit amet consectetur adipiscing\",\n                    \"image\": {\n                        \"external_id\": \"696-1\",\n                        \"type\": \"background\",\n                        \"url\": \"/var/storage/images/maz/lokales/bildergalerien-region/2019/3/hier-steckt-ueberall-fontane-drin/df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264/717420406-1-ger-DE/df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264.jpg\"\n                    },\n                    \"media_content\": [\n                        {\n                            \"type\": \"video\",\n                            \"link\": \"https://www.youtube.com\"\n                        }\n                    ]\n                },\n                {\n                    \"title\": \"Kapitel 2 - Eine behütete Kindheit\",\n                    \"body\": \"Lorem ipsum dolor sit amet consectetur adipiscing. Lorem ipsum dolor sit amet consectetur adipiscing\",\n                    \"image\": {\n                        \"external_id\": \"696-1\",\n                        \"type\": \"background\",\n                        \"url\": \"/var/storage/images/maz/lokales/bildergalerien-region/2019/3/hier-steckt-ueberall-fontane-drin/df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264/717420406-1-ger-DE/df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264.jpg\"\n                    },\n                    \"media_content\": [\n                        {\n                            \"type\": \"soundcloud\",\n                            \"link\": \"https://www.soundcloud.com/theos_kindheit_ein_feature_dlf.mp3\"\n                        }\n                    ]\n                }\n            ]\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Get one news",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/javascript",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://3864f6f3-64e8-4473-ba6f-90a55c71e60e.mock.pstmn.io/api/v1/news/3",
+					"protocol": "https",
+					"host": [
+						"3864f6f3-64e8-4473-ba6f-90a55c71e60e",
+						"mock",
+						"pstmn",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"news",
+						"3"
+					]
+				},
+				"description": "Endpoint to get all available news."
+			},
+			"response": [
+				{
+					"name": "Get one news",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/javascript",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://3864f6f3-64e8-4473-ba6f-90a55c71e60e.mock.pstmn.io/api/v1/news/3",
+							"protocol": "https",
+							"host": [
+								"3864f6f3-64e8-4473-ba6f-90a55c71e60e",
+								"mock",
+								"pstmn",
+								"io"
+							],
+							"path": [
+								"api",
+								"v1",
+								"news",
+								"3"
+							]
+						}
+					},
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "{\n    \"news\": {\n        \"id\": 3,\n        \"author\": \"Tim Test\",\n        \"original_article_url\": \"http://www.maz-online.de/Lokales/Ostprignitz-Ruppin/Neuruppin/Fontane-Therme-Fontane-Doener-Fontane-Kuchen-Hier-steckt-ueberall-der-Dichter-aus-Brandenburg-drin\",\n        \"url_alias\": \"Fontane-Therme, Fontane-Döner, Fontane-Kuchen: Hier steckt überall der Dichter aus Brandenburg drin\",\n        \"type\": \"story\",\n        \"blocks\": [\n            {\n                \"title\": \"Döner, Sprudel, Graffiti: Hier steckt überall Fontane drin\",\n                \"location\": \"Potsdam\",\n                \"intro\": \"<p>Zum 200. Geburtstag von Theodor Fontane haben wir uns mal umgesehen, was eigentlich alles nach dem märkischen Schriftsteller benannt ist – und sind nicht nur in Brandenburg fündig geworden.</p><p><!-- Methode uuid: \\\"5ff95920-4f0c-11e9-8de8-e140b6794626\\\"--></p>\\n\",\n                \"body\": \"<p>Das Märkische hat Fontane berühmt gemacht, vor allem mit seinen „Wanderungen durch die <a href=\\\"http://multimedia.maz-online.de/wanderungen-durch-die-mark-brandenburg-auf-den-spuren-von-theodor-fontane\\\" target=\\\"_self\\\">Mark Brandenburg</a>“ und seinem Spätwerk „Der Stechlin“ (1897). Es ist die <a href=\\\"\\\" target=\\\"_self\\\">Heimat Fontanes</a>. In Neuruppin kam er als Sohn eines Apothekers hugenottischer Abstammung zur Welt. In der Fontane-Stadt gibt es eine Fontane-Apotheke, Fontane-Döner, Fontane-Festspiele, eine Fontane-Buchhandlung, die Fontane-Therme, den Kindergarten Fontaneknirpse, den Keglerverein Fontanespatzen und im Weinhaus am Markt den Wein „Edition Fontane“. Im Jahr von Fontanes 200. Geburtstag hat aber nicht nur Neuruppin Fontane-Spezialitäten zu bieten – <a href=\\\"\\\" target=\\\"_blank\\\">dabei ist das Label gar nicht so ohne weiteres erlaubt</a>. Unsere Fotostrecke zeigt, wo noch überall Fontane zu finden ist – von seiner Wirkstätte Brandenburg bis nach Asien: </p><p><object type=\\\"gallery\\\">23665163</object></p><p><strong>Haben Sie noch etwas entdeckt?</strong> Dann schreiben Sie uns eine Mail an <a href=\\\"mailto:online@maz-online.de\\\" target=\\\"_blank\\\">online@maz-online.de</a>!</p><p><strong>Das könnte Sie auch interessieren:</strong></p><p><ul>\\n<li><p><a href=\\\"\\\" target=\\\"_blank\\\">Vorsicht bei Fontane-Werbung: Markenrechts-Verletzungen drohen</a></p></li>\\n<li><p><a href=\\\"\\\" target=\\\"_blank\\\">MAZ-Special zum 200. Geburtstag: Alles zum Fontane-Jahr in Brandenburg</a></p></li>\\n<li><p><a href=\\\"http://multimedia.maz-online.de/wanderungen-durch-die-mark-brandenburg-auf-den-spuren-von-theodor-fontane\\\" target=\\\"_blank\\\">Multimedia-Story: Auf Fontanes Spuren durch die Mark Brandenburg wandern</a></p></li>\\n<li><p><a href=\\\"\\\" target=\\\"_blank\\\">Tolle Bustouren: Auf Entdeckungsreise mit Fontane</a></p></li>\\n</ul></p><p><em>Von MAZonline</em></p>\\n\",\n                \"images\": [\n                    {\n                        \"external_id\": \"23665198-716717881\",\n                        \"type\": \"default\",\n                        \"width\": \"768\",\n                        \"height\": \"513\",\n                        \"alt_text\": \"Vor allem in seiner Geburtsstadt Neuruppin ist vieles nach dem Schriftsteller benannt.\",\n                        \"filename\": \"Doener-Sprudel-Graffiti-Hier-steckt-ueberall-Fontane-drin.jpg\",\n                        \"url\": \"/var/storage/images/maz/brandenburg/fontane-therme-fontane-doener-fontane-kuchen-hier-steckt-ueberall-der-dichter-aus-brandenburg-drin/716717881-3-ger-DE/Doener-Sprudel-Graffiti-Hier-steckt-ueberall-Fontane-drin.jpg\",\n                        \"photographer\": \"MAZ\",\n                        \"caption\": \"<p>Vor allem in seiner Geburtsstadt Neuruppin ist vieles nach dem Schriftsteller benannt.</p>\\n\"\n                    }\n                ],\n                \"publication_date\": {\n                    \"type\": \"datetime\",\n                    \"value\": null\n                },\n                \"publish_date\": {\n                    \"date\": \"2019-03-30 04:39:53.000000\",\n                    \"timezone\": \"+00:00\"\n                },\n                \"show_publish_date\": true,\n                \"geo_location\": {\n                    \"latitude\": 52.3924855,\n                    \"longitude\": 13.0645172,\n                    \"address\": null\n                },\n                \"image_gallery\": {\n                    \"description\": \"<p>Im Jahr von Fontanes 200. Geburtstag hat nicht nur Neuruppin Fontane-Spezialitäten zu bieten. Unsere Fotostrecke zeigt, wo noch überall Fontane drin steckt – von der Mark bis nach Asien.</p>\\n\",\n                    \"publish_date\": {\n                        \"date\": \"2019-03-30 04:39:53.000000\",\n                        \"timezone\": \"+00:00\"\n                    },\n                    \"images\": [\n                        {\n                            \"external_id\": \"2365165-716717507\",\n                            \"width\": \"1024\",\n                            \"height\": \"768\",\n                            \"alternativeText\": \"6d480006-4fc8-11e9-a527-47c4c02d837a_27144752975\",\n                            \"filename\": \"6d480006-4fc8-11e9-a527-47c4c02d837a_27144752975.jpg\",\n                            \"url\": \"/var/storage/images/maz/lokales/bildergalerien-region/2019/3/hier-steckt-ueberall-fontane-drin/6d480006-4fc8-11e9-a527-47c4c02d837a_27144752975/716717500-1-ger-DE/6d480006-4fc8-11e9-a527-47c4c02d837a_27144752975.jpg\",\n                            \"caption\": \"<p>Seit 1998 trägt die Stadt Neuruppin offiziell den Beinamen „Fontanestadt“. Dem Schriftsteller zu Ehren steht auf dem Fontaneplatz das Fontanedenkmal, geschaffen 1907 vom Bildhauer Max Wiese. Die Skulptur ist inzwischen wohl schon über die Landesgrenzen hinaus bekannt...</p>\\n\",\n                            \"photographer\": \"Peter Geisler\"\n                        },\n                        {\n                            \"external_id\": \"23665165-716717507\",\n                            \"width\": \"1024\",\n                            \"height\": \"768\",\n                            \"alternativeText\": \"35addb66-4fc8-11e9-a527-47c4c02d837a_27144753774\",\n                            \"filename\": \"35addb66-4fc8-11e9-a527-47c4c02d837a_27144753774.jpg\",\n                            \"url\": \"/var/storage/images/maz/lokales/bildergalerien-region/2019/3/hier-steckt-ueberall-fontane-drin/35addb66-4fc8-11e9-a527-47c4c02d837a_27144753774/716717507-1-ger-DE/35addb66-4fc8-11e9-a527-47c4c02d837a_27144753774.jpg\",\n                            \"caption\": \"<p>...aber kennen Sie schon die Fontane-Playmobil-Figur, die der Spielzeughersteller anlässlich des 200. Geburtstags des Literaten herausgebracht hat? Sie hält sogar ein Exemplar der „Wanderungen durch die Mark Brandenburg“ in der Hand.</p>\\n\",\n                            \"photographer\": \"Peter Geisler\"\n                        },\n                        {\n                            \"external_id\": \"23665166-716717514\",\n                            \"width\": \"1024\",\n                            \"height\": \"768\",\n                            \"alternativeText\": \"7a56528a-4fc7-11e9-a527-47c4c02d837a_27144756502\",\n                            \"filename\": \"7a56528a-4fc7-11e9-a527-47c4c02d837a_27144756502.jpg\",\n                            \"url\": \"/var/storage/images/maz/lokales/bildergalerien-region/2019/3/hier-steckt-ueberall-fontane-drin/7a56528a-4fc7-11e9-a527-47c4c02d837a_27144756502/716717514-1-ger-DE/7a56528a-4fc7-11e9-a527-47c4c02d837a_27144756502.jpg\",\n                            \"caption\": \"<p>Wer durch Neuruppin wandert, kommt ohenhin nicht an Fontane vorbei. Auf dem Schulplatz und am Rosengarten können Passanten 51 Ortsnamen lesen, die Fontane in seinen Werken beschrieben hat. Für einige Orte hat Franziska Zänker (Foto), die das Projekt künstlerisch umsetzt, zusätzliche Signets gestaltet. </p>\\n\",\n                            \"photographer\": \"Peter Geisler\"\n                        },\n                        {\n                            \"external_id\": \"23690297-717420406\",\n                            \"width\": \"1024\",\n                            \"height\": \"768\",\n                            \"alternativeText\": \"df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264\",\n                            \"filename\": \"df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264.jpg\",\n                            \"url\": \"/var/storage/images/maz/lokales/bildergalerien-region/2019/3/hier-steckt-ueberall-fontane-drin/df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264/717420406-1-ger-DE/df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264.jpg\",\n                            \"caption\": \"<p>Wer die Neuruppiner Straßen quert, findet seit dem 5. April Fontane als Ampelmännchen vor.</p>\\n\",\n                            \"photographer\": \"Peter Geisler\"\n                        }\n                    ]\n                }\n            },\n            {\n                \"title\": \"Kapitel 1 - Der kleine Theo erblickt das Licht der Welt\",\n                \"body\": \"Lorem ipsum dolor sit amet consectetur adipiscing. Lorem ipsum dolor sit amet consectetur adipiscing\",\n                \"image\": {\n                    \"external_id\": \"696-1\",\n                    \"type\": \"background\",\n                    \"url\": \"/var/storage/images/maz/lokales/bildergalerien-region/2019/3/hier-steckt-ueberall-fontane-drin/df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264/717420406-1-ger-DE/df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264.jpg\"\n                },\n                \"media_content\": [\n                    {\n                        \"type\": \"video\",\n                        \"link\": \"https://www.youtube.com\"\n                    }\n                ]\n            },\n            {\n                \"title\": \"Kapitel 2 - Eine behütete Kindheit\",\n                \"body\": \"Lorem ipsum dolor sit amet consectetur adipiscing. Lorem ipsum dolor sit amet consectetur adipiscing\",\n                \"image\": {\n                    \"external_id\": \"696-1\",\n                    \"type\": \"background\",\n                    \"url\": \"/var/storage/images/maz/lokales/bildergalerien-region/2019/3/hier-steckt-ueberall-fontane-drin/df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264/717420406-1-ger-DE/df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264.jpg\"\n                },\n                \"media_content\": [\n                    {\n                        \"type\": \"soundcloud\",\n                        \"link\": \"https://www.soundcloud.com/theos_kindheit_ein_feature_dlf.mp3\"\n                    }\n                ]\n            }\n        ]\n    }\n}"
+				}
+			]
+		}
+	]
+}
