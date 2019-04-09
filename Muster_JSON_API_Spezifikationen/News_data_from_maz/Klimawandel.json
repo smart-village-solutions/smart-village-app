@@ -1,0 +1,850 @@
+{
+  "_id": 23698268,
+  "_remote_id": "2ad2aa8a-59d9-11e9-85ed-2e5ae7120e23",
+  "type": "article",
+  "portal_urls": [
+    {
+      "locationd_id": 30416660,
+      "portal_url": "Brandenburg/Klimawandel-So-extrem-wird-sich-das-Wetter-in-Brandenburg-und-Berlin-aendern"
+    },
+    {
+      "locationd_id": 30416661,
+      "portal_url": "http://www.maz-online.de/Nachrichten/Berlin/Klimawandel-So-extrem-wird-sich-das-Wetter-in-Brandenburg-und-Berlin-aendern"
+    }
+  ],
+  "title": {
+    "type": "text",
+    "value": "So extrem wird sich das Wetter in Brandenburg ändern"
+  },
+  "url_alias": {
+    "type": "text",
+    "value": "Klimawandel: So extrem wird sich das Wetter in Brandenburg und Berlin ändern"
+  },
+  "url": {
+    "type": "text",
+    "value": ""
+  },
+  "author_relation": {
+    "type": "relation",
+    "value": null
+  },
+  "location_name": {
+    "type": "text",
+    "value": "Berlin/Potsdam"
+  },
+  "intro": {
+    "type": "richtext",
+    "value": "<p>In Brandenburg und Berlin wird es starke klimatische Veränderungen geben. Das berichtete der Rundfunk Berlin-Brandenburg (RBB). Die Klimaberechnungen des Deutschen Wetterdienstes und des Landesamtes für Umwelt sagen einen massiven Temperaturanstieg bis zum Jahrhundertende voraus. </p><p><!-- Methode uuid: \"2ad2aa8a-59d9-11e9-85ed-2e5ae7120e23\"--></p>\n"
+  },
+  "body": {
+    "type": "richtext",
+    "value": "<p>Berlin und Brandenburg müssen sich einem Medienbericht zufolge auf schwerwiegende Klimaveränderungen einstellen, sollte der Klimaschutz nicht deutlich verstärkt werden. Demnach könnte die durchschnittliche Lufttemperatur bis Ende des Jahrhunderts in der Region um bis zu drei Grad Celsius steigen, berichtet der Rundfunk Berlin-Brandenburg (RBB) am Montag. Der Sender beruft sich dabei auf eine Datenanalyse des RBB, des Deutschen Wetterdienstes (DWD) und Klimaberechnungen des Brandenburger Landesamtes für Umwelt (LfU).</p><h2>Jahresmitteltemperatur steigt extrem</h2><p>Laut der Analyse würde sich die Zahl der heißen Tage in der Region mehr als verfünffachen. Im Sommer würde sich die Zahl der tropischen Nächte erhöhen, in denen es nicht unter 20 Grad abkühlt. Am stärksten betroffen wären Berlin und der Raum Cottbus.</p><p><object type=\"gallery\">23636257</object></p><p>Die Messdaten des DWD belegten, dass die Jahresmitteltemperatur seit Beginn der Wetteraufzeichnungen 1881 in der Region Berlin-Brandenburg bereits um rund ein Grad gestiegen sei, heißt es weiter. Zuletzt habe sie bei etwa 9,3 Grad Celsius gelegen. Bei einem unverminderten Ausstoß von Treibhausgasen könnte die Jahresdurchschnittstemperatur auf 12,5 Grad zum Jahrhundertende ansteigen. Mit mehr Klimaschutzanstrengungen würde die Temperatur dann bei 9,8 Grad liegen.</p><h2>Lesen Sie mehr:</h2><p>– <a href=\"\" target=\"_self\">Brandenburger Kids demonstrieren auf Gretas Spuren</a></p><p>– <a href=\"\" target=\"_self\">Wie Maximilian Kowol den „Fridays For Future“ in Neuruppin auf die Beine gestellt hat</a></p><p>Wenn nicht gegengesteuert werde, würde den Berechnungen des Landesamtes zufolge die Zahl der Hitzetage in der Region von durchschnittlich sechs auf 29 steigen, berichtet der RBB weiter. Das bisherige Verhältnis von heißen zu kalten Tagen könnte sich damit bis zum Endes des Jahrhunderts umkehren.</p><p>Laut dem Landesumweltamt gab es in Berlin und Brandenburg in der Vergangenheit durchschnittlich 26 Eistage im Jahr, in Zukunft könnten es im Schnitt nur noch fünf sein. Bei verstärktem Klimaschutz hat das Landesamt demnach für das Jahrhundertende dagegen weiterhin mehr Eistage (17) als Hitzetage (zehn) errechnet.</p><p><em>Von RND/epd</em></p>\n"
+  },
+  "tags": {
+    "type": "keyword",
+    "value": [
+      ""
+    ]
+  },
+  "article_image": {
+    "type": "image",
+    "value": {
+      "_id": "23698268-717561359",
+      "width": "1024",
+      "height": "683",
+      "alternativeText": "Die Jahresmitteltemperatur steigt in Zukunft stark an.",
+      "filename": "So-extrem-wird-sich-das-Wetter-in-Brandenburg-aendern.jpg",
+      "url": "/var/storage/images/maz/brandenburg/klimawandel-so-extrem-wird-sich-das-wetter-in-brandenburg-und-berlin-aendern/717561359-6-ger-DE/So-extrem-wird-sich-das-Wetter-in-Brandenburg-aendern.jpg"
+    }
+  },
+  "article_image_photographer": {
+    "type": "text",
+    "value": "Ralph Peters"
+  },
+  "article_image_caption": {
+    "type": "richtext",
+    "value": "<p>Die Jahresmitteltemperatur steigt in Zukunft stark an.</p>\n"
+  },
+  "publication_date": {
+    "type": "datetime",
+    "value": null
+  },
+  "publish_date": {
+    "type": "datetime",
+    "value": null
+  },
+  "show_publish_date": {
+    "type": "bool",
+    "value": true
+  },
+  "geo_location": {
+    "type": "maplocation",
+    "value": {
+      "latitude": null,
+      "longitude": null,
+      "address": null
+    }
+  },
+  "print_id": {
+    "type": "text",
+    "value": "storyLoid=11.0.1387464462&storyUUID=2ad2aa8a-59d9-11e9-85ed-2e5ae7120e23&masterStoryUUID=2ad2aa8a-59d9-11e9-85ed-2e5ae7120e23"
+  },
+  "related_objects": [
+    {
+      "_id": 23636257,
+      "_remote_id": "ec74b3fa-4727-11e9-be0d-eea030dd1623",
+      "type": "gallery",
+      "name": {
+        "type": "text",
+        "value": "Tausende Schüler bei „Fridays for Future“-Demos in Berlin und Potsdam"
+      },
+      "description": {
+        "type": "richtext",
+        "value": "<p>Tausende Schüler haben am Freitag im Berliner Invalidenpark für mehr Klimaschutz demonstriert. Weltweit wollten in mehr als 1650 Städten Menschen auf die Straße gehen.</p>\n"
+      },
+      "image": {
+        "type": "relation",
+        "value": null
+      },
+      "tags": {
+        "type": "keyword",
+        "value": []
+      },
+      "publish_date": {
+        "type": "datetime",
+        "value": {
+          "date": "2019-03-15 13:40:41.000000",
+          "timezone_type": 1,
+          "timezone": "+00:00"
+        }
+      },
+      "images": [
+        {
+          "name": {
+            "type": "text",
+            "value": "1142872a-4728-11e9-be0d-eea030dd1623_15153041265"
+          },
+          "caption": {
+            "type": "richtext",
+            "value": "<p>Tausende Schüler sind in Berlin und Brandenburg am Freitag fürs Klima auf die Straße gegangen. </p>\n"
+          },
+          "image": {
+            "type": "image",
+            "value": {
+              "_id": "23636259-715908061",
+              "width": "1024",
+              "height": "768",
+              "alternativeText": "1142872a-4728-11e9-be0d-eea030dd1623_15153041265",
+              "filename": "1142872a-4728-11e9-be0d-eea030dd1623_15153041265.jpg",
+              "url": "/var/storage/images/maz/lokales/bildergalerien-region/2019/3/tausende-schueler-bei-fridays-for-future-demos-in-berlin-und-potsdam/1142872a-4728-11e9-be0d-eea030dd1623_15153041265/715908061-1-ger-DE/1142872a-4728-11e9-be0d-eea030dd1623_15153041265.jpg"
+            }
+          },
+          "tags": {
+            "type": "keyword",
+            "value": []
+          },
+          "photographer": {
+            "type": "text",
+            "value": "dpa"
+          }
+        },
+        {
+          "name": {
+            "type": "text",
+            "value": "1576c0ea-4728-11e9-be0d-eea030dd1623_15153041848"
+          },
+          "caption": {
+            "type": "richtext",
+            "value": "<p>Allein in Berlin beteiligten sich nach ersten Angaben zwischen 15.000 und 20.000 Menschen an der Demonstration der „Fridays for Future“.</p>\n"
+          },
+          "image": {
+            "type": "image",
+            "value": {
+              "_id": "23636261-715908075",
+              "width": "1024",
+              "height": "768",
+              "alternativeText": "1576c0ea-4728-11e9-be0d-eea030dd1623_15153041848",
+              "filename": "1576c0ea-4728-11e9-be0d-eea030dd1623_15153041848.jpg",
+              "url": "/var/storage/images/maz/lokales/bildergalerien-region/2019/3/tausende-schueler-bei-fridays-for-future-demos-in-berlin-und-potsdam/1576c0ea-4728-11e9-be0d-eea030dd1623_15153041848/715908075-1-ger-DE/1576c0ea-4728-11e9-be0d-eea030dd1623_15153041848.jpg"
+            }
+          },
+          "tags": {
+            "type": "keyword",
+            "value": []
+          },
+          "photographer": {
+            "type": "text",
+            "value": "dpa"
+          }
+        },
+        {
+          "name": {
+            "type": "text",
+            "value": "14908224-4728-11e9-be0d-eea030dd1623_15153042394"
+          },
+          "caption": {
+            "type": "richtext",
+            "value": "<p>Der Zulauf sei damit deutlich stärker als erwartet gewesen. </p>\n"
+          },
+          "image": {
+            "type": "image",
+            "value": {
+              "_id": "23636263-715908096",
+              "width": "1024",
+              "height": "768",
+              "alternativeText": "14908224-4728-11e9-be0d-eea030dd1623_15153042394",
+              "filename": "14908224-4728-11e9-be0d-eea030dd1623_15153042394.jpg",
+              "url": "/var/storage/images/maz/lokales/bildergalerien-region/2019/3/tausende-schueler-bei-fridays-for-future-demos-in-berlin-und-potsdam/14908224-4728-11e9-be0d-eea030dd1623_15153042394/715908096-1-ger-DE/14908224-4728-11e9-be0d-eea030dd1623_15153042394.jpg"
+            }
+          },
+          "tags": {
+            "type": "keyword",
+            "value": []
+          },
+          "photographer": {
+            "type": "text",
+            "value": "dpa"
+          }
+        },
+        {
+          "name": {
+            "type": "text",
+            "value": "0ec02ee4-4728-11e9-be0d-eea030dd1623_15153043100"
+          },
+          "caption": {
+            "type": "richtext",
+            "value": "<p>Für die Demonstration waren vom Veranstalter zuvor etwa 5.000 Teilnehmer angemeldet gewesen. </p>\n"
+          },
+          "image": {
+            "type": "image",
+            "value": {
+              "_id": "23636264-715908143",
+              "width": "1024",
+              "height": "768",
+              "alternativeText": "0ec02ee4-4728-11e9-be0d-eea030dd1623_15153043100",
+              "filename": "0ec02ee4-4728-11e9-be0d-eea030dd1623_15153043100.jpg",
+              "url": "/var/storage/images/maz/lokales/bildergalerien-region/2019/3/tausende-schueler-bei-fridays-for-future-demos-in-berlin-und-potsdam/0ec02ee4-4728-11e9-be0d-eea030dd1623_15153043100/715908143-1-ger-DE/0ec02ee4-4728-11e9-be0d-eea030dd1623_15153043100.jpg"
+            }
+          },
+          "tags": {
+            "type": "keyword",
+            "value": []
+          },
+          "photographer": {
+            "type": "text",
+            "value": "dpa"
+          }
+        },
+        {
+          "name": {
+            "type": "text",
+            "value": "0d111338-4728-11e9-be0d-eea030dd1623_15153043620"
+          },
+          "caption": {
+            "type": "richtext",
+            "value": "<p>Die Schüler wurden am Freitag auch von Lehrern, Eltern, Wissenschaftlern und Nichtregierungsorganisationen unterstützt. </p>\n"
+          },
+          "image": {
+            "type": "image",
+            "value": {
+              "_id": "23636265-715908150",
+              "width": "576",
+              "height": "768",
+              "alternativeText": "0d111338-4728-11e9-be0d-eea030dd1623_15153043620",
+              "filename": "0d111338-4728-11e9-be0d-eea030dd1623_15153043620.jpg",
+              "url": "/var/storage/images/maz/lokales/bildergalerien-region/2019/3/tausende-schueler-bei-fridays-for-future-demos-in-berlin-und-potsdam/0d111338-4728-11e9-be0d-eea030dd1623_15153043620/715908150-1-ger-DE/0d111338-4728-11e9-be0d-eea030dd1623_15153043620.jpg"
+            }
+          },
+          "tags": {
+            "type": "keyword",
+            "value": []
+          },
+          "photographer": {
+            "type": "text",
+            "value": "dpa"
+          }
+        },
+        {
+          "name": {
+            "type": "text",
+            "value": "0dfb1e56-4728-11e9-be0d-eea030dd1623_15153044102"
+          },
+          "caption": {
+            "type": "richtext",
+            "value": "<p>Auf Transparenten forderten die Schüler von Politikern und Wirtschaft ein radikales Umsteuern in der Klimapolitik.</p>\n"
+          },
+          "image": {
+            "type": "image",
+            "value": {
+              "_id": "23636266-715908157",
+              "width": "1024",
+              "height": "768",
+              "alternativeText": "0dfb1e56-4728-11e9-be0d-eea030dd1623_15153044102",
+              "filename": "0dfb1e56-4728-11e9-be0d-eea030dd1623_15153044102.jpg",
+              "url": "/var/storage/images/maz/lokales/bildergalerien-region/2019/3/tausende-schueler-bei-fridays-for-future-demos-in-berlin-und-potsdam/0dfb1e56-4728-11e9-be0d-eea030dd1623_15153044102/715908157-1-ger-DE/0dfb1e56-4728-11e9-be0d-eea030dd1623_15153044102.jpg"
+            }
+          },
+          "tags": {
+            "type": "keyword",
+            "value": []
+          },
+          "photographer": {
+            "type": "text",
+            "value": "dpa"
+          }
+        },
+        {
+          "name": {
+            "type": "text",
+            "value": "5c9a9e12-472b-11e9-be0d-eea030dd1623_15153044700"
+          },
+          "caption": {
+            "type": "richtext",
+            "value": "<p>In Potsdam demonstrierten Hunderte Schüler vor dem Brandenburger Landtag. </p>\n"
+          },
+          "image": {
+            "type": "image",
+            "value": {
+              "_id": "23636268-715908168",
+              "width": "1024",
+              "height": "768",
+              "alternativeText": "5c9a9e12-472b-11e9-be0d-eea030dd1623_15153044700",
+              "filename": "5c9a9e12-472b-11e9-be0d-eea030dd1623_15153044700.jpg",
+              "url": "/var/storage/images/maz/lokales/bildergalerien-region/2019/3/tausende-schueler-bei-fridays-for-future-demos-in-berlin-und-potsdam/5c9a9e12-472b-11e9-be0d-eea030dd1623_15153044700/715908168-1-ger-DE/5c9a9e12-472b-11e9-be0d-eea030dd1623_15153044700.jpg"
+            }
+          },
+          "tags": {
+            "type": "keyword",
+            "value": []
+          },
+          "photographer": {
+            "type": "text",
+            "value": "ZB"
+          }
+        },
+        {
+          "name": {
+            "type": "text",
+            "value": "5d4e209a-472b-11e9-be0d-eea030dd1623_1515304572"
+          },
+          "caption": {
+            "type": "richtext",
+            "value": "<p>Sie bildeten eine Menschenkette und mahnten größere Anstrengungen beim Klimaschutz an. </p>\n"
+          },
+          "image": {
+            "type": "image",
+            "value": {
+              "_id": "23636270-715908182",
+              "width": "1024",
+              "height": "768",
+              "alternativeText": "5d4e209a-472b-11e9-be0d-eea030dd1623_1515304572",
+              "filename": "5d4e209a-472b-11e9-be0d-eea030dd1623_1515304572.jpg",
+              "url": "/var/storage/images/maz/lokales/bildergalerien-region/2019/3/tausende-schueler-bei-fridays-for-future-demos-in-berlin-und-potsdam/5d4e209a-472b-11e9-be0d-eea030dd1623_1515304572/715908182-1-ger-DE/5d4e209a-472b-11e9-be0d-eea030dd1623_1515304572.jpg"
+            }
+          },
+          "tags": {
+            "type": "keyword",
+            "value": []
+          },
+          "photographer": {
+            "type": "text",
+            "value": "ZB"
+          }
+        },
+        {
+          "name": {
+            "type": "text",
+            "value": "5df44498-472b-11e9-be0d-eea030dd1623_15153045482"
+          },
+          "caption": {
+            "type": "richtext",
+            "value": "<p>Nach Angaben der Veranstalter versammelten sich insgesamt rund 1800 Schüler.</p>\n"
+          },
+          "image": {
+            "type": "image",
+            "value": {
+              "_id": "23636271-715908192",
+              "width": "1024",
+              "height": "768",
+              "alternativeText": "5df44498-472b-11e9-be0d-eea030dd1623_15153045482",
+              "filename": "5df44498-472b-11e9-be0d-eea030dd1623_15153045482.jpg",
+              "url": "/var/storage/images/maz/lokales/bildergalerien-region/2019/3/tausende-schueler-bei-fridays-for-future-demos-in-berlin-und-potsdam/5df44498-472b-11e9-be0d-eea030dd1623_15153045482/715908192-1-ger-DE/5df44498-472b-11e9-be0d-eea030dd1623_15153045482.jpg"
+            }
+          },
+          "tags": {
+            "type": "keyword",
+            "value": []
+          },
+          "photographer": {
+            "type": "text",
+            "value": "ZB"
+          }
+        },
+        {
+          "name": {
+            "type": "text",
+            "value": "5ea72e1e-472b-11e9-be0d-eea030dd1623_15153045954"
+          },
+          "caption": {
+            "type": "richtext",
+            "value": "<p>Auf Plakaten stand „Klimaschutz statt Kohleschmutz“ oder „Es gibt keinen Planet B“. </p>\n"
+          },
+          "image": {
+            "type": "image",
+            "value": {
+              "_id": "23636272-715908199",
+              "width": "1024",
+              "height": "768",
+              "alternativeText": "5ea72e1e-472b-11e9-be0d-eea030dd1623_15153045954",
+              "filename": "5ea72e1e-472b-11e9-be0d-eea030dd1623_15153045954.jpg",
+              "url": "/var/storage/images/maz/lokales/bildergalerien-region/2019/3/tausende-schueler-bei-fridays-for-future-demos-in-berlin-und-potsdam/5ea72e1e-472b-11e9-be0d-eea030dd1623_15153045954/715908199-1-ger-DE/5ea72e1e-472b-11e9-be0d-eea030dd1623_15153045954.jpg"
+            }
+          },
+          "tags": {
+            "type": "keyword",
+            "value": []
+          },
+          "photographer": {
+            "type": "text",
+            "value": "ZB"
+          }
+        },
+        {
+          "name": {
+            "type": "text",
+            "value": "5fd1e48c-472b-11e9-be0d-eea030dd1623_15153046303"
+          },
+          "caption": {
+            "type": "richtext",
+            "value": "<p>In mehreren Städten in Brandenburg gab es ähnliche Proteste.</p>\n"
+          },
+          "image": {
+            "type": "image",
+            "value": {
+              "_id": "23636273-715908206",
+              "width": "1024",
+              "height": "768",
+              "alternativeText": "5fd1e48c-472b-11e9-be0d-eea030dd1623_15153046303",
+              "filename": "5fd1e48c-472b-11e9-be0d-eea030dd1623_15153046303.jpg",
+              "url": "/var/storage/images/maz/lokales/bildergalerien-region/2019/3/tausende-schueler-bei-fridays-for-future-demos-in-berlin-und-potsdam/5fd1e48c-472b-11e9-be0d-eea030dd1623_15153046303/715908206-1-ger-DE/5fd1e48c-472b-11e9-be0d-eea030dd1623_15153046303.jpg"
+            }
+          },
+          "tags": {
+            "type": "keyword",
+            "value": []
+          },
+          "photographer": {
+            "type": "text",
+            "value": "ZB"
+          }
+        },
+        {
+          "name": {
+            "type": "text",
+            "value": "0f7a7646-4728-11e9-be0d-eea030dd1623_1515304752"
+          },
+          "caption": {
+            "type": "richtext",
+            "value": "<p>Tausende Schüler sind in Berlin und Brandenburg am Freitag fürs Klima auf die Straße gegangen. </p>\n"
+          },
+          "image": {
+            "type": "image",
+            "value": {
+              "_id": "23636275-715908224",
+              "width": "1024",
+              "height": "768",
+              "alternativeText": "0f7a7646-4728-11e9-be0d-eea030dd1623_1515304752",
+              "filename": "0f7a7646-4728-11e9-be0d-eea030dd1623_1515304752.jpg",
+              "url": "/var/storage/images/maz/lokales/bildergalerien-region/2019/3/tausende-schueler-bei-fridays-for-future-demos-in-berlin-und-potsdam/0f7a7646-4728-11e9-be0d-eea030dd1623_1515304752/715908224-1-ger-DE/0f7a7646-4728-11e9-be0d-eea030dd1623_1515304752.jpg"
+            }
+          },
+          "tags": {
+            "type": "keyword",
+            "value": []
+          },
+          "photographer": {
+            "type": "text",
+            "value": "dpa"
+          }
+        },
+        {
+          "name": {
+            "type": "text",
+            "value": "104263c2-4728-11e9-be0d-eea030dd1623_15153047611"
+          },
+          "caption": {
+            "type": "richtext",
+            "value": "<p>Tausende Schüler sind in Berlin und Brandenburg am Freitag fürs Klima auf die Straße gegangen. </p>\n"
+          },
+          "image": {
+            "type": "image",
+            "value": {
+              "_id": "23636277-715908282",
+              "width": "1024",
+              "height": "768",
+              "alternativeText": "104263c2-4728-11e9-be0d-eea030dd1623_15153047611",
+              "filename": "104263c2-4728-11e9-be0d-eea030dd1623_15153047611.jpg",
+              "url": "/var/storage/images/maz/lokales/bildergalerien-region/2019/3/tausende-schueler-bei-fridays-for-future-demos-in-berlin-und-potsdam/104263c2-4728-11e9-be0d-eea030dd1623_15153047611/715908282-1-ger-DE/104263c2-4728-11e9-be0d-eea030dd1623_15153047611.jpg"
+            }
+          },
+          "tags": {
+            "type": "keyword",
+            "value": []
+          },
+          "photographer": {
+            "type": "text",
+            "value": "dpa"
+          }
+        },
+        {
+          "name": {
+            "type": "text",
+            "value": "1218ed10-4728-11e9-be0d-eea030dd1623_15153048140"
+          },
+          "caption": {
+            "type": "richtext",
+            "value": "<p>Tausende Schüler sind in Berlin und Brandenburg am Freitag fürs Klima auf die Straße gegangen. </p>\n"
+          },
+          "image": {
+            "type": "image",
+            "value": {
+              "_id": "23636278-715908329",
+              "width": "576",
+              "height": "768",
+              "alternativeText": "1218ed10-4728-11e9-be0d-eea030dd1623_15153048140",
+              "filename": "1218ed10-4728-11e9-be0d-eea030dd1623_15153048140.jpg",
+              "url": "/var/storage/images/maz/lokales/bildergalerien-region/2019/3/tausende-schueler-bei-fridays-for-future-demos-in-berlin-und-potsdam/1218ed10-4728-11e9-be0d-eea030dd1623_15153048140/715908329-1-ger-DE/1218ed10-4728-11e9-be0d-eea030dd1623_15153048140.jpg"
+            }
+          },
+          "tags": {
+            "type": "keyword",
+            "value": []
+          },
+          "photographer": {
+            "type": "text",
+            "value": "dpa"
+          }
+        },
+        {
+          "name": {
+            "type": "text",
+            "value": "12f46c5a-4728-11e9-be0d-eea030dd1623_15153048529"
+          },
+          "caption": {
+            "type": "richtext",
+            "value": "<p>Tausende Schüler sind in Berlin und Brandenburg am Freitag fürs Klima auf die Straße gegangen. </p>\n"
+          },
+          "image": {
+            "type": "image",
+            "value": {
+              "_id": "23636280-715908340",
+              "width": "1024",
+              "height": "768",
+              "alternativeText": "12f46c5a-4728-11e9-be0d-eea030dd1623_15153048529",
+              "filename": "12f46c5a-4728-11e9-be0d-eea030dd1623_15153048529.jpg",
+              "url": "/var/storage/images/maz/lokales/bildergalerien-region/2019/3/tausende-schueler-bei-fridays-for-future-demos-in-berlin-und-potsdam/12f46c5a-4728-11e9-be0d-eea030dd1623_15153048529/715908340-1-ger-DE/12f46c5a-4728-11e9-be0d-eea030dd1623_15153048529.jpg"
+            }
+          },
+          "tags": {
+            "type": "keyword",
+            "value": []
+          },
+          "photographer": {
+            "type": "text",
+            "value": "dpa"
+          }
+        },
+        {
+          "name": {
+            "type": "text",
+            "value": "13dcc8e2-4728-11e9-be0d-eea030dd1623_15153048962"
+          },
+          "caption": {
+            "type": "richtext",
+            "value": "<p>Tausende Schüler sind in Berlin und Brandenburg am Freitag fürs Klima auf die Straße gegangen. </p>\n"
+          },
+          "image": {
+            "type": "image",
+            "value": {
+              "_id": "23636282-715908361",
+              "width": "1024",
+              "height": "768",
+              "alternativeText": "13dcc8e2-4728-11e9-be0d-eea030dd1623_15153048962",
+              "filename": "13dcc8e2-4728-11e9-be0d-eea030dd1623_15153048962.jpg",
+              "url": "/var/storage/images/maz/lokales/bildergalerien-region/2019/3/tausende-schueler-bei-fridays-for-future-demos-in-berlin-und-potsdam/13dcc8e2-4728-11e9-be0d-eea030dd1623_15153048962/715908361-1-ger-DE/13dcc8e2-4728-11e9-be0d-eea030dd1623_15153048962.jpg"
+            }
+          },
+          "tags": {
+            "type": "keyword",
+            "value": []
+          },
+          "photographer": {
+            "type": "text",
+            "value": "dpa"
+          }
+        },
+        {
+          "name": {
+            "type": "text",
+            "value": "17072030-4728-11e9-be0d-eea030dd1623_15153049405"
+          },
+          "caption": {
+            "type": "richtext",
+            "value": "<p>Tausende Schüler sind in Berlin und Brandenburg am Freitag fürs Klima auf die Straße gegangen. </p>\n"
+          },
+          "image": {
+            "type": "image",
+            "value": {
+              "_id": "23636283-715908408",
+              "width": "1024",
+              "height": "768",
+              "alternativeText": "17072030-4728-11e9-be0d-eea030dd1623_15153049405",
+              "filename": "17072030-4728-11e9-be0d-eea030dd1623_15153049405.jpg",
+              "url": "/var/storage/images/maz/lokales/bildergalerien-region/2019/3/tausende-schueler-bei-fridays-for-future-demos-in-berlin-und-potsdam/17072030-4728-11e9-be0d-eea030dd1623_15153049405/715908408-1-ger-DE/17072030-4728-11e9-be0d-eea030dd1623_15153049405.jpg"
+            }
+          },
+          "tags": {
+            "type": "keyword",
+            "value": []
+          },
+          "photographer": {
+            "type": "text",
+            "value": "dpa"
+          }
+        },
+        {
+          "name": {
+            "type": "text",
+            "value": "17cc616a-4728-11e9-be0d-eea030dd1623_15153049866"
+          },
+          "caption": {
+            "type": "richtext",
+            "value": "<p>Tausende Schüler sind in Berlin und Brandenburg am Freitag fürs Klima auf die Straße gegangen. </p>\n"
+          },
+          "image": {
+            "type": "image",
+            "value": {
+              "_id": "23636284-715908415",
+              "width": "1024",
+              "height": "768",
+              "alternativeText": "17cc616a-4728-11e9-be0d-eea030dd1623_15153049866",
+              "filename": "17cc616a-4728-11e9-be0d-eea030dd1623_15153049866.jpg",
+              "url": "/var/storage/images/maz/lokales/bildergalerien-region/2019/3/tausende-schueler-bei-fridays-for-future-demos-in-berlin-und-potsdam/17cc616a-4728-11e9-be0d-eea030dd1623_15153049866/715908415-1-ger-DE/17cc616a-4728-11e9-be0d-eea030dd1623_15153049866.jpg"
+            }
+          },
+          "tags": {
+            "type": "keyword",
+            "value": []
+          },
+          "photographer": {
+            "type": "text",
+            "value": "dpa"
+          }
+        },
+        {
+          "name": {
+            "type": "text",
+            "value": "18d0567a-4728-11e9-be0d-eea030dd1623_15153050206"
+          },
+          "caption": {
+            "type": "richtext",
+            "value": "<p>Tausende Schüler sind in Berlin und Brandenburg am Freitag fürs Klima auf die Straße gegangen. </p>\n"
+          },
+          "image": {
+            "type": "image",
+            "value": {
+              "_id": "23636285-715908422",
+              "width": "1024",
+              "height": "768",
+              "alternativeText": "18d0567a-4728-11e9-be0d-eea030dd1623_15153050206",
+              "filename": "18d0567a-4728-11e9-be0d-eea030dd1623_15153050206.jpg",
+              "url": "/var/storage/images/maz/lokales/bildergalerien-region/2019/3/tausende-schueler-bei-fridays-for-future-demos-in-berlin-und-potsdam/18d0567a-4728-11e9-be0d-eea030dd1623_15153050206/715908422-1-ger-DE/18d0567a-4728-11e9-be0d-eea030dd1623_15153050206.jpg"
+            }
+          },
+          "tags": {
+            "type": "keyword",
+            "value": []
+          },
+          "photographer": {
+            "type": "text",
+            "value": "dpa"
+          }
+        },
+        {
+          "name": {
+            "type": "text",
+            "value": "52174a12-4730-11e9-be0d-eea030dd1623_15154330570"
+          },
+          "caption": {
+            "type": "richtext",
+            "value": "<p>In Potsdam demonstrierten Hunderte Schüler vor dem Brandenburger Landtag. </p>\n"
+          },
+          "image": {
+            "type": "image",
+            "value": {
+              "_id": "23636398-715910320",
+              "width": "1024",
+              "height": "768",
+              "alternativeText": "52174a12-4730-11e9-be0d-eea030dd1623_15154330570",
+              "filename": "52174a12-4730-11e9-be0d-eea030dd1623_15154330570.jpg",
+              "url": "/var/storage/images/maz/lokales/bildergalerien-region/2019/3/tausende-schueler-bei-fridays-for-future-demos-in-berlin-und-potsdam/52174a12-4730-11e9-be0d-eea030dd1623_15154330570/715910320-1-ger-DE/52174a12-4730-11e9-be0d-eea030dd1623_15154330570.jpg"
+            }
+          },
+          "tags": {
+            "type": "keyword",
+            "value": []
+          },
+          "photographer": {
+            "type": "text",
+            "value": "Bernd Gartenschläger"
+          }
+        },
+        {
+          "name": {
+            "type": "text",
+            "value": "56e1d198-4730-11e9-be0d-eea030dd1623_15154331151"
+          },
+          "caption": {
+            "type": "richtext",
+            "value": "<p>In Potsdam demonstrierten Hunderte Schüler vor dem Brandenburger Landtag. </p>\n"
+          },
+          "image": {
+            "type": "image",
+            "value": {
+              "_id": "23636399-715910327",
+              "width": "1024",
+              "height": "768",
+              "alternativeText": "56e1d198-4730-11e9-be0d-eea030dd1623_15154331151",
+              "filename": "56e1d198-4730-11e9-be0d-eea030dd1623_15154331151.jpg",
+              "url": "/var/storage/images/maz/lokales/bildergalerien-region/2019/3/tausende-schueler-bei-fridays-for-future-demos-in-berlin-und-potsdam/56e1d198-4730-11e9-be0d-eea030dd1623_15154331151/715910327-1-ger-DE/56e1d198-4730-11e9-be0d-eea030dd1623_15154331151.jpg"
+            }
+          },
+          "tags": {
+            "type": "keyword",
+            "value": []
+          },
+          "photographer": {
+            "type": "text",
+            "value": "Bernd Gartenschläger"
+          }
+        },
+        {
+          "name": {
+            "type": "text",
+            "value": "49fb53e6-4730-11e9-be0d-eea030dd1623_15154332447"
+          },
+          "caption": {
+            "type": "richtext",
+            "value": "<p>In Potsdam demonstrierten Hunderte Schüler vor dem Brandenburger Landtag. </p>\n"
+          },
+          "image": {
+            "type": "image",
+            "value": {
+              "_id": "23636400-715910334",
+              "width": "1024",
+              "height": "768",
+              "alternativeText": "49fb53e6-4730-11e9-be0d-eea030dd1623_15154332447",
+              "filename": "49fb53e6-4730-11e9-be0d-eea030dd1623_15154332447.jpg",
+              "url": "/var/storage/images/maz/lokales/bildergalerien-region/2019/3/tausende-schueler-bei-fridays-for-future-demos-in-berlin-und-potsdam/49fb53e6-4730-11e9-be0d-eea030dd1623_15154332447/715910334-1-ger-DE/49fb53e6-4730-11e9-be0d-eea030dd1623_15154332447.jpg"
+            }
+          },
+          "tags": {
+            "type": "keyword",
+            "value": []
+          },
+          "photographer": {
+            "type": "text",
+            "value": "Bernd Gartenschläger"
+          }
+        },
+        {
+          "name": {
+            "type": "text",
+            "value": "5476b8ba-4730-11e9-be0d-eea030dd1623_15154333227"
+          },
+          "caption": {
+            "type": "richtext",
+            "value": "<p>In Potsdam demonstrierten Hunderte Schüler vor dem Brandenburger Landtag. </p>\n"
+          },
+          "image": {
+            "type": "image",
+            "value": {
+              "_id": "23636401-715910341",
+              "width": "1024",
+              "height": "768",
+              "alternativeText": "5476b8ba-4730-11e9-be0d-eea030dd1623_15154333227",
+              "filename": "5476b8ba-4730-11e9-be0d-eea030dd1623_15154333227.jpg",
+              "url": "/var/storage/images/maz/lokales/bildergalerien-region/2019/3/tausende-schueler-bei-fridays-for-future-demos-in-berlin-und-potsdam/5476b8ba-4730-11e9-be0d-eea030dd1623_15154333227/715910341-1-ger-DE/5476b8ba-4730-11e9-be0d-eea030dd1623_15154333227.jpg"
+            }
+          },
+          "tags": {
+            "type": "keyword",
+            "value": []
+          },
+          "photographer": {
+            "type": "text",
+            "value": "Bernd Gartenschläger"
+          }
+        },
+        {
+          "name": {
+            "type": "text",
+            "value": "4d76223a-4730-11e9-be0d-eea030dd1623_15154333944"
+          },
+          "caption": {
+            "type": "richtext",
+            "value": "<p>In Potsdam demonstrierten Hunderte Schüler vor dem Brandenburger Landtag. </p>\n"
+          },
+          "image": {
+            "type": "image",
+            "value": {
+              "_id": "23636402-715910348",
+              "width": "1024",
+              "height": "768",
+              "alternativeText": "4d76223a-4730-11e9-be0d-eea030dd1623_15154333944",
+              "filename": "4d76223a-4730-11e9-be0d-eea030dd1623_15154333944.jpg",
+              "url": "/var/storage/images/maz/lokales/bildergalerien-region/2019/3/tausende-schueler-bei-fridays-for-future-demos-in-berlin-und-potsdam/4d76223a-4730-11e9-be0d-eea030dd1623_15154333944/715910348-1-ger-DE/4d76223a-4730-11e9-be0d-eea030dd1623_15154333944.jpg"
+            }
+          },
+          "tags": {
+            "type": "keyword",
+            "value": []
+          },
+          "photographer": {
+            "type": "text",
+            "value": "Bernd Gartenschläger"
+          }
+        },
+        {
+          "name": {
+            "type": "text",
+            "value": "4e843fa4-4730-11e9-be0d-eea030dd1623_15154334588"
+          },
+          "caption": {
+            "type": "richtext",
+            "value": "<p>In Potsdam demonstrierten Hunderte Schüler vor dem Brandenburger Landtag. </p>\n"
+          },
+          "image": {
+            "type": "image",
+            "value": {
+              "_id": "23636403-715910355",
+              "width": "1024",
+              "height": "768",
+              "alternativeText": "4e843fa4-4730-11e9-be0d-eea030dd1623_15154334588",
+              "filename": "4e843fa4-4730-11e9-be0d-eea030dd1623_15154334588.jpg",
+              "url": "/var/storage/images/maz/lokales/bildergalerien-region/2019/3/tausende-schueler-bei-fridays-for-future-demos-in-berlin-und-potsdam/4e843fa4-4730-11e9-be0d-eea030dd1623_15154334588/715910355-1-ger-DE/4e843fa4-4730-11e9-be0d-eea030dd1623_15154334588.jpg"
+            }
+          },
+          "tags": {
+            "type": "keyword",
+            "value": []
+          },
+          "photographer": {
+            "type": "text",
+            "value": "Bernd Gartenschläger"
+          }
+        }
+      ]
+    }
+  ]
+}
