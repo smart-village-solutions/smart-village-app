@@ -1,0 +1,123 @@
+{
+    "news": {
+        "id": 23665198,
+        "author": "Tim Test",
+        "original_article_url": "http://www.maz-online.de/Lokales/Ostprignitz-Ruppin/Neuruppin/Fontane-Therme-Fontane-Doener-Fontane-Kuchen-Hier-steckt-ueberall-der-Dichter-aus-Brandenburg-drin",
+        "url_alias": "Fontane-Therme, Fontane-Döner, Fontane-Kuchen: Hier steckt überall der Dichter aus Brandenburg drin",
+        "type": "story",
+        "blocks": [
+            {
+                "title": "Döner, Sprudel, Graffiti: Hier steckt überall Fontane drin",
+                "location": "Potsdam",
+                "intro": "<p>Zum 200. Geburtstag von Theodor Fontane haben wir uns mal umgesehen, was eigentlich alles nach dem märkischen Schriftsteller benannt ist – und sind nicht nur in Brandenburg fündig geworden.</p><p><!-- Methode uuid: \"5ff95920-4f0c-11e9-8de8-e140b6794626\"--></p>\n",
+                "body": "<p>Das Märkische hat Fontane berühmt gemacht, vor allem mit seinen „Wanderungen durch die <a href=\"http://multimedia.maz-online.de/wanderungen-durch-die-mark-brandenburg-auf-den-spuren-von-theodor-fontane\" target=\"_self\">Mark Brandenburg</a>“ und seinem Spätwerk „Der Stechlin“ (1897). Es ist die <a href=\"\" target=\"_self\">Heimat Fontanes</a>. In Neuruppin kam er als Sohn eines Apothekers hugenottischer Abstammung zur Welt. In der Fontane-Stadt gibt es eine Fontane-Apotheke, Fontane-Döner, Fontane-Festspiele, eine Fontane-Buchhandlung, die Fontane-Therme, den Kindergarten Fontaneknirpse, den Keglerverein Fontanespatzen und im Weinhaus am Markt den Wein „Edition Fontane“. Im Jahr von Fontanes 200. Geburtstag hat aber nicht nur Neuruppin Fontane-Spezialitäten zu bieten – <a href=\"\" target=\"_blank\">dabei ist das Label gar nicht so ohne weiteres erlaubt</a>. Unsere Fotostrecke zeigt, wo noch überall Fontane zu finden ist – von seiner Wirkstätte Brandenburg bis nach Asien: </p><p><object type=\"gallery\">23665163</object></p><p><strong>Haben Sie noch etwas entdeckt?</strong> Dann schreiben Sie uns eine Mail an <a href=\"mailto:online@maz-online.de\" target=\"_blank\">online@maz-online.de</a>!</p><p><strong>Das könnte Sie auch interessieren:</strong></p><p><ul>\n<li><p><a href=\"\" target=\"_blank\">Vorsicht bei Fontane-Werbung: Markenrechts-Verletzungen drohen</a></p></li>\n<li><p><a href=\"\" target=\"_blank\">MAZ-Special zum 200. Geburtstag: Alles zum Fontane-Jahr in Brandenburg</a></p></li>\n<li><p><a href=\"http://multimedia.maz-online.de/wanderungen-durch-die-mark-brandenburg-auf-den-spuren-von-theodor-fontane\" target=\"_blank\">Multimedia-Story: Auf Fontanes Spuren durch die Mark Brandenburg wandern</a></p></li>\n<li><p><a href=\"\" target=\"_blank\">Tolle Bustouren: Auf Entdeckungsreise mit Fontane</a></p></li>\n</ul></p><p><em>Von MAZonline</em></p>\n",
+                "images": [
+                    {
+                        "external_id": "23665198-716717881",
+                        "type": "default",
+                        "width": "768",
+                        "height": "513",
+                        "alt_text": "Vor allem in seiner Geburtsstadt Neuruppin ist vieles nach dem Schriftsteller benannt.",
+                        "filename": "Doener-Sprudel-Graffiti-Hier-steckt-ueberall-Fontane-drin.jpg",
+                        "url": "/var/storage/images/maz/brandenburg/fontane-therme-fontane-doener-fontane-kuchen-hier-steckt-ueberall-der-dichter-aus-brandenburg-drin/716717881-3-ger-DE/Doener-Sprudel-Graffiti-Hier-steckt-ueberall-Fontane-drin.jpg",
+                        "photographer": "MAZ",
+                        "caption": "<p>Vor allem in seiner Geburtsstadt Neuruppin ist vieles nach dem Schriftsteller benannt.</p>\n"
+                    }
+                ],
+                "publication_date": {
+                    "type": "datetime",
+                    "value": null
+                },
+                "publish_date": {
+                    "date": "2019-03-30 04:39:53.000000",
+                    "timezone": "+00:00"
+                },
+                "show_publish_date": true,
+                "geo_location": {
+                    "latitude": 52.3924855,
+                    "longitude": 13.0645172,
+                    "address": null
+                },
+                "image_gallery": {
+                    "description": "<p>Im Jahr von Fontanes 200. Geburtstag hat nicht nur Neuruppin Fontane-Spezialitäten zu bieten. Unsere Fotostrecke zeigt, wo noch überall Fontane drin steckt – von der Mark bis nach Asien.</p>\n",
+                    "publish_date": {
+                        "date": "2019-03-30 04:39:53.000000",
+                        "timezone": "+00:00"
+                    },
+                    "images": [
+                        {
+                            "external_id": "2365165-716717507",
+                            "width": "1024",
+                            "height": "768",
+                            "alternativeText": "6d480006-4fc8-11e9-a527-47c4c02d837a_27144752975",
+                            "filename": "6d480006-4fc8-11e9-a527-47c4c02d837a_27144752975.jpg",
+                            "url": "/var/storage/images/maz/lokales/bildergalerien-region/2019/3/hier-steckt-ueberall-fontane-drin/6d480006-4fc8-11e9-a527-47c4c02d837a_27144752975/716717500-1-ger-DE/6d480006-4fc8-11e9-a527-47c4c02d837a_27144752975.jpg",
+                            "caption": "<p>Seit 1998 trägt die Stadt Neuruppin offiziell den Beinamen „Fontanestadt“. Dem Schriftsteller zu Ehren steht auf dem Fontaneplatz das Fontanedenkmal, geschaffen 1907 vom Bildhauer Max Wiese. Die Skulptur ist inzwischen wohl schon über die Landesgrenzen hinaus bekannt...</p>\n",
+                            "photographer": "Peter Geisler"
+                        },
+                        {
+                            "external_id": "23665165-716717507",
+                            "width": "1024",
+                            "height": "768",
+                            "alternativeText": "35addb66-4fc8-11e9-a527-47c4c02d837a_27144753774",
+                            "filename": "35addb66-4fc8-11e9-a527-47c4c02d837a_27144753774.jpg",
+                            "url": "/var/storage/images/maz/lokales/bildergalerien-region/2019/3/hier-steckt-ueberall-fontane-drin/35addb66-4fc8-11e9-a527-47c4c02d837a_27144753774/716717507-1-ger-DE/35addb66-4fc8-11e9-a527-47c4c02d837a_27144753774.jpg",
+                            "caption": "<p>...aber kennen Sie schon die Fontane-Playmobil-Figur, die der Spielzeughersteller anlässlich des 200. Geburtstags des Literaten herausgebracht hat? Sie hält sogar ein Exemplar der „Wanderungen durch die Mark Brandenburg“ in der Hand.</p>\n",
+                            "photographer": "Peter Geisler"
+                        },
+                        {
+                            "external_id": "23665166-716717514",
+                            "width": "1024",
+                            "height": "768",
+                            "alternativeText": "7a56528a-4fc7-11e9-a527-47c4c02d837a_27144756502",
+                            "filename": "7a56528a-4fc7-11e9-a527-47c4c02d837a_27144756502.jpg",
+                            "url": "/var/storage/images/maz/lokales/bildergalerien-region/2019/3/hier-steckt-ueberall-fontane-drin/7a56528a-4fc7-11e9-a527-47c4c02d837a_27144756502/716717514-1-ger-DE/7a56528a-4fc7-11e9-a527-47c4c02d837a_27144756502.jpg",
+                            "caption": "<p>Wer durch Neuruppin wandert, kommt ohenhin nicht an Fontane vorbei. Auf dem Schulplatz und am Rosengarten können Passanten 51 Ortsnamen lesen, die Fontane in seinen Werken beschrieben hat. Für einige Orte hat Franziska Zänker (Foto), die das Projekt künstlerisch umsetzt, zusätzliche Signets gestaltet. </p>\n",
+                            "photographer": "Peter Geisler"
+                        },
+                        {
+                            "external_id": "23690297-717420406",
+                            "width": "1024",
+                            "height": "768",
+                            "alternativeText": "df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264",
+                            "filename": "df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264.jpg",
+                            "url": "/var/storage/images/maz/lokales/bildergalerien-region/2019/3/hier-steckt-ueberall-fontane-drin/df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264/717420406-1-ger-DE/df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264.jpg",
+                            "caption": "<p>Wer die Neuruppiner Straßen quert, findet seit dem 5. April Fontane als Ampelmännchen vor.</p>\n",
+                            "photographer": "Peter Geisler"
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Kapitel 1 - Der kleine Theo erblickt das Licht der Welt",
+                "body": "Lorem ipsum dolor sit amet consectetur adipiscing. Lorem ipsum dolor sit amet consectetur adipiscing",
+                "image": {
+                    "external_id": "696-1",
+                    "type": "background",
+                    "url": "/var/storage/images/maz/lokales/bildergalerien-region/2019/3/hier-steckt-ueberall-fontane-drin/df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264/717420406-1-ger-DE/df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264.jpg"
+                },
+                "media_content": [
+                    {
+                        "type": "video",
+                        "link": "https://www.youtube.com"
+                    }
+                ]
+            },
+            {
+                "title": "Kapitel 2 - Eine behütete Kindheit",
+                "body": "Lorem ipsum dolor sit amet consectetur adipiscing. Lorem ipsum dolor sit amet consectetur adipiscing",
+                "image": {
+                    "external_id": "696-1",
+                    "type": "background",
+                    "url": "/var/storage/images/maz/lokales/bildergalerien-region/2019/3/hier-steckt-ueberall-fontane-drin/df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264/717420406-1-ger-DE/df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264.jpg"
+                },
+                "media_content": [
+                    {
+                        "type": "soundcloud",
+                        "link": "https://www.soundcloud.com/theos_kindheit_ein_feature_dlf.mp3"
+                    }
+                ]
+            }
+        ]
+    }
+}
