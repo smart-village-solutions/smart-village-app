@@ -1,34 +1,32 @@
 {
 	"event": {
-		"id": 2,
-		"parent_id": "",
+		"id_from_cms": 66,
+		"parent_id_from_cms": 57,
 		"dates": {
 			"date_1": {
-				"date_start": "2019-02-16",
 				"time_start": "13:00:00",
-				"date_end": "2019-02-16",
 				"time_end": "18:00:00",
-				"time_description_de": null,
+				"weekday": "monday",
+				"time_description_de": "Jeden zweiten Montag im Monat",
 				"time_description_en": null,
 				"time_description_pl": null,
-				"use_only_time_description": false
+				"use_only_time_description": true
 			},
 			"date_2": {
-				"date_start": "2019-02-17",
 				"time_start": "13:00:00",
-				"date_end": "2019-03-16",
 				"time_end": "18:00:00",
-				"time_description_de": null,
+				"weekday": "wednesday",
+				"time_description_de": "Jeden ersten Montag im Monat",
 				"time_description_en": null,
 				"time_description_pl": null,
-				"use_only_time_description": false
+				"use_only_time_description": true
 			}
 		},
-		"repeat": false,
+		"repeat": true,
 		"repeat_duration": {
-			"start": null,
-			"end": null,
-			"every_year": null
+			"start": "01.03.",
+			"end": "01.09",
+			"every_year": true
 		},
 		"url": {
 			"event_url_1": "http://www.hoher-flaeming-naturpark.de",
@@ -149,7 +147,6 @@
 		"polish_version": {
 			"title": "",
 			"description": "",
-			"price_information": "",
 			"categories": [
 				"Radość z NaTour"
 			],
