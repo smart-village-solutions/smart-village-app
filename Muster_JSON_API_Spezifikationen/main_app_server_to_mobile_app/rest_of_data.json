@@ -44,7 +44,7 @@
     "home_screen": {
         "headline": "Stadt Bad Belzig",
         "welcome_text": "",
-        "background-image": "",
+        "background_image": "",
         "building_blocks": [
             {
                 "sortorder/position": 1,
@@ -54,42 +54,12 @@
                 },
                 "main_content": [
                     {
-                        "sort_order": 1,
+                        "sort_by": [
+                            "created_at_asc, random, updated_at_desc, ranking_id_asc"
+                        ], 
                         "type": "list",
-                        "items": [
-                            {
-                                "image": null,
-                                "headline": "Bürgermeister wiederspricht der MAZ: Soziale Medien sind toll.",
-                                "tagline": "22.01.2019 | Rathaus Bad Belzig",
-                                "subheadline": null,
-                                "link": "link_to_news_article",
-                                "sort_order": 1 
-                            },
-                            {
-                                "image": null,
-                                "headline": "Bürgermeister der smarten Stadt lehnt Soziale Medien ab.",
-                                "tagline": "21.01.2019 | Märkische Allgemeine Zeitung",
-                                "subheadline": null,
-                                "link": "link_to_news_article",
-                                "sort_order": 2
-                            },
-                            {
-                                "image": null,
-                                "headline": "Veranstaltungsplan 2019 veröffentlicht",
-                                "tagline": "09.01.2019 | Coconat",
-                                "subheadline": null,
-                                "link": "link_to_news_article",
-                                "sort_order": 3
-                            },
-                            {
-                                "image": null,
-                                "headline": "Es knallt an der 'Carl-von-Ossietzky'-Schule",
-                                "tagline": "07.01.2019 |  Märkische Allgemeine Zeitung",
-                                "subheadline": null,
-                                "link": "link_to_news_article",
-                                "sort_order": 4
-                            }
-                        ]
+                        "source": "News",
+                        "number_of_items": 5
                     }
                 ],
                 "footer": {
@@ -105,42 +75,12 @@
                 },
                 "main_content": [
                     {
-                        "sort_order": 1,
+                        "sort_order": 2,
                         "type": "tiles",
-                        "items": [
-                            {
-                                "image": "image_link_1",
-                                "headline": null,
-                                "tagline": null,
-                                "subheadline": "Burg Eisenhardt",
-                                "link": "link_to_poi_burg_eisenhardt",
-                                "sort_order": 1
-                            },
-                            {
-                                "image": "image_link_2",
-                                "headline": null,
-                                "tagline": null,
-                                "subheadline": "Roger Loewig Museum",
-                                "link": "link_to_poi_roger_loewig_museum",
-                                "sort_order": 2
-                            },
-                            {
-                                "image": "image_link_3",
-                                "headline": null,
-                                "tagline": null,
-                                "subheadline": "Steintherme Belzig",
-                                "link": "link_to_poi_steintherme_belzig",
-                                "sort_order": 3
-                            },
-                            {
-                                "image": "image_link_4",
-                                "headline": null,
-                                "tagline": null,
-                                "subheadline": "Internationaler Kunstwanderweg",
-                                "link": "link_to_tour_kunstwanderweg",
-                                "sort_order": 4
-                            }
-                        ]
+                        "sort_by": [
+                            "created_at_asc, random, updated_at_desc, ranking_id_asc"
+                        ],
+                        "number_of_items": 6
                     },
                     {
                         "sort_order": 2,
