@@ -1,4 +1,4 @@
-{ // POIs = Branchenbuch oder = Sehenswerte Orte ?
+{
     "style/design": {
         "main_theme_color": "green",
         "font_size": {
@@ -12,7 +12,7 @@
         },
         "font": "Museo Sans",
         "brand_icon": "",
-        "color_gradient": "",
+        "color_gradient": ""
     },
     "form_screens": [
         {
@@ -63,7 +63,7 @@
                                 "tagline": "22.01.2019 | Rathaus Bad Belzig",
                                 "subheadline": null,
                                 "link": "link_to_news_article",
-                                "sort_order": 1 // ist nicht unbedingt notwendig, da die liste geordnet aus der Datenbank kommen sollte
+                                "sort_order": 1 
                             },
                             {
                                 "image": null,
@@ -114,7 +114,7 @@
                                 "tagline": null,
                                 "subheadline": "Burg Eisenhardt",
                                 "link": "link_to_poi_burg_eisenhardt",
-                                "sort_order": 1 // ist nicht unbedingt notwendig, da die liste geordnet aus der Datenbank kommen sollte
+                                "sort_order": 1
                             },
                             {
                                 "image": "image_link_2",
@@ -208,7 +208,7 @@
                                 "tagline": null,
                                 "subheadline": null,
                                 "link": "link_to_impressum_content",
-                                "sort_order": 5 // ist nicht unbedingt notwendig, da die liste geordnet aus der Datenbank kommen sollte
+                                "sort_order": 5
                             }
                         ]
                     },
@@ -294,5 +294,3 @@
     "mitmachen": "",
     "Nutzungsbestimmungen:": "text"
 }
-// homescreen struktur die den homescreen abbildet und seiteninhalte nicht aus datenbank zieht sondern einfach content.
-// Static content, Content Blöcke des Home Screens siehe Handy Foto.
