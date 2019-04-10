@@ -58,7 +58,7 @@
 			"url": "http://www.flaeming.net"
 		},
 		"organizer": {
-			"company/name": "Naturparkzentrum Hoher Fläming",
+			"company_name": "Naturparkzentrum Hoher Fläming",
 			"address": {
 				"street": "Brennereiweg 45 OT Raben",
 				"zip": "14823",

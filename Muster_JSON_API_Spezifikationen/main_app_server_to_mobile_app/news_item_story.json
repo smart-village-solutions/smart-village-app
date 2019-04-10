@@ -1,6 +1,6 @@
 {
-    "news": {
-        "id": 3,
+    "news_item": {
+        "id": 66,
         "author": "Tim Test",
         "data_provider": {
             "name": "MAZ",
