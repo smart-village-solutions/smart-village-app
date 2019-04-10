@@ -25,14 +25,11 @@
                     }
                 ],
                 "publication_date": {
-                    "type": "datetime",
-                    "value": null
-                },
-                "publish_date": {
                     "date": "2019-03-30 04:39:53.000000",
                     "timezone": "+00:00"
                 },
-                "show_publish_date": true,
+                "publish_date": null,
+                "show_publish_date": false,
                 "geo_location": {
                     "latitude": 52.3924855,
                     "longitude": 13.0645172,

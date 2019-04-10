@@ -21,10 +21,7 @@
                     "photographer": "MAZ",
                     "caption": "<p>Vor allem in seiner Geburtsstadt Neuruppin ist vieles nach dem Schriftsteller benannt.</p>\n"
                 },
-                "publication_date": {
-                    "type": "datetime",
-                    "value": null
-                },
+                "publication_date": null,
                 "publish_date": {
                     "date": "2019-03-30 04:39:53.000000",
                     "timezone": "+00:00"
