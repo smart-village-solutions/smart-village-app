@@ -1,44 +1,60 @@
 {
-    "categories": {
-        "culture": {
+    "categories": [
+        {
+            "name": "culture",
             "id": 1,
             "tmb_id": 17,
-            "castles": {
-                "id": 8876,
-                "tmb_id": 32,
-                "17th_century": {
-                    "id": 4765,
-                    "tmb_id": 737
+            "sub_categories": [
+                {
+                    "name": "castles",
+                    "id": 8876,
+                    "tmb_id": 32,
+                    "sub_categories": [
+                        {
+                            "name": "17th_century",
+                            "id": 4765,
+                            "tmb_id": 737
+                        },
+                        {
+                            "name": "middle_ages",
+                            "id": 38,
+                            "tmb_id": 47
+                        }
+                    ]
                 },
-                "middle_ages": {
-                    "id": 38,
-                    "tmb_id": 47
-                }  
-            },
-            "museums": {
-                "id": 456,
-                "tmb_id": 53434
-            },
-            "churches": {
-                "id": 453,
-                "tmb_id": 53464
-            }
+                {
+                    "name": "museums",
+                    "id": 456,
+                    "tmb_id": 53434
+                },
+                {
+                    "name": "churches",
+                    "id": 453,
+                    "tmb_id": 53464
+                }
+            ]
         },
-        "staying_overnight": {
+        {
+            "name": "staying_overnight",
             "id": 2,
             "tmb_id": 19,
-            "hotels": {
-                "id": 457,
-                "tmb_id": 53466
-            },
-            "holiday_flats": {
-                "id": 458,
-                "tmb_id": 53467
-            },
-            "camping_sites": {
-                "id": 978,
-                "tmb_id": 53468
-            }
+            "sub_categories": [
+                {
+                    "name": "hotels",
+                    "id": 457,
+                    "tmb_id": 53466
+                },
+                {
+                    "name": "holiday_flats",
+                    "id": 458,
+                    "tmb_id": 53467
+                },
+                {
+                    "name": "camping_sites",
+                    "id": 978,
+                    "tmb_id": 53468
+                }
+            ]
         }
-    }
+    ]
 }
