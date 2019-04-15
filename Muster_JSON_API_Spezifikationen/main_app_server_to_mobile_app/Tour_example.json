@@ -8,6 +8,7 @@
         "data_provider": {
             "name": "tmb",
             "address": {
+                "addition": "",
                 "street": "Musterstr. 123",
                 "zip": "14567",
                 "city": "Potsdam",
@@ -17,6 +18,8 @@
                 }
             },
             "contact": {
+                "first_name": "Max",
+                "last_name": "Mustermann",
                 "phone": "+4903384860004",
                 "fax": "",
                 "email": "test@test.net",
@@ -28,6 +31,7 @@
         "operating_company": {
             "name": "Tourismusverband Elbe-Elster-Land e.V.",
             "address": {
+                "addition": "",
                 "city": "Bad Liebenwerda",
                 "street": "Markt 20",
                 "zip": 49240,
@@ -51,18 +55,14 @@
         ],
         "description": "Die Zeit vor der Reformation war durch eine tiefe Frömmigkeit der Menschen gekennzeichnet, die sich durch den Ausbau von Klosteranlagen durch die Mönchsorden sowie herausragende Stadtpfarrkirchen mit prächtigen Altären widerspiegelt. Im Zuge der Reformation wurden sie oftmals umgenutzt oder aufgelöst. Auf dieser Rundtour liegen sieben historische Stadtkerne mit neun Schlössern und beeindruckenden Kirchen sowie heute kulturell genutzten Klosteranlagen und spannende Museen. In Jüterbog und Mühlberg/Elbe sind die bedeutendsten Zeugnisse der Reformation zu sehen und wurden mit dem Europäischen Kulturerbesiegel dafür ausgezeichnet. Beginnend im Fläming verläuft die Radroute von Jüterbog weiter Richtung Süden zur Elbe, um dann nach einem Bogen durch die Niederlausitz wieder zum Start zurückzukehren.",
         "thumbnail": "thumbnail_image_url",
-        "image_gallery": [
+        "media_content": [
             {
                 "link": "image_link_1",
-                "caption_text": "test_1",
-                "caption_text_en": "test",
-                "caption_text_pl": "test"
+                "caption_text": "test_1"
             },
             {
                 "link": "image_link_2",
-                "caption_text": "test_2",
-                "caption_text_en": "test",
-                "caption_text_pl": "test"
+                "caption_text": "test_2"
             }
         ],
         "type": "Rundtour",
@@ -358,8 +358,8 @@
                 "lng": 51.5935572
             }
         ],
-        "tour_start": {
-            "name": "Bahnhof Doberlug-Kirchhain",
+        "start_address": {
+            "addition": "Bahnhof Doberlug-Kirchhain",
             "city": "Doberlug-Kirchhain",
             "zip": 32530,
             "street": "Bahnhofsallee",
@@ -370,8 +370,8 @@
                 }
             }
         },
-        "tour_end": {
-            "name": "Bahnhof Doberlug-Kirchhain",
+        "finish_address": {
+            "addition": "Bahnhof Doberlug-Kirchhain",
             "city": "Doberlug-Kirchhain",
             "zip": 32530,
             "street": "Bahnhofsallee",

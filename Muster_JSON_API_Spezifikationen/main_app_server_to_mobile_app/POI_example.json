@@ -1,17 +1,10 @@
 {
     "poi": {
         "id": 21,
-        "external_id": "11399", 
-        "german": {
-            "name": "Burg Rabenstein",
-            "description": "Die Burg Rabenstein gehört zu den schönsten Burgen in Brandenburg. Im 13. Jahrhundert wurde die Anlage auf dem 153 Meter hohen \"Steilen Hagen\" das erste Mal erwähnt. Die Burg galt lange Zeit als uneinnehmbar. Zur Burganlage gehören eine Kapelle, ein Rittersaal und die Folterkammer. Im Burgvorhof befinden sich der Brunnen, die Scheune und das Backhaus. Der 30 Meter hohe Bergfried bietet eine einmalige Aussicht über den Hohen Fläming. Jedes Jahr zu Ostern findet auf Burg Rabenstein ein mittelalterliches Burgspektakel statt.",
-            "mobile_description": "Beschreibungstext speziell für mobile Endgeräte, falls vorhanden"
-        },
-        "english": {
-            "name": "Rabenstein Castle",
-            "description": "Rabenstein Castle is located in the midst of the “Steile Hagen“ (a steep hill) at the dizzy height of 153 metres where once, in the Middle Ages, sabres rattled and the armour of knights clattered. The complex, with the keep of almost 30m in height at its centre, was probably built in the 12th century. The knights’ hall, the working quarters, the well, the barn and the baking house can be visited and provide information about life in earlier centuries. Every year at Easter, there is a medieval spectacle at Rabenstein Castle. The visitor information centre for the Hohe (high) Fläming Nature Park is at the old distillery in the village of Raben. Buying products that are typical of Fläming, renting bicycles and finding out everything about hikes and bicycle rides through the nature park: all this is on the agenda here.",
-            "mobile_description": "description text for mobile devices"
-        },
+        "external_id": "11399",
+        "name": "Burg Rabenstein",
+        "description": "Die Burg Rabenstein gehört zu den schönsten Burgen in Brandenburg. Im 13. Jahrhundert wurde die Anlage auf dem 153 Meter hohen \"Steilen Hagen\" das erste Mal erwähnt. Die Burg galt lange Zeit als uneinnehmbar. Zur Burganlage gehören eine Kapelle, ein Rittersaal und die Folterkammer. Im Burgvorhof befinden sich der Brunnen, die Scheune und das Backhaus. Der 30 Meter hohe Bergfried bietet eine einmalige Aussicht über den Hohen Fläming. Jedes Jahr zu Ostern findet auf Burg Rabenstein ein mittelalterliches Burgspektakel statt.",
+        "mobile_description": "Beschreibungstext speziell für mobile Endgeräte, falls vorhanden",
         "category_id": 8876,
         "created_at": "01.01.01",
         "updated_at": "01.01.01",
@@ -19,6 +12,7 @@
         "data_provider": {
             "name": "tmb",
             "address": {
+                "addition": "",
                 "street": "Musterstr. 123",
                 "zip": "14567",
                 "city": "Potsdam",
@@ -28,6 +22,8 @@
                 }
             },
             "contact": {
+                "first_name": "Max",
+                "last_name": "Mustermann",
                 "phone": "+4903384860004",
                 "fax": "",
                 "email": "test@test.net",
@@ -36,43 +32,46 @@
             "logo": "image_link",
             "description": ""
         },
-        "inactive_period": {
-            "from": "2019-03-01",
-            "till": "2019-05-31"
-        },
         "address": {
             "addition": "blablub",
             "city": "Rabenstein/Fläming OT Raben",
             "street": "Zur Burg 49",
             "zip": 14823,
             "coordinates": {
-                "coordinate": {
+                "lat": 3334076,
+                "lng": 5767630
+            }
+        },
+        "contact": {
+            "first_name": "Max",
+            "last_name": "Mustermann",
+            "telephone": "033848-60221",
+            "e-mail": "info@burgrabenstein.de",
+            "fax": "033848-60230",
+            "url": "www.burgrabenstein.de"
+        },   
+        "operating_company": {
+            "name": "Fremdenverkehrsverein \"Niemegker-Land\" e.V.",
+            "address": {
+                "addition": "",
+                "city": "Rabenstein/Fläming OT Raben",
+                "street": "Zur Burg 49",
+                "zip": 14823,
+                "coordinates": {
                     "lat": 3334076,
                     "lng": 5767630
                 }
             },
             "contact": {
+                "first_name": "Max",
+                "last_name": "Mustermann",
                 "telephone": "033848-60221",
                 "e-mail": "info@burgrabenstein.de",
                 "fax": "033848-60230",
                 "url": "www.burgrabenstein.de"
             }
         },
-        "operating_company": { 
-            "name": "Fremdenverkehrsverein \"Niemegker-Land\" e.V.",
-            "address": {
-                "city": "Rabenstein/Fläming OT Raben",
-                "street": "Zur Burg 49",
-                "zip": 14823
-            },
-            "contact": {
-                "telephone": "033848-60221",
-                "e-mail": "info@burgrabenstein.de",
-                "fax": "033848-60230",
-                "url": "www.burgrabenstein.de"
-            }
-        },
-        "location": { 
+        "location": {
             "id": 3581,
             "name": "Raben",
             "department": "Niemegk",
@@ -86,24 +85,21 @@
             }
         },
         "thumbnail": "thumbnail_image_url",
-        "image_gallery": [
+        "media_content": [
             {
-                "link": "image_link_1",
-                "caption_text": "text_1",
-                "caption_text_en": "test",
-                "caption_text_pl": "test"
+                "type": "image",
+                "url": "image_link_1",
+                "caption_text": "text_1"
             },
             {
-                "link": "image_link_2",
-                "caption_text": "text_2",
-                "caption_text_en": "test",
-                "caption_text_pl": "test"
+                "type": "image",
+                "url": "image_link_2",
+                "caption_text": "text_2"
             },
             {
-                "link": "image_link_3",
-                "caption_text": "text_3",
-                "caption_text_en": "test",
-                "caption_text_pl": "test"
+                "type": "image",
+                "url": "image_link_3",
+                "caption_text": "text_3"
             }
         ],
         "price": [
@@ -133,27 +129,27 @@
             {
                 "category": "family",
                 "price": 6.50,
-                "groupprice": "true",
+                "groupprice": true,
                 "agefrom": 5,
                 "ageto": 17,
-                "adultcount": 2,
-                "childrencount": 3,
+                "max_adult_count": 2,
+                "max_children_count": 3,
                 "description": "Museum+Turm"
             },
             {
                 "category": "group",
                 "price": 12.50,
-                "adultcount": 8,
-                "childrencount": 4,
+                "max_adultcount": 8,
+                "max_childrencount": 4,
                 "description": "Museum+Turm"
             },
             {
-                "category": "Burgtarif",                   
+                "category": "Burgtarif",
                 "price": 1.00,
                 "description": "Turm (ohne Museum)"
             },
             {
-                "category": "Arbeistlosentarif",                    
+                "category": "Arbeistlosentarif",
                 "price": 0.50,
                 "description": "Museum+Turm"
             },
@@ -246,20 +242,6 @@
                 }
             ],
             "additional_information": "letzter Eintritt eine Stunde vor Schließung"
-        },
-        "vendor": {
-            "address": {
-                "name": "Tourismusagentur BB",
-                "city": "Potsdam",
-                "zip": 14467,
-                "street": "Am Neuen Markt 1"
-            },
-            "contact": {
-                "phone": "0123-456789",
-                "fax": "0123-987654",
-                "emai": "test@test.de",
-                "url": "www.test.de"
-            }
         },
         "tags": [
             "Freilufttheater",
