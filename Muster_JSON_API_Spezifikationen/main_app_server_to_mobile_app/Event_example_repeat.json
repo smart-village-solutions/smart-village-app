@@ -2,6 +2,21 @@
 	"event": {
 		"id": 33,
 		"parent_id": 56,
+		"title": "Wildspuren",
+		"description": "Mit der Naturwacht und dem Förster begeben wir uns ins Revier, um den Waldtieren auf die Spur zu kommen.\nWelche Tierarten gibt es im Naturpark und welche davon stehen unter Schutz? Wie sind die Lebensbedingungen? Wovon ernährt sich das Wild? Wie passt sich das Wild an seine Umgebung an und wie gehen wir damit um?\nIm Anschluss an die Pirsch durch Wald und Feld können Sie sich bei einem kleinen Picknick am Feuer wärmen, stärken und sich vielleicht noch etwas über das Erlebte austauschen.\nBitte denken Sie an warme Kleidung.",
+		"price_information": "2,50 Euro (erm. für Kinder bis 14: 1,50 Euro)",
+		"category_id": "",
+		"ticket_url": "",
+		"region": "Fläming",
+		"barrierefrei": {
+			"description": "",
+			"url": "",
+			"url_description": "",
+			"types": ""
+		},
+		"created_at": "date",
+		"updated_at": "date",
+		"updated_at_tmb": "2018-07-31 13:16:19",
 		"dates": {
 			"date_1": {
 				"time_start": "13:00:00",
@@ -40,6 +55,7 @@
 			"local": false
 		},
 		"address": {
+			"addition": "",
 			"name": "Treffpunkt: Naturparkzentrum Hoher Fläming",
 			"street": "Brennereiweg 45 OT Raben",
 			"zip": "14823",
@@ -58,6 +74,7 @@
 		"organizer": {
 			"company_name": "Naturparkzentrum Hoher Fläming",
 			"address": {
+				"addition": "",
 				"street": "Brennereiweg 45 OT Raben",
 				"zip": "14823",
 				"city": "Raben",
@@ -87,6 +104,7 @@
 		"data_provider": {
 			"name": "tmb",
 			"address": {
+				"addition": "",
 				"street": "Musterstr. 123",
 				"zip": "14567",
 				"city": "Potsdam",
@@ -104,66 +122,17 @@
 			"logo": "image_link",
 			"description": ""
 		},
-		"images": [
+		"media_content": [
 			{
+				"type": "image",
 				"link": "http://eingabe.events-in-brandenburg.de/images/itempics/4/2/2/item_457224_pic_1_medium.jpg",
-				"caption_text": "Damhirsch",
-				"caption_text_en": "test",
-				"caption_text_pl": "test"
+				"caption_text": "Damhirsch"
 			},
 			{
+				"type": "image",
 				"link": "image_link_2",
-				"caption_text": "Schwarzwild",
-				"caption_text_en": "test",
-				"caption_text_pl": "test"
+				"caption_text": "Schwarzwild"
 			}
-		],
-		"german_version:": {
-			"title": "Wildspuren",
-			"description": "Mit der Naturwacht und dem Förster begeben wir uns ins Revier, um den Waldtieren auf die Spur zu kommen.\nWelche Tierarten gibt es im Naturpark und welche davon stehen unter Schutz? Wie sind die Lebensbedingungen? Wovon ernährt sich das Wild? Wie passt sich das Wild an seine Umgebung an und wie gehen wir damit um?\nIm Anschluss an die Pirsch durch Wald und Feld können Sie sich bei einem kleinen Picknick am Feuer wärmen, stärken und sich vielleicht noch etwas über das Erlebte austauschen.\nBitte denken Sie an warme Kleidung.",
-			"price_information": "2,50 Euro (erm. für Kinder bis 14: 1,50 Euro)",
-			"categories": [
-				"Lust auf NaTour"
-			],
-			"event_url_1_description": "Naturpark Hoher Fläming",
-			"event_url_2_description": "Naturwacht Brandenburg",
-			"ticket_url": "",
-			"region_name": "Fläming"
-		},
-		"english_version": {
-			"title": "",
-			"description": "",
-			"price_information": "",
-			"categories": [
-				"Great Outdoors Events"
-			],
-			"event_url_1_description": "",
-			"event_url_2_description": "",
-			"contact_company": "",
-			"location_name": "",
-			"ticket_url": "",
-			"region_name": ""
-		},
-		"polish_version": {
-			"title": "",
-			"description": "",
-			"categories": [
-				"Radość z NaTour"
-			],
-			"price_information": "",
-			"event_url_1_description": "",
-			"event_url_2_description": "",
-			"contact_company": "",
-			"location_name": "",
-			"ticket_url": "",
-			"region_name": ""
-		},
-		"barrierefrei_types": "",
-		"barrierefrei_description": "",
-		"barrierefrei_url": "",
-		"barrierefrei_url_description": "",
-		"created_at": "date",
-		"updated_at": "date",
-		"updated_at_tmb": "2018-07-31 13:16:19"
+		]
 	}
 }
