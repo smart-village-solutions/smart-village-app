@@ -364,10 +364,8 @@
             "zip": 32530,
             "street": "Bahnhofsallee",
             "coordinates": {
-                "coordinate": {
-                    "lat": 51.620237992608,
-                    "lng": 13.561093731208
-                }
+                "lat": 51.620237992608,
+                "lng": 13.561093731208
             }
         },
         "finish_address": {
@@ -376,10 +374,8 @@
             "zip": 32530,
             "street": "Bahnhofsallee",
             "coordinates": {
-                "coordinate": {
-                    "lat": 51.620237992608,
-                    "lng": 13.561093731208
-                }
+                "lat": 51.620237992608,
+                "lng": 13.561093731208
             }
         }
     }
