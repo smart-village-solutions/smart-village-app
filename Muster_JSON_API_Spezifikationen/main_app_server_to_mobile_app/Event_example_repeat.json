@@ -14,26 +14,23 @@
 			"url_description": "",
 			"types": ""
 		},
-		"created_at": "date",
-		"updated_at": "date",
+		"created_at": "2018-07-31 13:16:19",
+		"updated_at": "2018-07-31 13:16:19",
 		"updated_at_tmb": "2018-07-31 13:16:19",
 		"dates": {
 			"date_1": {
 				"time_start": "13:00:00",
 				"time_end": "18:00:00",
 				"weekday": "monday",
-				"time_description_de": "Jeden zweiten Montag im Monat",
-				"time_description_en": null,
-				"time_description_pl": null,
+				"time_description": "Jeden zweiten Montag im Monat",
+				
 				"use_only_time_description": true
 			},
 			"date_2": {
 				"time_start": "13:00:00",
 				"time_end": "18:00:00",
 				"weekday": "wednesday",
-				"time_description_de": "Jeden ersten Montag im Monat",
-				"time_description_en": null,
-				"time_description_pl": null,
+				"time_description": "Jeden ersten Montag im Monat",
 				"use_only_time_description": true
 			}
 		},
@@ -43,10 +40,16 @@
 			"end": "01.09",
 			"every_year": true
 		},
-		"url": {
-			"event_url_1": "http://www.hoher-flaeming-naturpark.de",
-			"event_url_2": "http://www.naturwacht.de"
-		},
+		"urls": [
+			{
+				"url": "http://www.hoher-flaeming-naturpark.de",
+				"description": "Naturpark Hoher Fläming"
+			},
+			{
+				"url": "http://www.naturwacht.de",
+				"description": "Naturwacht Brandenburg"
+			}
+		],
 		"highlight": {
 			"event": false,
 			"holiday": false,
@@ -66,6 +69,8 @@
 			}
 		},
 		"contact": {
+			"first_name": "Max",
+			"last_name": "Mustermann",
 			"phone": "+4903384860004",
 			"fax": null,
 			"email": "info@flaeming.net",
@@ -84,6 +89,8 @@
 				}
 			},
 			"contact": {
+				"first_name": "Max",
+				"last_name": "Mustermann",
 				"phone": "+4903384860004",
 				"fax": null,
 				"email": "info@flaeming.net",
@@ -114,6 +121,8 @@
 				}
 			},
 			"contact": {
+				"first_name": "Max",
+				"last_name": "Mustermann",
 				"phone": "+4903384860004",
 				"fax": "",
 				"email": "test@test.net",

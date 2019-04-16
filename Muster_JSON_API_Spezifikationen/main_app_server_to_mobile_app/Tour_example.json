@@ -40,7 +40,9 @@
                     "lng": 13.545282982203
                 },
                 "contact": {
-                    "telephone": "035341-30652",
+                    "first_name": "Max",
+                    "last_name": "Mustermann",
+                    "phone": "035341-30652",
                     "e-mail": "info@elbe-elster-land.de",
                     "fax": "035341-12672",
                     "url": "www.elbe-elster-land.de"
