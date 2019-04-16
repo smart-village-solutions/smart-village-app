@@ -14,8 +14,8 @@
 			"url_description": "",
 			"types": ""
 		},
-		"created_at": "date",
-		"updated_at": "date",
+		"created_at": "2018-07-31 13:16:19",
+		"updated_at": "2018-07-31 13:16:19",
 		"updated_at_tmb": "2018-07-31 13:16:19",
 		"dates": [
 			{
@@ -73,6 +73,8 @@
 			}
 		},
 		"contact": {
+			"first_name": "Max",
+			"last_name": "Mustermann",
 			"phone": "+4903384860004",
 			"fax": null,
 			"email": "info@flaeming.net",
@@ -91,6 +93,8 @@
 				}
 			},
 			"contact": {
+				"first_name": "Max",
+				"last_name": "Mustermann",
 				"phone": "+4903384860004",
 				"fax": null,
 				"email": "info@flaeming.net",
@@ -121,6 +125,8 @@
 				}
 			},
 			"contact": {
+				"first_name": "Max",
+				"last_name": "Mustermann",
 				"phone": "+4903384860004",
 				"fax": "",
 				"email": "test@test.net",

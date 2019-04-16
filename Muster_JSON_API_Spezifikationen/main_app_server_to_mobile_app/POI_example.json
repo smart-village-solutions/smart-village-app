@@ -45,7 +45,7 @@
         "contact": {
             "first_name": "Max",
             "last_name": "Mustermann",
-            "telephone": "033848-60221",
+            "phone": "033848-60221",
             "e-mail": "info@burgrabenstein.de",
             "fax": "033848-60230",
             "url": "www.burgrabenstein.de"
@@ -65,7 +65,7 @@
             "contact": {
                 "first_name": "Max",
                 "last_name": "Mustermann",
-                "telephone": "033848-60221",
+                "phone": "033848-60221",
                 "e-mail": "info@burgrabenstein.de",
                 "fax": "033848-60230",
                 "url": "www.burgrabenstein.de"
@@ -157,7 +157,7 @@
                 "description": "Kinder unter 6 Jahren haben immer freien Eintritt"
             }
         ],
-        "openinghours": {
+        "opening_hours": {
             "openingtimedate": [
                 {
                     "weekday": "wednesday",
