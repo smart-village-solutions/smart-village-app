@@ -2,8 +2,8 @@
     "tour": {
         "id": 1,
         "name": "Zwischen fürstlichen Schlössern und frommen Klöstern",
-        "created_at": "01.01.2018",
-        "updated_at": "08.10.2018",
+        "created_at": "2018-01-01 19:16:19",
+        "updated_at": "2001-01-01 13:16:19",
         "status": "active",
         "data_provider": {
             "name": "tmb",
@@ -43,7 +43,7 @@
                     "first_name": "Max",
                     "last_name": "Mustermann",
                     "phone": "035341-30652",
-                    "e-mail": "info@elbe-elster-land.de",
+                    "email": "info@elbe-elster-land.de",
                     "fax": "035341-12672",
                     "url": "www.elbe-elster-land.de"
                 }

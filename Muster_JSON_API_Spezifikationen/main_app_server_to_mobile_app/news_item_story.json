@@ -29,10 +29,7 @@
         "type": "news article",
         "full_version": true,
         "characters_to_be_shown": null,
-        "publication_date": {
-            "date": "2019-03-30 04:39:53.000000",
-            "timezone": "+00:00"
-        },
+        "publication_date": "2018-01-01 19:16:19",
         "publish_date": null,
         "show_publish_date": false,
         "address": {
@@ -45,7 +42,7 @@
                 "lng": 12.345678
             }
         },
-        "blocks": [
+        "content_blocks": [
             {
                 "title": "Döner, Sprudel, Graffiti: Hier steckt überall Fontane drin",
                 "location": "Potsdam",
@@ -97,9 +94,17 @@
             {
                 "title": "Kapitel 1 - Der kleine Theo erblickt das Licht der Welt",
                 "body": "Lorem ipsum dolor sit amet consectetur adipiscing. Lorem ipsum dolor sit amet consectetur adipiscing",
+                "background": {
+                    "type": "image",
+                    "width": "1024",
+                    "height": "768",
+                    "url": "/var/storage/images/maz/lokales/bildergalerien-region/2019/3/hier-steckt-ueberall-fontane-drin/df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264/717420406-1-ger-DE/df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264.jpg",
+                    "caption": "<p>Wer die Neuruppiner Straßen quert, findet seit dem 5. April Fontane als Ampelmännchen vor.</p>\n",
+                    "copyright": "Peter Geisler"
+                },
                 "media_content": [ 
                     {
-                        "type": "background_image",
+                        "type": "image",
                         "url": "/var/storage/images/maz/lokales/bildergalerien-region/2019/3/hier-steckt-ueberall-fontane-drin/df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264/717420406-1-ger-DE/df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264.jpg"
                     },
                     {
@@ -113,7 +118,7 @@
                 "body": "Lorem ipsum dolor sit amet consectetur adipiscing. Lorem ipsum dolor sit amet consectetur adipiscing",
                 "media_content": [
                     {
-                        "type": "background_image",
+                        "type": "image",
                         "url": "/var/storage/images/maz/lokales/bildergalerien-region/2019/3/hier-steckt-ueberall-fontane-drin/df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264/717420406-1-ger-DE/df5054a2-57b4-11e9-ae81-420a4f59002d_05171314264.jpg"
                     },
                     {

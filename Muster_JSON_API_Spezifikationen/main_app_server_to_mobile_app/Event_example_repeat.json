@@ -8,7 +8,7 @@
 		"category_id": "",
 		"ticket_url": "",
 		"region": "Fläming",
-		"barrierefrei": {
+		"accesibility_information": {
 			"description": "",
 			"url": "",
 			"url_description": "",
@@ -17,23 +17,22 @@
 		"created_at": "2018-07-31 13:16:19",
 		"updated_at": "2018-07-31 13:16:19",
 		"updated_at_tmb": "2018-07-31 13:16:19",
-		"dates": {
-			"date_1": {
+		"dates": [
+			{
 				"time_start": "13:00:00",
 				"time_end": "18:00:00",
 				"weekday": "monday",
 				"time_description": "Jeden zweiten Montag im Monat",
-				
 				"use_only_time_description": true
 			},
-			"date_2": {
+			{
 				"time_start": "13:00:00",
 				"time_end": "18:00:00",
 				"weekday": "wednesday",
 				"time_description": "Jeden ersten Montag im Monat",
 				"use_only_time_description": true
 			}
-		},
+		],
 		"repeat": true,
 		"repeat_duration": {
 			"start": "01.03.",
