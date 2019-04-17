@@ -30,10 +30,7 @@
         "full_version": true,
         "characters_to_be_shown": null, 
         "publication_date": null,
-        "published_date": {
-            "date": "2019-03-30 04:39:53.000000",
-            "timezone": "+00:00"
-        },
+        "published_date": "2018-01-01 19:16:19",
         "show_publish_date": true,
         "address": {
             "addition": "",
@@ -45,7 +42,7 @@
                 "lng": 12.345678
             }
         },
-        "blocks": [
+        "content_blocks": [
             {
                 "title": "Döner, Sprudel, Graffiti: Hier steckt überall Fontane drin",
                 "intro": "<p>Zum 200. Geburtstag von Theodor Fontane haben wir uns mal umgesehen, was eigentlich alles nach dem märkischen Schriftsteller benannt ist – und sind nicht nur in Brandenburg fündig geworden.</p><p><!-- Methode uuid: \"5ff95920-4f0c-11e9-8de8-e140b6794626\"--></p>\n",

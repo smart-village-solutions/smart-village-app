@@ -8,7 +8,7 @@
 		"category_id": "",
 		"ticket_url": "",
 		"region": "Fläming",
-		"barrierefrei": {
+		"accesibility_information": {
 			"description": "",
 			"url": "",
 			"url_description": "",
@@ -23,9 +23,7 @@
 				"time_start": "13:00:00",
 				"date_end": "2019-02-16",
 				"time_end": "18:00:00",
-				"time_description_de": null,
-				"time_description_en": null,
-				"time_description_pl": null,
+				"time_description": null,
 				"use_only_time_description": false
 			},
 			{
@@ -33,9 +31,7 @@
 				"time_start": "13:00:00",
 				"date_end": "2019-03-16",
 				"time_end": "18:00:00",
-				"time_description_de": null,
-				"time_description_en": null,
-				"time_description_pl": null,
+				"time_description": null,
 				"use_only_time_description": false
 			}
 		],
