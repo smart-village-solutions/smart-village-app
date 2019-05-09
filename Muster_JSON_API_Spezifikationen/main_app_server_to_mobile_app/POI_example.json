@@ -1,273 +1,269 @@
 {
     "poi": {
-        "id": 21,
-        "external_id": "11399",
-        "name": "Burg Rabenstein",
-        "description": "Die Burg Rabenstein gehört zu den schönsten Burgen in Brandenburg. Im 13. Jahrhundert wurde die Anlage auf dem 153 Meter hohen \"Steilen Hagen\" das erste Mal erwähnt. Die Burg galt lange Zeit als uneinnehmbar. Zur Burganlage gehören eine Kapelle, ein Rittersaal und die Folterkammer. Im Burgvorhof befinden sich der Brunnen, die Scheune und das Backhaus. Der 30 Meter hohe Bergfried bietet eine einmalige Aussicht über den Hohen Fläming. Jedes Jahr zu Ostern findet auf Burg Rabenstein ein mittelalterliches Burgspektakel statt.",
-        "mobile_description": "Beschreibungstext speziell für mobile Endgeräte, falls vorhanden",
-        "category_id": 8876,
-        "created_at": "2018-01-01 19:16:19",
-        "updated_at": "2001-01-01 13:16:19",
-        "status": "active",
-        "data_provider": {
-            "name": "tmb",
-            "address": {
-                "addition": "",
-                "street": "Musterstr. 123",
-                "zip": "14567",
-                "city": "Potsdam",
-                "coordinates": {
-                    "lat": 52.345678,
-                    "lng": 12.345678
+        "id": "2",
+        "name": "Burg 0",
+        "description": "Dolorum consequatur illum. Omnis esse veniam. Nostrum consectetur nihil.",
+        "mobileDescription": "Quo repudiandae quidem. Pariatur incidunt quae. Ea accusantium autem.",
+        "adresses": [
+            {
+                "addition": "quisquam",
+                "zip": "04571-2077",
+                "street": "Prosacco Loaf",
+                "geoLocation": {
+                    "latitude": 76.7399,
+                    "longitude": 40.9653
+                },
+                "city": "Kerlukeville",
+                "kind": "default"
+            }
+        ],
+        "categoryId": 2,
+        "mediaContents": [
+            {
+                "captionText": "Qui dolore fugit rem.",
+                "copyright": "Zane Marquardt",
+                "contentType": "image",
+                "height": 342,
+                "width": 215
+            },
+            {
+                "captionText": "Id molestias omnis repellat.",
+                "copyright": "Dr. Willard Klocko",
+                "contentType": "video",
+                "height": 315,
+                "width": 607
+            },
+            {
+                "captionText": "Provident quidem sed velit.",
+                "copyright": "Verona Lowe",
+                "contentType": "soundcloud-audio",
+                "height": 348,
+                "width": 766
+            },
+            {
+                "captionText": "Veniam dicta dolorem modi.",
+                "copyright": "Kasandra Barrows II",
+                "contentType": "image",
+                "height": 249,
+                "width": 453
+            },
+            {
+                "captionText": "Et enim non adipisci.",
+                "copyright": "Huey Bins",
+                "contentType": "image",
+                "height": 722,
+                "width": 210
+            },
+            {
+                "captionText": "Quia temporibus aut quia.",
+                "copyright": "Terica Rowe Sr.",
+                "contentType": "image",
+                "height": 170,
+                "width": 674
+            }
+        ],
+        "dataProvider": {
+            "name": "Veum Inc",
+            "contact": {
+                "firstName": "Robin",
+                "lastName": "Lindgren",
+                "phone": "+212 1-475-246-1244 x05780",
+                "webUrl": {
+                    "url": "http://thiel.net/lynelle",
+                    "description": "Ducimus perspiciatis vitae laudantium."
+                }
+            },
+            "adress": {
+                "zip": "51321-3195",
+                "city": "North Darell",
+                "street": "Lowe Mill",
+                "kind": "default",
+                "geoLocation": {
+                    "latitude": 89.203,
+                    "longitude": 169.68
+                }
+            }
+        },
+        "openingHours": [
+            {
+                "weekday": "Friday",
+                "dateFrom": "0019-08-18",
+                "dateTo": "0025-03-20",
+                "timeFrom": "2000-01-01 08:44:00 UTC",
+                "timeTo": "2000-01-01 00:02:00 UTC",
+                "open": true,
+                "sortNumber": 628082,
+                "description": "Ut id veritatis nihil."
+            },
+            {
+                "weekday": "Thursday",
+                "dateFrom": "0002-01-19",
+                "dateTo": "0009-12-19",
+                "timeFrom": "2000-01-01 10:42:00 UTC",
+                "timeTo": "2000-01-01 02:52:00 UTC",
+                "open": false,
+                "sortNumber": 207837,
+                "description": "Et ab similique quas."
+            },
+            {
+                "weekday": "Saturday",
+                "dateFrom": "0020-09-18",
+                "dateTo": "0023-09-19",
+                "timeFrom": "2000-01-01 05:17:00 UTC",
+                "timeTo": "2000-01-01 10:21:00 UTC",
+                "open": true,
+                "sortNumber": 63221,
+                "description": "Doloremque accusamus libero possimus."
+            },
+            {
+                "weekday": "Monday",
+                "dateFrom": "0015-05-18",
+                "dateTo": "0020-03-20",
+                "timeFrom": "2000-01-01 09:46:00 UTC",
+                "timeTo": "2000-01-01 16:55:00 UTC",
+                "open": true,
+                "sortNumber": 583813,
+                "description": "Et eos nulla sit."
+            },
+            {
+                "weekday": "Friday",
+                "dateFrom": "0005-10-18",
+                "dateTo": "0007-03-20",
+                "timeFrom": "2000-01-01 04:55:00 UTC",
+                "timeTo": "2000-01-01 08:24:00 UTC",
+                "open": true,
+                "sortNumber": 119678,
+                "description": "Assumenda fuga corrupti vero."
+            },
+            {
+                "weekday": "Tuesday",
+                "dateFrom": "0026-10-18",
+                "dateTo": "0031-05-19",
+                "timeFrom": "2000-01-01 13:15:00 UTC",
+                "timeTo": "2000-01-01 11:50:00 UTC",
+                "open": false,
+                "sortNumber": 214601,
+                "description": "Sed debitis omnis est."
+            }
+        ],
+        "prices": [
+            {
+                "name": "Gorgeous Wooden Shoes",
+                "price": 18,
+                "groupPrice": true,
+                "ageFrom": 2,
+                "ageTo": 17,
+                "minAdultCount": 10,
+                "maxAdultCount": 17,
+                "minChildrenCount": 3,
+                "maxChildrenCount": 9,
+                "description": "Maiores qui sed in."
+            },
+            {
+                "name": "Lightweight Marble Gloves",
+                "price": 2,
+                "groupPrice": false,
+                "ageFrom": 5,
+                "ageTo": 11,
+                "minAdultCount": 9,
+                "maxAdultCount": 18,
+                "minChildrenCount": 1,
+                "maxChildrenCount": 7,
+                "description": "Officiis harum rem nemo."
+            },
+            {
+                "name": "Rustic Concrete Lamp",
+                "price": 17,
+                "groupPrice": true,
+                "ageFrom": 5,
+                "ageTo": 16,
+                "minAdultCount": 5,
+                "maxAdultCount": 11,
+                "minChildrenCount": 2,
+                "maxChildrenCount": 8,
+                "description": "Consequatur in nobis aut."
+            },
+            {
+                "name": "Practical Marble Keyboard",
+                "price": 11,
+                "groupPrice": false,
+                "ageFrom": 2,
+                "ageTo": 16,
+                "minAdultCount": 6,
+                "maxAdultCount": 17,
+                "minChildrenCount": 3,
+                "maxChildrenCount": 8,
+                "description": "Nesciunt eos eos ducimus."
+            },
+            {
+                "name": "Aerodynamic Silk Hat",
+                "price": 10,
+                "groupPrice": false,
+                "ageFrom": 4,
+                "ageTo": 14,
+                "minAdultCount": 5,
+                "maxAdultCount": 15,
+                "minChildrenCount": 2,
+                "maxChildrenCount": 10,
+                "description": "Reprehenderit temporibus occaecati non."
+            },
+            {
+                "name": "Sleek Wooden Gloves",
+                "price": 11,
+                "groupPrice": false,
+                "ageFrom": 2,
+                "ageTo": 10,
+                "minAdultCount": 2,
+                "maxAdultCount": 16,
+                "minChildrenCount": 4,
+                "maxChildrenCount": 10,
+                "description": "Totam corrupti nemo dolores."
+            }
+        ],
+        "operatingCompany": {
+            "name": "McClure, Kemmer and Brown",
+            "adress": {
+                "zip": "25083",
+                "city": "Mialand",
+                "street": "Abbie Manors",
+                "kind": "default",
+                "geoLocation": {
+                    "latitude": -7.45018,
+                    "longitude": -102.279
                 }
             },
             "contact": {
-                "first_name": "Max",
-                "last_name": "Mustermann",
-                "phone": "+4903384860004",
-                "fax": "",
-                "email": "test@test.net",
-                "url": "http://www.flaeming.net"
-            },
-            "logo": "image_link",
-            "description": ""
-        },
-        "address": {
-            "addition": "blablub",
-            "city": "Rabenstein/Fläming OT Raben",
-            "street": "Zur Burg 49",
-            "zip": 14823,
-            "coordinates": {
-                "lat": 3334076,
-                "lng": 5767630
-            }
-        },
-        "contact": {
-            "first_name": "Max",
-            "last_name": "Mustermann",
-            "phone": "033848-60221",
-            "email": "info@burgrabenstein.de",
-            "fax": "033848-60230",
-            "url": "www.burgrabenstein.de"
-        },   
-        "operating_company": {
-            "name": "Fremdenverkehrsverein \"Niemegker-Land\" e.V.",
-            "address": {
-                "addition": "",
-                "city": "Rabenstein/Fläming OT Raben",
-                "street": "Zur Burg 49",
-                "zip": 14823,
-                "coordinates": {
-                    "lat": 3334076,
-                    "lng": 5767630
+                "firstName": "Alonzo",
+                "lastName": "Von",
+                "phone": "+235 782-754-0007 x80976",
+                "webUrl": {
+                    "url": "http://ebert.biz/teri.beahan",
+                    "description": "Temporibus autem qui at."
                 }
-            },
-            "contact": {
-                "first_name": "Max",
-                "last_name": "Mustermann",
-                "phone": "033848-60221",
-                "email": "info@burgrabenstein.de",
-                "fax": "033848-60230",
-                "url": "www.burgrabenstein.de"
             }
         },
-        "location": {
-            "id": 3581,
-            "name": "Raben",
-            "department": "Niemegk",
-            "district": "Potsdam-Mittelmark",
-            "region": "Fläming",
-            "state": "Brandenburg",
-            "country": "Germany",
-            "coordinates": {
-                "lat": 3333869,
-                "lng": 5768485
+        "webUrls": [
+            {
+                "url": "http://oberbrunner.name/ma.gerlach",
+                "description": "Explicabo laborum at similique."
             }
-        },
-        "thumbnail": "thumbnail_image_url",
-        "media_content": [
-            {
-                "type": "image",
-                "url": "image_link_1",
-                "caption_text": "text_1"
-            },
-            {
-                "type": "image",
-                "url": "image_link_2",
-                "caption_text": "text_2"
-            },
-            {
-                "type": "image",
-                "url": "image_link_3",
-                "caption_text": "text_3"
-            }
-        ],
-        "price": [
-            {
-                "category": "adult",
-                "price": 2.50,
-                "description": "Museum+Turm"
-            },
-            {
-                "category": "reduced",
-                "price": 1.50,
-                "description": "Museum+Turm"
-            },
-            {
-                "category": "senior",
-                "agefrom": 65,
-                "price": 1.00,
-                "description": "Museum+Turm"
-            },
-            {
-                "category": "children",
-                "price": 0.50,
-                "agefrom": 6,
-                "ageto": 17,
-                "description": "Museum+Turm"
-            },
-            {
-                "category": "family",
-                "price": 6.50,
-                "groupprice": true,
-                "agefrom": 5,
-                "ageto": 17,
-                "max_adult_count": 2,
-                "max_children_count": 3,
-                "description": "Museum+Turm"
-            },
-            {
-                "category": "group",
-                "price": 12.50,
-                "max_adultcount": 8,
-                "max_childrencount": 4,
-                "description": "Museum+Turm"
-            },
-            {
-                "category": "Burgtarif",
-                "price": 1.00,
-                "description": "Turm (ohne Museum)"
-            },
-            {
-                "category": "Arbeistlosentarif",
-                "price": 0.50,
-                "description": "Museum+Turm"
-            },
-            {
-                "description": "Kinder unter 6 Jahren haben immer freien Eintritt"
-            }
-        ],
-        "opening_hours": {
-            "days": [
-                {
-                    "name": "wednesday",
-                    "timefrom": "11:00:00",
-                    "timeto": "20:00:00",
-                    "sort_order": 1,
-                    "open": true
-                },
-                {
-                    "name": "thursday",
-                    "timefrom": "11:00:00",
-                    "timeto": "20:00:00",
-                    "sort_order": 2,
-                    "open": true
-                },
-                {
-                    "name": "friday",
-                    "timefrom": "11:00:00",
-                    "timeto": "20:00:00",
-                    "sort_order": 3,
-                    "open": true
-                },
-                {
-                    "name": "saturday",
-                    "timefrom": "11:00:00",
-                    "timeto": "18:00:00",
-                    "sort_order": 4,
-                    "open": true
-                },
-                {
-                    "name": "saturday",
-                    "date_from": "01.03.2017",
-                    "date_to": "01.09.2017",
-                    "timefrom": "11:00:00",
-                    "timeto": "19:00:00",
-                    "sort_order": 5,
-                    "open": true
-                },
-                {
-                    "name": "sunday",
-                    "date_from": "01.03.",
-                    "date_to": "01.09.",
-                    "timefrom": "11:00:00",
-                    "timeto": "19:00:00",
-                    "sort_order": 6,
-                    "open": true
-                },
-                {
-                    "name": "holidays",
-                    "timefrom": "11:00:00",
-                    "timeto": "19:00:00",
-                    "sort_order": 7,
-                    "open": true
-                },
-                {
-                    "name": "new_years_eve",
-                    "date": "",
-                    "timefrom": "10:00:00",
-                    "timeto": "13:00:00",
-                    "sort_order": 11,
-                    "open": true
-                },
-                {
-                    "name": "christmas_eve",
-                    "date": "",
-                    "timefrom": "10:00:00",
-                    "timeto": "13:00:00",
-                    "sort_order": 8,
-                    "open": true
-                },
-                {
-                    "name": "first_christmas_day",
-                    "date": "",
-                    "timefrom": "10:00:00",
-                    "timeto": "13:00:00",
-                    "sort_order": 9,
-                    "open": true
-                },
-                {
-                    "name": "second_christmas_day",
-                    "date": "",
-                    "timefrom": "10:00:00",
-                    "timeto": "13:00:00",
-                    "sort_order": 10,
-                    "open": false
-                },
-                {
-                    "name": "new_year",
-                    "date": "",
-                    "timefrom": "10:00:00",
-                    "timeto": "13:00:00",
-                    "sort_order": 12,
-                    "open": false
-                }
-            ],
-            "description": "letzter Eintritt eine Stunde vor Schließung"
-        },
-        "tags": [
-            "Freilufttheater",
-            "Geschichts- und Gewerbemuseum",
-            "Historische Baudenkmäler"
         ],
         "certificates": [
-            "Anbieter mit Zertifizierung: 'Burgen Qualität Deutschland'"
+            {
+                "name": "Qualitätszertifikat deutsche Burgen"
+            }
         ],
-        "accesibility_information": {
-			"description": "",
-			"url": "http://www.barrierefrei-brandenburg.de/index.php?id=dsview&tx_tmbpoisearch_pi2[poi]=11399",
-			"url_description": "",
-			"types": ""
-		}
+        "accessibiltyInformation": {
+            "description": "Blanditiis totam consequatur asperiores.",
+            "types": "cum",
+            "urls": [
+                {
+                    "url": "http://ko.com/kareen.sanford",
+                    "description": "Qui labore repudiandae dignissimos."
+                }
+            ]
+        },
+        "createdAt": "2019-05-09 09:05:15 UTC",
+        "updatedAt": "2019-05-09 09:05:15 UTC"
     }
 }
